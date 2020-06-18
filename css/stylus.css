@@ -42,15 +42,21 @@ body {
   
 }
 
-#borda .div1 {
-  padding: 30px 0px 5px 50px;
+#borda .indexdiv1 {
+  padding: 30px 10px 10px 10px;
 }
-#borda .div2 {
-  padding: 60px 0px 5px 50px;
+#borda .indexdiv2 {
+  padding: 30px 10px 10px 10px;
 }
-
-
-  
+#borda .indexdiv2 ul li {
+  padding: 30px 10px 13px 10px;
+}
+section .row .card-deck{
+  padding: 60px 60px 13px 60px;
+}
+section .row .col-lg-3{
+  padding: 60px 0px 20px 60px;
+}
 
 
 
