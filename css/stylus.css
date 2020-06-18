@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Escolha a cor de seu link e personalize a pagina com sua cor*/
+#home a{
+  color:red;
+}
+#animacao a{
+  color: blue;
+}
+#desenho a{
+  color: darkmagenta;
+}
+#ilustracao a{
+  color: green;
+}
+#modelagem a{
+  color: yellow
+}
+#pixel a{
+  color: orange;
+}
+#saiba a{
+  color: violet;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/*css para pagina INDEX*/
+#borda {
+  margin: 0 auto 0 auto;
+  width: 100%;
+  border: solid 20px red;
+  
+  
+}
+
+#borda .div1 {
+  padding: 30px 0px 5px 50px;
+}
+#borda .div2 {
+  padding: 60px 0px 5px 50px;
+}
+
+
+  
+
+
+
+/*css para o diretório servicos*/
+
+/*css para o diretório Animação Digital*/
+
+/*css para o diretório Desenho Vetorial*/
+
+/*css para o diretório Ilustração Digital*/
+
+/*css para o diretório Modelagem 3d*/
+
+/*css para o diretório Pixel Arte*/
+
