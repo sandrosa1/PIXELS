@@ -1,4 +1,15 @@
 @charset "UTF-8";
+
+/*Declare sua cor aqui*/
+:root{
+  --home-color:red;
+  --animacao-color :blue;
+  --desenho-color :darkmagenta;
+  --ilustracao-color :green;
+  --modelagem-color :yellow;
+  --pixel-color :orange;
+  --saiba-color :violet;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -6,25 +17,32 @@ body {
 
 /*Escolha a cor de seu link e personalize a pagina com sua cor*/
 #home a{
-  color:red;
+  color:var(--home-color);
 }
+
 #animacao a{
-  color: blue;
+  color:var(--animacao-color);
 }
+
 #desenho a{
-  color: darkmagenta;
+  color: var(--desenho-color) ;
 }
+
 #ilustracao a{
-  color: green;
+  color: var(--ilustracao-color) ;
 }
+
 #modelagem a{
-  color: yellow
+  color:var(--modelagem-color);
 }
+
 #pixel a{
-  color: orange;
+  color: var(--pixel-color);
 }
+
+
 #saiba a{
-  color: violet;
+  color: var(--saiba-color);
 }
 
 .container-fluid {
@@ -33,12 +51,12 @@ body {
 }
 
 
+
 /*css para pagina INDEX*/
 #borda {
   margin: 0 auto 0 auto;
   width: 100%;
-  border: solid 20px red;
-  
+  border: solid 20px red;  
   
 }
 
@@ -51,13 +69,13 @@ body {
 #borda .indexdiv2 ul li {
   padding: 30px 10px 13px 10px;
 }
+
 section .row .card-deck{
   padding: 60px 60px 13px 60px;
 }
 section .row .col-lg-3{
   padding: 60px 0px 20px 60px;
 }
-
 
 
 /*css para o diretório servicos*/
@@ -71,4 +89,50 @@ section .row .col-lg-3{
 /*css para o diretório Modelagem 3d*/
 
 /*css para o diretório Pixel Arte*/
+
+/*css para o FOOTER*/
+
+footer .row
+{
+  display: flex;
+  justify-content: center;
+  background-color: chartreuse;
+  align-items: center;
+  height:60px;
+  margin:auto;
+  color:#fff;
+}
+
+footer .homeFooter {
+  background-color:var(--home-color) ;
+}
+footer .animacaoFooter{
+  background-color:var(--animacao-color) ;
+}
+footer .desenhoFooter{
+  background-color: var(--desenho-color) ;
+}
+footer .modelagemFooter {
+  background-color: var(--modelagem-color) ;
+}
+footer .ilustracaoFooter {
+  background-color: var(--ilustracao-color) ;
+}
+footer .pixelFooter {
+  background-color: var(--pixel-color) ;
+}
+footer .saibaFooter {
+  background-color: var(--saiba-color) ;
+}
+
+footer .row .col-lg-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .row .col-lg-4 a{
+  margin-right: 15%;
+}
+
 

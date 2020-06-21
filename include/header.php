@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('America/Sao_paulo');
 
 // Esse array recebe os links somente para o nav do index
 $links = [

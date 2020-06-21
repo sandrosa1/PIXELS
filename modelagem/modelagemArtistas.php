@@ -1,9 +1,10 @@
 <?php include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'modelagem'; include '../include/header.php';?>
-<div class="container-fluid">
+<!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
+<div class="container-fluid" id="inicio">
     <h1>Artistas Modelagem 3d</h1>
 
 
 </div>
-
+<? include '../include/footer.php'?>
 <? include '../include/nossosLinksBotom.php'?>
