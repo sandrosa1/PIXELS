@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
-/*Declare sua cor aqui*/
+/*escolha sua cor de preferencia aqui aqui*/
 :root{
-  --home-color:red;
-  --animacao-color :blue;
-  --desenho-color :darkmagenta;
-  --ilustracao-color :green;
-  --modelagem-color :yellow;
-  --pixel-color :orange;
-  --saiba-color :violet;
+  --home-color:#ff4500;
+  --animacao-color :#4169E1;
+  --desenho-color :#008B8B;
+  --ilustracao-color :#2E8B57;
+  --modelagem-color :#ff8c00;
+  --pixel-color :#A52A2A;
+  --saiba-color :#8B0000;
 }
 body {
   margin: 0px;
   padding: 0px;
 }
 
-/*Escolha a cor de seu link e personalize a pagina com sua cor*/
+/* css do nav*/
 #home a{
   color:var(--home-color);
 }
@@ -40,9 +40,15 @@ body {
   color: var(--pixel-color);
 }
 
-
 #saiba a{
   color: var(--saiba-color);
+}
+#portal{
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  color: white;
 }
 
 .container-fluid {
@@ -50,13 +56,10 @@ body {
   padding: 0px;
 }
 
-
-
 /*css para pagina INDEX*/
 #borda {
   margin: 0 auto 0 auto;
-  width: 100%;
-  border: solid 20px red;  
+  width: 95%;
   
 }
 
@@ -65,17 +68,18 @@ body {
 }
 #borda .indexdiv2 {
   padding: 30px 10px 10px 10px;
+  
 }
 #borda .indexdiv2 ul li {
-  padding: 30px 10px 13px 10px;
+  padding: 30px 10px 30px 10px;
+  
 }
+
 
 section .row .card-deck{
   padding: 60px 60px 13px 60px;
 }
-section .row .col-lg-3{
-  padding: 60px 0px 20px 60px;
-}
+
 
 
 /*css para o diretório servicos*/
@@ -96,32 +100,31 @@ footer .row
 {
   display: flex;
   justify-content: center;
-  background-color: chartreuse;
   align-items: center;
   height:60px;
   margin:auto;
   color:#fff;
 }
 
-footer .homeFooter {
+.homeFooter {
   background-color:var(--home-color) ;
 }
-footer .animacaoFooter{
+.animacaoFooter{
   background-color:var(--animacao-color) ;
 }
-footer .desenhoFooter{
+.desenhoFooter{
   background-color: var(--desenho-color) ;
 }
-footer .modelagemFooter {
+.modelagemFooter {
   background-color: var(--modelagem-color) ;
 }
-footer .ilustracaoFooter {
+.ilustracaoFooter {
   background-color: var(--ilustracao-color) ;
 }
-footer .pixelFooter {
+.pixelFooter {
   background-color: var(--pixel-color) ;
 }
-footer .saibaFooter {
+.saibaFooter {
   background-color: var(--saiba-color) ;
 }
 
@@ -129,10 +132,36 @@ footer .row .col-lg-4{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1em;
 }
 
-footer .row .col-lg-4 a{
-  margin-right: 15%;
+footer .row .col-lg-4 a img{
+  height: 30px;
+  margin: 10px 40px 10px 0px;
 }
 
+@media (max-width: 989px)
+{
+  #borda .indexdiv2 ul li {
+    padding: 30px 10px 10px 10px;
+    
+  }
+  
+  section .logo
+  {
+    display: none;
+  }
+}
+@media (max-width: 600px)
+{
 
+  footer .row .col-6{
+  
+    font-size: 0.8em;
+  }
+  footer .row .col-lg-4 a img{
+    height: 20px;
+    margin: 0px 10px 10px 0px;
+  }
+
+}

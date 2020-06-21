@@ -3,24 +3,24 @@ date_default_timezone_set('America/Sao_paulo');
 
 // Esse array recebe os links somente para o nav do index
 $links = [
-    ['HOME','index.php','home' ],                                      //0
+    ['PIXELS','index.php','home' ],                                    //0
     ['Animação Digital','animacao/animacao.php','animacao'],           //1
     ['Desenho Vetorial','desenho/desenho.php','desenho'],              //2
     ['Ilustração Digital','ilustracao/ilustracao.php','ilustracao'],   //3
     ['Modelagem 3d','modelagem/modelagem.php','modelagem'],            //4
-    ['Pixel Arte','pixel/pixel.php','pixel'],                          //5
+    ['Pixel Art','pixel/pixel.php','pixel'],                          //5
     ['Saiba Mais','servicos/saibaMais.php','saiba']                    //6
     
 ];
 
 //Esse array recebe os links para as demais paginas 
 $links2 = [
-    ['HOME','../index.php','home'],                                      //0
+    ['PIXELS','../index.php','home'],                                    //0
     ['Animação Digital','../animacao/animacao.php','animacao'],          //1
     ['Desenho Vetorial','../desenho/desenho.php','desenho'],             //2
     ['Ilustração Digital','../ilustracao/ilustracao.php','ilustracao'],  //3
     ['Modelagem 3d','../modelagem/modelagem.php','modelagem'],           //4
-    ['Pixel Arte','../pixel/pixel.php','pixel'],                         //5
+    ['Pixel Art','../pixel/pixel.php','pixel'],                         //5
     ['Saiba Mais','../servicos/saibaMais.php','saiba']                   //6
 ];
 // Esse array recebe os links somente para o saiba mais do  nav do index
@@ -67,7 +67,7 @@ $modDrop = [
 //Menu para pixel aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
 //Anexe quantas paginas precisar
 $pixDrop = [
-    'Pixel Arte'=>'pixel.php',            //0
+    'Pixel Art'=>'pixel.php',            //0
     'Sobre a Arte'=>'pixelSobre.php',     //1
     'Artistas'=>'pixelArtistas.php',      //2
     'Galeria'=>'pixelGaleria.php'         //3
@@ -83,7 +83,7 @@ if($page == 'home')
 {
 
     $menu = $links;  
-    $subMenu == '';
+    $subMenu = 'PIXELS';
     $active == 'home';
     
 }
@@ -124,7 +124,7 @@ if($page == 'pixel')
 {
 
     $menu = $links2;
-    $subMenu = 'Pixel Arte';
+    $subMenu = 'Pixel Art';
     $dropMenu = $pixDrop;
     $active == 'pixel';   
 }
@@ -136,18 +136,40 @@ if($page == 'saiba')
     $dropMenu = $saiDrop;
     $active == 'saiba'; 
 }
-
+switch($page)
+{
+    case "home":
+        $footer = "homeFooter";
+        break;
+    case "animacao":
+        $footer = "animacaoFooter";
+        break;
+    case "desenho":
+        $footer = "desenhoFooter";
+        break;
+    case "modelagem":
+        $footer = "modelagemFooter";
+        break;
+    case "ilustracao":
+        $footer = "ilustracaoFooter";
+        break;
+    case "pixel":
+        $footer = "pixelFooter";
+        break;
+    case "saiba":
+        $footer = "saibaFooter";
+        break;
+}
 
 ?>
 <!--Estamos inciando a tag body nesse include e  está sendo fechado no include nossosLinksBotom -->
+
 <body>
     <nav class="d-flex bd-highlight navbar navbar-expand-lg navbar-light bg-light ">
         <a class="navbar-brand" href="<? if($page == 'home'){echo 'index.php';}else{echo'../index.php';}?>">
-            <!--O index e a unica pagina que esta na raiz então esse if e para mostrar o caminho do logo para todas as outras -->
-            <img src="
-            <?php if($page =='home'){echo 'imagem/logo500.png';}
-            else{echo'../imagem/logo500.png';}?>"
-                alt="Logo" style="width:80px;">
+        <!--O index e a unica pagina que esta na raiz então esse if e para mostrar o caminho do logo para todas as outras -->
+        <img src="
+        <?php if($page =='home'){echo 'imagem/logo500.png';}else{echo'../imagem/logo500.png';}?>" alt="Logo" style="width:80px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -155,45 +177,57 @@ if($page == 'saiba')
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-<!--Este for acessa o a variavel menu e cria o nav-->
-<?php
-        echo'<ul class=" navbar-nav p-2 flex-fill bd-highlight">';
+            <!--Este for acessa o a variavel menu e cria o nav-->
+            <ul class=" navbar-nav p-2 flex-fill bd-highlight">
+        <?php
 
-        // 7 e a quantidade de menu    
+        // 7 e a quantidade de links nas Paginas Principais
         for($i = 0; $i < 7; $i++ )
         {
             // Se A variaval submenu for igual a pagina atual cria seu dropdown 
             if($subMenu == $menu[$i][0])
-            {
-                echo'<li id="'.$menu[$i][2].'"class="nav-item dropdown p-2 flex-fill bd-highlight">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        '.$menu[$i][0].'
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">';
-                        
-                        // Aqui esta sendeo  criando seus links
-                    foreach($dropMenu as $subName => $subAdress)
-                    {
-                        echo '<a class="dropdown-item" href="'.$subAdress.'">'.$subName.'</a>';
-                    }
-                echo '</div>
-                </li>';
+            { 
+                $display = $menu [$i][0];
+                // Aqui ele exclui o nome home, pois ja temos a imagem logo
+                if($menu[$i][0] == $menu[0][0]);
+                else
+                {
+                    echo'<li id="'.$menu[$i][2].'"class="nav-item dropdown p-2 flex-fill bd-highlight">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            '.$menu[$i][0].'
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">';
+                            
+                            // Aqui esta sendeo  criando seus links
+                        foreach($dropMenu as $subName => $subAdress)
+                        {
+                            echo '<a class="dropdown-item" href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+
+                        echo '</div>
+                        </li>';
+                }
             }
             
             // Se A variaval submenu for difernte da pagina atual cria seu link
+            
             if($subMenu != $menu[$i][0])
-            {
-            echo '<li id="'.$menu[$i][2].'"class=" nav-item p-2 flex-fill bd-highlight">
-                    <a class="nav-link" href="'.$menu[$i][1].'">'.$menu[$i][0].'</a>
-                </li>';
+            {      // Aqui ele exclui o nome home
+                if($menu[$i][0] == $menu[0][0]);
+                else
+                {
+                echo '<li id="'.$menu[$i][2].'"class=" nav-item p-2 flex-fill bd-highlight">
+                        <a class="nav-link" href="'.$menu[$i][1].'">'.$menu[$i][0].'</a>
+                    </li>';
+                }
             }
         }
-        echo 
-            '</div>
-                </li>
-                </ul>
-                </div>
-        </nav>';
-?>
-        
+    ?>             
+            </ul>
+        </div>
+    </nav>
+    <div id="portal"class="row <?=$footer?>">
+        <div class=" col-lg-12" ><h1><p class="text-center"><?= $display?></p></h1>
+        </div>
+    </div>
