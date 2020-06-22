@@ -166,7 +166,16 @@ switch($page)
 
 <body>
     <nav class="d-flex bd-highlight navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand" href="<? if($page == 'home'){echo 'index.php';}else{echo'../index.php';}?>">
+        <a class="navbar-brand" href="<?php 
+        if($page == 'home')
+        {
+            echo 'index.php';
+        }else
+        {
+            echo'../index.php';
+        }
+        
+        ?>">
         <!--O index e a unica pagina que esta na raiz então esse if e para mostrar o caminho do logo para todas as outras -->
         <img src="
         <?php if($page =='home')
@@ -176,6 +185,7 @@ switch($page)
         { 
             echo'../imagem/logo500.png';
         }
+
         ?>" alt="Logo" style=" width:80px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"

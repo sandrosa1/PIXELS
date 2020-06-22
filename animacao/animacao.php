@@ -4,7 +4,6 @@
 <div class="container-fluid" id="inicio">
     <h1>Animação Digital</h1>
 
-to
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>
