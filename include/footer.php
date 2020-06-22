@@ -25,54 +25,52 @@ switch($page)
 }
 ?>
 <footer>
-    <div class=" row <?php echo $footer ?> ">
-        <div class=" col-lg-4 col-0">
+    <div class="row <?= $footer ?> ">
+        <div class=" col-lg-4 col-0" >
         </div>
-        <div class="col-lg-4 col-6">
+        <div class="col-lg-4 col-6" >
             <p>&copy;Desenvolvido por Pixels</p>
         </div>
-        <div class="col-lg-4 col-6" id="logosFooter">
+        <div class="col-lg-4 col-6" id="logosFooter" >
             <a href="#"><img
-                    src="<?php
-                     if($page =='home')
-                     {echo'imagem/footerLogoWhatsapp.png';}
-                     else
-                     {echo '../imagem/footerLogoWhatsapp.png';}
-                      ?>"
-                    alt="logo do Whatsapp"></a>
-            <a href="#"><img
-                    src="<?php
-                     if($page =='home')
-                     {echo 'imagem/footerLogoFacebook.png';}
-                     else
-                     {echo '../imagem/footerLogoFacebook.png';}
-                     ?>
-                     " alt="
-                    logo do facebook"></a>
-            <a href="#"><img
-                    src="<?php
-                     if($page =='home')
-                     {
-                         echo 'imagem/footerLogoInstagran.png';
+                    src="<?php if( $page =='home')
+                    { 
+                        echo 'imagem/footerLogoWhatsapp.png' ;
+                    }else
+                    { 
+                        echo '../imagem/footerLogoWhatsapp.png' ;
+                    }
+
+                    ?> " alt="logo do Whatsapp" >
+                    </a>
+                    <a href="#">
+                        <img src="<?php if( $page =='home')
+                        {
+                            echo 'imagem/footerLogoFacebook.png' ;
+                        }else 
+                        { 
+                            echo '../imagem/footerLogoFacebook.png';
                         }
-                     else
-                     {
-                         echo '../imagem/footerLogoInstagran.png';
+
+                        ?> " alt=" logo do facebook "></a>
+                        <a href="#"><img src="<?php if($page =='home')
+                        { 
+                            echo 'imagem/footerLogoInstagran.png';
+                        }else
+                        { 
+                            echo '../imagem/footerLogoInstagran.png';
                         }
-                     ?>"
-                    alt="logo do Instagran" ></a>
-            <a href="#inicio"><img
-                    src="<?php
-                     if($page =='home')
-                     {
-                         echo 'imagem/footerLogoSeta.png';
+
+                        ?>"alt="logo do Instagran" ></a>
+                        <a href="#inicio"><img src="<?php if($page =='home')
+                        {
+                            echo 'imagem/footerLogoSeta.png';
                         }
-                     else
-                     {
-                         echo '../imagem/footerLogoSeta.png';
+                        else
+                        { 
+                            echo '../imagem/footerLogoSeta.png';
                         }
-                     ?>"
-                    alt="Volta para o incio da pagina"></a>
+                        ?> " alt=" Volta para o incio da pagina "></a>
         </div>
     </div>
 </footer>
