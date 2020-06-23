@@ -7,7 +7,7 @@
   --desenho-color :#008B8B;
   --ilustracao-color :#2E8B57;
   --modelagem-color :#ff8c00;
-  --pixel-color :#FF1165;
+  --pixel-color :#A52A2A;
   --saiba-color :#8B0000;
 }
 body {
@@ -56,11 +56,6 @@ body {
   padding: 0px;
 }
 
-nav {
-  font-family: 'Raleway', sans-serif, 'liberation sans';
-  font-weight: 400;
-}
-
 /*css para pagina INDEX*/
 #borda {
   margin: 0 auto 0 auto;
@@ -78,6 +73,9 @@ nav {
 #borda .indexdiv2 ul li {
   padding: 30px 10px 30px 10px;
   
+}
+section{
+  margin: 0px 40px 10px 40px;
 }
 
 
