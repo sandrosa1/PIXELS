@@ -7,7 +7,7 @@
   --desenho-color :#008B8B;
   --ilustracao-color :#2E8B57;
   --modelagem-color :#ff8c00;
-  --pixel-color :#A52A2A;
+  --pixel-color :#FF1165;
   --saiba-color :#8B0000;
 }
 body {
@@ -54,6 +54,11 @@ body {
 .container-fluid {
   margin: 0px;
   padding: 0px;
+}
+
+nav {
+  font-family: 'Raleway', sans-serif, 'liberation sans';
+  font-weight: 400;
 }
 
 /*css para pagina INDEX*/
