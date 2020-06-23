@@ -88,7 +88,12 @@ section .row .card-deck{
 
 
 /*css para o diretório servicos*/
-
+/* Normas de Utilização */
+.center-image {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
 /*css para o diretório Animação Digital*/
 
 /*css para o diretório Desenho Vetorial*/

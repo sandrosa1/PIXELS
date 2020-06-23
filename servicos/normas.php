@@ -3,9 +3,12 @@
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <article class="container-fluid" id="inicio">
-    <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-10 col-lg-10 ">
-            <h1>Normas de Uilização</h1>
+    <h1 class="text-center m-3">Normas de Uilização</h1>
+    <div class="row justify-content-center p-3">
+        <div class="col-sm-12 col-md-12 col-lg-6 ">
+            <img class="center-image" src="../imagem/norma800.png" alt="Palavras como segurança, privacidade, crime digital, leis, regras e normas escritos em posições aleatóreas">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 ">
             <p>
                 Fica terminantemente proibido a publicação ou divulgação de qualquer conteúdo presente no site do Pixels sem devida autorização e atruibuição de créditos.
             </p>
