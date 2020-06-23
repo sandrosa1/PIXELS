@@ -129,6 +129,55 @@ section .row .card-deck{
   margin-left: 0; 
 }
 
+.ul-inline {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ul-inline li{ 
+  display: inline-block;
+  padding: 0 5px;
+}
+.ul-inline li a {
+  font-size: 2.5rem;
+}
+
+/* Hover para Pixel Art */
+.pixel li a{
+  color: var(--pixel-color)
+} 
+.pixel li a:hover {
+  opacity: 80%;
+}
+/* Hover para Modelagem 3D */
+.modelagem li a{
+  color: var(--modelagem-color)
+} 
+.modelagem li a:hover {
+  opacity: 80%;
+}
+/* Hover para Ilustração Digital*/
+.ilustracao li a{
+  color: var(--ilustracao-color)
+} 
+.ilustracao li a:hover {
+  opacity: 80%;
+}
+/* Hover para Desenho Veotrial*/
+.desenho li a{
+  color: var(--desenho-color)
+} 
+.desenho li a:hover {
+  opacity: 80%;
+}
+/* Hover para Animação Digital*/
+.animacao li a{
+  color: var(--animacao-color)
+} 
+.animacao li a:hover {
+  opacity: 80%;
+}
 
 
 
