@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+html{
+  box-sizing: border-box;
+}
 /*escolha sua cor de preferencia aqui aqui*/
 :root{
   --home-color:#ff4500;
@@ -94,6 +97,43 @@ section .row .card-deck{
   width: 100%;
   margin: auto;
 }
+
+/* Quem Somos */
+.dev0{
+  border: .2rem solid var(--home-color);
+
+}
+.dev1 {
+  border: .2rem solid var(--animacao-color);
+}
+.dev2 {
+  border: .2rem solid var(--desenho-color);
+}
+.dev3 {
+  border: .2rem solid var(--ilustracao-color);
+}
+.dev4 {
+  border: .2rem solid var(--modelagem-color);
+}
+.dev5 {
+  border: .2rem solid var(--pixel-color);
+}
+.bg-white {
+  background-color: white;
+}
+
+.max-width{
+  max-width: 960px;
+}
+
+.no-margin, .max-width {
+  margin-right: 0;
+  margin-left: 0; 
+}
+
+
+
+
 /*css para o diretório Animação Digital*/
 
 /*css para o diretório Desenho Vetorial*/
