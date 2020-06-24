@@ -1,52 +1,57 @@
 @charset "UTF-8";
 
-html{
+html {
   box-sizing: border-box;
 }
+
 /*escolha sua cor de preferencia aqui aqui*/
-:root{
-  --home-color:#ff4500;
-  --animacao-color :#4169E1;
-  --desenho-color :#008B8B;
-  --ilustracao-color :#2E8B57;
-  --modelagem-color :#ff8c00;
-  --pixel-color :#F2003F;
-  --saiba-color :#8B0000;
+:root {
+  --home-color: #ff4500;
+  --animacao-color: #4169E1;
+  --desenho-color: #008B8B;
+  --ilustracao-color: #2E8B57;
+  --modelagem-color: #ff8c00;
+  --pixel-color: #F2003F;
+  --saiba-color: #8B0000;
+  --link-paragrafo-color: #3d3d3d;
+  --link-paragrafo-color-hover: #000;
 }
+
 body {
   margin: 0px;
   padding: 0px;
 }
 
 /* css do nav*/
-#home a{
-  color:var(--home-color);
+#home a {
+  color: var(--home-color);
 }
 
-#animacao a{
-  color:var(--animacao-color);
+#animacao a {
+  color: var(--animacao-color);
 }
 
-#desenho a{
-  color: var(--desenho-color) ;
+#desenho a {
+  color: var(--desenho-color);
 }
 
-#ilustracao a{
-  color: var(--ilustracao-color) ;
+#ilustracao a {
+  color: var(--ilustracao-color);
 }
 
-#modelagem a{
-  color:var(--modelagem-color);
+#modelagem a {
+  color: var(--modelagem-color);
 }
 
-#pixel a{
+#pixel a {
   color: var(--pixel-color);
 }
 
-#saiba a{
+#saiba a {
   color: var(--saiba-color);
 }
-#portal{
+
+#portal {
   width: 100%;
   height: 60px;
   padding: 0;
@@ -63,26 +68,28 @@ body {
 #borda {
   margin: 0 auto 0 auto;
   width: 95%;
-  
+
 }
 
 #borda .indexdiv1 {
   padding: 30px 10px 10px 10px;
 }
+
 #borda .indexdiv2 {
   padding: 30px 10px 10px 10px;
-  
+
 }
+
 #borda .indexdiv2 ul li {
   padding: 30px 10px 30px 10px;
-  
+
 }
 section{
   margin: 0px 40px 10px 40px;
 }
 
 
-section .row .card-deck{
+section .row .card-deck {
   padding: 60px 60px 13px 60px;
 }
 
@@ -97,36 +104,43 @@ section .row .card-deck{
 }
 
 /* Quem Somos */
-.dev0{
+.dev0 {
   border: .2rem solid var(--home-color);
 
 }
+
 .dev1 {
   border: .2rem solid var(--animacao-color);
 }
+
 .dev2 {
   border: .2rem solid var(--desenho-color);
 }
+
 .dev3 {
   border: .2rem solid var(--ilustracao-color);
 }
+
 .dev4 {
   border: .2rem solid var(--modelagem-color);
 }
+
 .dev5 {
   border: .2rem solid var(--pixel-color);
 }
+
 .bg-white {
   background-color: white;
 }
 
-.max-width{
+.max-width {
   max-width: 960px;
 }
 
-.no-margin, .max-width {
+.no-margin,
+.max-width {
   margin-right: 0;
-  margin-left: 0; 
+  margin-left: 0;
 }
 
 .ul-inline {
@@ -180,7 +194,6 @@ section .row .card-deck{
 }
 
 
-
 /*css para o diretório Animação Digital*/
 
 /*css para o diretório Desenho Vetorial*/
@@ -189,76 +202,122 @@ section .row .card-deck{
 
 /*css para o diretório Modelagem 3d*/
 
-/*css para o diretório Pixel Arte*/
+/*css para o diretório Pixel Art*/
+
+
+.grupo-imagem-titulo{
+ position: relative; 
+
+}
+
+.grupo-imagem-titulo #titulo {
+  color: #fff;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, .8);
+}
+
+.h1-arte {
+  font-size: 4.5rem;
+  font-weight: 300;
+}
+
+.link-paragrafo {
+  color: var(--link-paragrafo-color);
+}
+.link-paragrafo:hover {
+  color: var(--link-paragrafo-color-hover);
+}
+
 
 /*css para o FOOTER*/
 
-footer .row
-{
+footer .row {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:60px;
-  margin:auto;
-  color:#fff;
+  height: 60px;
+  margin: auto;
+  color: #fff;
 }
 
 .homeFooter {
-  background-color:var(--home-color) ;
-}
-.animacaoFooter{
-  background-color:var(--animacao-color) ;
-}
-.desenhoFooter{
-  background-color: var(--desenho-color) ;
-}
-.modelagemFooter {
-  background-color: var(--modelagem-color) ;
-}
-.ilustracaoFooter {
-  background-color: var(--ilustracao-color) ;
-}
-.pixelFooter {
-  background-color: var(--pixel-color) ;
-}
-.saibaFooter {
-  background-color: var(--saiba-color) ;
+  background-color: var(--home-color);
 }
 
-footer .row .col-lg-4{
+.animacaoFooter {
+  background-color: var(--animacao-color);
+}
+
+.desenhoFooter {
+  background-color: var(--desenho-color);
+}
+
+.modelagemFooter {
+  background-color: var(--modelagem-color);
+}
+
+.ilustracaoFooter {
+  background-color: var(--ilustracao-color);
+}
+
+.pixelFooter {
+  background-color: var(--pixel-color);
+}
+
+.saibaFooter {
+  background-color: var(--saiba-color);
+}
+
+footer .row .col-lg-4 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1em;
 }
 
-footer .row .col-lg-4 a img{
+footer .row .col-lg-4 a img {
   height: 30px;
   margin: 10px 40px 10px 0px;
 }
 
-@media (max-width: 989px)
-{
+/* Media Queries */
+
+/* Até 989px obedece ao código abaixo. (de 601px até 989px*/
+@media (max-width: 989px) {
   #borda .indexdiv2 ul li {
     padding: 30px 10px 10px 10px;
-    
   }
-  
-  section .logo
-  {
+
+  section .logo {
     display: none;
   }
-}
-@media (max-width: 600px)
-{
-
-  footer .row .col-6{
   
+  .h1-arte {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+}
+
+/* Até 600px obedece ao código abaixo. (do small até 600px*/
+@media (max-width: 600px) {
+
+  footer .row .col-6 {
     font-size: 0.8em;
   }
-  footer .row .col-lg-4 a img{
+
+  footer .row .col-lg-4 a img {
     height: 20px;
     margin: 0px 10px 10px 0px;
   }
+  .h1-arte {
+    font-size: 2.4rem;
+    font-weight: 300;
+  }
 
 }
+
