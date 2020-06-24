@@ -16,14 +16,15 @@ include '../include/header.php'; ?>
         </div>
         <div class="row no-margin justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <p class="lead pr-2 pl-3"><a class="link-paragrafo" href="pixelSobre.php">O Pixel Art é uma forma de arte digital no qual imagens são criadas a partir de pixels. A técnica surgiu no final da década de 70, mas só teve seu auge na década de 80.</a></p>
+                <p class="lead pr-2 pl-3"><a class="link-paragrafo" href="pixelSobre.php">O Pixel Art é uma forma de arte digital no qual imagens são criadas a partir de pixels. A técnica surgiu no final da década de 70, mas só teve seu auge na década de 80. </a></p>
             </div>
         </div>
     </article>
     <!-- Seção de artigo secundário -->
-    <div class="row no-margin  justify-content-center m-3">
-        <section class="col-sm-12 col-md-12 col-lg-6 ">
+    <div class="row no-margin justify-content-center m-3">
+        < class="col-sm-12 col-md-12 col-lg-6 grupo-imagem-secundaria">
             <img src="../imagem/pixel-forest.png" alt="Exposição Pixel-Forest" width="400" height="267">
+            <h3 class="titulo-sobre-imagem">Conheça a Pixel Forest</h3>
         </section>
         <!-- Seção de artigos menores -->
         <section class="col-sm-12 col-md-12 col-lg-6">

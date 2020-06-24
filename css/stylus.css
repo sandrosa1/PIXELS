@@ -68,7 +68,6 @@ body {
 #borda {
   margin: 0 auto 0 auto;
   width: 95%;
-
 }
 
 #borda .indexdiv1 {
@@ -77,19 +76,17 @@ body {
 
 #borda .indexdiv2 {
   padding: 30px 10px 10px 10px;
-
 }
 
 #borda .indexdiv2 ul li {
   padding: 30px 10px 30px 10px;
-
 }
-section{
+
+.index-margin{
   margin: 0px 40px 10px 40px;
 }
 
-
-section .row .card-deck {
+.index-margin .row .card-deck {
   padding: 60px 60px 13px 60px;
 }
 
@@ -202,12 +199,11 @@ section .row .card-deck {
 
 /*css para o diretório Modelagem 3d*/
 
-/*css para o diretório Pixel Art*/
 
+/*css para o diretório Pixel Art*/
 
 .grupo-imagem-titulo{
  position: relative; 
-
 }
 
 .grupo-imagem-titulo #titulo {
@@ -232,6 +228,25 @@ section .row .card-deck {
 .link-paragrafo:hover {
   color: var(--link-paragrafo-color-hover);
 }
+
+.grupo-imagem-secundaria {
+  display: relative;
+  padding:0;
+}
+
+.titulo-sobre-imagem {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  padding: .8rem 1rem;
+  background-color: rgba(255, 255, 255, 0.822);
+}
+
+
+
+
 
 
 /*css para o FOOTER*/
