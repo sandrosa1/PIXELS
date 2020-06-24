@@ -55,7 +55,7 @@
     </article>
     <!--//////////////////////////////////////                 /////////////////////////////////////////////////////-->
     <!--Inicio do segundo Layout 2 colunas-->
-    <section>
+    <section class="index-margin">
         <div class="row">
             <div class="col-lg-4">
                 <h3>
