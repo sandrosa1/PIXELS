@@ -22,13 +22,47 @@ include '../include/header.php'; ?>
     </article>
     <!-- Seção de artigo secundário -->
     <div class="row no-margin justify-content-center m-3">
-        < class="col-sm-12 col-md-12 col-lg-6 grupo-imagem-secundaria">
-            <img src="../imagem/pixel-forest.png" alt="Exposição Pixel-Forest" width="400" height="267">
-            <h3 class="titulo-sobre-imagem">Conheça a Pixel Forest</h3>
+        <section class="col-sm-12 col-md-12 col-lg-5 grupo-imagem-secundaria p-3">
+            <img class="center-image" src="../imagem/pixel-forest.png" alt="Exposição Pixel-Forest">
+            <div class="bg-grey col-lg-12 pt-3 pb-2">
+                <h3><a href="pixelGaleria.php#pixelforest">Conheça a Pixel Forest</a></h3>
+                <p class="sub-titulo">Exposição do artista suiço Pipilotti Rist em colaboração com a designer Kaori Kuwabara... <a href="pixelGaleria.php#pixelforest" class="">Saiba Mais</a></p>
+            </div>
         </section>
         <!-- Seção de artigos menores -->
-        <section class="col-sm-12 col-md-12 col-lg-6">
-            <img src="../imagem/pixel-forest.png" alt="Exposição Pixel-Forest" width="400" height="267">
+        <section class="col-sm-12 col-md-12 col-lg-7 pl-5 p-3">
+            <!-- Cards com artigos menores -->
+            <div class="card mb-3">
+                <h2 class="text-center mt-3">Destaques</h2>
+                <ul class="list-unstyled p-3">
+                    <li class="media">
+                        <img class="mr-3" src="../imagem/brunoMoraes-01-thumb.png" alt="Imagem de exemplo genérica">
+                        <div class="media-body  col-sm-12">
+                            <h4 class="mt-0 mb-1">O talentoso Bruno Moraes</h4>
+                             Ilustrador e programador, começou a trabalhar com ilustração em 2015...
+                            <a href="#" class="card-link">Saiba Mais</a>
+                        </div>
+                    </li>
+                    <li class="media my-4">
+                        <img class="mr-3" src="../imagem/ivandixon-01-thumb.png" alt="Imagem de exemplo genérica">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1">Pixel Art de volta</h4>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                            sollicitudin..
+                            <a href="#" class="card-link">Saiba Mais</a>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <img class="mr-3" src="imagem/indexp3.jpg" alt="Imagem de exemplo genérica">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1">Tecnologia e Ilustração Digital</h4>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                            sollicitudin..
+                            <a href="#" class="card-link">Saiba Mais</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     </div>
 </div>

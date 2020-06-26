@@ -15,6 +15,7 @@ html {
   --saiba-color: #8B0000;
   --link-paragrafo-color: #3d3d3d;
   --link-paragrafo-color-hover: #000;
+  --bg-grey: #ececec;
 }
 
 body {
@@ -140,17 +141,10 @@ body {
   margin-left: 0;
 }
 
-.ul-inline {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.ul-inline li{ 
-  display: inline-block;
+.list-inline li{ 
   padding: 0 5px;
 }
-.ul-inline li a {
+.list-inline li a {
   font-size: 2.5rem;
 }
 
@@ -236,7 +230,6 @@ body {
 
 .titulo-sobre-imagem {
   margin: 0;
-  width: 100%;
   position: absolute;
   bottom: 0; 
   left: 0;
@@ -244,7 +237,13 @@ body {
   background-color: rgba(255, 255, 255, 0.822);
 }
 
+.sub-titulo {
+  width: inherit;
+}
 
+.bg-grey {
+  background-color: var(--bg-grey);
+}
 
 
 
@@ -330,7 +329,7 @@ footer .row .col-lg-4 a img {
     margin: 0px 10px 10px 0px;
   }
   .h1-arte {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 300;
   }
 

@@ -4,7 +4,7 @@ include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <article class="container-fluid" id="inicio">
     <h1 class="text-center m-3">Normas de Utilização</h1>
-    <div class="row justify-content-center p-3">
+    <div class="row no-margin justify-content-center p-3">
         <div class="col-sm-12 col-md-12 col-lg-6 ">
             <img class="center-image" src="../imagem/norma800.png" alt="Palavras como segurança, privacidade, crime digital, leis, regras e normas escritos em posições aleatóreas">
         </div>
