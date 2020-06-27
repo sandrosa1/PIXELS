@@ -204,6 +204,7 @@ body {
 
 /*Sobre*/
 .animacaoh1 {
+  color: blue;
   font-weight: 700;
   font-family: var(--fonte-family);
 }

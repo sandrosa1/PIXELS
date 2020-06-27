@@ -4,7 +4,7 @@
 <div class="container-fluid" id="inicio">
     <article>
         <div class="container">
-            <h1 id="animacaoh1" class=" text-center ">História da Animação Digital</h1>
+            <h1 class=" text-center " id="animacaoh1">História da Animação Digital</h1>
             <div class="row">
                 <div class="col-md-12">
                     <img class="img-fluid  align-items-center" alt="Ivan Sutherland e sua caneta óptica"
