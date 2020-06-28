@@ -203,11 +203,18 @@ body {
 
 
 /*Sobre*/
-.animacaoh1 {
-  color: blue;
-  font-weight: 700;
-  font-family: var(--fonte-family);
+
+/*Sobre a animaçao*/
+.animacaoSobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
+.animacaoSobre .animacaoSobreTexto{
+  margin-right: 20px;
+}
+
 
 /*css para o diretório Desenho Vetorial*/
 
