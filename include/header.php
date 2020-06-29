@@ -36,8 +36,9 @@ $saiDrop = [
 $aniDrop = [
     'Animação Digital'=>'animacao.php',      //0
     'Sobre a Arte'=>'animacaoSobre.php',     //1
-    'Artistas'=>'animacaoArtistas.php',      //2
-    'Galeria'=>'animacaoGaleria.php'         //3
+    'Técnicas de Animação'=>'animacaoTecnicas.php',    //2
+    'Principais Nomes'=>'animacaoArtistas.php',      //3
+    'Galeria'=>'animacaoGaleria.php'         //4
 ];
 
 //Menu para desenho vetorial aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
@@ -208,8 +209,8 @@ switch($page)
                 // Aqui ele exclui o nome home, pois ja temos a imagem logo
                 if($menu[$i][0] == $menu[0][0]);
                 else
-                {
-                    echo'<li id="'.$menu[$i][2].'"class="nav-item dropdown p-2 flex-fill bd-highlight">
+                { 
+                    echo'<li id="'.$menu[$i][2].'" class="nav-item dropdown p-2 flex-fill bd-highlight fonteh1 ">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             '.$menu[$i][0].'
@@ -219,7 +220,7 @@ switch($page)
                             // Aqui esta sendeo  criando seus links
                         foreach($dropMenu as $subName => $subAdress)
                         {
-                            echo '<a class="dropdown-item" href="'.$subAdress.'">'.$subName.'</a>';
+                            echo '<a class="dropdown-item fonteh1" href="'.$subAdress.'">'.$subName.'</a>';
                         }
 
                         echo '</div>
@@ -234,7 +235,7 @@ switch($page)
                 if($menu[$i][0] == $menu[0][0]);
                 else
                 {
-                echo '<li id="'.$menu[$i][2].'"class=" nav-item p-2 flex-fill bd-highlight">
+                echo '<li id="'.$menu[$i][2].'" class=" nav-item p-2 flex-fill bd-highlight fonteh1 ">
                         <a class="nav-link" href="'.$menu[$i][1].'">'.$menu[$i][0].'</a>
                     </li>';
                 }
@@ -244,7 +245,7 @@ switch($page)
             </ul>
         </div>
     </nav>
-    <div id="portal"class="row <?=$footer?>">
-        <div class=" col-lg-12" ><h1><p class="text-center"><?= $display?></p></h1>
+    <div id="portal" class="row <?=$footer?>">
+        <div class=" col-lg-12 " ><p class="h1 text-center fonteh1"><?= $display?></p>
         </div>
     </div>

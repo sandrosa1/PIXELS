@@ -61,7 +61,7 @@ switch($page)
                             echo '../imagem/footerLogoInstagran.png';
                         }
 
-                        ?>"alt="logo do Instagran" ></a>
+                        ?> " alt="logo do Instagran" ></a>
                         <a href="#inicio"><img src="<?php if($page =='home')
                         {
                             echo 'imagem/footerLogoSeta.png';
