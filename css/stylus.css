@@ -245,6 +245,26 @@ body {
   background-color: var(--bg-grey);
 }
 
+.titulo-section-pixel {
+  background-color: var(--pixel-color);
+  color: white;
+}
+
+.width-inherit {
+  width: 100%;
+}
+
+.pixel-links a{
+  color: var(--link-paragrafo-color);
+}
+.pixel-links a:hover{
+  color: var(--link-paragrafo-color-hover);
+}
+
+
+.programas-links a {
+  color: var(--pixel-color);
+}
 
 
 
