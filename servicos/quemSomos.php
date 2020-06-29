@@ -54,8 +54,8 @@ include '../include/header.php'; ?>
             <div class="card dev2">
                 <img class="card-img-top" src="../imagem/user.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Lucas</h5>
-                    <p class="text-center mb-1">RA: </p>
+                    <h5 class="card-title text-center">Lucas Silvestre Paula</h5>
+                    <p class="text-center mb-1">RA: 265083192306</p>
                     <p class="text-center mt-1"> Função no desenvolvimento do portal</p>
                     <hr>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -67,11 +67,11 @@ include '../include/header.php'; ?>
                             </li>
                             <!-- Font Awesome - Github -->
                             <li class="list-inline-item">
-                                <a href="" target="_blank"><i class="fab fa-github-square"></i></a>
+                                <a href="https://github.com/lucas-silvestre-fatecsr" target="_blank"><i class="fab fa-github-square"></i></a>
                             </li>
                             <!-- Font Awesome - Instagram -->
                             <li class="list-inline-item">
-                                <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                                <a href="https://www.instagram.com/luu.cas_silvestre/" target="_blank"><i class="fab fa-instagram-square"></i></a>
                             </li>
                         </ul>
                     </p>
