@@ -23,22 +23,22 @@ include '../include/header.php'; ?>
                 <img class="card-img-top" src="../imagem/user.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Sandro</h5>
-                    <p class="text-center mb-1">RA: </p>
-                    <p class="text-center mt-1"> Função no desenvolvimento do portal</p>
+                    <p class="text-center mb-1">RA: 2650831923001</p>
+                    <p class="text-center mt-1">Scrum Master, Arquitetura de TI, dev Front-End and back-End</p>
                     <hr>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.</p>
                     <p>
-                        <ul class="list-inline animacao text-center">
+                        <ul class="ul-inline animacao">
                             <!-- Font Awesome - Linkedin -->
-                            <li class="list-inline-item">
-                                <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <li>
+                                <a href="https://www.linkedin.com/in/sandro-a-56424276/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </li>
                             <!-- Font Awesome - Github -->
-                            <li class="list-inline-item">
-                                <a href="" target="_blank"><i class="fab fa-github-square"></i></a>
+                            <li>
+                                <a href="https://github.com/sandrosa1" target="_blank"><i class="fab fa-github-square"></i></a>
                             </li>
                             <!-- Font Awesome - Instagram -->
-                            <li class="list-inline-item">
+                            <li>
                                 <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
                             </li>
                         </ul>
@@ -46,11 +46,10 @@ include '../include/header.php'; ?>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">
-                        <p><b>Desenvolvimento</b>: <a href="#" target="_blank">Site</a>
+                        <p><b>Desenvolvimento</b>: <a href="../index.php" target="_blank">index</a>, <a href="../animacao/animacao.php" target="_blank">Animação Digital</a>, <a href="../animacao/animacaoSobre.php" target="_blank">Animação Digital - Historia da Animação</a>, <a href="../animacao/animacaoTecnicas.php" target="_blank">Animação Digital - Tecnicas de animação</a>, <a href="../animacao/animacaoArtistas.php" target="_blank">Animação Digital - Principais nomes</a>, <a href="../animacao/animcaoGaleria.php" target="_blank">Animação Digital - Galeria de Artes</a>
                     </small>
                 </div>
             </div>
-
             <!-- CARD do desenvolvedor Desenho Vetorial -->
             <div class="card dev2">
                 <img class="card-img-top" src="../imagem/user.png" alt="Card image cap">
