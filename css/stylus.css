@@ -68,6 +68,9 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.fonteh1{
+  font-family: var(--fonte-family);
+}
 
 /*css para pagina INDEX*/
 
@@ -205,6 +208,13 @@ body {
 /*Sobre*/
 
 /*Sobre a animaçao*/
+
+.animacaoh1 {
+  font-family: var(--fonte-family);
+  font-weight: 600;
+  color: var(--animacao-color);
+  padding: 20px;
+}
 .animacaoSobre{
   display: flex;
   justify-content: center;
@@ -213,6 +223,85 @@ body {
 }
 .animacaoSobre .animacaoSobreTexto{
   margin-right: 20px;
+}
+
+
+
+
+
+
+/*ANIMAÇAO--GALERIA*/
+.galeriaAni {
+  margin: 0px;
+  padding: 0px;
+  background-color:var(--animacao-color);
+}
+
+
+
+.animacaoGaleria
+{
+  max-width: 90%;
+  margin: 10px auto 0px auto;
+  padding: 0px;
+  
+}
+
+
+
+.galeria a {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 0px;
+} 
+
+/* Crie quatro colunas iguais que ficam próximas uma da outra */
+
+.galeria {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 0px;
+} 
+
+.galeria img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 80%;
+} 
+
+.galeria img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+} 
+
+/* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
+@media screen and (max-width: 800px) {
+  .galeria {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+} 
+
+/*
+Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra */
+@media screen and (max-width: 600px) {
+  .galeria {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*TIPOS ANIMACAO*/
+.animacaoTipos{
+  display:flex;
 }
 
 
@@ -273,6 +362,10 @@ body {
 
 
 /*css para o FOOTER*/
+
+footer{
+  margin-top: 20px;
+}
 
 footer .row {
   display: flex;
