@@ -28,17 +28,17 @@ include '../include/header.php'; ?>
                     <hr>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <p>
-                        <ul class="ul-inline animacao">
+                        <ul class="list-inline animacao text-center">
                             <!-- Font Awesome - Linkedin -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </li>
                             <!-- Font Awesome - Github -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-github-square"></i></a>
                             </li>
                             <!-- Font Awesome - Instagram -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
                             </li>
                         </ul>
@@ -61,17 +61,17 @@ include '../include/header.php'; ?>
                     <hr>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <p>
-                        <ul class="ul-inline desenho">
+                        <ul class="list-inline desenho text-center">
                             <!-- Font Awesome - Linkedin -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </li>
                             <!-- Font Awesome - Github -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-github-square"></i></a>
                             </li>
                             <!-- Font Awesome - Instagram -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
                             </li>
                         </ul>
@@ -98,17 +98,17 @@ include '../include/header.php'; ?>
                     <hr>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <p>
-                        <ul class="ul-inline ilustracao">
+                        <ul class="list-inline ilustracao text-center">
                             <!-- Font Awesome - Linkedin -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </li>
                             <!-- Font Awesome - Github -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-github-square"></i></a>
                             </li>
                             <!-- Font Awesome - Instagram -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
                             </li>
                         </ul>
@@ -132,17 +132,17 @@ include '../include/header.php'; ?>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                     <p>
                         <p>
-                            <ul class="ul-inline modelagem">
+                            <ul class="list-inline modelagem text-center">
                                 <!-- Font Awesome - Linkedin -->
-                                <li>
+                                <li class="list-inline-item">
                                     <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
                                 </li>
                                 <!-- Font Awesome - Github -->
-                                <li>
+                                <li class="list-inline-item">
                                     <a href="" target="_blank"><i class="fab fa-github-square"></i></a>
                                 </li>
                                 <!-- Font Awesome - Instagram -->
-                                <li>
+                                <li class="list-inline-item">
                                     <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
                                 </li>
                             </ul>
@@ -167,17 +167,17 @@ include '../include/header.php'; ?>
                     <p class="card-text">A paixão por desenvolvimento web client-side é algo que a faz se mover em direção à carreira que tanto almeja. E se tornar desenvolvedora Front-end, é seu objetivo.</p>
                     <p>Ela é mãe de um coelhinho chamado Tofu.</p>
                     <p>
-                        <ul class="ul-inline pixel">
+                        <ul class="list-inline pixel text-center">
                             <!-- Font Awesome - Linkedin -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="https://www.linkedin.com/in/carolina-kaji-88520915b" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </li>
                             <!-- Font Awesome - Github -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="https://github.com/carolinakaji" target="_blank"><i class="fab fa-github-square"></i></a>
                             </li>
                             <!-- Font Awesome - Instagram -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="https://www.instagram.com/carol85_k/" target="_blank"><i class="fab fa-instagram-square"></i></a>
                             </li>
                         </ul>

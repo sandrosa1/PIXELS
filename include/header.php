@@ -196,7 +196,7 @@ switch($page)
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
             <!--Este for acessa o a variavel menu e cria o nav-->
-            <ul class=" navbar-nav p-2 flex-fill bd-highlight">
+            <ul class=" navbar-nav p-2 flex-fill bd-highlight text-center">
         <?php
 
         // 7 e a quantidade de links nas Paginas Principais
