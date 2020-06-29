@@ -3,35 +3,39 @@
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid" id="inicio">
     <article>
-        <div class="container">
+        <div class="container animacaoTecnicas">
             <h1 class=" text-center animacaoh1 ">Principais Técnicas de Animação</h1>
             <div class="row">
                 <div class="col-md-12">
-                    <img class="img-fluid  align-items-center" alt="" style='float:left;width:300px; margin-right:20px;'
+                    <img class="img-fluid  align-items-center" alt="Tela com um progroma flash em execução"
+                        style='float:left;max-width:300px; margin-right:20px;'
                         src="../imagem/animacao/animacaoFlash.jpg" />
-                    <h2 class=" text-center animacaoh1 ">Flash</h2>
-                    <p class=" text-justify"> Flash é um tipo de animação originalmente criadas no programa Macromedia
+                    <h4 class=" text-center animacaoh1 ">Flash</h4>
+                    <p class=" text-justify">Flash é um tipo de animação originalmente criadas no programa Macromedia
                         Flash e tinham suporte basicamente à animação 2D vetorial. Já atualmente, podem ser criadas no
-                        Adobe Flash, que tem suporte inclusive à animação
-                        3D. As animações flash são distribuídas em formato .fla como raiz e .swf como animação
-                        exportada. As animações flash criadas nas versões mais atuais, têm suporte à interatividade
-                        através de scripts elaborados com a linguagem Action Script. A maioria das animações em Flash
-                        são distribuídas na web e são muito úteis até os dias de hoje.</p>
+                        Adobe Flash, que tem suporte inclusive à animação 3D. As animações flash são distribuídas em
+                        formato .fla como raiz e .swf como animação exportada. As animações flash criadas nas versões
+                        mais atuais, têm suporte à interatividade através de scripts elaborados com a linguagem Action
+                        Script. A maioria das animações em Flash são distribuídas na web e são muito úteis até os dias
+                        de hoje.</p>
                     <hr>
-                    <img class="img-fluid  align-items-center" alt="" style='float:left;width:300px; margin-right:20px;'
+                    <img class="img-fluid  align-items-center"
+                        alt="Imagem de um coelho de boneco e um desenho de coelho"
+                        style='float:left;max-width:300px; margin-right:20px;'
                         src="../imagem/animacao/animacaoCelShading.jpg" />
-                    <h2 class=" text-center animacaoh1 ">Cel Shading</h2>
-                    <p class=" text-justify"> Cel shading, também conhecido como toon shading é um conjunto de técnicas
+                    <h4 class=" text-center animacaoh1 ">Cel Shading</h4>
+                    <p class=" text-justify">Cel shading, também conhecido como toon shading é um conjunto de técnicas
                         empregadas na renderização de imagens 3D de modo que o resultado final se assemelhe ao de
                         desenhos em 2D.A forma mais simples de se obter esse efeito é empregando contornos escuros nos
                         objetos 3D, texturas simples e uma iluminação mais "chapada", isto é, menos realista e mais
                         próxima da iluminação empregada em desenhos animados.</p><br>
                     <hr>
-                    <img class="img-fluid  align-items-center" alt="" style='float:left;width:300px; margin-right:20px;'
+                    <img class="img-fluid  align-items-center"
+                        alt="Imagem da captaçao de movimentos para o jogo god of war"
+                        style='float:left;max-width:300px; margin-right:20px;'
                         src="../imagem/animacao/animacaoCap.png" />
-                    <h2 class=" text-center animacaoh1 ">Captura de movimento</h2>
-                    <p class=" text-justify">
-                        Captura de movimento, ou mocap, é um termo usado para descrever o processo
+                    <h4 class=" text-center animacaoh1 ">Captura de movimento</h4>
+                    <p class=" text-justify">Captura de movimento, ou mocap, é um termo usado para descrever o processo
                         de gravação de movimento e transposição do movimento em um modelo digital. Inicialmente
                         inventado na Escócia, a técnica é usada em militarismo, entretenimento, esportes e aplicações
                         médicas. Em produções cinematográficas, o termo refere-se a gravar ações de atores humanos e
@@ -39,9 +43,10 @@
                         inclui a face, os dedos ou quando se captura expressões sutis, é frequentemente referido como
                         captura de performance.</p>
                     <hr>
-                    <img class="img-fluid  align-items-center" alt="" style='float:left;width:300px; margin-right:20px;'
+                    <img class="img-fluid  align-items-center" alt="Apresentação do primeiro jogo feito em Machinima"
+                        style='float:left;max-width:300px; margin-right:20px;'
                         src="../imagem/animacao/animacaoQuake.png" />
-                    <h2 class=" text-center animacaoh1 ">Machinima</h2>
+                    <h4 class=" text-center animacaoh1 ">Machinima</h4>
                     <p class=" text-justify">Machinima, termo criado pela junção das palavras inglesas machine
                         (máquina), animation (animação) e cinema, é tanto uma técnica de produção fílmica quanto o filme
                         criado com essa técnica. Como uma técnica de produção fílmica, o termo diz respeito à
@@ -54,31 +59,33 @@
                         é um curta-metragem com cerca de 1 minuto. Na época, o termo machinima ainda não existia e os
                         filmes feitos em Quake eram chamados apenas de "filmes de Quake". No início da década de 2000, o
                         uso de games para criar filmes até era absorvido pela grande indústria, com Steven Spielberg
-                        usando Unreal Tournament para pre-visualizar os efeitos de A.I. Artificial Intelligence
-                        (2001),[1] e a Blizzard Entertainment ajudando os produtores de South Park a recriar o mundo de
-                        World of Warcraft no episódio "Make Love, Not Warcraft" (2004).[2] Uma empresa que se destacou
-                        no ramo de machinima foi a americana Rooster Teeth, que após criar Red vs. Blue em 2004 a partir
-                        de Halo: Combat Evolved, ganhou a bênção da produtora Bungie para usar os componentes do jogo
-                        sem pagar por isso, e fez parcerias com a distribuidora Microsoft, com episódios especiais
-                        vendidos na Xbox Live e vídeos para promover sequências de Halo. A Rooster Teeth foi até
-                        patrocinada pela Electronic Arts para criar uma série baseada em The Sims 2, The Strangerhood.
-                    </p>
+                        usando Unreal Tournament para pre-visualizar os efeitos de A.I. Artificial Intelligence (2001),e
+                        a Blizzard Entertainment ajudando os produtores de South Park a recriar o mundo de World of
+                        Warcraft no episódio "Make Love, Not Warcraft" (2004).Uma empresa que se destacou no ramo de
+                        machinima foi a americana Rooster Teeth, que após criar Red vs. Blue em 2004 a partir de Halo:
+                        Combat Evolved, ganhou a bênção da produtora Bungie para usar os componentes do jogo sem pagar
+                        por isso, e fez parcerias com a distribuidora Microsoft, com episódios especiais vendidos na
+                        Xbox Live e vídeos para promover sequências de Halo. A Rooster Teeth foi até patrocinada pela
+                        Electronic Arts para criar uma série baseada em The Sims 2, The Strangerhood.</p>
                     <hr>
-                    <img class="img-fluid  align-items-center" alt="" style='float:left;width:300px; margin-right:20px;'
+                    <img class="img-fluid  align-items-center" alt="Imagen do Mr. Magoo personagem de desenho animado"
+                        style='float:left;max-width:300px; margin-right:20px;'
                         src="../imagem/animacao/animacaoMisterMagoo.jpg" />
-                    <h2 class=" text-center animacaoh1 ">Animação Limitada</h2>
+                    <h4 class=" text-center animacaoh1 ">Animação Limitada</h4>
                     <p class=" text-justify">Animação limitada é uma técnica de produção de desenhos animados onde os
                         quadros não são redesenhados inteiramente, mas sim, utilizando as partes comuns entre os
                         quadros. Esse processo é mais rápido e permite que uma série de animação seja produzida com
                         maior agilidade, economizando o tempo e o custo da produção de uma série de desenho animado. A
                         animação limitada é uma técnica oposta à animação total (utilizada nos desenhos animados de Walt
                         Disney). Essa técnica foi popularizada nos desenhos produzidos pelo estúdio United Productions
-                        of America (produtora de Mr. Magoo)[1] e utilizada na maior parte das séries de desenho animado
+                        of America (produtora de Mr. Magoo) e utilizada na maior parte das séries de desenho animado
                         feitas para a televisão, especialmente pela Hanna-Barbera e pela Filmation.</p>
                     <hr>
-                    <img class="img-fluid  align-items-center" alt="" style='float:left;width:300px; margin-right:20px;'
+                    <img class="img-fluid  align-items-center"
+                        alt="Imagem de duas pessoas deitadas ensenado com se estive se em sentadas, com livros caindo"
+                        style='float:left;max-width:300px; margin-right:20px;'
                         src="../imagem/animacao/animacaoPixilation.jpg" />
-                    <h2 class=" text-center animacaoh1 ">Pixilation</h2>
+                    <h4 class=" text-center animacaoh1 ">Pixilation</h4>
                     <p class=" text-justify">Pixilation (de pixilated ) é um stop motion técnica onde atores ao vivo são
                         usados como um assunto frame-by-frame em uma animação filme, fazendo-se passar repetidamente
                         enquanto um ou mais quadros é tomada e mudando representar um pouco antes do próximo quadro ou
@@ -89,16 +96,19 @@
                         Jobard não pode ver as mulheres que trabalham ). Move-se os atores/objetos pouco a pouco na
                         frente de uma câmera, captando um quadro de cada vez. Em seguida, reproduz-se as imagens em
                         sequência. Funciona como uma animação tradicional, só que tirando fotos em vez de desenhá-los.
-                        </p>
+                    </p>
                     <hr>
-                    <h2 class=" text-center animacaoh1 ">Claymation</h2>
+                    <img class="img-fluid  align-items-center"
+                        alt="Imagem de dois bonecos de massinha um Humano e um cachorro brindando"
+                        style='float:left;max-width:300px; margin-right:20px;'
+                        src="../imagem/animacao/animacaoClaymation.jpg" />
+                    <h4 class=" text-center animacaoh1 ">Claymation</h4>
                     <p class=" text-justify">Claymation ou clay animation é uma técnica de animação baseada em modelos
                         de plasticina (massa de modelar), barro ou material similar. Clay animation Na clay animation,
-                        que é uma das inúmeras formas de stop motion, cada objeto é
-                        esculpido em plasticina (massa de modelar) ou barro. Em geral, usa-se uma estrutura de arame,
-                        relativamente flexível, para reforçar as esculturas de massa.</p>
+                        que é uma das inúmeras formas de stop motion, cada objeto é esculpido em plasticina (massa de
+                        modelar) ou barro. Em geral, usa-se uma estrutura de arame, relativamente flexível, para
+                        reforçar as esculturas de massa.</p>
                     <hr>
-
                 </div>
             </div>
         </div>
