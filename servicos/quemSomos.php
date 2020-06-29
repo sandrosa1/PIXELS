@@ -158,7 +158,7 @@ include '../include/header.php'; ?>
 
             <!-- CARD do desenvolvedor Pixel Art -->
             <div class="card dev5">
-                <img class="card-img-top" src="../imagem/user.png" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/carol-250-250.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Carolina Kaji</h5>
                     <p class="text-center mb-1">RA: 2650831923018</p>
