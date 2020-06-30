@@ -56,7 +56,7 @@
     <!--//////////////////////////////////////                 /////////////////////////////////////////////////////-->
     <!--Inicio do segundo Layout 2 colunas-->
     <section>
-        <?php include 'include/section.php'?>
+        <?php include '../include/section.php'?>
     </section>
     <!--////                                                                                                        /-->
 </div>

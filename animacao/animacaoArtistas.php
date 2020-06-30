@@ -189,6 +189,10 @@
                 </div>
             </div>
     </article>
+    <section>
+        <?php include '../include/section.php'?>
+    </section>
+</div>
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>
