@@ -25,7 +25,7 @@ include '../include/header.php'; ?>
             <img class="center-image" src="../imagem/pixel-forest.png" alt="Exposição Pixel-Forest">
             <div class="bg-grey col-lg-12 pt-3 pb-2">
                 <h3>Conheça a Pixel Forest</h3>
-                <p class="sub-titulo"><a href="pixelGaleria.php#pixelforest" class="">Exposição do artista suiço Pipilotti Rist em colaboração com a designer Kaori Kuwabara... </a></p>
+                <p class="sub-titulo"><a href="pixelSobre.php#pixelforest" class="">Exposição do artista suiço Pipilotti Rist em colaboração com a designer Kaori Kuwabara... </a></p>
             </div>
         </section>
         <!-- Seção de artigos menores -->

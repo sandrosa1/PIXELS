@@ -261,7 +261,6 @@ body {
   color: var(--link-paragrafo-color-hover);
 }
 
-
 .programas-links a {
   color: var(--pixel-color);
 }
@@ -335,6 +334,8 @@ footer .row .col-lg-4 a img {
     font-size: 3rem;
     font-weight: 300;
   }
+
+
 }
 
 /* Até 600px obedece ao código abaixo. (do small até 600px*/
@@ -352,6 +353,8 @@ footer .row .col-lg-4 a img {
     font-size: 1.8rem;
     font-weight: 300;
   }
+
+
 
 }
 
