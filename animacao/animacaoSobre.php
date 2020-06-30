@@ -7,7 +7,7 @@
             <h1 class=" text-center animacaoh1 ">História da Animação Digital</h1>
             <div class="row">
                 <div class="col-md-12">
-                    <img src="../imagem/animacao/animacaoInicio.jpg" alt="Ivan Sutherland e sua caneta óptica"
+                    <img src="../imagem/animacao/animacaoInicio.webp" alt="Ivan Sutherland e sua caneta óptica"
                         class="img-fluid  align-items-center" style='float:left;width:500px; margin-right:20px;' />
                     <p class=" text-justify">A história da animação digital está diretamente relacionada com
                         a história da computação gráfica. Desde os primeiros dispositivos
@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-md-12">
                 <h2 class=" text-center animacaoh1 ">Mas o que é Animaçã Digital</h2>
-                    <img src="../imagem/animacao/animacaoTrabalhando.jpg"
+                    <img src="../imagem/animacao/animacaoTrabalhando.webp"
                         alt="Imagen de um tela de computador animando uma imagem" class="img-fluid  align-items-center"
                         style='float:right;width:400px; margin-left:20px;' />
                     <p class=" text-justify">A animação digital é a arte de criar imagens em movimento
@@ -73,7 +73,7 @@
                     <h2 class=" text-center animacaoh1 ">Inicio no Cinema</h2>
                     <img class="img-fluid  align-items-center" alt="Cena da Primeira animação reconhecida "
                         style='float:left;width:300px; margin-right:20px;'
-                        src="../imagem/animacao/animacaoFantasmagol.gif" />
+                        src="../imagem/animacao/animacaoFantasmagol.webp" />
                     <p class=" text-justify">A primeira animação reconhecida é de Émile Courtet e se concretizou em
                         1892, sendo reproduzida em um projetor na cidade de Paris. Já o primeiro longa-metragem
                         animado Foi El Apóstol (1917), de um diretor argentino que inspirou toda a geração de
@@ -120,7 +120,7 @@
                     <aside>
                         <aside><img class="img-fluid  align-items-center" alt="Imagem de da capa da animação tintoY"
                                 style='float:left;width:100px; margin-right:20px;'
-                                src="../imagem/animacao/animacaoFrozen.jpg" />
+                                src="../imagem/animacao/animacaoFrozen.webp" />
                             <p class=" text-justify"><b>Frozen </b>Uma Aventura Congelante, Bilheteria mundial:
                                 US$ 1,27 bilhão.
                                 Frozen foi recebido com alamação pela crítica e público em
@@ -131,7 +131,7 @@
                         </aside>
                         <aside><img class="img-fluid  align-items-center" alt="Imagem de da capa da animação Minions"
                                 style='float:left;width:100px; margin-right:20px;'
-                                src="../imagem/animacao/animacaoMinions.jpg" />
+                                src="../imagem/animacao/animacaoMinions.webp" />
                             <p class=" text-justify"><b>Minons </b>Bilheteria mundial: US$ 1,14 bilhão, Estúdio:
                                 Universal. Embora não tenha tido sucesso de crítica, o filme foi um enorme sucesso
                                 de bilheteria, arrecadando mais de $1,1 bilhão de dólares, sendo a quarta animação
@@ -140,7 +140,7 @@
                         <aside><img class="img-fluid  align-items-center"
                                 alt="Imagem de da capa da animação Toy History"
                                 style='float:left;width:100px; margin-right:20px;'
-                                src="../imagem/animacao/animacaoToyHistory.jpg" />
+                                src="../imagem/animacao/animacaoToyHistory.webp" />
                             <p class=" text-justify"><b>Toy History </b>é um filme de animação, aventura e comédia
                                 americano lançado em 1995. É conhecido por ser o primeiro filme da história do
                                 cinema a
@@ -151,7 +151,7 @@
                         </aside>
                         <aside><img class="img-fluid  align-items-center" alt="Imagem de da capa da animação tintoY"
                                 style='float:left;width:100px; margin-right:20px;'
-                                src="../imagem/animacao/animacaoTinToy.jpg" />
+                                src="../imagem/animacao/animacaoTinToy.webp" />
                             <p class=" text-justify">Não poderiamos deixar de falar sobre<b>Tin Toy </b> que é um
                                 curta-metragem animado por computador feito
                                 pela Pixar Animation Studios e dirigido por John Lasseter. Este curta pode ser

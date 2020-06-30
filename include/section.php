@@ -11,7 +11,7 @@
                 echo '../animacao/animacao.php';
             }
             ?>
-            " style="text-decoration:none;color:black;"><img src="../imagem/animacao/animacaoLogo.gif"
+            " style="text-decoration:none;color:black;"><img src="../imagem/animacao/home.webp"
                     alt="Logo do Portal Animação Digital" style="width:90%">
                 <h5 class="card-title  animacaoh1 ">Por trás da Animação digital</h5>
                 <p class="card-text">Conheça a historia da Animação suas Tecnicas e profissionais de destaques
@@ -27,7 +27,7 @@
                 echo '../servicos/quemSomos.php';
             }
             ?>
-            " style="text-decoration:none;color:black;"><img src="../imagem/animacao/fatec.jpg"
+            " style="text-decoration:none;color:black;"><img src="../imagem/animacao/fatec.webp"
                     alt="Pintura da fachada da fatec São Roque " style="width:90%">
                 <h5 class="card-title animacaoh1 ">PORTAL PIXELS</h5>
                     <p class="text-left">Grupo de desenvolvedores da fatec São Roque Criam o PORTAL PIXELS <b>Saiba Mais
@@ -44,7 +44,7 @@
                 echo '../desenho/desenho.php';
             }
             ?>
-            " style="text-decoration:none;color:black;"><img src="../imagem/vetoriais.jpg"
+            " style="text-decoration:none;color:black;"><img src="../imagem/vetoriais.webp"
                     alt="Logo da Pagina Desenho Vetorial" style="width:90%">
                 <h5 class="card-title  animacaoh1">Desenho Vetorial</h5>
                 <p class="text-left">Coloque Seu Texto e Anexe a endereço da sua imagem no includer section.php <b>Saiba Mais...</b></p>
@@ -86,7 +86,7 @@
                 echo '../servicos/carreira.php';
             }
             ?>
-            " style="text-decoration:none;color:black;"><img src="../imagem/carreira.jpg"
+            " style="text-decoration:none;color:black;"><img src="../imagem/carreira.webp"
                     alt="Imagem peguntando o que você que faze, sobre profissão" style="width:90%">
                 <h5 class="card-title  animacaoh1">Junte-se a nós</h5>
                 <p class="text-left">venha fazer parte dessa equipe, e juntos vamos aumentar ainda mais o nosso alcance <b>Cadastre - se</b></p></a>
@@ -100,7 +100,7 @@
                 echo '../ilustracao/ilustracao.php';
             }
             ?>
-            " style="text-decoration:none;color:black;"><img src="../imagem/ilustracao.png"
+            " style="text-decoration:none;color:black;"><img src="../imagem/ilustracao.webp"
                     alt="Logo do portal ilustraçao digital" style="width:90%"></a>
             <h5 class="card-title  animacaoh1">Ilustração Digital</h5>
             <p class=" text-left">Coloque Seu Texto e Anexe a endereço da sua imagem no includer section.php <b>Saiba
@@ -113,7 +113,7 @@
                 echo '../ilustracao/ilustracao.php';
             }
             ?>
-            " style="text-decoration:none;color:black;"><img src="../imagem/modelagem.png"
+            " style="text-decoration:none;color:black;"><img src="../imagem/modelagem.webp"
                     alt="Logo da pagina modelagme 3d" style="width:90%">
                 <h5 class="card-title  animacaoh1">Modelagem 3D</h5>
                 <p class=" text-left">Coloque Seu Texto e Anexe a endereço da sua imagem no includer section.php <b>Saiba
