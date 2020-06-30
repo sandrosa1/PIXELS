@@ -55,8 +55,8 @@
     </article>
     <!--//////////////////////////////////////                 /////////////////////////////////////////////////////-->
     <!--Inicio do segundo Layout 2 colunas-->
-    <section class="index-margin">
-    <?php include '../include/section.php'?>
+    <section>
+        <?php include 'include/section.php'?>
     </section>
     <!--////                                                                                                        /-->
 </div>

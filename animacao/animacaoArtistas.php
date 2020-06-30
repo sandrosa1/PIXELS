@@ -9,7 +9,7 @@
                 <div class="col-md-12">
                     <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
                         style='float:left;width:500px; margin-right:20px;'
-                        src="../imagem/animacao/animacaoAlvyRaySmith.jpg" />
+                        src="../imagem/animacao/animacaoAlvyRaySmith.webp" />
                     <h2 class=" text-center animacaoh1">Alvy Ray Smith</h2>
                     <p class=" text-justify">Alvy Ray Smith (Mineral Wells, Texas, 8 de setembro de 1943) é um
                         engenheiro estadunidense e um pioneiro da computação gráfica.
@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
-                        style='width:100%; margin-top:20px;' src="../imagem/animacao/animacaoNeilHuxley.jpeg" />
+                        style='width:100%; margin-top:20px;' src="../imagem/animacao/animacaoNeilHuxley.webp" />
                     <h2 class=" text-center animacaoh1">Neil Huxley</h2>
                     <p class=" text-justify">
                         Na esfera comercial, a ação ao vivo de Neil e a direção de efeitos visuais são celebradas por
@@ -59,7 +59,7 @@
                         vivo e baseados em FX, que incluem o trailer de lançamento de Transformers: Fall of Cybertron,
                         Mad Max, Rise of the Tomb Raider e Assassin's Creed Unity, além de vários filmes </p>
                     <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
-                        style='width:100%; margin-top:20px;' src="../imagem/animacao/animacaoRay.jpg" />
+                        style='width:100%; margin-top:20px;' src="../imagem/animacao/animacaoRay.webp" />
                     <h2 class=" text-center animacaoh1">Ray Harryhausen </h2>
                     <p class=" text-justify">Ray Harryhausen (Los Angeles, 29 de junho de 1920 - 7 de maio de 2013 )
                         nascido como Raymond Frederick Harryhausen foi um profissional da área de animação stop motion,
@@ -85,11 +85,11 @@
                         série de televisão Hi Hi Puffy AmiYumi. Hoje ele está novamente na House of Mouse, novamente
                         projetando para recursos animados.</p>
                     <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
-                        style='width:100%;  margin-top:20px;' src="../imagem/animacao/animacaoMike.jpg" />
+                        style='width:100%;  margin-top:20px;' src="../imagem/animacao/animacaoMike.webp" />
                 </div>
                 <div class="col-md-4">
                     <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
-                        style='width:100%;   margin-top:20px;' src="../imagem/animacao/animacaoFausto.jpg" />
+                        style='width:100%;   margin-top:20px;' src="../imagem/animacao/animacaoFausto.webp" />
                     <h2 class=" text-center animacaoh1">Alvy Ray Smith</h2>
                     <p class=" text-justify">"Comecei minha carreira trabalhando para a indústria de propaganda no
                         Brasil,
@@ -112,10 +112,10 @@
                 <div class="col-md-12">
                     <img class="img-fluid  align-items-center" alt="Logotipo da"
                         style=' width:100%; margin: 20px auto 20px auto;'
-                        src="../imagem/animacao/animacaoPixarLogo.jpg" />
+                        src="../imagem/animacao/animacaoPixarLogo.webp" />
                     <img class="img-fluid  align-items-center" alt=""
                         style='float:right ;width:500px; margin-left:20px;'
-                        src="../imagem/animacao/animacaoJohnAlanLasseter.jpg" />
+                        src="../imagem/animacao/animacaoJohnAlanLasseter.webp" />
                     <h2 class=" text-center animacaoh1">John Alan Lasseter</h2>
                     <p class=" text-justify">John Alan Lasseter (Los Angeles, 12 de janeiro de 1957) é um diretor e
                         produtor americano. Ele é mais conhecido por ser o diretor de criação da Pixar, Walt Disney
@@ -130,7 +130,7 @@
                         Lasseter também supervisiona todos os filmes da Walt Disney Animation Studios (e DisneyToon
                         Studios) e projetos associados como produtor executivo.
                         Ele ganhou dois Oscar, por melhor curta-metragem de animação (por Tin Toy), além de um Prêmio de
-                        Realização Especial (por Toy Story).[2]</p>
+                        Realização Especial (por Toy Story).</p>
                     <h3 class=" text-center animacaoh1">Carreira</h3>
                     <p class=" text-justify">Em 1979, depois de ganhar certo prestigio na CalArts ao receber um Student
                         Academy Awards, prêmio de votação popular da facudade para trabalhos de estudantes, pelo seu
@@ -141,7 +141,7 @@
                         Awards, desta vez por "Nitemare", curta que escreveu e dirigiu como trabalho de seu último ano.
                         <img class="img-fluid  align-items-center" alt="Duas luminarias olhanda para uma bola"
                             style='float:left ;width:500px; margin:20px 20px 20px 0px;'
-                            src="../imagem/animacao/animacaoWallb.jpg" />
+                            src="../imagem/animacao/animacaoWallb.webp" />
                         Foi dentro dos seus cinco anos de trabalho como animador na Disney que John teve sua primeira
                         experiência em animação digital. Durante a produção do filme TRON, de 1982, que misturava atores
                         com computação gráfica, que Lasseter vislumbrou o poder que a nova tecnologia podia gerar. Com o
@@ -169,7 +169,7 @@
                         investir outros cinco em capital.
                         <img class="img-fluid  align-items-center" alt="Duas luminarias olhanda para uma bola"
                             style='float:right ;width:500px; margin:20px 0px 20px 20px;'
-                            src="../imagem/animacao/animacaoluxojr.jpg" />
+                            src="../imagem/animacao/animacaoluxojr.webp" />
                         Com um novo dono, novos recursos e um foco diferente para se trabalhar, a
                         então divisão da Lucasfilm virou a Pixar Inc., empresa que continuava a desenvolver hardware
                         para animação digital, mas que mantinha John Lasseter na folha de pagamento como "chefe de

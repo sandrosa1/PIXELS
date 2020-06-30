@@ -20,25 +20,25 @@ include '../include/header.php'; ?>
             </div>
             <!-- CARD do desenvolvedor Animação Digital -->
             <div class="card dev1">
-                <img class="card-img-top" src="../imagem/user.png" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/animacao/animacaoSandro.webp" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Sandro</h5>
+                    <h5 class="card-title text-center">Sandro Amâncio de Sá</h5>
                     <p class="text-center mb-1">RA: 2650831923001</p>
-                    <p class="text-center mt-1">Scrum Master, Arquitetura de TI, dev Front-End and back-End</p>
+                    <p class="text-center mt-1">Scrum Master, TI Architecture, dev Front-End and back-End</p>
                     <hr>
                     <p class="card-text">Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.</p>
                     <p>
-                        <ul class="ul-inline animacao">
+                        <ul class="list-inline animacao text-center">
                             <!-- Font Awesome - Linkedin -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="https://www.linkedin.com/in/sandro-a-56424276/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </li>
                             <!-- Font Awesome - Github -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="https://github.com/sandrosa1" target="_blank"><i class="fab fa-github-square"></i></a>
                             </li>
                             <!-- Font Awesome - Instagram -->
-                            <li>
+                            <li class="list-inline-item">
                                 <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
                             </li>
                         </ul>

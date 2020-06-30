@@ -9,7 +9,7 @@
                 <div class="col-md-12">
                     <img class="img-fluid  align-items-center" alt="Tela com um progroma flash em execução"
                         style='float:left;max-width:300px; margin-right:20px;'
-                        src="../imagem/animacao/animacaoFlash.jpg" />
+                        src="../imagem/animacao/animacaoFlash.webp" />
                     <h4 class=" text-center animacaoh1 ">Flash</h4>
                     <p class=" text-justify">Flash é um tipo de animação originalmente criadas no programa Macromedia
                         Flash e tinham suporte basicamente à animação 2D vetorial. Já atualmente, podem ser criadas no
@@ -22,7 +22,7 @@
                     <img class="img-fluid  align-items-center"
                         alt="Imagem de um coelho de boneco e um desenho de coelho"
                         style='float:left;max-width:300px; margin-right:20px;'
-                        src="../imagem/animacao/animacaoCelShading.jpg" />
+                        src="../imagem/animacao/animacaoCelShading.webp" />
                     <h4 class=" text-center animacaoh1 ">Cel Shading</h4>
                     <p class=" text-justify">Cel shading, também conhecido como toon shading é um conjunto de técnicas
                         empregadas na renderização de imagens 3D de modo que o resultado final se assemelhe ao de
@@ -45,7 +45,7 @@
                     <hr>
                     <img class="img-fluid  align-items-center" alt="Apresentação do primeiro jogo feito em Machinima"
                         style='float:left;max-width:300px; margin-right:20px;'
-                        src="../imagem/animacao/animacaoQuake.png" />
+                        src="../imagem/animacao/animacaoQuake.webp" />
                     <h4 class=" text-center animacaoh1 ">Machinima</h4>
                     <p class=" text-justify">Machinima, termo criado pela junção das palavras inglesas machine
                         (máquina), animation (animação) e cinema, é tanto uma técnica de produção fílmica quanto o filme
