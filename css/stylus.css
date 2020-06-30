@@ -31,30 +31,94 @@ body {
   color: var(--home-color);
 }
 
+nav img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+} 
+
 #animacao a {
   color: var(--animacao-color);
+  font-size: 20px;
+  font-weight: 600;
 
 }
+#animacao a:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+} 
 
 #desenho a {
   color: var(--desenho-color);
+  font-size: 20px;
+  font-weight: 600;
 }
+
+#desenho a:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+} 
 
 #ilustracao a {
   color: var(--ilustracao-color);
+  font-size: 20px;
+  font-weight: 600;
 }
+#ilustracao a:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+} 
 
 #modelagem a {
   color: var(--modelagem-color);
+  font-size: 20px;
+  font-weight: 600;
 }
+#modelagem a:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+} 
 
 #pixel a {
   color: var(--pixel-color);
+  font-size: 20px;
+  font-weight: 600;
 }
+#pixel a:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+} 
 
 #saiba a {
   color: var(--saiba-color);
+  font-size: 20px;
+  font-weight: 600;
 }
+
+#saiba a:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+} 
 
 
 #portal {
