@@ -89,13 +89,13 @@ include '../include/header.php'; ?>
 
             <!-- CARD do desenvolvedor Ilustração Digital -->
             <div class="card dev3">
-                <img class="card-img-top" src="../imagem/user.png" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/allan.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Allan</h5>
-                    <p class="text-center mb-1">RA: </p>
-                    <p class="text-center mt-1"> Função no desenvolvimento do portal</p>
+                    <p class="text-center mb-1">RA: 2650831923014</p>
+                    <p class="text-center mt-1"> Dev Back-End</p>
                     <hr>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom.</p>
                     <p>
                         <ul class="list-inline ilustracao text-center">
                             <!-- Font Awesome - Linkedin -->
@@ -115,7 +115,7 @@ include '../include/header.php'; ?>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">
-                        <p><b>Desenvolvimento</b>: <a href="#" target="_blank">Site</a>
+                        <p><b>Desenvolvimento</b>: <a href="../ilustracao/ilustracao.php" target="_blank">Ilustração Digital</a>, <a href="../ilustracao/ilustracaoSobre.php" target="_blank">Ilustração Digital - Sobre</a>, <a href="../ilustracao/ilustracaoArtistas.php" target="_blank">Ilustração Digital - Artistas</a>, <a href="../ilustracao/ilustracaoGaleria.php" target="_blank">Ilustração Digital - Galeria</a>
                     </small>
                 </div>
             </div>
