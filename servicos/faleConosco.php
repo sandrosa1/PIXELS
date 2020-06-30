@@ -4,7 +4,9 @@
 <div class="container-fluid" id="inicio">
     <h1>Fale Conosco</h1>
 
-
+    <section>
+        <?php include '../include/section.php'?>
+    </section>
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>

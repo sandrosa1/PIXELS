@@ -334,11 +334,11 @@ nav img:hover {
 } 
 
 .galeria img:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 } 
 
 /* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
@@ -445,7 +445,38 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
   color: var(--pixel-color);
 }
 
+/*css para o Sections Publicas*/
 
+.homeSec{
+  color: var(--home-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
+}
+.animacaoSec{
+  color: var(--animacao-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
+}
+.desenhoSec{
+  color: var(--desenho-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
+}
+.ilustracaoSec{
+  color: var(--ilustracao-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
+}
+.modelagemSec{
+  color: var(--modelagem-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
+}
+.saibaSec{
+  color: var(--saiba-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
+}
 
 /*css para o FOOTER*/
 

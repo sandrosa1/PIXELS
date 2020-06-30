@@ -191,6 +191,9 @@ include '../include/header.php'; ?>
         </div>
     </div>
 </div>
+<section>
+        <?php include '../include/section.php'?>
+</section>
 </div>
 
 </div>
