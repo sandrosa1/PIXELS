@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <img class="img-fluid  align-items-center" alt="Tela com um progroma flash em execução"
-                        style='float:left;max-width:300px; margin-right:20px;'
+                        style='float:left;max-width:300px; margin:15px'
                         src="../imagem/animacao/animacaoFlash.webp" />
                     <h4 class=" text-center animacaoh1 ">Flash</h4>
                     <p class=" text-justify">Flash é um tipo de animação originalmente criadas no programa Macromedia
@@ -21,7 +21,7 @@
                     <hr>
                     <img class="img-fluid  align-items-center"
                         alt="Imagem de um coelho de boneco e um desenho de coelho"
-                        style='float:left;max-width:300px; margin-right:20px;'
+                        style='float:left;max-width:300px; margin:15px'
                         src="../imagem/animacao/animacaoCelShading.webp" />
                     <h4 class=" text-center animacaoh1 ">Cel Shading</h4>
                     <p class=" text-justify">Cel shading, também conhecido como toon shading é um conjunto de técnicas
@@ -32,7 +32,7 @@
                     <hr>
                     <img class="img-fluid  align-items-center"
                         alt="Imagem da captaçao de movimentos para o jogo god of war"
-                        style='float:left;max-width:300px; margin-right:20px;'
+                        style='float:left;max-width:300px; margin:15px;'
                         src="../imagem/animacao/animacaoCap.webp" />
                     <h4 class=" text-center animacaoh1 ">Captura de movimento</h4>
                     <p class=" text-justify">Captura de movimento, ou mocap, é um termo usado para descrever o processo
@@ -44,7 +44,7 @@
                         captura de performance.</p>
                     <hr>
                     <img class="img-fluid  align-items-center" alt="Apresentação do primeiro jogo feito em Machinima"
-                        style='float:left;max-width:300px; margin-right:20px;'
+                        style='float:left;max-width:300px; margin:15px'
                         src="../imagem/animacao/animacaoQuake.webp" />
                     <h4 class=" text-center animacaoh1 ">Machinima</h4>
                     <p class=" text-justify">Machinima, termo criado pela junção das palavras inglesas machine
@@ -69,8 +69,8 @@
                         Electronic Arts para criar uma série baseada em The Sims 2, The Strangerhood.</p>
                     <hr>
                     <img class="img-fluid  align-items-center" alt="Imagen do Mr. Magoo personagem de desenho animado"
-                        style='float:left;max-width:300px; margin-right:20px;'
-                        src="../imagem/animacao/animacaoMisterMagoo.jpg" />
+                        style='float:left;max-width:300px;margin:15px;'
+                        src="../imagem/animacao/animacaoMisterMagoo.webp" />
                     <h4 class=" text-center animacaoh1 ">Animação Limitada</h4>
                     <p class=" text-justify">Animação limitada é uma técnica de produção de desenhos animados onde os
                         quadros não são redesenhados inteiramente, mas sim, utilizando as partes comuns entre os
@@ -83,8 +83,8 @@
                     <hr>
                     <img class="img-fluid  align-items-center"
                         alt="Imagem de duas pessoas deitadas ensenado com se estive se em sentadas, com livros caindo"
-                        style='float:left;max-width:300px; margin-right:20px;'
-                        src="../imagem/animacao/animacaoPixilation.jpg" />
+                        style='float:left;max-width:300px; margin:15px'
+                        src="../imagem/animacao/animacaoPixilation.webp" />
                     <h4 class=" text-center animacaoh1 ">Pixilation</h4>
                     <p class=" text-justify">Pixilation (de pixilated ) é um stop motion técnica onde atores ao vivo são
                         usados como um assunto frame-by-frame em uma animação filme, fazendo-se passar repetidamente
@@ -100,8 +100,8 @@
                     <hr>
                     <img class="img-fluid  align-items-center"
                         alt="Imagem de dois bonecos de massinha um Humano e um cachorro brindando"
-                        style='float:left;max-width:300px; margin-right:20px;'
-                        src="../imagem/animacao/animacaoClaymation.jpg" />
+                        style='float:left;max-width:300px; margin:15px;'
+                        src="../imagem/animacao/animacaoClaymation.webp" />
                     <h4 class=" text-center animacaoh1 ">Claymation</h4>
                     <p class=" text-justify">Claymation ou clay animation é uma técnica de animação baseada em modelos
                         de plasticina (massa de modelar), barro ou material similar. Clay animation Na clay animation,

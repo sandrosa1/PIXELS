@@ -72,7 +72,7 @@
                 <div class="col-md-8">
                     <h2 class=" text-center animacaoh1 ">Inicio no Cinema</h2>
                     <img class="img-fluid  align-items-center" alt="Cena da Primeira animação reconhecida "
-                        style='float:left;width:300px; margin-right:20px;'
+                        style='float:left;width:300px; margin:10px;'
                         src="../imagem/animacao/animacaoFantasmagol.webp" />
                     <p class=" text-justify">A primeira animação reconhecida é de Émile Courtet e se concretizou em
                         1892, sendo reproduzida em um projetor na cidade de Paris. Já o primeiro longa-metragem
@@ -104,16 +104,42 @@
                         qual outros estúdios viram que era possível fazer filme com computação. Após isso houve
                         outras tentativas de lançamentos de filmes, de 1996 até 2000 foram feitas sete tentativas,
                         contudo nenhuma deu certo devido a pouco material.</p>
-                    <h3 class=" text-center animacaoh1">Alguns dos grandes longas de animação digital</h3>
-                    <ul>
-                        <li>Toy Story</li>
-                        <li>Madagascar</li>
-                        <li>Sherk</li>
-                        <li>Procurando Nemo</li>
-                        <li>Ratatouille</li>
-                        <li>Bee Movie</li>
-                        <li>Frozen</li>
-                    </ul>
+                    
+                    <div class="row justify-content-md-center">
+                    <h3 class=" text-center animacaoh1">grandes longas de animação digital e Produtoral</h3>
+                        <div class="col- 3 galeria ">
+                            <ul>
+                                <li>A era do gelo</li>
+                                <li>Rio</li>
+                                <li>Snoopy e Charlie Brown</li>
+                                <li>Ferdinando</li>
+                                <li>Minions</li>
+                                <li>Meu malvado Favorito</li>
+                                <li>Pets - A vida secreta dos bichos</li>
+                                <li>O Grinch</li>
+                            </ul>
+                        </div>
+                        <div class="col - 3 galeria ">
+                            <a><img src="../imagem/animacao/animacaoBlueSky.webp"style="width:90%; " alt=""></a>
+                            <a><img src="../imagem/animacao/animacaoIlumination.webp" style="width:90%; "></a>
+                        </div>
+                        <div class="col- 3 galeria ">
+                            <ul>
+                                <li>Madagáscar</li>
+                                <li>O Espanta Tubarões</li>
+                                <li>O Poderoso Chefinho</li>
+                                <li>A Origem dos Guardiões/li>
+                                <li>Toy Story </li>
+                                <li>Procurando Dory</li>
+                                <li>Os Incríveis 2</li>
+                                <li>Divertida Mente/li>
+                            </ul>
+                        </div>
+                        <div class="col- 3 galeria ">
+                            <a><img src="../imagem/animacao/animacao.webp"style="width:90%;"></a>
+                            <a><img src="../imagem/animacao/animacaoPixarLogo.webp" style="width:90%; "></a>
+                        </div>
+                    </div>  
                 </div>
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Maiores Bilheterias</h2>

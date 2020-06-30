@@ -291,11 +291,12 @@ nav img:hover {
 
 
 
+
 /*ANIMAÇAO--GALERIA*/
 .galeriaAni {
+
   margin: 0px;
   padding: 0px;
-  background-color:var(--animacao-color);
 }
 
 
@@ -307,8 +308,6 @@ nav img:hover {
   padding: 0px;
   
 }
-
-
 
 .galeria a {
   display: -ms-flexbox; 
@@ -356,7 +355,14 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
   .galeria {
     -ms-flex: 100%;
     flex: 100%;
-    max-width: 100%;
+    margin-bottom: 10px;
+    max-width: 90%;
+    
+  }
+  .galeria a {
+
+    margin-left: 50px;
+  
   }
 }
 

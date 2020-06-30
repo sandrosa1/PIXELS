@@ -137,8 +137,8 @@ if($page == 'saiba')
                 <p class="text-left">venha fazer parte dessa equipe, e juntos vamos aumentar ainda mais o nosso alcance <b>Cadastre - se</b></p></a>
         </div>
         <div class=" col-lg-3 galeria ">
-            <a href=" <?php echo $subIlustracao ; ?> " style="text-decoration:none;color:black;"><img src=" <?php echo $imgIlusSec ; ?> "
-                    alt="Logo do portal ilustraçao digital" style="width:90%"></a>
+            <a href=" <?php echo $subIlustracao ; ?> " style=" text-decoration:none;color:black; "><img src=" <?php echo $imgIlusSec ; ?> "
+            alt="Logo do portal ilustraçao digital" style="width:90%">
             <h5 class="card-title <?php echo $activeSec ;?> ">Ilustração Digital</h5>
             <p class=" text-left">Coloque Seu Texto e Anexe a endereço da sua imagem no includer section.php <b>Saiba
                     mais...</b></p>
