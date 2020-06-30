@@ -5,7 +5,7 @@
     <article>
         <div class="row justify-content-center m-3">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <img class="center-image" src="../imagem/ilistrucao-principal900x300.png" alt="Ilustração Digital">
+                
                 <div id="titulo" class="align-items-center">
                     <h1 class="text-center h1-arte">Aproximando você da realidade</h1>
                 </div>
