@@ -33,7 +33,7 @@
                     <img class="img-fluid  align-items-center"
                         alt="Imagem da captaçao de movimentos para o jogo god of war"
                         style='float:left;max-width:300px; margin-right:20px;'
-                        src="../imagem/animacao/animacaoCap.png" />
+                        src="../imagem/animacao/animacaoCap.webp" />
                     <h4 class=" text-center animacaoh1 ">Captura de movimento</h4>
                     <p class=" text-justify">Captura de movimento, ou mocap, é um termo usado para descrever o processo
                         de gravação de movimento e transposição do movimento em um modelo digital. Inicialmente
