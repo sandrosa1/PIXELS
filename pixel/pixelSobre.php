@@ -52,16 +52,6 @@ include '../include/header.php'; ?>
             <p>O Pixel Art é uma arte tanto simples, quanto complexa.</p>
             <p>E sua beleza está ao se ver o conjunto do ponto a ponto, ou melhor, do pixel a pixel.</p>
 
-
-
-
-
-
-
-
-
-
-
         </div>
     </article>
 
