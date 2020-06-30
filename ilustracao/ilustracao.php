@@ -20,7 +20,7 @@
             <img class="center-image" src="../imagem/mesa-digitalizadora.png" alt="Galeria de Ilustração Digital">
             <div class="bg-grey col-lg-12 pt-3 pb-2">
                 <h3>Melhor galeria de Ilustração Digital</h3>
-                <p class="sub-titulo"><a href="ilustracao.php" class="">Mais rápido e eficiente do que meios tradicionais, muitos artistas estão aderindo a ilisutração digital, conheça nossa galeria...</a></p>
+                <p class="sub-titulo"><a href="ilustracao.php" class="">Mais rápido e eficiente do que meios tradicionais, muitos artistas estão aderindo a ilustração digital, conheça nossa galeria...</a></p>
             </div>
         </section>
 
