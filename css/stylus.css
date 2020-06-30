@@ -375,6 +375,22 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 /*css para o diretório Desenho Vetorial*/
 
 /*css para o diretório Ilustração Digital*/
+.titulo-section-ilustracao {
+  background-color: var(--ilustracao-color);
+  color: white;
+}
+
+.ilustracao-links a{
+  color: var(--link-paragrafo-color);
+}
+
+.links_ilustracao a {
+  color: var(--ilustracao-color);
+}
+
+.links_ilustracao a:hover{
+  color: var(--link-paragrafo-color-hover);
+}
 
 /*css para o diretório Modelagem 3d*/
 
@@ -445,7 +461,6 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 .pixel-links a:hover{
   color: var(--link-paragrafo-color-hover);
 }
-
 
 .programas-links a {
   color: var(--pixel-color);

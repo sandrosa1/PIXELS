@@ -2,7 +2,7 @@
 <?php $page = 'ilustracao'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid" id="inicio">
-    <article>
+    <article class="links_ilustracao">
         <div class="row justify-content-center m-3">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <img class="center-image" src="../imagem/ilistrucao-principal900x300.png" alt="Ilustração Digital">
@@ -16,7 +16,7 @@
         </div>
     </article>
     <div class="row no-margin justify-content-center m-3">
-        <section class="col-sm-12 col-md-12 col-lg-5 grupo-imagem-secundaria p-3">
+        <section class="col-sm-12 col-md-12 col-lg-5 grupo-imagem-secundaria p-3 ilustracao-links">
             <img class="center-image" src="../imagem/mesa-digitalizadora.png" alt="Galeria de Ilustração Digital">
             <div class="bg-grey col-lg-12 pt-3 pb-2">
                 <h3>Melhor galeria de Ilustração Digital</h3>
@@ -24,7 +24,7 @@
             </div>
         </section>
 
-        <section class="col-sm-12 col-md-12 col-lg-7 pl-5 p-3">
+        <section class="col-sm-12 col-md-12 col-lg-7 pl-5 p-3 ilustracao-links">
             <!-- Cards com artigos menores -->
             <div class="mb-3">
                 <h2 class="text-center mt-3 ">Cursos online de ilustração digital</h2>
@@ -55,10 +55,10 @@
         </section>
     </div>
 
-    <section class="row no-margin  justify-content-center m-3">
+    <section class="row no-margin  justify-content-center m-3 links_ilustracao">
         <div class="col-lg-12">
             <div class="bg-grey">
-                <h2 class="text-center">Tudo o que você precisa saber para começar</h2>
+                <h2 class="text-center titulo-section-ilustracao p-2">Tudo o que você precisa saber para começar</h2>
                 <p class=" px-5 py-3 ">Você não precisa de um kit com várias cores diferentes, porque todas elas já estão disponíveis e assim, ao invés de ter que misturar tintas até achar a tonalidade desejada, por que não usar o conta-gotas do próprio programa?</p>
                 <div class="px-5 pb-4">
                     <div class="card-deck">
