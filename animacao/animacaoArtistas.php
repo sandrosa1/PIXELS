@@ -88,9 +88,9 @@
                         style='width:100%;  margin-top:20px;' src="../imagem/animacao/animacaoMike.webp" />
                 </div>
                 <div class="col-md-4">
-                    <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
+                    <img class="img-fluid  align-items-center" alt=" Foto de Fausto "
                         style='width:100%;   margin-top:20px;' src="../imagem/animacao/animacaoFausto.webp" />
-                    <h2 class=" text-center animacaoh1">Alvy Ray Smith</h2>
+                    <h2 class=" text-center animacaoh1">Fausto</h2>
                     <p class=" text-justify">"Comecei minha carreira trabalhando para a indústria de propaganda no
                         Brasil,
                         o que foi uma experiência de aprendizado incrível. Desde que cresci jogando, concentrei meu foco
