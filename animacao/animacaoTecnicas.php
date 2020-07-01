@@ -17,18 +17,18 @@
                         formato .fla como raiz e .swf como animação exportada. As animações flash criadas nas versões
                         mais atuais, têm suporte à interatividade através de scripts elaborados com a linguagem Action
                         Script. A maioria das animações em Flash são distribuídas na web e são muito úteis até os dias
-                        de hoje.</p>
+                        de hoje.</p><br>
                     <hr>
                     <img class="img-fluid  align-items-center"
                         alt="Imagem de um coelho de boneco e um desenho de coelho"
-                        style='float:left;max-width:300px; margin:15px'
+                        style='float:left; max-width:300px; margin:15px'
                         src="../imagem/animacao/animacaoCelShading.webp" />
                     <h4 class=" text-center animacaoh1 ">Cel Shading</h4>
                     <p class=" text-justify">Cel shading, também conhecido como toon shading é um conjunto de técnicas
                         empregadas na renderização de imagens 3D de modo que o resultado final se assemelhe ao de
                         desenhos em 2D.A forma mais simples de se obter esse efeito é empregando contornos escuros nos
                         objetos 3D, texturas simples e uma iluminação mais "chapada", isto é, menos realista e mais
-                        próxima da iluminação empregada em desenhos animados.</p><br>
+                        próxima da iluminação empregada em desenhos animados.</p><br><br>
                     <hr>
                     <img class="img-fluid  align-items-center"
                         alt="Imagem da captaçao de movimentos para o jogo god of war"
@@ -41,7 +41,7 @@
                         médicas. Em produções cinematográficas, o termo refere-se a gravar ações de atores humanos e
                         usar tais informações para animar modelos de personagens virtuais em animação 3D. Quando se
                         inclui a face, os dedos ou quando se captura expressões sutis, é frequentemente referido como
-                        captura de performance.</p>
+                        captura de performance.</p><br>
                     <hr>
                     <img class="img-fluid  align-items-center" alt="Apresentação do primeiro jogo feito em Machinima"
                         style='float:left;max-width:300px; margin:15px'
@@ -66,7 +66,7 @@
                         Combat Evolved, ganhou a bênção da produtora Bungie para usar os componentes do jogo sem pagar
                         por isso, e fez parcerias com a distribuidora Microsoft, com episódios especiais vendidos na
                         Xbox Live e vídeos para promover sequências de Halo. A Rooster Teeth foi até patrocinada pela
-                        Electronic Arts para criar uma série baseada em The Sims 2, The Strangerhood.</p>
+                        Electronic Arts para criar uma série baseada em The Sims 2, The Strangerhood.</p><br>
                     <hr>
                     <img class="img-fluid  align-items-center" alt="Imagen do Mr. Magoo personagem de desenho animado"
                         style='float:left;max-width:300px;margin:15px;'
@@ -79,7 +79,7 @@
                         animação limitada é uma técnica oposta à animação total (utilizada nos desenhos animados de Walt
                         Disney). Essa técnica foi popularizada nos desenhos produzidos pelo estúdio United Productions
                         of America (produtora de Mr. Magoo) e utilizada na maior parte das séries de desenho animado
-                        feitas para a televisão, especialmente pela Hanna-Barbera e pela Filmation.</p>
+                        feitas para a televisão, especialmente pela Hanna-Barbera e pela Filmation.</p><br>
                     <hr>
                     <img class="img-fluid  align-items-center"
                         alt="Imagem de duas pessoas deitadas ensenado com se estive se em sentadas, com livros caindo"
@@ -96,7 +96,7 @@
                         Jobard não pode ver as mulheres que trabalham ). Move-se os atores/objetos pouco a pouco na
                         frente de uma câmera, captando um quadro de cada vez. Em seguida, reproduz-se as imagens em
                         sequência. Funciona como uma animação tradicional, só que tirando fotos em vez de desenhá-los.
-                    </p>
+                    </p><br>
                     <hr>
                     <img class="img-fluid  align-items-center"
                         alt="Imagem de dois bonecos de massinha um Humano e um cachorro brindando"
