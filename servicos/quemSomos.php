@@ -89,7 +89,7 @@ include '../include/header.php'; ?>
 
             <!-- CARD do desenvolvedor Ilustração Digital -->
             <div class="card dev3">
-                <img class="card-img-top" src="../imagem/allan.jpg" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/ilustracao-digital/allan.webp" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Allan</h5>
                     <p class="text-center mb-1">RA: 2650831923014</p>
