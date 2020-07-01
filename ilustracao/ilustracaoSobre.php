@@ -33,7 +33,7 @@
                 <li class="lead pr-2 pl-3">Liberdade de experimentação. Aprenda fazendo de verdade.</li>
             </ul>
             <div class="text-center">
-                <img class="rounded" src="../imagem/ilustracao-sobre550x200.png" alt="Homen Desenhando">
+                <img class="rounded" src="../imagem/ilustracao/ilustracao-sobre550x200.png" alt="Homen Desenhando">
             </div>
         </div>
     </div>
