@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-html {
+* {
   box-sizing: border-box;
 }
 
@@ -253,10 +253,65 @@ nav img:hover {
 
 
 /*css ------------------------------------------para o diretório Animação Digital-----------------*/
-.animacaoHome1{
-  margin: 0px;
+/*HOMEANIAMCAO*/
+
+.animacaoHome1
+{
+  margin: 0px ;
   padding: 0px;
 }
+
+.animacaoHome1 .headerAni
+{
+  width: 100%;
+}
+
+/*cria uma margem no container*/
+.animacaoHomeP {
+  margin: 0px 10px 0px 10px;
+}
+/*Da uma posição e tamanho maximo para o container*/
+.container1 {
+  position: relative;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/*Avisa a imagem que ela pode usar 100% do*/
+.container1 img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* Coloca o elemento content1 sobre o container e aplica um opacidade */
+.container1 .content1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.linksAnimacao:link {
+  text-decoration:none;
+
+}
+
+.linksAnimacao1:link {
+  text-decoration:none;
+}
+
+.linksAnimacao {
+  text-decoration:none;
+  color: white;
+}
+
+.linksAnimacao1 {
+  color: black;
+}
+
 
 /*Sobre*/
 
