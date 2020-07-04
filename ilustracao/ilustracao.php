@@ -5,9 +5,7 @@
     <article class="links_ilustracao">
         <div class="row justify-content-center m-3">
             <div class="col-sm-12 col-md-12 col-lg-12">
-
                 <img class="center-image" src="../imagem/ilustracao-digital/ilistrucao-principal900x300.webp" alt="Ilustração Digital">
-
                 <div id="titulo" class="align-items-center">
                     <h1 class="text-center h1-arte">Um mundo de vantagens</h1>
                 </div>
@@ -18,6 +16,7 @@
         </div>
     </article>
     <div class="row no-margin justify-content-center m-3">
+
         <section class="col-sm-12 col-md-12 col-lg-5 grupo-imagem-secundaria p-3 ilustracao-links">
             <img class="center-image" src="../imagem/ilustracao-digital/mesa-digitalizadora.webp" alt="Galeria de Ilustração Digital">
             <div class="bg-grey col-lg-12 pt-3 pb-2">
@@ -40,7 +39,7 @@
                     </li>
                     <li class="media my-4">
                         <img class="mr-3" src="../imagem/ilustracao-digital/curso2.webp" alt="Retrato de personagens de menina">
- 
+
                         <div class="media-body">
                             <h4 class="mt-0 mb-0">Retrato de personagens femininas com Procreate</h4>
                             <a href="#" class="">Explore técnicas de desenho digital criando retratos repletos de imaginação</a>
@@ -101,11 +100,8 @@
                                 <small class="text-muted">Acesse: <a href="https://procreate.art/" target="_blank">procreate.art</a></small>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </div>
     </section>

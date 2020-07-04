@@ -1,132 +1,135 @@
 @charset "UTF-8";
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*escolha sua cor de preferencia aqui aqui*/
 :root {
-  --home-color: #ff4500;
-  --animacao-color: #4169E1;
-  --desenho-color: #008B8B;
-  --ilustracao-color: #2E8B57;
-  --modelagem-color: #ff8c00;
-  --pixel-color: #F2003F;
-  --saiba-color: #8B0000;
-  --link-paragrafo-color: #3d3d3d;
-  --link-paragrafo-color-hover: #000;
-  --fonte-family :'Raleway', sans-serif;
-  --bg-grey: #ececec;
+    --home-color: #ff4500;
+    --animacao-color: #4169E1;
+    --desenho-color: #008B8B;
+    --ilustracao-color: #2E8B57;
+    --modelagem-color: #ff8c00;
+    --pixel-color: #F2003F;
+    --saiba-color: #8B0000;
+    --link-paragrafo-color: #3d3d3d;
+    --link-paragrafo-color-hover: #000;
+    --fonte-family: 'Raleway', sans-serif;
+    --bg-grey: #ececec;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* css do nav*/
 
 
 #home a {
-  color: var(--home-color);
+    color: var(--home-color);
 }
 
 nav img:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-} 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 #animacao a {
-  color: var(--animacao-color);
+    color: var(--animacao-color);
 }
 
 #animacao a:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-} 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 #desenho a {
-  color: var(--desenho-color);
-  
+    color: var(--desenho-color);
+
 }
 
 #desenho a:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-} 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 #ilustracao a {
-  color: var(--ilustracao-color);
+    color: var(--ilustracao-color);
 }
 
 #ilustracao a:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-} 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 #modelagem a {
-  color: var(--modelagem-color);
+    color: var(--modelagem-color);
 }
+
 #modelagem a:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-} 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 #pixel a {
-  color: var(--pixel-color);
+    color: var(--pixel-color);
 
 }
+
 #pixel a:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-} 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 #saiba a {
-  color: var(--saiba-color);
+    color: var(--saiba-color);
 
 }
 
 #saiba a:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-} 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 
 #portal {
-  width: 100%;
-  height: 60px;
-  padding: 0;
-  margin: 0;
-  color: white;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    color: white;
 }
 
 .container-fluid {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
-.fonteh1{
-  font-family: var(--fonte-family);
+
+.fonteh1 {
+    font-family: var(--fonte-family);
 }
 
 /*css para pagina INDEX*/
@@ -134,28 +137,28 @@ nav img:hover {
 
 
 #borda {
-  margin: 0 auto 0 auto;
-  width: 95%;
+    margin: 0 auto 0 auto;
+    width: 95%;
 }
 
 #borda .indexdiv1 {
-  padding: 30px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
 }
 
 #borda .indexdiv2 {
-  padding: 30px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
 }
 
 #borda .indexdiv2 ul li {
-  padding: 30px 10px 30px 10px;
+    padding: 30px 10px 30px 10px;
 }
 
-.index-margin{
-  margin: 0px 40px 10px 40px;
+.index-margin {
+    margin: 0px 40px 10px 40px;
 }
 
 .index-margin .row .card-deck {
-  padding: 60px 60px 13px 60px;
+    padding: 60px 60px 13px 60px;
 }
 
 
@@ -163,99 +166,109 @@ nav img:hover {
 /*css para o diretório servicos*/
 /* Normas de Utilização */
 .center-image {
-  display: block;
-  width: 100%;
-  margin: auto;
+    display: block;
+    width: 100%;
+    margin: auto;
 }
 
 /* Quem Somos */
 .dev0 {
-  border: .2rem solid var(--home-color);
+    border: .2rem solid var(--home-color);
 
 }
 
 .dev1 {
-  border: .2rem solid var(--animacao-color);
+    border: .2rem solid var(--animacao-color);
 }
 
 .dev2 {
-  border: .2rem solid var(--desenho-color);
+    border: .2rem solid var(--desenho-color);
 }
 
 .dev3 {
-  border: .2rem solid var(--ilustracao-color);
+    border: .2rem solid var(--ilustracao-color);
 }
 
 .dev4 {
-  border: .2rem solid var(--modelagem-color);
+    border: .2rem solid var(--modelagem-color);
 }
 
 .dev5 {
-  border: .2rem solid var(--pixel-color);
+    border: .2rem solid var(--pixel-color);
 }
 
 .bg-white {
-  background-color: white;
+    background-color: white;
 }
 
 .max-width {
-  max-width: 960px;
+    max-width: 960px;
 }
 
 .no-margin,
 .max-width {
-  margin-right: 0;
-  margin-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 
-.list-inline li{ 
-  padding: 0 5px;
+.list-inline li {
+    padding: 0 5px;
 }
+
 .list-inline li a {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 /* Hover para Pixel Art */
-.pixel li a{
-  color: var(--pixel-color)
-} 
+.pixel li a {
+    color: var(--pixel-color)
+}
+
 .pixel li a:hover {
-  opacity: 80%;
+    opacity: 80%;
 }
+
 /* Hover para Modelagem 3D */
-.modelagem li a{
-  color: var(--modelagem-color)
-} 
+.modelagem li a {
+    color: var(--modelagem-color)
+}
+
 .modelagem li a:hover {
-  opacity: 80%;
+    opacity: 80%;
 }
+
 /* Hover para Ilustração Digital*/
-.ilustracao li a{
-  color: var(--ilustracao-color)
-} 
+.ilustracao li a {
+    color: var(--ilustracao-color)
+}
+
 .ilustracao li a:hover {
-  opacity: 80%;
+    opacity: 80%;
 }
+
 /* Hover para Desenho Veotrial*/
-.desenho li a{
-  color: var(--desenho-color)
-} 
-.desenho li a:hover {
-  opacity: 80%;
+.desenho li a {
+    color: var(--desenho-color)
 }
+
+.desenho li a:hover {
+    opacity: 80%;
+}
+
 /* Hover para Animação Digital*/
-.animacao li a{
-  color: var(--animacao-color)
-} 
+.animacao li a {
+    color: var(--animacao-color)
+}
+
 .animacao li a:hover {
-  opacity: 80%;
+    opacity: 80%;
 }
 
 
 /*css ------------------------------------------para o diretório Animação Digital-----------------*/
-.animacaoHome1{
-  margin: 0px;
-  padding: 0px;
+.animacaoHome1 {
+    margin: 0px;
+    padding: 0px;
 }
 
 /*Sobre*/
@@ -263,19 +276,21 @@ nav img:hover {
 /*Sobre a animaçao*/
 
 .animacaoh1 {
-  font-family: var(--fonte-family);
-  font-weight: 600;
-  color: var(--animacao-color);
-  padding: 20px;
+    font-family: var(--fonte-family);
+    font-weight: 600;
+    color: var(--animacao-color);
+    padding: 20px;
 }
-.animacaoSobre{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+
+.animacaoSobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
-.animacaoSobre .animacaoSobreTexto{
-  margin-right: 20px;
+
+.animacaoSobre .animacaoSobreTexto {
+    margin-right: 20px;
 }
 
 
@@ -287,80 +302,80 @@ nav img:hover {
 /*ANIMAÇAO--GALERIA*/
 .galeriaAni {
 
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
 
-.animacaoGaleria
-{
-  max-width: 90%;
-  margin: 10px auto 0px auto;
-  padding: 0px;
-  
+.animacaoGaleria {
+    max-width: 90%;
+    margin: 10px auto 0px auto;
+    padding: 0px;
+
 }
 
 .galeria a {
-  display: -ms-flexbox; 
-  display: flex;
-  -ms-flex-wrap: wrap; 
-  flex-wrap: wrap;
-  padding: 0 0px;
-} 
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 0px;
+}
 
 /* Crie quatro colunas iguais que ficam próximas uma da outra */
 
 .galeria {
-  -ms-flex: 25%; 
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 0px;
-} 
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 0px;
+}
 
 .galeria img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 80%;
-} 
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 80%;
+}
 
 .galeria img:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-} 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 /* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
 @media screen and (max-width: 800px) {
-  .galeria {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-} 
+    .galeria {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
 
 /*
 Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra */
 @media screen and (max-width: 600px) {
-  .galeria {
-    -ms-flex: 100%;
-    flex: 100%;
-    margin-bottom: 10px;
-    max-width: 90%;
-    
-  }
-  .galeria a {
+    .galeria {
+        -ms-flex: 100%;
+        flex: 100%;
+        margin-bottom: 10px;
+        max-width: 90%;
 
-    margin-left: 50px;
-  
-  }
+    }
+
+    .galeria a {
+
+        margin-left: 50px;
+
+    }
 }
 
 /*TIPOS ANIMACAO*/
-.animacaoTipos{
-  display:flex;
+.animacaoTipos {
+    display: flex;
 }
 
 
@@ -368,20 +383,67 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 /*css para o diretório Ilustração Digital*/
 .titulo-section-ilustracao {
-  background-color: var(--ilustracao-color);
-  color: white;
+    background-color: var(--ilustracao-color);
+    color: white;
 }
 
-.ilustracao-links a{
-  color: var(--link-paragrafo-color);
+.ilustracao-links a {
+    color: var(--link-paragrafo-color);
 }
 
 .links_ilustracao a {
-  color: var(--ilustracao-color);
+    color: var(--ilustracao-color);
 }
 
-.links_ilustracao a:hover{
-  color: var(--link-paragrafo-color-hover);
+.links_ilustracao a:hover {
+    color: var(--link-paragrafo-color-hover);
+}
+
+.ilustracaoGaleria {
+    max-width: 90%;
+    margin: 10px auto 0px auto;
+    padding: 0px;
+}
+
+.ilust {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 0px;
+}
+
+
+.ilust img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 80%;
+}
+
+/* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
+@media screen and (max-width: 800px) {
+    .ilust {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/*
+Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra */
+@media screen and (max-width: 600px) {
+    .ilust {
+        -ms-flex: 100%;
+        flex: 100%;
+        margin-bottom: 10px;
+        max-width: 90%;
+
+    }
+
+    .ilust a {
+
+        margin-left: 50px;
+
+    }
 }
 
 /*css para o diretório Modelagem 3d*/
@@ -389,197 +451,204 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 /*css para o diretório Pixel Art*/
 
-.grupo-imagem-titulo{
-  position: relative; 
+.grupo-imagem-titulo {
+    position: relative;
 }
 
 .grupo-imagem-titulo #titulo {
-  color: #fff;
-  margin: 0;
-  width: 100%;
-  position: absolute;
-  top: 50%; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-shadow: 5px 5px 15px rgba(0, 0, 0, .8);
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, .8);
 }
 
 .h1-arte {
-  font-size: 4.5rem;
-  font-weight: 300;
+    font-size: 4.5rem;
+    font-weight: 300;
 }
 
 .link-paragrafo {
-  color: var(--link-paragrafo-color);
+    color: var(--link-paragrafo-color);
 }
+
 .link-paragrafo:hover {
-  color: var(--link-paragrafo-color-hover);
+    color: var(--link-paragrafo-color-hover);
 }
 
 .grupo-imagem-secundaria {
-  display: relative;
-  padding:0;
+    display: relative;
+    padding: 0;
 }
 
 .titulo-sobre-imagem {
-  margin: 0;
-  position: absolute;
-  bottom: 0; 
-  left: 0;
-  padding: .8rem 1rem;
-  background-color: rgba(255, 255, 255, 0.822);
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: .8rem 1rem;
+    background-color: rgba(255, 255, 255, 0.822);
 }
 
 .sub-titulo {
-  width: inherit;
+    width: inherit;
 }
 
 .bg-grey {
-  background-color: var(--bg-grey);
+    background-color: var(--bg-grey);
 }
 
 .titulo-section-pixel {
-  background-color: var(--pixel-color);
-  color: white;
+    background-color: var(--pixel-color);
+    color: white;
 }
 
 .width-inherit {
-  width: 100%;
+    width: 100%;
 }
 
-.pixel-links a{
-  color: var(--link-paragrafo-color);
+.pixel-links a {
+    color: var(--link-paragrafo-color);
 }
-.pixel-links a:hover{
-  color: var(--link-paragrafo-color-hover);
+
+.pixel-links a:hover {
+    color: var(--link-paragrafo-color-hover);
 }
 
 
 .programas-links a {
-  color: var(--pixel-color);
+    color: var(--pixel-color);
 }
 
 /*css para o Sections Publicas*/
 
-.homeSec{
-  color: var(--home-color);
-  font-family: var(--fonte-family);
-  margin-top: 10px;
+.homeSec {
+    color: var(--home-color);
+    font-family: var(--fonte-family);
+    margin-top: 10px;
 }
-.animacaoSec{
-  color: var(--animacao-color);
-  font-family: var(--fonte-family);
-  margin-top: 10px;
+
+.animacaoSec {
+    color: var(--animacao-color);
+    font-family: var(--fonte-family);
+    margin-top: 10px;
 }
-.desenhoSec{
-  color: var(--desenho-color);
-  font-family: var(--fonte-family);
-  margin-top: 10px;
+
+.desenhoSec {
+    color: var(--desenho-color);
+    font-family: var(--fonte-family);
+    margin-top: 10px;
 }
-.ilustracaoSec{
-  color: var(--ilustracao-color);
-  font-family: var(--fonte-family);
-  margin-top: 10px;
+
+.ilustracaoSec {
+    color: var(--ilustracao-color);
+    font-family: var(--fonte-family);
+    margin-top: 10px;
 }
-.modelagemSec{
-  color: var(--modelagem-color);
-  font-family: var(--fonte-family);
-  margin-top: 10px;
+
+.modelagemSec {
+    color: var(--modelagem-color);
+    font-family: var(--fonte-family);
+    margin-top: 10px;
 }
-.saibaSec{
-  color: var(--saiba-color);
-  font-family: var(--fonte-family);
-  margin-top: 10px;
+
+.saibaSec {
+    color: var(--saiba-color);
+    font-family: var(--fonte-family);
+    margin-top: 10px;
 }
 
 /*css para o FOOTER*/
 
-footer{
-  margin-top: 20px;
+footer {
+    margin-top: 20px;
 }
 
 footer .row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  margin: auto;
-  color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: auto;
+    color: #fff;
 }
 
 .homeFooter {
-  background-color: var(--home-color);
+    background-color: var(--home-color);
 }
 
 .animacaoFooter {
-  background-color: var(--animacao-color);
+    background-color: var(--animacao-color);
 }
 
 .desenhoFooter {
-  background-color: var(--desenho-color);
+    background-color: var(--desenho-color);
 }
 
 .modelagemFooter {
-  background-color: var(--modelagem-color);
+    background-color: var(--modelagem-color);
 }
 
 .ilustracaoFooter {
-  background-color: var(--ilustracao-color);
+    background-color: var(--ilustracao-color);
 }
 
 .pixelFooter {
-  background-color: var(--pixel-color);
+    background-color: var(--pixel-color);
 }
 
 .saibaFooter {
-  background-color: var(--saiba-color);
+    background-color: var(--saiba-color);
 }
 
 footer .row .col-lg-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
 }
 
 footer .row .col-lg-4 a img {
-  height: 30px;
-  margin: 10px 40px 10px 0px;
+    height: 30px;
+    margin: 10px 40px 10px 0px;
 }
 
 /* Media Queries */
 
 /* Até 989px obedece ao código abaixo. (de 601px até 989px*/
 @media (max-width: 989px) {
-  #borda .indexdiv2 ul li {
-    padding: 30px 10px 10px 10px;
-  }
+    #borda .indexdiv2 ul li {
+        padding: 30px 10px 10px 10px;
+    }
 
-  section .logo {
-    display: none;
-  }
-  
-  .h1-arte {
-    font-size: 3rem;
-    font-weight: 300;
-  }
+    section .logo {
+        display: none;
+    }
+
+    .h1-arte {
+        font-size: 3rem;
+        font-weight: 300;
+    }
 }
 
 /* Até 600px obedece ao código abaixo. (do small até 600px*/
 @media (max-width: 600px) {
 
-  footer .row .col-6 {
-    font-size: 0.8em;
-  }
+    footer .row .col-6 {
+        font-size: 0.8em;
+    }
 
-  footer .row .col-lg-4 a img {
-    height: 20px;
-    margin: 0px 10px 10px 0px;
-  }
-  .h1-arte {
-    font-size: 1.8rem;
-    font-weight: 300;
-  }
+    footer .row .col-lg-4 a img {
+        height: 20px;
+        margin: 0px 10px 10px 0px;
+    }
+
+    .h1-arte {
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
 
 }
-
