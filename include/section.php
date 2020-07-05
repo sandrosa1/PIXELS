@@ -2,26 +2,26 @@
 
 $subHome = '';
 $activeSec = '';
-$imgAniSec  = '../imagem/animacao/home.webp';
+$imgAniSec  = '../imagem/animacao/animacaoHome1.webp';
 $imgDeseSec  = '../imagem/vetoriais.webp';   
-$imgIlusSec  = '../imagem/ilustracao.webp';
-$imgModeSec  = '../imagem/modelagem.webp';
-$imgPixeSec  = '../imagem/pixelart-principal882x296.png';  
-$imgSabQSec = '../imagem/animacao/fatec.webp'; 
-$imgSabCSec = '../imagem/carreira.webp';
+$imgIlusSec  = '../imagem/animacao/ilustracao.webp';
+$imgModeSec  = '../imagem/animacao/modelagem.webp';
+$imgPixeSec  = '../imagem/animacao/pixelforest.webp';  
+$imgSabQSec = '../imagem/animacao/fatec1.webp'; 
+$imgSabCSec = '../imagem/animacao/carreira.webp';
 $imgSabNSec = '../imagem/norma800.png';
 
 if($page == 'home')
 {
     $subHome = '';
     $activeSec = 'homeSec';
-    $imgAniSec  = 'imagem/animacao/home.webp';
+    $imgAniSec  = 'imagem/animacao/animacaoHome1.webp';
     $imgDeseSec  = 'imagem/vetoriais.webp';   
-    $imgIlusSec  = 'imagem/ilustracao.webp';
-    $imgModeSec  = 'imagem/modelagem.webp';
-    $imgPixeSec  = 'imagem/pixelart-principal882x296.png';  
-    $imgSabQSec = 'imagem/animacao/fatec.webp'; 
-    $imgSabCSec = 'imagem/carreira.webp';
+    $imgIlusSec  = 'imagem/animacao/ilustracao.webp';
+    $imgModeSec  = 'imagem/animacao/modelagem.webp';
+    $imgPixeSec  = 'imagem/animacao/pixelforest.webp';  
+    $imgSabQSec = 'imagem/animacao/fatec1.webp'; 
+    $imgSabCSec = 'imagem/animacao/carreira.webp';
     $imgSabNSec = 'imagem/norma800.png';
     
 }
@@ -59,11 +59,11 @@ if($page == 'ilustracao')
 
 if($page == 'modelagem')
 {
-    $subModelagem = 'Modelagem 3d';
+    $subModelagem = 'modelagem.php';
     $activeSec = 'modelagemSec'; 
 }else
 {
-    $subModelagem = '../modelagem/Modelagem 3d';
+    $subModelagem = '../modelagem/modelagem.php';
 }
 if($page == 'pixel')
 {
@@ -94,60 +94,78 @@ if($page == 'saiba')
     <h3 class=" text-center <?php echo $activeSec ;?> ">Veja também</h3>
     <div class=" row imagensGaleria">
         <div class=" col-lg-3 galeria ">
-            <!--Animação-->
-            <a href="<?php echo $subAnimacacao ; ?>" style="text-decoration:none;color:black;"><img src=" <?php echo $imgAniSec  ; ?>  "
-                    alt="Logo do Portal Animação Digital" style="width:90%">
-                <h5 class="card-title  <?php echo $activeSec ;?> ">Por trás da Animação digital</h5>
-                <p class="card-text">Conheça a historia da Animação suas Tecnicas e profissionais de destaques
-                    <b>Saiba Mais...</b>
-                </p>
-            </a>
-            <!--Quem somos-->
-            <a href=" <?php echo $subSaibaQ ; ?> " style="text-decoration:none;color:black;"><img src=" <?php echo $imgSabQSec  ; ?> "
-                    alt="Pintura da fachada da fatec São Roque " style="width:90%">
-                <h5 class="card-title <?php echo $activeSec ;?> ">PORTAL PIXELS</h5>
-                    <p class="text-left">Grupo de desenvolvedores da fatec São Roque Criam o PORTAL PIXELS <b>Saiba Mais
-                            sobre essa equipe...</b></p>
-            </a>
-        </div>
-        <!--Desenho Vetorial-->
-        <div class=" col-lg-3 galeria ">
-            <a href=" <?php echo $subDesenho ; ?> " style="text-decoration:none;color:black;"><img src=" <?php echo $imgDeseSec  ; ?> "
-                    alt="Logo da Pagina Desenho Vetorial" style="width:90%">
-                <h5 class="card-title <?php echo $activeSec ;?> ">Desenho Vetorial</h5>
-                <p class="text-left">Coloque Seu Texto e Anexe a endereço da sua imagem no includer section.php <b>Saiba Mais...</b></p>
-            </a>
-            <!--Normas-->
-            <a href=" <?php echo $subSaibaN ; ?> " style="text-decoration:none;color:black;"><img src=" <?php echo $imgSabNSec  ; ?> "
-                    alt="Foto da pagina de normas " style="width:90%">
-                    <h5 class="card-title  <?php echo $activeSec ;?> ">Normas de utilização</h5>
-                <p class="text-left">Atenção leia nossas normas de utilização para maior segurança <b>Saiba Mais...</b>
-                </p>
+            <div class="card-body sectionFooter">
+                <a class=" linksAnimacao1"  href=" <?php echo $subDesenho ; ?> " target="blank"><img
+                        src=" <?php echo $imgDeseSec  ; ?> " alt="Logo da Pagina Desenho Vetorial" >
+                    <h5 class="card-title <?php echo $activeSec ;?> ">Desenho Vetorial</h5>
+                    <p class="text-left">Coloque Seu Texto e Anexe <b>Saiba Mais...</b>
+                    </p>
+                </a>
             </div>
-            <div class=" col-lg-3 galeria ">
-            <!--Desenho Vetorial-->
-            <a href=" <?php echo $subPixel ; ?> " style="text-decoration:none;color:black;"><img src=" <?php echo $imgPixeSec  ; ?>"
-                    alt="Logo tipo doa pagina pixel art" style="width:90%">
-                <h5 class="card-title  <?php echo $activeSec ;?> ">A arte do ponto a ponto</h5>
-                <p class="text-left">Veja também o portal Pixel Art e apreenda sobre a arte do ponto a ponto <b>Saiba Mais...</b></p>
-                        </a>
-                        <a href=" <?php echo $subSaibaC ; ?> " style="text-decoration:none;color:black;"><img src=" <?php echo $imgSabCSec  ; ?>"
-                    alt="Imagem peguntando o que você que faze, sobre profissão" style="width:90%">
-                <h5 class="card-title <?php echo $activeSec ;?> ">Junte-se a nós</h5>
-                <p class="text-left">venha fazer parte dessa equipe, e juntos vamos aumentar ainda mais o nosso alcance <b>Cadastre - se</b></p></a>
+            <div class="card-body sectionFooter ">
+                <a class=" linksAnimacao1" href=" <?php echo $subSaibaQ ; ?> " target="blank"><img
+                        src=" <?php echo $imgSabQSec  ; ?> " alt="Pintura da fachada da fatec São Roque ">
+                    <h5 class="card-title <?php echo $activeSec ;?> ">PORTAL PIXELS</h5>
+                    <p class="text-left">Estudantes da fatec São Roque criam o PORTAL PIXELS <b>Saiba Mais...</b>
+                </p>
+                </a>
+            </div>
         </div>
         <div class=" col-lg-3 galeria ">
-            <a href=" <?php echo $subIlustracao ; ?> " style=" text-decoration:none;color:black; "><img src=" <?php echo $imgIlusSec ; ?> "
-            alt="Logo do portal ilustraçao digital" style="width:90%">
-            <h5 class="card-title <?php echo $activeSec ;?> ">Ilustração Digital</h5>
-            <p class=" text-left">Coloque Seu Texto e Anexe a endereço da sua imagem no includer section.php <b>Saiba
-                    mais...</b></p>
-            <a href=" <?php echo $subModelagem ; ?> " style="text-decoration:none;color:black;"><img src=" <?php echo $imgModeSec ; ?> "
-                    alt="Logo da pagina modelagme 3d" style="width:90%">
-                <h5 class="card-title  <?php echo $activeSec ;?> ">Modelagem 3D</h5>
-                <p class=" text-left">Coloque Seu Texto e Anexe a endereço da sua imagem no includer section.php <b>Saiba
-                    Mais...</b></p>
-            </a>
+            <div class="card-body sectionFooter">
+                <a  class=" linksAnimacao1" href=" <?php echo $subSaibaN ; ?> " target="blank"><img
+                        src=" <?php echo $imgSabNSec  ; ?> " alt="Foto da pagina de normas ">
+                    <h5 class="card-title  <?php echo $activeSec ;?> ">Normas</h5>
+                    <p class="text-left">Conheça as normas de utilização <b>Saiba Mais...</b>
+                    </p>
+                </a>
+            </div>
+            <div class="card-body sectionFooter">
+                <a class=" linksAnimacao1" href="<?php echo $subAnimacacao ; ?> " target="blank" ><img
+                        src=" <?php echo $imgAniSec  ; ?>  " alt="Logo do Portal Animação Digital" >
+                    <h5 class="card-title  <?php echo $activeSec ;?> ">Por trás da Animação digital</h5>
+                    <p class="card-text">A historia da Animação suas Tecnicas e profissionais <b>Saiba Mais...</b>
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class=" col-lg-3 galeria ">
+            <!--Quem somos-->
+            <div class="card-body sectionFooter ">
+                <a class=" linksAnimacao1" href=" <?php echo $subSaibaC ; ?> " target="blank"><img
+                        src=" <?php echo $imgSabCSec  ; ?>" alt="Imagem peguntando o que você que faze, sobre profissão" class="sectionBottom">
+                        
+                    <h5 class="card-title <?php echo $activeSec ;?> ">Junte-se a nós</h5>
+                    <p class="text-left">Faça parte dessa equipe
+                        <b>Cadastre - se</b></p>
+                </a>
+            </div>
+            <div class="card-body sectionFooter">
+                <a class=" linksAnimacao1" href=" <?php echo $subPixel ; ?> " target="blank"><img
+                        src=" <?php echo $imgPixeSec  ; ?>" alt="Logo tipo doa pagina pixel art" class="sectionBottom">
+                    <h5 class="card-title  <?php echo $activeSec ;?> ">Pixel Art</h5>
+                    <p class="text-left">A arte do ponto a ponto
+                        <b>Saiba Mais...</b></p>
+                </a>
+            </div>
+        </div>
+        <div class=" col-lg-3 galeria ">
+            <div class="card-body sectionFooter">
+                <a class=" linksAnimacao1" href=" <?php echo $subIlustracao ; ?>" target="blank"><img
+                        src=" <?php echo $imgIlusSec ; ?> " alt="Logo do portal ilustraçao digital" class="sectionBottom">
+                    <h5 class="card-title <?php echo $activeSec ;?> ">Ilustração Digital</h5>
+                    <p class=" text-left">Um mundo de vantagens
+                        <b>Saiba
+                            mais...</b></p>
+                </a>
+            </div>
+            <div class="card-body sectionFooter">
+                <a class=" linksAnimacao1" href=" <?php echo $subModelagem ; ?>" target="blank" ><img
+                        src=" <?php echo $imgModeSec ; ?> " alt="Logo da pagina modelagme 3d" class=" sectionBottom ">
+                    <h5 class="card-title  <?php echo $activeSec ;?> ">Modelagem 3D</h5>
+                    <p class=" text-left">Aproximando você da realidade <b>Saiba Mais...</b></p>
+                </a>
+            </div>  
         </div>
     </div>
 </div>

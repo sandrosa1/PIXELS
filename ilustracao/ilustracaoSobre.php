@@ -14,7 +14,8 @@
             <p class="text-left lead pr-2 pl-3">O artista do desenho digital pode optar em utilizar como base em sua criação as mesmas técnicas que são utilizadas no desenho e/ou pintura tradicionais. A diferença é que ele irá emular no software, por exemplo, a aquarela, guache, óleo, grafite, carvão, entre outras, até porque alguns artistas ampliam suas fronteiras neste mundo digital, inventando novas técnicas. O céu é o limite. Não tenha medo em experimentar.</p>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-sm-1
+                    2 col-md-6 col-lg-6">
             <h1>As vantagens do desenho digital</h1>
             <ul>
                 <li class="lead pr-2 pl-3">Acabou a preocupação! Desenhe sem se preocupar em destruir o desenho. O uso de camadas e o famoso comando desfazer só são possíveis no mundo digital. Usufrua!</li>
@@ -32,7 +33,7 @@
                 <li class="lead pr-2 pl-3">Liberdade de experimentação. Aprenda fazendo de verdade.</li>
             </ul>
             <div class="text-center">
-                <img class="rounded" src="../imagem/ilustracao-sobre550x200.png" alt="Homen Desenhando">
+                <img class="rounded" src="../imagem/ilustracao-digital/ilustracao-sobre550x200.webp" alt="Homen Desenhando">
             </div>
         </div>
     </div>
