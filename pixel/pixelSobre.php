@@ -16,7 +16,7 @@ include '../include/header.php'; ?>
         <!-- Introdução -->
         <div class="row justify-content-center no-margin">
             <div class="col-sm-12 col-md-5 col-lg-4">
-                <img class="img-fluid mb-3 img-center" src="../imagem/pixel/pac_man.webp" alt="tela do jogo">
+                <img class="img-fluid mb-3 img-center rounded" src="../imagem/pixel/pac_man.webp" alt="tela do jogo">
             </div>
             <div class="col-sm-12 col-md-5 col-lg-5 text-justify">
                 <p class="">Você já viu os jogos de video-game dos 80 e 90? Para quem era criança nessa época, deve se lembrar dos jogos de Atari, Mega Drive, Super Nintendo. Pois os graficos para esses video-games eram feitos em PIXEL.</p>
@@ -28,7 +28,7 @@ include '../include/header.php'; ?>
         <!-- História -->
         <div class="row justify-content-center no-margin">
             <div class="col-sm-12 col-md-5 col-lg-4 ">
-                <img class="img-fluid mb-3 img-center" src="../imagem/pixel/sonic-mario-gp.webp" alt="conjunto de 3 imagens. Super Mario, Sonic e Gp">
+                <img class="img-fluid mb-3 img-center rounded" src="../imagem/pixel/sonic-mario-gp.webp" alt="conjunto de 3 imagens. Super Mario, Sonic e Gp">
             </div>
             <div class="col-sm-12 col-md-5 col-lg-5 text-justify">
                 <h2 class="pb-3">História</h2>
@@ -59,16 +59,13 @@ include '../include/header.php'; ?>
             <div class="col-sm-12 col-md-10 col-lg-9 text-center d-flex align-items-center justify-content-center card-deck">
                 <div class="card-deck">
                     <div class="card">
-                        <img class="card-img-top rounded" src="../imagem/pixel/rogue-legacy.webp" alt="Card image cap">
-
+                        <img class="card-img-top rounded" src="../imagem/pixel/rogue-legacy.webp" alt="Cavaleiro de armadura do Rogue Legacy">
                     </div>
                     <div class="card">
-                        <img class="card-img-top rounded" src="../imagem/pixel/minecraft.webp" alt="Card image cap">
-
+                        <img class="card-img-top rounded" src="../imagem/pixel/minecraft.webp" alt="Castelo no Minecraft">
                     </div>
                     <div class="card">
-                        <img class="card-img-top rounded" src="../imagem/pixel/minecraft2.webp" alt="Card image cap">
-
+                        <img class="card-img-top rounded" src="../imagem/pixel/minecraft2.webp" alt="Avatar e porco no Minecraft">
                     </div>
                 </div>
             </div>
@@ -81,16 +78,13 @@ include '../include/header.php'; ?>
             <div class="col-sm-12 col-md-10 col-lg-9 text-center d-flex align-items-center justify-content-center card-deck">
                 <div class="card-deck">
                     <div class="card">
-                        <img class="card-img-top rounded" src="../imagem/pixel/cocacola.webp" alt="Card image cap">
-
+                        <img class="card-img-top rounded" src="../imagem/pixel/cocacola.webp" alt="Propaganda Coca-Cola">
                     </div>
                     <div class="card">
-                        <img class="card-img-top rounded" src="../imagem/pixel/yahoo.webp" alt="Card image cap">
-
+                        <img class="card-img-top rounded" src="../imagem/pixel/yahoo.webp" alt="Propaganda Yahoo">
                     </div>
                     <div class="card">
-                        <img class="card-img-top rounded" src="../imagem/pixel/honda.webp" alt="Card image cap">
-
+                        <img class="card-img-top rounded" src="../imagem/pixel/honda.webp" alt="Propaganda da Honda">
                     </div>
                 </div>
             </div>
@@ -101,32 +95,13 @@ include '../include/header.php'; ?>
                 <p>Não só presente em jogos, e propaganda, o estilo atingiu um novo nível. Em 2017 no museu de artes de Houston, The Museum of Fine Arts, Pipilotti Rist, um artista suiço, em colaboração com a designer de luzes Kaori Kuwabara expuseram o Pipilotti Rist: Pixel Forest and Worry Will Vanish.</p>
                 <p>Através da inspiração pelos pixels, os artistas criaram uma composição de luzes pendentes, imagens, sons e cores que levavam os visitantes a sensação de uma viagem cósmica através do tempo e espaço, conciliando o advento tecnológico à arte.</p>
                 <p>O Pixel Art é uma arte tanto simples, quanto complexa.</p>
-                            <p>E sua beleza está ao se ver o conjunto do ponto a ponto, ou melhor, do pixel a pixel.</p>
+                <p>E sua beleza está ao se ver o conjunto do ponto a ponto, ou melhor, do pixel a pixel.</p>
             </div>
             <div class="col-sm-12 col-md-5 col-lg-4 ">
-                <img src="../imagem/pixel/pixelforest.webp" alt="Exposição Pixel Forest com luzes pendentes" class=" img-fluid  d-block mx-auto" />
+                <img src="../imagem/pixel/pixelforest.webp" alt="Exposição Pixel Forest com luzes pendentes" class=" img-fluid rounded d-block mx-auto" />
             </div>
-
-                           
-
-
         </div>
     </article>
-
-</div>
-
-<!--
-        
-
-
-
-
--->
-
-</article>
-
-
-
 </div>
 <?php include '../include/footer.php' ?>
 <?php include '../include/nossosLinksBotom.php' ?>
