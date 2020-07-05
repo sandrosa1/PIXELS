@@ -177,8 +177,8 @@ switch($page)
         }
         
         ?>">
-            <!--O index e a unica pagina que esta na raiz então esse if e para mostrar o caminho do logo para todas as outras -->
-            <img src="
+        <!--O index e a unica pagina que esta na raiz então esse if e para mostrar o caminho do logo para todas as outras -->
+        <img src="
         <?php if($page =='home')
         { 
             echo 'imagem/logo500.png';
@@ -189,14 +189,15 @@ switch($page)
 
         ?>" alt="Logo" style=" width:80px;">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
             <!--Este for acessa o a variavel menu e cria o nav-->
             <ul class=" navbar-nav p-2 flex-fill bd-highlight text-center">
-                <?php
+        <?php
 
         // 7 e a quantidade de links nas Paginas Principais
         for($i = 0; $i < 7; $i++ )
@@ -240,12 +241,11 @@ switch($page)
                 }
             }
         }
-    ?>
+    ?>             
             </ul>
         </div>
     </nav>
     <div id="portal" class="row <?=$footer?>">
-        <div class=" col-lg-12 ">
-            <p class="h1 text-center fonteh1"><?= $display?></p>
+        <div class=" col-lg-12 " ><p class="h1 text-center fonteh1"><?= $display?></p>
         </div>
     </div>
