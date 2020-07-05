@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <img src="../imagem/animacao/animacaoInicio.webp" alt="Ivan Sutherland e sua caneta óptica"
-                        class="img-fluid  align-items-center" style='float:left;width:500px; margin-right:20px;' />
+                        class="img-fluid  align-items-center imagemLeft1" />
                     <p class=" text-justify">A história da animação digital está diretamente relacionada com
                         a história da computação gráfica. Desde os primeiros dispositivos
                         disponíveis foram percebidas as possibilidade de uso para geração
@@ -35,11 +35,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                <h2 class=" text-center animacaoh1 ">Mas o que é Animaçã Digital</h2>
+                <div class="col-md-12" id="oQueE">
+                    <h2 class=" text-center animacaoh1 ">Mas o que é Animaçã Digital</h2>
                     <img src="../imagem/animacao/animacaoTrabalhando.webp"
-                        alt="Imagen de um tela de computador animando uma imagem" class="img-fluid  align-items-center"
-                        style='float:right;width:400px; margin-left:20px;' />
+                        alt="Imagen de um tela de computador animando uma imagem" class="img-fluid  align-items-center imagemRight"/>
                     <p class=" text-justify">A animação digital é a arte de criar imagens em movimento
                         utilizando computadores, mais especificamente usando recursos de computação gráfica que
                         surgiu durante a era da animação por computador. É um subcampo da computação gráfica e
@@ -69,10 +68,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8" id="fantasmagol">
                     <h2 class=" text-center animacaoh1 ">Inicio no Cinema</h2>
-                    <img class="img-fluid  align-items-center" alt="Cena da Primeira animação reconhecida "
-                        style='float:left;width:300px; margin:10px;'
+                    <img class="img-fluid  align-items-center imagemLeft2" alt="Cena da Primeira animação reconhecida "
                         src="../imagem/animacao/animacaoFantasmagol.webp" />
                     <p class=" text-justify">A primeira animação reconhecida é de Émile Courtet e se concretizou em
                         1892, sendo reproduzida em um projetor na cidade de Paris. Já o primeiro longa-metragem
@@ -104,9 +102,8 @@
                         qual outros estúdios viram que era possível fazer filme com computação. Após isso houve
                         outras tentativas de lançamentos de filmes, de 1996 até 2000 foram feitas sete tentativas,
                         contudo nenhuma deu certo devido a pouco material.</p>
-                    
                     <div class="row justify-content-md-center">
-                    <h3 class=" text-center animacaoh1">grandes longas de animação digital e Produtoral</h3>
+                        <h3 class=" text-center animacaoh1">Grandes longas de animação digital e Produtoras</h3>
                         <div class="col- 3 galeria ">
                             <ul>
                                 <li>A era do gelo</li>
@@ -119,9 +116,9 @@
                                 <li>O Grinch</li>
                             </ul>
                         </div>
-                        <div class="col - 3 galeria ">
-                            <a><img src="../imagem/animacao/animacaoBlueSky.webp"style="width:90%; " alt=""></a>
-                            <a><img src="../imagem/animacao/animacaoIlumination.webp" style="width:90%; "></a>
+                        <div class="col - 3 galeria  grandesAni">
+                            <a href="http://blueskystudios.com/"><img src="../imagem/animacao/animacaoBlueSky.webp" alt="Logo da BlueSky" ></a>
+                            <a href="https://www.illuminationmacguff.com/"><img src="../imagem/animacao/animacaoIlumination.webp" alt="Logo da Ilumination" ></a>
                         </div>
                         <div class="col- 3 galeria ">
                             <ul>
@@ -135,17 +132,28 @@
                                 <li>Divertida Mente/li>
                             </ul>
                         </div>
-                        <div class="col- 3 galeria ">
-                            <a><img src="../imagem/animacao/animacao.webp"style="width:90%;"></a>
-                            <a><img src="../imagem/animacao/animacaoPixarLogo.webp" style="width:90%; "></a>
+                        <div class="col- 3 galeria  grandesAni">
+                            <a href="https://www.dreamworks.com/" ><img src="../imagem/animacao/animacao.webp" alt="Logo Da dream works"></a>
+                            <a href="https://www.pixar.com/"><img src="../imagem/animacao/animacaoPixarLogo.webp" alt="Logo da pixar" ></a>
                         </div>
-                    </div>  
+                    </div>
+                    <aside>
+                        <h2 class=" text-center animacaoh1">Curriosidades</h2>
+                        <img class="img-fluid  align-items-center imagemLeft4" alt="Imagem de da capa da animação tintoY"
+                            src="../imagem/animacao/animacaoTinToy.webp" />
+                        <p class=" text-justify">Não poderiamos deixar de falar sobre<b>Tin Toy </b> que é um
+                            curta-metragem animado por computador feito
+                            pela Pixar Animation Studios e dirigido por John Lasseter. Este curta pode ser
+                            assistido pela internet,ou no antigo VHS Tiny Toy Stories de 1996, Pixar Short
+                            Films Collection - Volume 1 ou como extra na fita de Toy Story lançada em 2000.
+                            Foi o vencedor do Oscar na categoria de melhor curta animado em 1988.
+                        </p>
+                    </aside>
                 </div>
                 <div class="col-md-4">
-                    <h2 class=" text-center animacaoh1">Maiores Bilheterias</h2>
+                    <h2 class=" text-center animacaoh1" id="bilheterias">Maiores Bilheterias</h2>
                     <aside>
-                        <aside><img class="img-fluid  align-items-center" alt="Imagem de da capa da animação tintoY"
-                                style='float:left;width:100px; margin-right:20px;'
+                        <aside><img class="img-fluid  align-items-center imagemLeft5" alt="Imagem de da capa da animação tintoY"
                                 src="../imagem/animacao/animacaoFrozen.webp" />
                             <p class=" text-justify"><b>Frozen </b>Uma Aventura Congelante, Bilheteria mundial:
                                 US$ 1,27 bilhão.
@@ -155,17 +163,15 @@
                                 mundiais. É o terceiro filme original (que não é continuação) de maior
                                 bilheteria, a terceira maior bilheteria na história do Japão</p>
                         </aside>
-                        <aside><img class="img-fluid  align-items-center" alt="Imagem de da capa da animação Minions"
-                                style='float:left;width:100px; margin-right:20px;'
+                        <aside><img class="img-fluid  align-items-center imagemLeft5" alt="Imagem de da capa da animação Minions"
                                 src="../imagem/animacao/animacaoMinions.webp" />
                             <p class=" text-justify"><b>Minons </b>Bilheteria mundial: US$ 1,14 bilhão, Estúdio:
                                 Universal. Embora não tenha tido sucesso de crítica, o filme foi um enorme sucesso
                                 de bilheteria, arrecadando mais de $1,1 bilhão de dólares, sendo a quarta animação
                                 de maior bilheteria, e a 21ª maior bilheteria de todos os tempos.</p>
                         </aside>
-                        <aside><img class="img-fluid  align-items-center"
+                        <aside><img class="img-fluid  align-items-center imagemLeft5"
                                 alt="Imagem de da capa da animação Toy History"
-                                style='float:left;width:100px; margin-right:20px;'
                                 src="../imagem/animacao/animacaoToyHistory.webp" />
                             <p class=" text-justify"><b>Toy History </b>é um filme de animação, aventura e comédia
                                 americano lançado em 1995. É conhecido por ser o primeiro filme da história do
@@ -175,17 +181,19 @@
                                 bilhão
                             </p>
                         </aside>
-                        <aside><img class="img-fluid  align-items-center" alt="Imagem de da capa da animação tintoY"
-                                style='float:left;width:100px; margin-right:20px;'
-                                src="../imagem/animacao/animacaoTinToy.webp" />
-                            <p class=" text-justify">Não poderiamos deixar de falar sobre<b>Tin Toy </b> que é um
-                                curta-metragem animado por computador feito
-                                pela Pixar Animation Studios e dirigido por John Lasseter. Este curta pode ser
-                                assistido pela internet,ou no antigo VHS Tiny Toy Stories de 1996, Pixar Short
-                                Films Collection - Volume 1 ou como extra na fita de Toy Story lançada em 2000.
-                                Foi o vencedor do Oscar na categoria de melhor curta animado em 1988.
-                            </p>
-                        </aside>
+                        <h4 class=" text-center animacaoh1 " id="steve">Voce Sabia?</h4>
+                        <p class=" text-justify">
+                            Em 1986,<b>Steve Jobs</b>comprou da Lucasfilm um estúdio de computação gráfica, o Pixar
+                            Studios, por dez milhões de dólares. Com uma parceria estratégica com a Disney criou,
+                            produziu e lançou vários filmes em animação 3D de sucesso, tais como o Toy Story, Procurando
+                            Nemo, Ratatouille, "Up, Altas Aventuras" e "Aviões". Com a compra dos estúdios Pixar pelo
+                            grupo de comunicação e entretenimento Walt Disney, Jobs tornou-se o maior acionista
+                            individual da Disney, onde deveria ocupar um posto no conselho diretivo, segundo uma nota
+                            divulgada pela Disney no dia da aquisição, em 2006.</p>
+                            <img class="img-fluid  align-items-center"
+                                alt="Imagem de Steve Jobs"
+                                src="../imagem/animacao/animacaoSteve.webp" />
+                        
                     </aside>
                 </div>
             </div>
@@ -208,9 +216,8 @@
             </div>
         </article>
         <section>
-        <?php include '../include/section.php'?>
+            <?php include '../include/section.php'?>
         </section>
-
     </div>
 </div>
 <?php include '../include/footer.php'?>

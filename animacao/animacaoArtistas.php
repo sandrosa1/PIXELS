@@ -4,11 +4,10 @@
 <div class="container-fluid" id="inicio">
     <article>
         <div class="container">
-            <h1 class=" text-center animacaoh1 ">Principais nomes da Animação</h1>
+            <h1 class=" text-center animacaoh1 ">Conheça Alvy Ray</h1>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 artistasAni">
                     <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
-                        style='float:left;width:500px; margin-right:20px;'
                         src="../imagem/animacao/animacaoAlvyRaySmith.webp" />
                     <h2 class=" text-center animacaoh1">Alvy Ray Smith</h2>
                     <p class=" text-justify">Alvy Ray Smith (Mineral Wells, Texas, 8 de setembro de 1943) é um
@@ -19,8 +18,7 @@
                         pesquisas e criação em computação gráfica: Altamira, Pixar, Lucasfilm e New York Tech, tendo
                         conquistado diversos prêmios por suas contribuições em filmes como Star Trek, Tin Toy e Toy
                         Story, dentre outros. Encerrou a carreira em 2000 para dedicar-se à então emergente fotografia
-                        digital e ao estudo
-                        acadêmico de genealogia.</p>
+                        digital e ao estudo acadêmico de genealogia.</p>
                     <h3 class=" text-center animacaoh1">Carreira</h3>
                     <p class=" text-justify">Após obter seu Ph.D., Alvy Ray Smith trabalhou desenvolvendo novas
                         tecnologias da computação no
@@ -45,78 +43,43 @@
                 </div>
             </div>
             <!--Segunda parte-->
+            <h2 class=" text-center animacaoh1">Grandes nomes da Animação</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
-                        style='width:100%; margin-top:20px;' src="../imagem/animacao/animacaoNeilHuxley.webp" />
-                    <h2 class=" text-center animacaoh1">Neil Huxley</h2>
-                    <p class=" text-justify">
-                        Na esfera comercial, a ação ao vivo de Neil e a direção de efeitos visuais são celebradas por
-                        misturar o elegante e o meticuloso com o violento e o sombrio.A extensa experiência de Neil no
-                        pós e VFX o levou a dirigir a arte da
-                        sequência do título de Watchmen de Zach Snyder antes de trabalhar ao lado de James Cameron por
-                        18 meses no sucesso de bilheteria Avatar. Desde então, ele dirigiu vários projetos de ação ao
-                        vivo e baseados em FX, que incluem o trailer de lançamento de Transformers: Fall of Cybertron,
-                        Mad Max, Rise of the Tomb Raider e Assassin's Creed Unity, além de vários filmes </p>
-                    <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
-                        style='width:100%; margin-top:20px;' src="../imagem/animacao/animacaoRay.webp" />
-                    <h2 class=" text-center animacaoh1">Ray Harryhausen </h2>
-                    <p class=" text-justify">Ray Harryhausen (Los Angeles, 29 de junho de 1920 - 7 de maio de 2013 )
-                        nascido como Raymond Frederick Harryhausen foi um profissional da área de animação stop motion,
-                        técnica de animação onde os modelos são fotografados quadro a quadro. Tornou-se em meados do
-                        século XX o principal técnico da área na indústria do cinema estadunidense.</p>
+                <div class="col-md-4 artistasAni2">
+                    <img class="img-fluid  align-items-center" alt=" Foto de >William Hanna e Joseph Barbera" src="../imagem/animacao/animacaoDupla.webp" />
+                    <h2 class=" text-center animacaoh1">William Hanna e Joseph Barbera</h2>
+                    <p class=" text-justify">A frase ”duas cabeças pensam melhor que uma” pode ser muito bem usada para descrever uma das melhores duplas da história das animações.A dupla se conheceu em 1937, quando trabalhavam para a MGM, e lá produziram sua primeira grande animação, Tom e Jerry , que entre o ano de fundação, e até 1953, rendeu a dupla 8 Oscar. O desenho se tornou extremamente popular, devido ao alto conteúdo de ação que possuía, pois a base dele era o gato Tom perseguindo a ratinha Jerry, e era assim até que o curta acabasse.</p>
+                    <img class="img-fluid  align-items-center" alt=" Foto de Walter Lantz "
+                    src="../imagem/animacao/animacaoWalter.webp" />
+                    <h2 class=" text-center animacaoh1">Walter Lantz</h2>
+                    <p class=" text-justify">Walter Lantz foi aquele responsável pela criação daquele personagem que ao mesmo tempo nos irritava, também nos cativava com suas aventuras, o Pica-Pau, um dos poucos personagens que conseguia rivalizar com Mickey e Pernalonga em popularidade.</p>
                 </div>
-                <div class="col-md-4">
-                    <h2 class=" text-center animacaoh1">Michel Giaimo</h2>
-                    <p class=" text-justify">Mike Giaimo entrou em animação pela rota que vários artistas neófitos
-                        percorreram na década de 1970: Aluno promissor na Cal Arts faz um filme de animação; A Walt
-                        Disney Productions leva o mesmo brilho; a Casa dos Ratos então pega o neófito para trabalhar em
-                        Burbank.
-                        Parece simples, mas nem sempre foi. Michael começou sua carreira na Disney da mesma maneira que
-                        muitos outros. Ele intermediou a produção enquanto fazia um rolo de animação pessoal. Mas ele
-                        logo se viu marcado pelos superiores como tendo uma centelha no desenvolvimento de histórias. E
-                        dentro de um curto período de tempo, o Sr. Giaimo se viu sendo orientado pelo jovem artista de
-                        histórias Pete Young.
-                        Giaimo deixou a Disney no final dos anos 80, depois de trabalhar em Fun With Mr. Future e dois
-                        anos de intenso trabalho de desenvolvimento em um longa-metragem intitulado Who Framed Roger
-                        Rabbit.
-                        Mike retornou ao rebanho da Disney vários anos depois e atuou como diretor de arte em
-                        Pocahontas. Mike permaneceu na Disney depois, mas finalmente partiu para projetar e dirigir a
-                        série de televisão Hi Hi Puffy AmiYumi. Hoje ele está novamente na House of Mouse, novamente
-                        projetando para recursos animados.</p>
-                    <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
-                        style='width:100%;  margin-top:20px;' src="../imagem/animacao/animacaoMike.webp" />
+                <div class="col-md-4 artistasAni2">
+                    <img class="img-fluid  align-items-center" alt=" Foto de Walt Disney"
+                        src="../imagem/animacao/animacaoWallt.webp" />
+                        <h2 class=" text-center animacaoh1">WALT DISNEY</h2>
+                    <p class=" text-justify">Sua carreira como animador começa em 1922, onde junto com Ub Iwers e o seu irmão Roy fundam a produtora Laugh-O-Grahm, que fazia animações que falavam sobre problemas locais da cidade, e que fizeram um grande sucesso, e que levou Disney a fazer então animações de contos de fadas famosos. Porém, a empresa acabou falindo, e Disney decidiu ir para o único lugar onde poderia ser reconhecido: Hollywood.</p>
+                        <img class="img-fluid  align-items-center" alt=" Foto de Hayao Miyazaki "
+                    src="../imagem/animacao/animacaoHayao.webp" />
+                    <h2 class=" text-center animacaoh1">Hayao Miyazaki</h2>
+                    <p class=" text-justify">Começou a desenhar em 1958, quando fazia Ciências Políticas e Economia na Universidade Gakushuin, onde colocava no papel os aviões e aeronaves, baseando-se no trabalho do seu pai. Conseguiu um emprego na Toei Animation. No novo emprego, era auxiliar em diversas produções e ajudava com algumas burocracias dentro da empresa. Foi la que também que trabalhou com sua primeira animação, The Wonderful World of Puss n Boots.</p> 
                 </div>
-                <div class="col-md-4">
-                    <img class="img-fluid  align-items-center" alt=" Foto de Fausto "
-                        style='width:100%;   margin-top:20px;' src="../imagem/animacao/animacaoFausto.webp" />
-                    <h2 class=" text-center animacaoh1">Fausto</h2>
-                    <p class=" text-justify">"Comecei minha carreira trabalhando para a indústria de propaganda no
-                        Brasil,
-                        o que foi uma experiência de aprendizado incrível. Desde que cresci jogando, concentrei meu foco
-                        em trabalhar
-                        nessa indústria e, para isso, comecei a desenvolver meu portfólio pessoal de personagens,
-                        inclinando-me para o estilo futurista de ficção científica de Starcraft, que era um grande fã
-                        dos dois jogos. e o Cinematics. Postei o personagem em que trabalhei no meu tempo livre em
-                        fóruns como CGChannel e CGHub e consegui chamar a atenção da Blizzard, que me deu um emprego
-                        como cinemático.
-                        Depois de quase 10 anos trabalhando na Blizzard, tive a oportunidade de trabalhar na indústria
-                        cinematográfica como Concept Artist / Illustrator e tive a sorte de trabalhar com muitos
-                        artistas incríveis em Robocop, Transformers 4, Star Wars VII e atualmente nas Avatar Sequels.
-                        Eu tenho uma paixão enorme por arte e design em geral, então o que você vê aqui é o reflexo
-                        dessa paixão. Estou sempre trabalhando em projetos pessoais, pois adoro o processo criativo de
-                        criar mundos, objetos, criaturas etc."</p>
+                <div class="col-md-4 artistasAni2">
+                    <img class="img-fluid  align-items-center" alt=" Foto de Winsor McCay "
+                        src="../imagem/animacao/animacaoWilson.webp" />
+                    <h2 class=" text-center animacaoh1">Winsor McCay</h2>
+                    <p class=" text-justify">Pioneiro, inovador, gênio. Faltam adjetivos para descrever Winsor McCay, o pioneiro das animações nos Estados Unidos. Sua técnica para desenhar era tão apurada, tão diferente, que serviria como base para diversos animadores que surgiriam depois como Tex Avery, Walter Lantz, até mesmo Walt Disney.</p>
+                    <img class="img-fluid  align-items-center" alt=" Foto de Max Fleischer "
+                        src="../imagem/animacao/animacaoMax.webp" />
+                    <h2 class=" text-center animacaoh1">MAX FLEISCHER</h2>
+                    <p class=" text-justify">A primeira invenção de Fleischer, ainda quando trabalhava como editor da Popular Science Magazine foi o Rotoscópio. Na época, as animações que surgiram eram muito travadas. Winsor McCay, para melhorar isso criou um dispositivo que funcionava da seguinte forma: um ator era filmado atuando a cena que seria animada, e então o desenhista faria o desenho em cima dos frames da cena. Era algo tão inovador que até a própria Disney usou o método na sua primeira grande animação Branca De Neve e os 7 anões.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
-                    <img class="img-fluid  align-items-center" alt="Logotipo da"
-                        style=' width:100%; margin: 20px auto 20px auto;'
-                        src="../imagem/animacao/animacaoPixarLogo.webp" />
-                    <img class="img-fluid  align-items-center" alt=""
-                        style='float:right ;width:500px; margin-left:20px;'
+                <div class="col-md-12 artistasAni">
+                    <img class="img-fluid  align-items-center" alt="Imagem de Jonh Lasseter"
                         src="../imagem/animacao/animacaoJohnAlanLasseter.webp" />
-                    <h2 class=" text-center animacaoh1">John Alan Lasseter</h2>
+                    <h2 class=" text-center animacaoh1" id="JohnAlanLasseter">John Alan Lasseter</h2>
                     <p class=" text-justify">John Alan Lasseter (Los Angeles, 12 de janeiro de 1957) é um diretor e
                         produtor americano. Ele é mais conhecido por ser o diretor de criação da Pixar, Walt Disney
                         Animation Studios e DisneyToon Studios. E é também o principal consultor criativo da Walt Disney
@@ -140,7 +103,6 @@
                         Mickey". Em 1980, mesmo ano de sua formatura, John ainda ganhou um segundo Student Academy
                         Awards, desta vez por "Nitemare", curta que escreveu e dirigiu como trabalho de seu último ano.
                         <img class="img-fluid  align-items-center" alt="Duas luminarias olhanda para uma bola"
-                            style='float:left ;width:500px; margin:20px 20px 20px 0px;'
                             src="../imagem/animacao/animacaoWallb.webp" />
                         Foi dentro dos seus cinco anos de trabalho como animador na Disney que John teve sua primeira
                         experiência em animação digital. Durante a produção do filme TRON, de 1982, que misturava atores
@@ -168,7 +130,6 @@
                         que sempre me interessou". Jobs comprou a empresa por cinco milhões de dólares, prometendo
                         investir outros cinco em capital.
                         <img class="img-fluid  align-items-center" alt="Duas luminarias olhanda para uma bola"
-                            style='float:right ;width:500px; margin:20px 0px 20px 20px;'
                             src="../imagem/animacao/animacaoluxojr.webp" />
                         Com um novo dono, novos recursos e um foco diferente para se trabalhar, a
                         então divisão da Lucasfilm virou a Pixar Inc., empresa que continuava a desenvolver hardware
@@ -188,11 +149,11 @@
                         passou a usar a luminária Luxo Jr. como símbolo da empresa.</p>
                 </div>
             </div>
+        </div>
     </article>
     <section>
         <?php include '../include/section.php'?>
     </section>
-</div>
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>

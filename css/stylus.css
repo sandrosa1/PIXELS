@@ -271,10 +271,83 @@ nav img:hover {
     padding: 0px;
 }
 
-/*Sobre*/
+.headerAni {
+    position: relative;
+    width: 100%;
 
-/*Sobre a animaçao*/
+}
 
+/*cria uma margem no container*/
+
+.animacaoHomeP {
+    margin: 30px 10px 0px 10px;
+}
+
+/*Da uma posição e tamanho maximo para o container*/
+
+.container1 {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/*Avisa a imagem que ela pode usar 100% do*/
+
+.container1 img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* Coloca o elemento content1 sobre o container e aplica um opacidade */
+
+.container1 .content1 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.block2 {
+    margin-top: 50px;
+}
+
+.verticalLine {
+    border-right: 1px solid;
+    border-color: var(--animacao-color);
+}
+
+.horizontalline {
+    border-bottom: 1px solid;
+    border-color: var(--animacao-color);
+}
+
+.semBordas {
+    border: 0px;
+}
+
+.linksAnimacao:link {
+    text-decoration: none;
+
+}
+
+.linksAnimacao1:link {
+    text-decoration: none;
+}
+
+.linksAnimacao {
+    text-decoration: none;
+    color: white;
+}
+
+.linksAnimacao1 {
+    color: black;
+}
+
+
+/*--------------------------------Animação-Sobre------------------------*/
 .animacaoh1 {
     font-family: var(--fonte-family);
     font-weight: 600;
@@ -293,26 +366,92 @@ nav img:hover {
     margin-right: 20px;
 }
 
+.imagemRight {
+    float: right;
+    width: 500px;
+    margin-left: 20px;
+}
 
+.imagemLeft1 {
+    float: left;
+    ;
+    width: 400px;
+    margin-right: 20px;
+}
 
+.imagemLeft2 {
+    float: left;
+    ;
+    width: 300px;
+    margin: 10px 20px 20px 10px;
+}
 
+.grandesAni a img {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+}
 
+.imagemLeft3 {
+    width: 100px;
+    max-height: 100px;
+    margin-bottom: 20px;
+}
 
+.imagemLeft4 {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
 
-/*ANIMAÇAO--GALERIA*/
-.galeriaAni {
-
-    margin: 0px;
-    padding: 0px;
+.imagemLeft5 {
+    float: left;
+    width: 100px;
+    margin-right: 20px;
 }
 
 
 
+/*--------------------------------Tecnicas De Animação-----------------------------*/
+
+.tecnicasAni {
+    margin: 10px auto 0px auto;
+}
+
+.tecnicasAni aside img {
+    float: left;
+    max-width: 220px;
+    margin: 15px;
+}
+
+.tecnicasAni aside {
+    border-bottom: solid 0.3px blue;
+}
+
+/*Artistas Animaçao*/
+
+.artistasAni img {
+    float: left;
+    width: 500px;
+    margin-right: 20px;
+
+}
+
+.artistasAni3 img {
+    width: 400px;
+}
+
+
+/*------------------------------------ANIMAÇAO--GALERIA-------------------------------*/
+.galeriaAni {
+    margin: 0px;
+    padding: 0px;
+}
+
 .animacaoGaleria {
     max-width: 90%;
-    margin: 10px auto 0px auto;
+    margin: 20px 35px 0px auto;
     padding: 0px;
-
 }
 
 .galeria a {
@@ -346,37 +485,81 @@ nav img:hover {
     transform: scale(1.1);
 }
 
-/* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
+/*--------------------------------- Layout responsivo - Tablet------------------------*/
 @media screen and (max-width: 800px) {
+
+    /*cria um layout de duas colunas em vez de quatro colunas*/
     .galeria {
         -ms-flex: 50%;
         flex: 50%;
         max-width: 50%;
     }
+
+    .animacaoGaleria {
+        margin: 20px 5px 0px auto;
+
+    }
+
+    .artistasAni2 img {
+
+        margin: 10px 0px 10px 0px;
+
+    }
 }
 
-/*
-Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra */
+/*---------------------------------Layout-Responsivo-Celular---------------------------*/
+
 @media screen and (max-width: 600px) {
+
+    /*Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra*/
+    .container1 {
+        position: relative;
+        max-width: 400px;
+        margin: 20px auto;
+    }
+
+    /*Avisa a imagem que ela pode usar 100% do*/
+    .container1 img {
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    /* Coloca o elemento content1 sobre o container e aplica um opacidade */
+    .container1 .content1 {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        width: 100%;
+        padding: 5px;
+    }
+
     .galeria {
         -ms-flex: 100%;
         flex: 100%;
         margin-bottom: 10px;
         max-width: 90%;
-
     }
 
     .galeria a {
-
         margin-left: 50px;
+
+    }
+
+    .animacaoGaleria {
+        margin: 20px px 0px auto;
+    }
+
+    .artistasAni2 img {
+
+        margin: 10px 0px 10px 0px;
 
     }
 }
 
-/*TIPOS ANIMACAO*/
-.animacaoTipos {
-    display: flex;
-}
+
+
 
 
 /*css para o diretório Desenho Vetorial*/
