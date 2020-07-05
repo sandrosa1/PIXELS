@@ -1,7 +1,14 @@
 @charset "UTF-8";
 
 html {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 /*escolha sua cor de preferencia aqui aqui*/
@@ -19,10 +26,7 @@ html {
     --bg-grey: #ececec;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
-}
+
 
 /* css do nav*/
 
@@ -134,35 +138,25 @@ nav img:hover {
 
 /*css para pagina INDEX*/
 
-
-
-#borda {
-    margin: 0 auto 0 auto;
-    width: 95%;
+.galeria1 img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-#borda .indexdiv1 {
-    padding: 30px 10px 10px 10px;
+.index1 img {
+    max-width: 700px;
 }
+.index2 li{
+    margin-top: 20px;
 
-#borda .indexdiv2 {
-    padding: 30px 10px 10px 10px;
 }
-
-#borda .indexdiv2 ul li {
-    padding: 30px 10px 30px 10px;
+.index2 img {
+    width: 100px;
+    height: 100px;
 }
-
-.index-margin {
-    margin: 0px 40px 10px 40px;
-}
-
-.index-margin .row .card-deck {
-    padding: 60px 60px 13px 60px;
-}
-
-
-
 /*css para o diretório servicos*/
 /* Normas de Utilização */
 .center-image {
@@ -271,8 +265,7 @@ nav img:hover {
     padding: 0px;
 }
 
-.headerAni {
-    position: relative;
+.logoAni img {
     width: 100%;
 
 }
@@ -287,9 +280,16 @@ nav img:hover {
 
 .container1 {
     position: relative;
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 600px;
+    margin: 30px auto 20px auto;
 }
+
+.container2 {
+    position: relative;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
 
 /*Avisa a imagem que ela pode usar 100% do*/
 
@@ -514,7 +514,7 @@ nav img:hover {
     /*Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra*/
     .container1 {
         position: relative;
-        max-width: 400px;
+        max-width: 450px;
         margin: 20px auto;
     }
 
@@ -559,10 +559,10 @@ nav img:hover {
 }
 
 
-
-
-
 /*css para o diretório Desenho Vetorial*/
+
+
+
 
 /*css para o diretório Ilustração Digital*/
 .titulo-section-ilustracao {
@@ -626,6 +626,10 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
         margin-left: 50px;
 
+    }
+    .container2 img {
+        width: 95%;
+        margin: 0px auto 0px 10px;
     }
 }
 
@@ -707,6 +711,16 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 }
 
 /*css para o Sections Publicas*/
+/*---------------------------------------------------------------------------------*/
+/*css para o include Sections */
+/*---------------------------------------------------------------------------------*/
+
+section .animacaoGaleria {
+
+    width: 100%;
+    margin: auto;
+
+}
 
 .homeSec {
     color: var(--home-color);
@@ -744,7 +758,19 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     margin-top: 10px;
 }
 
-/*css para o FOOTER*/
+.sectionFooter {
+    width: 100%;
+    right: 400Px;
+}
+
+.sectionFooter img {
+    width: 100%;
+    max-height: 140px;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*css para o Include FOOTER*/
+/*---------------------------------------------------------------------------------*/
 
 footer {
     margin-top: 20px;
@@ -799,7 +825,9 @@ footer .row .col-lg-4 a img {
     margin: 10px 40px 10px 0px;
 }
 
+/*---------------------------------------------------------------------------------*/
 /* Media Queries */
+/*---------------------------------------------------------------------------------*/
 
 /* Até 989px obedece ao código abaixo. (de 601px até 989px*/
 @media (max-width: 989px) {

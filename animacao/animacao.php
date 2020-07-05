@@ -1,18 +1,17 @@
 <?php include '../include/nossosLinksTop.php' ; ?>
+<?php include '../include/nossosLinksTop.php' ; ?>
 <?php $page = 'animacao' ; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid animacaoHome1 " id="inicio">
-        <header class="headerAni ">
-                <div class="row">
-                        <div class=" col-lg-12">
+                <div class="row justify-content-center center-image  m-sm-0">
+                        <div class=" col-lg-12 logoAni">
                                 <img src="../imagem/animacao/animaHome.webp" class="img-fluid headerAni"
                                         alt="Logo da pagina Portal Animação digital">
                         </div>
                 </div>
-        </header>
-        <article class="animacaoHomeP">
-                <div class="row">
-                        <div class=" col-lg-6 verticalLine ">
+        <article>
+                <div class="row justify-content-md-center m-lg-0 ">
+                        <div class=" col-lg-6 ">
                                 <div class="container1">
                                         <img src="../imagem/animacao/animacaoInicio.webp" class="imgInicio"
                                                 alt="Ivan Sutherland desenvolveu e sua invenção a caneta óptica ">
@@ -24,9 +23,9 @@
                                                 <a href="animacaoSobre.php" class=" linksAnimacao ">Saiba mais...</a>
                                         </div>
                                 </div>
-                                <div class="row block2">
+                                <div class="row justify-content-md-center  m-lg-auto">
                                         <div class=" col-lg-12">
-                                                <div class="card-deck">
+                                                <div class="card-deck container2">
                                                         <div class="card semBordas">
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoJohnAlanLasseter2.webp"
