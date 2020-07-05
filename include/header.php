@@ -207,7 +207,11 @@ switch($page)
             { 
                 $display = $menu [$i][0];
                 // Aqui ele exclui o nome home, pois ja temos a imagem logo
-                if($menu[$i][0] == $menu[0][0]);
+                if($menu[$i][0] == $menu[0][0]){
+
+                    echo'<li  class="nav-item dropdown p-2 flex-fill bd-highlight fonteh1 ">
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">';
+                }
                 else
                 { 
                     echo'<li id="'.$menu[$i][2].'" class="nav-item dropdown p-2 flex-fill bd-highlight fonteh1 ">
