@@ -158,7 +158,7 @@ nav img:hover {
   padding: 30px 10px 30px 10px;
 }
 
-.index-margin{
+.index-margin {
   margin: 0px 40px 10px 40px;
 }
 
@@ -216,45 +216,55 @@ nav img:hover {
   margin-left: 0;
 }
 
-.list-inline li{ 
+.list-inline li {
   padding: 0 5px;
 }
+
 .list-inline li a {
   font-size: 2.5rem;
 }
 
 /* Hover para Pixel Art */
-.pixel li a{
+.pixel li a {
   color: var(--pixel-color)
-} 
+}
+
 .pixel li a:hover {
   opacity: 80%;
 }
+
 /* Hover para Modelagem 3D */
-.modelagem li a{
+.modelagem li a {
   color: var(--modelagem-color)
-} 
+}
+
 .modelagem li a:hover {
   opacity: 80%;
 }
+
 /* Hover para Ilustração Digital*/
-.ilustracao li a{
+.ilustracao li a {
   color: var(--ilustracao-color)
-} 
+}
+
 .ilustracao li a:hover {
   opacity: 80%;
 }
+
 /* Hover para Desenho Veotrial*/
-.desenho li a{
+.desenho li a {
   color: var(--desenho-color)
-} 
+}
+
 .desenho li a:hover {
   opacity: 80%;
 }
+
 /* Hover para Animação Digital*/
-.animacao li a{
+.animacao li a {
   color: var(--animacao-color)
-} 
+}
+
 .animacao li a:hover {
   opacity: 80%;
 }
@@ -372,6 +382,8 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 }
 
 
+/*css para o diretório Animação Digital*/
+
 /*css para o diretório Desenho Vetorial*/
 
 /*css para o diretório Ilustração Digital*/
@@ -383,6 +395,8 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 .grupo-imagem-titulo{
   position: relative; 
+.grupo-imagem-titulo {
+  position: relative;
 }
 
 .grupo-imagem-titulo #titulo {
@@ -390,7 +404,7 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
   margin: 0;
   width: 100%;
   position: absolute;
-  top: 50%; 
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 5px 5px 15px rgba(0, 0, 0, .8);
@@ -404,19 +418,20 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 .link-paragrafo {
   color: var(--link-paragrafo-color);
 }
+
 .link-paragrafo:hover {
   color: var(--link-paragrafo-color-hover);
 }
 
 .grupo-imagem-secundaria {
   display: relative;
-  padding:0;
+  padding: 0;
 }
 
 .titulo-sobre-imagem {
   margin: 0;
   position: absolute;
-  bottom: 0; 
+  bottom: 0;
   left: 0;
   padding: .8rem 1rem;
   background-color: rgba(255, 255, 255, 0.822);
@@ -439,18 +454,35 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
   width: 100%;
 }
 
-.pixel-links a{
+.pixel-links a {
   color: var(--link-paragrafo-color);
 }
-.pixel-links a:hover{
+
+.pixel-links a:hover {
   color: var(--link-paragrafo-color-hover);
 }
 
-.programas-links a {
+.programas-links a, .pixel-artistas a{
   color: var(--pixel-color);
 }
 
 /*css para o Sections Publicas*/
+.pixel-artistas a:hover {
+  background-color: var(--pixel-color);
+  color: white;
+  text-decoration: none;
+}
+
+.pixel-artistas .link-site>a:hover {
+  background-color: transparent;
+  color:var(--pixel-color);  
+}
+
+.largura-20rem{
+  max-width: 10rem;
+}
+
+
 
 .homeSec{
   color: var(--home-color);
@@ -549,12 +581,16 @@ footer .row .col-lg-4 a img {
   section .logo {
     display: none;
   }
-  
+
   .h1-arte {
     font-size: 3rem;
     font-weight: 300;
   }
 
+  .img-center{
+    display: block;
+    margin: 0 auto;
+  }
 
 }
 
@@ -569,12 +605,15 @@ footer .row .col-lg-4 a img {
     height: 20px;
     margin: 0px 10px 10px 0px;
   }
+
   .h1-arte {
     font-size: 1.8rem;
     font-weight: 300;
   }
 
-
+  .img-center{
+    display: block;
+    margin: 0 auto;
+  }
 
 }
-

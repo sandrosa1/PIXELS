@@ -21,22 +21,26 @@ include '../include/header.php'; ?>
     </article>
     <!-- Seção de artigo secundário -->
     <div class="row no-margin justify-content-center m-3">
-        <section class="col-sm-12 col-md-12 col-lg-5 grupo-imagem-secundaria p-3">
-            <img class="center-image" src="../imagem/pixel-forest.png" alt="Exposição Pixel-Forest">
-            <div class="bg-grey col-lg-12 pt-3 pb-2">
-                <h3>Conheça a Pixel Forest</h3>
-                <p class="sub-titulo"><a href="pixelSobre.php#pixelforest" class="">Exposição do artista suiço Pipilotti Rist em colaboração com a designer Kaori Kuwabara... </a></p>
+        <section class="col-sm-12 col-md-6 col-lg-5 grupo-imagem-secundaria align-item-center p-3">
+            <div class="card">
+                <img class="card-img-top align-middle" src="../imagem/pixel/pixelforest445.webp" alt="Exposição Pixel-Forest">
+                <div class="card-body bg-grey">
+                    <h5 class="card-title">Conheça a Pixel Forest</h5>
+                    <p class="card-text"><a href="pixelSobre.php#pixelforest">Pipilotti Rist em colaboração com a designer Kaori Kuwabara</a></p>
+                </div>
             </div>
+             
+
         </section>
         <!-- Seção de artigos menores -->
-        <section class="col-sm-12 col-md-12 col-lg-7 pl-5 p-3">
+        <section class="col-sm-12 col-md-6 col-lg-7 pl-5">
             <!-- Cards com artigos menores -->
             <div class="mb-3">
                 <h2 class="text-center mt-3 ">Fique por dentro</h2>
-                <ul class="list-unstyled p-3">
+                <ul class="list-unstyled p-3 ">
                     <li class="media">
-                        <img class="mr-3" src="../imagem/brunoMoraes-01-thumb.png" alt="Pixel art de Brunon Moraes, uma praia">
-                        <div class="media-body  col-sm-12">
+                        <img class="mr-3" src="../imagem/brunoMoraes-01-thumb.png" alt="Pixel art de praia do Bruno Moraes">
+                        <div class="media-body">
                             <h4 class="mt-0 mb-1">O talentoso Bruno Moraes</h4>
                             <a href="#" class="">Ilustrador e programador, começou a trabalhar com ilustração em 2015
                             </a>
