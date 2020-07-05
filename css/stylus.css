@@ -195,6 +195,7 @@ body {
 }
 
 
+
 /*css para o diretório Animação Digital*/
 
 /*css para o diretório Desenho Vetorial*/
@@ -273,9 +274,26 @@ body {
   color: var(--link-paragrafo-color-hover);
 }
 
-.programas-links a {
+.programas-links a, .pixel-artistas a{
   color: var(--pixel-color);
 }
+
+.pixel-artistas a:hover {
+  background-color: var(--pixel-color);
+  color: white;
+  text-decoration: none;
+}
+
+.pixel-artistas .link-site>a:hover {
+  background-color: transparent;
+  color:var(--pixel-color);  
+}
+
+.largura-20rem{
+  max-width: 10rem;
+}
+
+
 
 
 /*css para o FOOTER*/
@@ -346,7 +364,10 @@ footer .row .col-lg-4 a img {
     font-weight: 300;
   }
 
-
+  .img-center{
+    display: block;
+    margin: 0 auto;
+  }
 
 }
 
@@ -367,5 +388,9 @@ footer .row .col-lg-4 a img {
     font-weight: 300;
   }
 
+  .img-center{
+    display: block;
+    margin: 0 auto;
+  }
 
 }
