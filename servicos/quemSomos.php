@@ -122,27 +122,28 @@ include '../include/header.php'; ?>
 
             <!-- CARD do desenvolvedor Modelagem 3D -->
             <div class="card dev4">
-                <img class="card-img-top" src="../imagem/user.png" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/alexandre.png" alt="Foto do integrante Alexandre">
                 <div class="card-body">
                     <h5 class="card-title text-center">Alexandre</h5>
-                    <p class="text-center mb-1">RA: </p>
-                    <p class="text-center mt-1"> Função no desenvolvimento do portal</p>
+                    <p class="text-center mb-1">RA: 2650831923023 </p>
+                    <p class="text-center mt-1"> Dev Back-End e Front-end</p>
                     <hr>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">Sempre tive interesse na área de TI e agora abracei esse desafio. Ainda não sei qual caminho seguir dentre as diversas áreas, mas com certeza sera uma jornada maravilhosa e cheia de surpresas.</p>
+                    
                     <p>
                         <p>
                             <ul class="list-inline modelagem text-center">
                                 <!-- Font Awesome - Linkedin -->
                                 <li class="list-inline-item">
-                                    <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://www.linkedin.com/in/alexandre-silvestre-de-paula-37953054/" target="_blank"><i class="fab fa-linkedin"></i></a>
                                 </li>
                                 <!-- Font Awesome - Github -->
                                 <li class="list-inline-item">
-                                    <a href="" target="_blank"><i class="fab fa-github-square"></i></a>
+                                    <a href="https://github.com/rulesx1" target="_blank"><i class="fab fa-github-square"></i></a>
                                 </li>
                                 <!-- Font Awesome - Instagram -->
                                 <li class="list-inline-item">
-                                    <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                                    <a href="https://www.instagram.com/alexandresilvestrepaula/?hl=pt-br" target="_blank"><i class="fab fa-instagram-square"></i></a>
                                 </li>
                             </ul>
                         </p>
@@ -150,7 +151,7 @@ include '../include/header.php'; ?>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">
-                        <p><b>Desenvolvimento</b>: <a href="#" target="_blank">Site</a>
+                    <p><b>Desenvolvimento</b>: <a href="../modelagem/modelagem.php" target="_blank">Modelagem 3D</a>, <a href="../modelagem/modelagemSobre.php" target="_blank">Modelagem 3D - Sobre</a>, <a href="../modelagem/modelagemArtistas.php" target="_blank">Modelagem 3D - Artistas</a>, <a href="../modelagem/modelagemGaleria.php" target="_blank">Modelagem 3D - Galeria</a>
                     </small>
                 </div>
             </div>
