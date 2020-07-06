@@ -2,43 +2,74 @@
 <?php $page = 'ilustracao'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid" id="inicio">
-    <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-6">
-            <h1>Sobre Ilustração Digital</h1>
-            <p class="text-left lead pr-2 pl-3">O curso de Desenho Digital utiliza para criação de sua arte o computador como material básico – um sonho para aqueles que não gostam de sujeira – porém, a ferramenta especializada na função de se desenhar no computador é a mesa digitalizadora.</p>
-
-            <p class="text-left lead pr-2 pl-3">A mesa digitalizadora funciona exatamente como um lápis, onde cada traço realizado nela é instantaneamente transferido para a tela do computador, como um desenho feito no papel.</p>
-
-            <p class="text-left lead pr-2 pl-3">O desenho digital se divide basicamente entre imagens rasterizadas (ou bitmaps) e imagens vetoriais. As imagens rasterizadas trabalham diretamente com os pixels e as imagens vetoriais formadas por formas geométricas calculadas matematicamente, por isso o nome de vetor. Cada um destes tipos de imagens produzem trabalhos com resultados característicos.</p>
-
-            <p class="text-left lead pr-2 pl-3">O artista do desenho digital pode optar em utilizar como base em sua criação as mesmas técnicas que são utilizadas no desenho e/ou pintura tradicionais. A diferença é que ele irá emular no software, por exemplo, a aquarela, guache, óleo, grafite, carvão, entre outras, até porque alguns artistas ampliam suas fronteiras neste mundo digital, inventando novas técnicas. O céu é o limite. Não tenha medo em experimentar.</p>
-        </div>
-
-        <div class="col-sm-1
-                    2 col-md-6 col-lg-6">
-            <h1>As vantagens do desenho digital</h1>
-            <ul>
-                <li class="lead pr-2 pl-3">Acabou a preocupação! Desenhe sem se preocupar em destruir o desenho. O uso de camadas e o famoso comando desfazer só são possíveis no mundo digital. Usufrua!</li>
-
-                <li class="lead pr-2 pl-3">Não gostou do tom de azul? Amarelo? Laranja? Quer alterar todas as cores? Você pode. É só trocar.</li>
-
-                <li class="lead pr-2 pl-3">Construa suas ferramentas. Se você quer utilizar réguas, espátulas, penas, tintas novas, você tem liberdade para criar.</li>
-
-                <li class="lead pr-2 pl-3">Sem sujeira! Você não usa tinta, pincel, papel e não faz bagunça.</li>
-
-                <li class="lead pr-2 pl-3">Nada de esperar horas ou dias até a tinta secar.</li>
-
-                <li class="lead pr-2 pl-3">Mais barato e acessível que a arte tradicional. Basta um computador e um software (que pode ser livre, você não paga nada por ele).</li>
-
-                <li class="lead pr-2 pl-3">Liberdade de experimentação. Aprenda fazendo de verdade.</li>
-            </ul>
-            <div class="text-center">
-                <img class="rounded" src="../imagem/ilustracao-digital/ilustracao-sobre550x200.webp" alt="Homen Desenhando">
+    <article>
+        <div class="row mx-1 my-1 justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h1 class="text-left">Como nasceu a ilustração digital?</h1>
+                <hr>
+                <p class="text-justify lead pr-2 pl-3">Podemos dizer que a Ilustração digital já é mainstream, mas um dia foi algo que poucos artistas usavam em seus trabalhos. Como esses artistas começaram a usar computadores para desenhar? Como a arte digital se tornou o que é hoje? </p>
+                <p class="text-justify lead pr-2 pl-3">No vídeo abaixo você confere uma breve história da técnica que hoje influencia o processo de criação de inúmeros criativos e artistas:</p>
             </div>
         </div>
-    </div>
+        <div class="row mx-5 my-3 justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-8">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AeQj2ye6wyw"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <p class="text-justify lead mt-5 pr-3 pl-3">A arte digital deu seus primeiros sinais de vida logo depois da Segunda Guerra Mundial e ganhou força nos anos 60, quando pesquisas relacionadas a algoritmos e computadores chamaram a atenção da ciência. </p>
+                <p class="text-justify lead pr-2 pl-3">Os pioneiros desta arte são justamente engenheiros e cientistas como A. Michael Noll, que usou computadores em 1962 para criar imagens através de padrões e algoritmos matemáticos.</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre.webp">
+                <figcaption class="figure-caption">Computer Generated Image - Brooklyn Museum -Leroy Lamis (1925-2010)</figcaption>
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p class="text-justify lead pr-2 pl-3">Em 1965, surgiram as primeiras exposições, e, em 1968, a curadora Jasia Reichardt organizou em Londres a exposição mais relevante da área até então, com os primeiros artistas digitais, como Nam June Paik, Frieder Nake e Leslie Mezei. Esses artistas também utilizavam algoritmos para gerar imagens aparentemente aleatórias e abstratas.</p>
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre2.webp">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <p class="text-justify lead p-5">No início dos anos 80, a ilustração digital ganhou força como uma ferramenta criativa, com o surgimento da Adobe, grande desenvolvedora de softwares de manipulação de imagens e desenhos digitais. Nessa mesma década também surgiu o Corel Draw e o Paint, que popularizou o acesso à ilustração digital em computadores pessoais.</p>
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p class="text-justify lead pr-2 pl-3">Outro fator importante para o crescimento da área foi o lançamento do Macintosh, permitindo que designers pudessem usar diariamente as ferramentas hoje famosas em todo o mundo: Illustrator e Photoshop.</p>
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <p class="text-justify lead p-5">Desde então, a ilustração digital ganhou muitos adeptos e cresceu exponencialmente com a internet, outro marco de sua história. Não só as ferramentas e os computadores ficaram mais acessíveis, mas os trabalhos de ilustradores, desenhistas e artistas puderam alcançar mais pessoas.</p>
 
-
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre3.webp">
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p class="text-justify lead pr-2 pl-3">Em 2010, nasceu o Instagram, uma ferramenta e rede social que se tornou ponto de encontro e portfólio para os mais diversos artistas e estilos. É, hoje, um imenso repositório de arte digital com alcance global.</p>
+            </div>
+        </div>
+        <div class="row mx-5 my-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre4.webp">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <p class="text-justify lead pt-5 pr-2 pl-3">Ferramentas como mesas digitalizadoras, o iPad e o Apple Pencil tornaram-se essenciais não só para artistas, mas para qualquer pessoa que deseja criar.</p>
+                <p class="text-left lead pr-2 pl-3">A ilustração digital vive o seu auge e está em permanente processo de evolução, sempre acompanhando a tecnologia vigente e se renovando. Ainda não sabemos como será o futuro, mas é certo que será repleto de arte produzida e consumida através dos mais variados dispositivos digitais.</p>
+            </div>
+        </div>
+    </article>
 
 </div>
 <?php include '../include/footer.php'?>
