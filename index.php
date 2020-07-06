@@ -17,7 +17,7 @@
                 <div class="card mb-3 semBordas">
                     <ul class="list-unstyled">
                         <li class="media">
-                        <a href="desenho/denho.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/indexp1.jpg" alt="Imagem de exemplo genérica">
+                        <a href="desenho/desenho.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/indexp1.jpg" alt="Imagem de exemplo genérica">
                             <div class="media-body">
                                 <h2 class="mt-0 mb-1">Crie seu Desenho Detorial</h2>
                                 Sem assuntos para comentar<b>Saiba Mais...</b></a>

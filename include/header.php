@@ -1,28 +1,7 @@
 <?php
 date_default_timezone_set('America/Sao_paulo');
 
-// Esse array recebe os links somente para o nav do index
-$links = [
-    ['PIXELS','index.php','home' ],                                    //0
-    ['Animação Digital','animacao/animacao.php','animacao'],           //1
-    ['Desenho Vetorial','desenho/desenho.php','desenho'],              //2
-    ['Ilustração Digital','ilustracao/ilustracao.php','ilustracao'],   //3
-    ['Modelagem 3d','modelagem/modelagem.php','modelagem'],            //4
-    ['Pixel Art','pixel/pixel.php','pixel'],                          //5
-    ['Saiba Mais','servicos/saibaMais.php','saiba']                    //6
-    
-];
 
-//Esse array recebe os links para as demais paginas 
-$links2 = [
-    ['PIXELS','../index.php','home'],                                    //0
-    ['Animação Digital','../animacao/animacao.php','animacao'],          //1
-    ['Desenho Vetorial','../desenho/desenho.php','desenho'],             //2
-    ['Ilustração Digital','../ilustracao/ilustracao.php','ilustracao'],  //3
-    ['Modelagem 3d','../modelagem/modelagem.php','modelagem'],           //4
-    ['Pixel Art','../pixel/pixel.php','pixel'],                         //5
-    ['Saiba Mais','../servicos/saibaMais.php','saiba']                   //6
-];
 // Esse array recebe os links somente para o saiba mais do  nav do index
 $saiDrop = [
     'Quem Somos?'=>'quemSomos.php',       //1
@@ -53,7 +32,7 @@ $aniDrop = [
 ];
 $aniDrop2 = [
     'Animação Digital'=>'animacao/animacao.php',      //0
-    'Sobre a Arte'=>'/animacaoanimacaoSobre.php',     //1
+    'Sobre a Arte'=>'animacao/animacaoSobre.php',     //1
     'Técnicas de Animação'=>'animacao/animacaoTecnicas.php',    //2
     'Principais Nomes'=>'animacao/animacaoArtistas.php',      //3
     'Galeria'=>'animacao/animacaoGaleria.php'         //4
@@ -160,7 +139,6 @@ $novoMenu = '';
 if($page == 'home')
 {
 
-    $menu = $links;  
     $subMenu = 'PIXELS';
     $active == 'home';
     $novoMenu = 'active1';
@@ -169,58 +147,46 @@ if($page == 'home')
 if($page == 'animacao')
 {
 
-    $menu = $links2;
     $subMenu = 'Animação Digital';
-    $dropMenu = $aniDrop;
     $active == 'animacao';
-    $novoMenu = "active";
+    $novoMenu = "active2";
     
 
 }
 if($page == 'desenho')
 {
 
-    $menu = $links2;
     $subMenu = 'Desenho Vetorial';
-    $dropMenu = $desDrop;
     $active == 'desenho'; 
-    $novoMenu = "active" ;
+    $novoMenu = "active3" ;
 }
 if($page == 'ilustracao')
 {
 
-    $menu = $links2;
     $subMenu = 'Ilustração Digital';
-    $dropMenu = $iluDrop;
     $active == 'ilustracao'; 
-    $novoMenu = "active";  
+    $novoMenu = "active4";  
 }
 if($page == 'modelagem')
 {
 
-    $menu = $links2;
     $subMenu = 'Modelagem 3d';
-    $dropMenu = $modDrop;
     $active == 'modelagem'; 
-    $novoMenu = "active" ; 
+    $novoMenu = "active5" ; 
 }
 if($page == 'pixel')
 {
 
-    $menu = $links2;
     $subMenu = 'Pixel Art';
-    $dropMenu = $pixDrop;
     $active == 'pixel'; 
-    $novoMenu = "active";  
+    $novoMenu = "active6";  
 }
 if($page == 'saiba')
 {
 
-    $menu = $links2;
     $subMenu = 'Saiba Mais';
-    $dropMenu = $saiDrop;
     $active == 'saiba'; 
-    $novoMenu = "active";
+    $novoMenu = "active7";
 }
 switch($page)
 {
@@ -256,13 +222,14 @@ switch($page)
             <a href="<?php 
                 if($page == 'home')
                 {
+                    $display = "PIXELS";
                     echo 'index.php';
                 }else
                 {
                     echo'../index.php';
                 }
                 
-                ?>" class=" <?php echo $novoMenu; ?>"><img src="
+                ?>" class=" <?php if($page == 'home' ) echo $novoMenu; ?>"><img src="
                 <?php if($page =='home')
                 { 
                     echo 'imagem/logo500.png';
@@ -271,19 +238,20 @@ switch($page)
                     echo'../imagem/logo500.png';
                 }
 
-                ?>" alt="Logo" style=" width:50px;"></a>
+                ?>" alt="Logo" ></a>
 
                 <?php
                 if($page == 'animacao') 
-                {
-                    echo '<div class="dropdown1">
-                    <button class="dropbtn1 <?php echo $novoMenu; ?>">Animação Digital 
+                { 
+                    $display = 'Animação Digital';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.' ">Animação Digital 
                     <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content1">';
                     foreach($aniDrop as $subName => $subAdress)
                     {
-                    echo ' <a href="'.$subAdress.'">'.$subName.'</a>';
+                    echo ' <a href="'.$subAdress.'" >'.$subName.'</a>';
                     }
                     echo '</div>
                     </div> ';
@@ -293,7 +261,7 @@ switch($page)
                     if($page == 'home') 
                     {
                         echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Animação Digital 
+                        <button class="dropbtn1 ">Animação Digital 
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content1">';
@@ -320,8 +288,9 @@ switch($page)
                 }
                 if($page == 'desenho') 
                 {
-                    echo '<div class="dropdown1">
-                    <button class="dropbtn1 <?php echo $novoMenu; ?>">Desenho Vetorial 
+                    $display = 'Desenho Vetorial';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.' ">Desenho Vetorial 
                     <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content1">';
@@ -336,8 +305,8 @@ switch($page)
                 {
                     if($page == 'home') 
                     {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Desenho Vetorial  
+                        echo '<div class="dropdown1 ">
+                        <button class="dropbtn1 ">Desenho Vetorial  
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content1">';
@@ -364,8 +333,9 @@ switch($page)
                 }
                 if($page == 'ilustracao') 
                 {
-                    echo '<div class="dropdown1">
-                    <button class="dropbtn1 <?php echo $novoMenu; ?>">Ilustração Digital 
+                    $display = 'Ilustração Digital';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.'">Ilustração Digital 
                     <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content1">';
@@ -380,8 +350,8 @@ switch($page)
                 {
                     if($page == 'home') 
                     {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Ilustração Digital 
+                        echo '<div class="dropdown1 ">
+                        <button class="dropbtn1 ">Ilustração Digital 
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content1">';
@@ -407,9 +377,10 @@ switch($page)
                     }
                 }
                 if($page == 'modelagem') 
-                {
-                    echo '<div class="dropdown1">
-                    <button class="dropbtn1 <?php echo $novoMenu; ?>">Modelagem 3D 
+                { 
+                    $display = 'Modelagem 3D';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.' ">Modelagem 3D 
                     <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content1">';
@@ -425,7 +396,7 @@ switch($page)
                     if($page == 'home') 
                     {
                         echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Modelagem 3D 
+                        <button class="dropbtn1 ">Modelagem 3D 
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content1">';
@@ -438,7 +409,7 @@ switch($page)
                     }else
                     {
                         echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Modelagem 3D 
+                        <button class="dropbtn1 ">Modelagem 3D 
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content1">';
@@ -452,8 +423,9 @@ switch($page)
                 }
                 if($page == 'pixel') 
                 {
-                    echo '<div class="dropdown1">
-                    <button class="dropbtn1 <?php echo $novoMenu; ?>">Pixel Art
+                    $display = 'Pixel Art';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.'">Pixel Art
                     <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content1">';
@@ -469,7 +441,7 @@ switch($page)
                     if($page == 'home') 
                     {
                         echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Pixel Art
+                        <button class="dropbtn1 ">Pixel Art
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content1">';
@@ -482,7 +454,7 @@ switch($page)
                     }else
                     {
                         echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Pixel Art 
+                        <button class="dropbtn1 ">Pixel Art 
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content1">';
@@ -496,8 +468,9 @@ switch($page)
                 }
                 if($page == 'saiba') 
                 {
-                    echo '<div class="dropdown1">
-                    <button class="dropbtn1 <?php echo $novoMenu; ?>">Saiba Mais
+                    $display = 'Saiba Mais';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.' ">Saiba Mais
                     <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content1">';
@@ -513,7 +486,7 @@ switch($page)
                     if($page == 'home') 
                     {
                         echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Saiba Mais
+                        <button class="dropbtn1 ">Saiba Mais
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content1">';
@@ -526,7 +499,7 @@ switch($page)
                     }else
                     {
                         echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Saiba Mais
+                        <button class="dropbtn1 ">Saiba Mais
                         <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content1">';
@@ -539,7 +512,7 @@ switch($page)
                     }
                 }
                 ?>
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon1" onclick="myFunction()">&#9776;</a>
+            <a href="javascript:void(0);" style="font-size:30px;" class="icon1" onclick="myFunction()">&#9776;</a>
         </div>
         <script>
         function myFunction() {
