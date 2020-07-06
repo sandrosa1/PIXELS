@@ -3,8 +3,9 @@
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid">
     <!-- Photo Grid -->
-    <section class="ilustracaoGaleria">
+    <article class="ilustracaoGaleria">
         <h2 class=" text-left h1-arte">Galeria de Imagens</h2>
+        <hr>
         <div class="row">
             <div class=" col-lg-3 ilust">
                 <a><img src="../imagem/ilustracao-digital/galeria1.webp" style="width:90%"></a>
@@ -33,7 +34,7 @@
                 <a><img src="../imagem/ilustracao-digital/galeria18.webp" style="width:90%"></a>
             </div>
         </div>
-    </section>
+    </article>
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>

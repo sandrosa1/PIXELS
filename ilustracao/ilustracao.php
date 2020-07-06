@@ -105,6 +105,9 @@
             </div>
         </div>
     </section>
+    <section>
+        <?php include '../include/section.php'?>
+    </section>
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>
