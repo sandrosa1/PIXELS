@@ -1,35 +1,25 @@
 <?php
 date_default_timezone_set('America/Sao_paulo');
 
-// Esse array recebe os links somente para o nav do index
-$links = [
-    ['PIXELS','index.php','home' ],                                    //0
-    ['Animação Digital','animacao/animacao.php','animacao'],           //1
-    ['Desenho Vetorial','desenho/desenho.php','desenho'],              //2
-    ['Ilustração Digital','ilustracao/ilustracao.php','ilustracao'],   //3
-    ['Modelagem 3d','modelagem/modelagem.php','modelagem'],            //4
-    ['Pixel Art','pixel/pixel.php','pixel'],                          //5
-    ['Saiba Mais','servicos/saibaMais.php','saiba']                    //6
-    
-];
 
-//Esse array recebe os links para as demais paginas 
-$links2 = [
-    ['PIXELS','../index.php','home'],                                    //0
-    ['Animação Digital','../animacao/animacao.php','animacao'],          //1
-    ['Desenho Vetorial','../desenho/desenho.php','desenho'],             //2
-    ['Ilustração Digital','../ilustracao/ilustracao.php','ilustracao'],  //3
-    ['Modelagem 3d','../modelagem/modelagem.php','modelagem'],           //4
-    ['Pixel Art','../pixel/pixel.php','pixel'],                         //5
-    ['Saiba Mais','../servicos/saibaMais.php','saiba']                   //6
-];
 // Esse array recebe os links somente para o saiba mais do  nav do index
 $saiDrop = [
-    'Saiba Mais'=> 'saibaMais.php',       //0
     'Quem Somos?'=>'quemSomos.php',       //1
     'Fale Cosnosco'=>'faleConosco.php',   //2
     'Carreira'=>'carreira.php',  //3
     'Nomas'=>'normas.php'                 //
+];
+$saiDrop2 =  [
+    'Quem Somos?'=>'servicos/quemSomos.php',       //1
+    'Fale Cosnosco'=>'servicos/faleConosco.php',   //2
+    'Carreira'=>'servicos/carreira.php',  //3
+    'Nomas'=>'servicos/normas.php'                 //
+];
+$saiDrop3 = [
+    'Quem Somos?'=>'../servicos/quemSomos.php',       //1
+    'Fale Cosnosco'=>'../servicos/faleConosco.php',   //2
+    'Carreira'=>'../servicos/carreira.php',  //3
+    'Nomas'=>'../servicos/normas.php'                 //
 ];
 //Menu para animacao digital aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
 //Anexe quantas paginas precisar
@@ -40,6 +30,21 @@ $aniDrop = [
     'Principais Nomes'=>'animacaoArtistas.php',      //3
     'Galeria'=>'animacaoGaleria.php'         //4
 ];
+$aniDrop2 = [
+    'Animação Digital'=>'animacao/animacao.php',      //0
+    'Sobre a Arte'=>'animacao/animacaoSobre.php',     //1
+    'Técnicas de Animação'=>'animacao/animacaoTecnicas.php',    //2
+    'Principais Nomes'=>'animacao/animacaoArtistas.php',      //3
+    'Galeria'=>'animacao/animacaoGaleria.php'         //4
+];
+$aniDrop3 = [
+    'Animação Digital'=>'../animacao/animacao.php',      //0
+    'Sobre a Arte'=>'../animacao/animacaoSobre.php',     //1
+    'Técnicas de Animação'=>'../animacao/animacaoTecnicas.php',    //2
+    'Principais Nomes'=>'../animacao/animacaoArtistas.php',      //3
+    'Galeria'=>'../animacao/animacaoGaleria.php'         //4
+];
+
 
 //Menu para desenho vetorial aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
 //Anexe quantas paginas precisar
@@ -49,6 +54,18 @@ $desDrop = [
     'Artistas'=>'desenhoArtistas.php',        //2
     'Galeria'=>'desenhoGaleria.php'           //3
 ];
+$desDrop2 = [
+    'Desenho Vetorial'=>'desenho/desenho.php',        //0
+    'Sobre a Arte'=>'desenho/desenhoSobre.php',       //1
+    'Artistas'=>'desenho/desenhoArtistas.php',        //2
+    'Galeria'=>'desenho/desenhoGaleria.php'           //3
+];
+$desDrop3 = [
+    'Desenho Vetorial'=>'../desenho/desenho.php',        //0
+    'Sobre a Arte'=>'../desenho/desenhoSobre.php',       //1
+    'Artistas'=>'../desenho/desenhoArtistas.php',        //2
+    'Galeria'=>'../desenho/desenhoGaleria.php'           //3
+];
 //Menu para ilustração aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
 //Anexe quantas paginas precisar
 $iluDrop = [
@@ -56,6 +73,18 @@ $iluDrop = [
     'Sobre a Arte'=>'ilustracaoSobre.php',   //1
     'Artista'=>'ilustracaoArtistas.php',     //2
     'Galeria'=>'ilustracaoGaleria.php'       //3
+];
+$iluDrop2 = [
+    'Ilustração Digital'=>'ilustracao/ilustracao.php',  //0
+    'Sobre a Arte'=>'ilustracao/ilustracaoSobre.php',   //1
+    'Artista'=>'ilustracao/ilustracaoArtistas.php',     //2
+    'Galeria'=>'ilustracao/ilustracaoGaleria.php'       //3
+];
+$iluDrop3 = [
+    'Ilustração Digital'=>'../ilustracao/ilustracao.php',  //0
+    'Sobre a Arte'=>'../ilustracao/ilustracaoSobre.php',   //1
+    'Artista'=>'../ilustracao/ilustracaoArtistas.php',     //2
+    'Galeria'=>'../ilustracao/ilustracaoGaleria.php'       //3
 ];
 //Menu para modelagemaqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
 //Anexe quantas paginas precisar
@@ -65,6 +94,18 @@ $modDrop = [
    'Artistas'=>'modelagemArtistas.php',      //2
    'Galeria'=>'modelagemGaleria.php'         //3
 ];
+$modDrop2 = [
+    'Modelagem 3d'=>'modelagem/modelagem.php',          //0
+    'Sobre a Arte'=>'modelagem/modelagemSobre.php',     //1
+    'Artistas'=>'modelagem/modelagemArtistas.php',      //2
+    'Galeria'=>'modelagem/modelagemGaleria.php'         //3
+ ];
+ $modDrop3 = [
+    'Modelagem 3d'=>'../modelagem/modelagem.php',          //0
+    'Sobre a Arte'=>'../modelagem/modelagemSobre.php',     //1
+    'Artistas'=>'../modelagem/modelagemArtistas.php',      //2
+    'Galeria'=>'../modelagem/modelagemGaleria.php'         //3
+ ];
 //Menu para pixel aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
 //Anexe quantas paginas precisar
 $pixDrop = [
@@ -73,69 +114,79 @@ $pixDrop = [
     'Artistas'=>'pixelArtistas.php',      //2
     'Galeria'=>'pixelGaleria.php'         //3
 ];
+$pixDrop2 = [
+    'Pixel Art'=>'pixel/pixel.php',            //0
+    'Sobre a Arte'=>'pixel/pixelSobre.php',     //1
+    'Artistas'=>'pixel/pixelArtistas.php',      //2
+    'Galeria'=>'pixel/pixelGaleria.php'         //3
+];
+$pixDrop3 = [
+    'Pixel Art'=>'../pixel/pixel.php',            //0
+    'Sobre a Arte'=>'../pixel/pixelSobre.php',     //1
+    'Artistas'=>'../pixel/pixelArtistas.php',      //2
+    'Galeria'=>'../pixel/pixelGaleria.php'         //3
+];
 
 
 //Variaveis declaradas 
 $subMenu = '';  // recebe os links das para os sub menus dos portais
 $active = '';  //  variavel de comparação da cor ao links (voce pode mudar a cor do link no css/stylus.css)
-
+$novoMenu = '';
 //Aqui verifica em qual pagina esta e atribuia as variaveis necessaria para o seu funcionamento dos links
+
+
+
 if($page == 'home')
 {
 
-    $menu = $links;  
     $subMenu = 'PIXELS';
     $active == 'home';
+    $novoMenu = 'active1';
     
 }
 if($page == 'animacao')
 {
 
-    $menu = $links2;
     $subMenu = 'Animação Digital';
-    $dropMenu = $aniDrop;
     $active == 'animacao';
+    $novoMenu = "active2";
+    
 
 }
 if($page == 'desenho')
 {
 
-    $menu = $links2;
     $subMenu = 'Desenho Vetorial';
-    $dropMenu = $desDrop;
-    $active == 'desenho';   
+    $active == 'desenho'; 
+    $novoMenu = "active3" ;
 }
 if($page == 'ilustracao')
 {
 
-    $menu = $links2;
     $subMenu = 'Ilustração Digital';
-    $dropMenu = $iluDrop;
-    $active == 'ilustracao';   
+    $active == 'ilustracao'; 
+    $novoMenu = "active4";  
 }
 if($page == 'modelagem')
 {
 
-    $menu = $links2;
     $subMenu = 'Modelagem 3d';
-    $dropMenu = $modDrop;
-    $active == 'modelagem';   
+    $active == 'modelagem'; 
+    $novoMenu = "active5" ; 
 }
 if($page == 'pixel')
 {
 
-    $menu = $links2;
     $subMenu = 'Pixel Art';
-    $dropMenu = $pixDrop;
-    $active == 'pixel';   
+    $active == 'pixel'; 
+    $novoMenu = "active6";  
 }
 if($page == 'saiba')
 {
 
-    $menu = $links2;
     $subMenu = 'Saiba Mais';
-    $dropMenu = $saiDrop;
     $active == 'saiba'; 
+    $novoMenu = "active7";
 }
 switch($page)
 {
@@ -166,87 +217,313 @@ switch($page)
 <!--Estamos inciando a tag body nesse include e  está sendo fechado no include nossosLinksBotom -->
 
 <body>
-    <nav class="d-flex bd-highlight navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand" href="<?php 
-        if($page == 'home')
-        {
-            echo 'index.php';
-        }else
-        {
-            echo'../index.php';
-        }
-        
-        ?>">
-        <!--O index e a unica pagina que esta na raiz então esse if e para mostrar o caminho do logo para todas as outras -->
-        <img src="
-        <?php if($page =='home')
-        { 
-            echo 'imagem/logo500.png';
-        }else
-        { 
-            echo'../imagem/logo500.png';
-        }
-
-        ?>" alt="Logo" style=" width:80px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-            <!--Este for acessa o a variavel menu e cria o nav-->
-            <ul class=" navbar-nav p-2 flex-fill bd-highlight text-center">
-        <?php
-
-        // 7 e a quantidade de links nas Paginas Principais
-        for($i = 0; $i < 7; $i++ )
-        {
-            // Se A variaval submenu for igual a pagina atual cria seu dropdown 
-            if($subMenu == $menu[$i][0])
-            { 
-                $display = $menu [$i][0];
-                // Aqui ele exclui o nome home, pois ja temos a imagem logo
-                if($menu[$i][0] == $menu[0][0]){
-
-                    echo'<li  class="nav-item dropdown p-2 flex-fill bd-highlight fonteh1 " style="display:none">  ';
+    <nav>
+        <div class="topnav1" id="myTopnav1">
+            <a href="<?php 
+                if($page == 'home')
+                {
+                    $display = "PIXELS";
+                    echo 'index.php';
+                }else
+                {
+                    echo'../index.php';
                 }
-                else
+                
+                ?>" class=" <?php if($page == 'home' ) echo $novoMenu; ?>"><img src="
+                <?php if($page =='home')
                 { 
-                    echo'<li id="'.$menu[$i][2].'" class="nav-item dropdown p-2 flex-fill bd-highlight fonteh1 ">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            '.$menu[$i][0].'
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">';
-                            
-                            // Aqui esta sendeo  criando seus links
-                        foreach($dropMenu as $subName => $subAdress)
-                        {
-                            echo '<a class="dropdown-item fonteh1" href="'.$subAdress.'">'.$subName.'</a>';
-                        }
-
-                        echo '</div>
-                        </li>';
+                    echo 'imagem/logo500.png';
+                }else
+                { 
+                    echo'../imagem/logo500.png';
                 }
-            }
-            
-            // Se A variaval submenu for difernte da pagina atual cria seu link
-            
-            if($subMenu != $menu[$i][0])
-            {      // Aqui ele exclui o nome home
-                if($menu[$i][0] == $menu[0][0]);
+
+                ?>" alt="Logo" ></a>
+
+                <?php
+                if($page == 'animacao') 
+                { 
+                    $display = 'Animação Digital';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.' ">Animação Digital 
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content1">';
+                    foreach($aniDrop as $subName => $subAdress)
+                    {
+                    echo ' <a href="'.$subAdress.'" >'.$subName.'</a>';
+                    }
+                    echo '</div>
+                    </div> ';
+                }
                 else
                 {
-                echo '<li id="'.$menu[$i][2].'" class=" nav-item p-2 flex-fill bd-highlight fonteh1 ">
-                        <a class="nav-link" href="'.$menu[$i][1].'">'.$menu[$i][0].'</a>
-                    </li>';
+                    if($page == 'home') 
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 ">Animação Digital 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($aniDrop2 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }else
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Animação Digital 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($aniDrop3 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }
                 }
+                if($page == 'desenho') 
+                {
+                    $display = 'Desenho Vetorial';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.' ">Desenho Vetorial 
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content1">';
+                    foreach($desDrop as $subName => $subAdress)
+                    {
+                    echo ' <a href="'.$subAdress.'">'.$subName.'</a>';
+                    }
+                    echo '</div>
+                    </div> ';
+                }
+                else
+                {
+                    if($page == 'home') 
+                    {
+                        echo '<div class="dropdown1 ">
+                        <button class="dropbtn1 ">Desenho Vetorial  
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($desDrop2 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }else
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Desenho Vetorial  
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($desDrop3 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }
+                }
+                if($page == 'ilustracao') 
+                {
+                    $display = 'Ilustração Digital';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.'">Ilustração Digital 
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content1">';
+                    foreach($iluDrop as $subName => $subAdress)
+                    {
+                    echo ' <a href="'.$subAdress.'">'.$subName.'</a>';
+                    }
+                    echo '</div>
+                    </div> ';
+                }
+                else
+                {
+                    if($page == 'home') 
+                    {
+                        echo '<div class="dropdown1 ">
+                        <button class="dropbtn1 ">Ilustração Digital 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($iluDrop2 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }else
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Ilustração Digital 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($iluDrop3 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }
+                }
+                if($page == 'modelagem') 
+                { 
+                    $display = 'Modelagem 3D';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.' ">Modelagem 3D 
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content1">';
+                    foreach($modDrop as $subName => $subAdress)
+                    {
+                    echo ' <a href="'.$subAdress.'">'.$subName.'</a>';
+                    }
+                    echo '</div>
+                    </div> ';
+                }
+                else
+                {
+                    if($page == 'home') 
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 ">Modelagem 3D 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($modDrop2 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }else
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 ">Modelagem 3D 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($modDrop3 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }
+                }
+                if($page == 'pixel') 
+                {
+                    $display = 'Pixel Art';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.'">Pixel Art
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content1">';
+                    foreach($pixDrop as $subName => $subAdress)
+                    {
+                    echo ' <a href="'.$subAdress.'">'.$subName.'</a>';
+                    }
+                    echo '</div>
+                    </div> ';
+                }
+                else
+                {
+                    if($page == 'home') 
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 ">Pixel Art
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($pixDrop2 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }else
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 ">Pixel Art 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($pixDrop3 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }
+                }
+                if($page == 'saiba') 
+                {
+                    $display = 'Saiba Mais';
+                    echo '<div class="dropdown1 '.$novoMenu.'">
+                    <button class="dropbtn1 '.$novoMenu.' ">Saiba Mais
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content1">';
+                    foreach($saiDrop as $subName => $subAdress)
+                    {
+                    echo ' <a href="'.$subAdress.'">'.$subName.'</a>';
+                    }
+                    echo '</div>
+                    </div> ';
+                }
+                else
+                {
+                    if($page == 'home') 
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 ">Saiba Mais
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($saiDrop2 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }else
+                    {
+                        echo '<div class="dropdown1">
+                        <button class="dropbtn1 ">Saiba Mais
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content1">';
+                        foreach($saiDrop3 as $subName => $subAdress)
+                        {
+                            echo '<a href="'.$subAdress.'">'.$subName.'</a>';
+                        }
+                        echo '</div>
+                        </div> ';
+                    }
+                }
+                ?>
+            <a href="javascript:void(0);" style="font-size:30px;" class="icon1" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav1");
+            if (x.className === "topnav1") {
+            x.className += " responsive1";
+            } else {
+            x.className = "topnav1";
             }
         }
-    ?>             
-            </ul>
-        </div>
+        </script>
     </nav>
     <div id="portal" class="row <?=$footer?>">
         <div class=" col-lg-12 " ><p class="h1 text-center fonteh1"><?= $display?></p>

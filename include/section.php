@@ -11,6 +11,7 @@ $imgSabQSec = '../imagem/animacao/fatec1.webp';
 $imgSabCSec = '../imagem/animacao/carreira.webp';
 $imgSabNSec = '../imagem/norma800.png';
 
+
 if($page == 'home')
 {
     $subHome = '';
@@ -23,79 +24,89 @@ if($page == 'home')
     $imgSabQSec = 'imagem/animacao/fatec1.webp'; 
     $imgSabCSec = 'imagem/animacao/carreira.webp';
     $imgSabNSec = 'imagem/norma800.png';
-    
-}
-
-if($page == 'animacao')
-{
-    $subAnimacacao = 'animacao.php';
-    $activeSec = 'animacaoSec';
-
-}
-else
-{
-    $subAnimacacao = '../animacao/animacao.php';
+    $subAnimacao = 'animacao/animacao.php';
+    $subDesenho = 'desenho/desenho.php';
+    $subIlustracao = 'ilustracao/ilustracao.php';
+    $subModelagem = 'modelagem/modelagem.php';
+    $subPixel = 'pixel/pixel.php';
+    $subSaibaQ = 'servicos/quemSomos.php';
+    $subSaibaC = 'servicos/carreira.php' ;
+    $subSaibaN = 'servicos/normas.php' ;
 
 }
-if($page == 'desenho')
-{
-    $subDesenho = 'desenho.php';
-    $activeSec = 'desenhoSec';  
-}
-else
-{
-    $subDesenho = '../desenho/desenho.php';
-}
+else{
+    if($page == 'animacao')
+    {
+        $subAnimacacao = 'animacao.php';
+        $activeSec = 'animacaoSec';
 
-if($page == 'ilustracao')
-{
-    $subIlustracao = 'ilustracao.php';
-    $activeSec = 'ilustracaoSec'; 
+    }
+    else
+    {
+        $subAnimacacao = '../animacao/animacao.php';
 
-}else
-{
-    $subIlustracao = '../ilustracao/ilustracao.php';
-}
+    }
+    if($page == 'desenho')
+    {
+        $subDesenho = 'desenho.php';
+        $activeSec = 'desenhoSec';  
+    }
+    else
+    {
+        $subDesenho = '../desenho/desenho.php';
+    }
 
-if($page == 'modelagem')
-{
-    $subModelagem = 'modelagem.php';
-    $activeSec = 'modelagemSec'; 
-}else
-{
-    $subModelagem = '../modelagem/modelagem.php';
-}
-if($page == 'pixel')
-{
-    $subPixel = 'pixel.php';
-    $activeSec = 'pixelSec'; 
+    if($page == 'ilustracao')
+    {
+        $subIlustracao = 'ilustracao.php';
+        $activeSec = 'ilustracaoSec'; 
 
-}else
-{
-    $subPixel = '../pixel/pixel.php';
+    }else
+    {
+        $subIlustracao = '../ilustracao/ilustracao.php';
+    }
 
-}
+    if($page == 'modelagem')
+    {
+        $subModelagem = 'modelagem.php';
+        $activeSec = 'modelagemSec'; 
+    }else
+    {
+        $subModelagem = '../modelagem/modelagem.php';
+    }
+    if($page == 'pixel')
+    {
+        $subPixel = 'pixel.php';
+        $activeSec = 'pixelSec'; 
 
-if($page == 'saiba')
-{
-    $subSaibaQ = 'quemSomos.php';
-    $subSaibaC = 'carreira.php' ;
-    $subSaibaN = 'normas.php' ;
-    $activeSec  = 'saibaSec'; 
-    
-}else
-{
-    $subSaibaQ = '../servicos/quemSomos.php';
-    $subSaibaC = '../servicos/carreira.php' ;
-    $subSaibaN = '../servicos/normas.php' ;
+    }else
+    {
+        $subPixel = '../pixel/pixel.php';
+
+    }
+
+    if($page == 'saiba')
+    {
+        $subSaibaQ = 'quemSomos.php';
+        $subSaibaC = 'carreira.php' ;
+        $subSaibaN = 'normas.php' ;
+        $activeSec  = 'saibaSec'; 
+        
+    }else
+    {
+        $subSaibaQ = '../servicos/quemSomos.php';
+        $subSaibaC = '../servicos/carreira.php' ;
+        $subSaibaN = '../servicos/normas.php' ;
+    }
 }
 ?>
 <div class="animacaoGaleria">
-    <h3 class=" text-center <?php echo $activeSec ;?> ">Veja também</h3>
+    <h3 class=" text-center <?php
+     echo $activeSec ; ?> ">Veja também</h3>
     <div class=" row imagensGaleria">
         <div class=" col-lg-3 galeria ">
             <div class="card-body sectionFooter">
-                <a class=" linksAnimacao1"  href=" <?php echo $subDesenho ; ?> " target="blank"><img
+                <a class=" linksAnimacao1 "  href=" <?php echo $subDesenho ; ?> " target="blank"><img
                         src=" <?php echo $imgDeseSec  ; ?> " alt="Logo da Pagina Desenho Vetorial" >
                     <h5 class="card-title <?php echo $activeSec ;?> ">Desenho Vetorial</h5>
                     <p class="text-left">Coloque Seu Texto e Anexe <b>Saiba Mais...</b>
@@ -121,7 +132,7 @@ if($page == 'saiba')
                 </a>
             </div>
             <div class="card-body sectionFooter">
-                <a class=" linksAnimacao1" href="<?php echo $subAnimacacao ; ?> " target="blank" ><img
+                <a class=" linksAnimacao1" href=" <?php echo $subAnimacao ; ?> " target="blank" ><img
                         src=" <?php echo $imgAniSec  ; ?>  " alt="Logo do Portal Animação Digital" >
                     <h5 class="card-title  <?php echo $activeSec ;?> ">Por trás da Animação digital</h5>
                     <p class="card-text">A historia da Animação suas Tecnicas e profissionais <b>Saiba Mais...</b>
@@ -136,7 +147,7 @@ if($page == 'saiba')
                         src=" <?php echo $imgSabCSec  ; ?>" alt="Imagem peguntando o que você que faze, sobre profissão" class="sectionBottom">
                         
                     <h5 class="card-title <?php echo $activeSec ;?> ">Junte-se a nós</h5>
-                    <p class="text-left">Faça parte dessa equipe
+                    <p class="text-left">Venha fazer parte dessa equipe de sucesso
                         <b>Cadastre - se</b></p>
                 </a>
             </div>
