@@ -4,7 +4,7 @@
 <div class="container-fluid">
     <!-- Photo Grid -->
     <section class="ilustracaoGaleria">
-        <h2 class=" text-center">Galeria de Imagens</h2>
+        <h2 class=" text-left h1-arte">Galeria de Imagens</h2>
         <div class="row">
             <div class=" col-lg-3 ilust">
                 <a><img src="../imagem/ilustracao-digital/galeria1.webp" style="width:90%"></a>

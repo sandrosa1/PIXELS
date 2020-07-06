@@ -7,7 +7,7 @@
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <img class="center-image" src="../imagem/ilustracao-digital/ilistrucao-principal900x300.webp" alt="Ilustração Digital">
                 <div id="titulo" class="align-items-center">
-                    <h1 class="text-center h1-arte">Um mundo de vantagens</h1>
+                    <h1 class="text-left pt-4 h1-arte">Um mundo de vantagens</h1>
                 </div>
             </div>
         </div>
@@ -25,11 +25,11 @@
             </div>
         </section>
 
-        <section class="col-sm-12 col-md-12 col-lg-7 pl-5 p-3 ilustracao-links">
+        <section class="col-sm-12 col-md-12 col-lg-7 ilustracao-links">
             <!-- Cards com artigos menores -->
             <div class="mb-3">
-                <h2 class="text-center mt-3 ">Cursos online de ilustração digital</h2>
-                <ul class="list-unstyled p-3">
+                <h2 class="text-left mt-3">Cursos online de ilustração digital</h2>
+                <ul class="list-unstyled pt-3">
                     <li class="media">
                         <img class="mr-0" src="../imagem/ilustracao-digital/curso1.webp" alt="Curso de retrato digital">
                         <div class="media-body  col-sm-12">
@@ -60,7 +60,7 @@
     <section class="row no-margin  justify-content-center m-3 links_ilustracao">
         <div class="col-lg-12">
             <div class="bg-grey">
-                <h2 class="text-center titulo-section-ilustracao p-2">Tudo o que você precisa saber para começar</h2>
+                <h2 class="text-left titulo-section-ilustracao p-2 h2-ilust">Tudo o que você precisa saber para começar</h2>
                 <p class=" px-5 py-3 ">Você não precisa de um kit com várias cores diferentes, porque todas elas já estão disponíveis e assim, ao invés de ter que misturar tintas até achar a tonalidade desejada, por que não usar o conta-gotas do próprio programa?</p>
                 <div class="px-5 pb-4">
                     <div class="card-deck">
