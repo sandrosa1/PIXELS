@@ -124,7 +124,7 @@ include '../include/header.php'; ?>
             <div class="card dev4">
                 <img class="card-img-top" src="../imagem/alexandre.png" alt="Foto do integrante Alexandre">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Alexandre</h5>
+                    <h5 class="card-title text-center">Alexandre Silvestre de Paula</h5>
                     <p class="text-center mb-1">RA: 2650831923023 </p>
                     <p class="text-center mt-1"> Dev Back-End e Front-end</p>
                     <hr>
