@@ -707,9 +707,31 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     color: var(--link-paragrafo-color-hover);
 }
 
-
-.programas-links a {
+.programas-links a, .pixel-artistas a {
     color: var(--pixel-color);
+}
+
+.pixel-artistas a:hover {
+  color: white;
+  background-color: var(--pixel-color);
+}
+
+.link-site>a:hover {
+  /* background-color: transparent; */
+  text-decoration: none;
+
+}
+
+.max-300px{
+  max-width: 300px;
+}
+
+.max-280px{
+  max-width: 280px;
+}
+
+.no-border {
+  border: none;
 }
 
 /*css para o Sections Publicas*/

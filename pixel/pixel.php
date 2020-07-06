@@ -2,7 +2,7 @@
 <?php $page = 'pixel';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid pixel-links" id="inicio">
+<div class="container-fluid pixel-links my-4" id="inicio">
     <!-- Seção do artigo principal -->
     <article>
         <div class="row justify-content-center m-3">
@@ -29,7 +29,7 @@ include '../include/header.php'; ?>
                     <p class="card-text"><a href="pixelSobre.php#pixelforest">Pipilotti Rist em colaboração com a designer Kaori Kuwabara</a></p>
                 </div>
             </div>
-             
+
 
         </section>
         <!-- Seção de artigos menores -->
@@ -66,7 +66,7 @@ include '../include/header.php'; ?>
     </div>
     <!-- Seção com Indicação de Programas -->
     <section class="row no-margin
-     justify-content-center m-3 programas-links">
+     justify-content-center m-3 mb-4 programas-links">
         <div class="col-lg-12">
             <div class="bg-grey">
                 <h2 class="text-center titulo-section-pixel p-2">Construa seus projetos</h2>
@@ -76,7 +76,7 @@ include '../include/header.php'; ?>
                         <!-- Piskel -->
                         <div class="card">
                             <h5 class="card-title text-center py-2">Piskel</h5>
-                            <img class="card-img-top" src="../imagem/piskel-280-173.png" alt="Interface do programa Piskel">
+                            <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/piskel.webp" alt="Interface do programa Piskel">
                             <div class="card-body">
                                 <p class="card-text">Crie sua pixel art com o programa Piskel.</p>
                                 <p class="card-text">O Piskel e um editor gratuito para
@@ -93,7 +93,7 @@ include '../include/header.php'; ?>
                         <!-- Pixilart -->
                         <div class="card">
                             <h5 class="card-title text-center py-2">Pixilart</h5>
-                            <img class="card-img-top" src="../imagem/pixilart-280-173.png" alt="Interface do programa Piskel">
+                            <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/pixilart.webp" alt="Interface do programa Pixilart">
                             <div class="card-body">
                                 <p class="card-text"> O Pixilart é uma ferramenta online
                                     e possui app para Android e IOS.</p>
@@ -109,7 +109,7 @@ include '../include/header.php'; ?>
                         <!-- Pixel Studio -->
                         <div class="card">
                             <h5 class="card-title text-center py-2">Pixel Studio</h5>
-                            <img class="card-img-top" src="../imagem/pixelstudio-280-173.png" alt="Interface do programa Piskel">
+                            <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/pixelstudio.webp" alt="Interface do programa Piskel">
                             <div class="card-body">
                                 <p class="card-text">O Pixel Studio é uma ferramenta simples, rápida e portátil.</p>
                                 <p class="card-text">Pode ser usada por iniciantes e profissionais. Com ele é possível criar usa pixel art, animações e usar paletas incorporadas dos melhores mestres de pixel art.</p>
@@ -119,12 +119,15 @@ include '../include/header.php'; ?>
                                 <small class="text-muted">Acesse: <a href="https://twitter.com/pixelstudioteam" target="_blank">twitter.com/pixelstudioteam</a></small>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
+        </div>
+    </section>
+    <hr>
+    <section class="row justify-content-center no-margin">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <?php include '../include/section.php' ?>
         </div>
     </section>
 </div>
