@@ -2,7 +2,7 @@
 <?php $page = 'pixel';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid" id="inicio">
+<div class="container-fluid pixel-links" id="inicio">
     <article id="pixel-sobre">
         <!-- Título e sub-título -->
         <div class="row my-3 justify-content-center no-margin">
@@ -85,7 +85,7 @@ include '../include/header.php'; ?>
 </article>
 <hr>
 <section class="row justify-content-center no-margin">
-    <div class="col-sm-12 col-md-11 col-lg-11  pixel-veja-tambem">
+    <div class="col-sm-12 col-md-11 col-lg-11">
         <?php include '../include/section.php' ?>
     </div>
 </section>

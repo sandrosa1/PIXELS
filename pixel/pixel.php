@@ -124,7 +124,7 @@ include '../include/header.php'; ?>
     </section>
     <hr>
     <section class="row justify-content-center no-margin">
-        <div class="col-sm-12 col-md-12 col-lg-12  pixel-veja-tambem">
+        <div class="col-sm-12 col-md-12 col-lg-12  ">
             <?php include '../include/section.php' ?>
         </div>
     </section>

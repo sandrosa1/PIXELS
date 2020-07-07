@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
 
 }
-/*escolha sua cor de preferencia aqui aqui*/
+/*escolha sua cor de preferencia aqui*/
 :root {
     --home-color: #ff4500;
     --animacao-color: #4169E1;
@@ -38,7 +38,6 @@ h1, h2, h3, h4, h5 {
     overflow: hidden;
     background-color: white;
     padding: 0px 20px 0px;
-    /* border: solid 2px red; */
   }
 
   .topnav1 a img{
@@ -791,6 +790,10 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     color: var(--link-paragrafo-color-hover);
 }
 
+.pixel-links a {
+    color: var(--link-paragrafo-color);
+}
+
 .programas-links a,
 .pixel-artistas a {
     color: var(--pixel-color);
@@ -903,6 +906,12 @@ section .animacaoGaleria {
 
 .modelagemSec {
     color: var(--modelagem-color);
+    font-family: var(--fonte-family);
+    margin-top: 10px;
+}
+
+.pixelSec {
+    color: var(--pixel-color);
     font-family: var(--fonte-family);
     margin-top: 10px;
 }

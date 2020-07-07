@@ -23,7 +23,7 @@ if($page == 'home')
     $imgPixeSec  = 'imagem/animacao/pixelforest.webp';  
     $imgSabQSec = 'imagem/animacao/fatec1.webp'; 
     $imgSabCSec = 'imagem/animacao/carreira.webp';
-    $imgSabNSec = 'imagem/norma800.png';
+    $imgSabNSec = 'imagem/norma200.webp';
     $subAnimacao = 'animacao/animacao.php';
     $subDesenho = 'desenho/desenho.php';
     $subIlustracao = 'ilustracao/ilustracao.php';

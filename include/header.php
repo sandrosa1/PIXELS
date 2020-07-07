@@ -111,19 +111,19 @@ $modDrop3 = [
 $pixDrop = [
     'Pixel Art' => 'pixel.php',            //0
     'Sobre a Arte' => 'pixelSobre.php',     //1
-    'Artistas' => 'pixelArtistas.php?artista=artistas',      //2
+    'Principais Nomes' => 'pixelArtistas.php?artista=artistas',      //2
     'Galeria' => 'pixelGaleria.php'         //3
 ];
 $pixDrop2 = [
     'Pixel Art' => 'pixel/pixel.php',            //0
     'Sobre a Arte' => 'pixel/pixelSobre.php',     //1
-    'Artistas' => 'pixel/pixelArtistas.php',      //2
+    'Principais Nomes' => 'pixel/pixelArtistas.php',      //2
     'Galeria' => 'pixel/pixelGaleria.php'         //3
 ];
 $pixDrop3 = [
     'Pixel Art' => '../pixel/pixel.php',            //0
     'Sobre a Arte' => '../pixel/pixelSobre.php',     //1
-    'Artistas' => '../pixel/pixelArtistas.php',      //2
+    'Principais Nomes' => '../pixel/pixelArtistas.php',      //2
     'Galeria' => '../pixel/pixelGaleria.php'         //3
 ];
 
@@ -207,9 +207,8 @@ switch ($page) {
 
 <body>
     <nav>
-        <div class="topnav1 d-flex mx-2" id="myTopnav1">
+        <div class="topnav1" id="myTopnav1">
             <!-- Logo -->
-            <div class="mr-auto">
             <a href="<?php
                         if ($page == 'home') {
                             $display = "PIXELS";
@@ -226,9 +225,9 @@ switch ($page) {
                 }
 
                 ?>" alt="Logo"></a>
-</div>
+
             <!-- Links de navegação -->
-            <div class="">
+            <div class="d-lg-flex justify-content-end mr-2">
                 <?php
                 if ($page == 'animacao') {
                     $display = 'Animação Digital';
@@ -453,8 +452,8 @@ switch ($page) {
                     }
                 }
                 ?>
-                <a href="javascript:void(0);" style="font-size:30px;" class="icon1" onclick="myFunction()">&#9776;</a>
             </div>
+            <a href="javascript:void(0);" style="font-size:30px;" class="icon1" onclick="myFunction()">&#9776;</a>
         </div>
         <script>
             function myFunction() {
@@ -468,7 +467,7 @@ switch ($page) {
         </script>
     </nav>
     <div id="portal" class="row <?= $footer ?>">
-        <div class=" col-lg-12 ">
+        <div class="col-lg-12">
             <p class="h1 text-center fonteh1"><?= $display ?></p>
         </div>
     </div>
