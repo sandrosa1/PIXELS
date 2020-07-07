@@ -27,8 +27,8 @@
 
         <section class="col-sm-12 col-md-12 col-lg-7 ilustracao-links">
             <!-- Cards com artigos menores -->
-            <div class="mb-3">
-                <h2 class="text-left mt-3">Cursos online de ilustração digital</h2>
+            <div class="mt-3 mb-3 bg-grey">
+                <h2 class="text-left p-3">Cursos online de ilustração digital</h2>
                 <ul class="list-unstyled pt-3">
                     <li class="media">
                         <img class="mr-0" src="../imagem/ilustracao-digital/curso1.webp" alt="Curso de retrato digital">

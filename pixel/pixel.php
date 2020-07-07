@@ -31,7 +31,7 @@ include '../include/header.php'; ?>
             </div>
         </section>
         <!-- Seção de artigos menores -->
-        <section class="col-sm-12 col-md-6 col-lg-7 pl-5">
+        <section class="col-sm-12 col-md-6 col-lg-7">
             <!-- Cards com artigos menores -->
             <div class="mb-3 bg-grey">
                 <h2 class="text-center mt-3 titulo-section-pixel py-2">Fique por dentro</h2>
@@ -64,15 +64,14 @@ include '../include/header.php'; ?>
     </div>
     <!-- Seção com Indicação de Programas -->
     <section id="programas" class="row no-margin
-     justify-content-center m-3 mb-4 programas-links">
+     justify-content-center p-2 programas-links">
         <div class="col-lg-12">
             <div class="bg-grey">
                 <h2 class="text-center titulo-section-pixel p-2">Construa seus projetos</h2>
                 <p class=" px-5 py-3 ">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, plataforma Online e app para celular. Escolha o seu e divirta-se!</p>
-                <div class="px-5 pb-4">
-                    <div class="card-deck">
+                    <div class="card-deck px-3">
                         <!-- Piskel -->
-                        <div class="card">
+                        <div class="card mx-1">
                             <h5 class="card-title text-center py-2">Piskel</h5>
                             <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/piskel.webp" alt="Interface do programa Piskel">
                             <div class="card-body">
@@ -89,7 +88,7 @@ include '../include/header.php'; ?>
                             </div>
                         </div>
                         <!-- Pixilart -->
-                        <div class="card">
+                        <div class="card mx-1">
                             <h5 class="card-title text-center py-2">Pixilart</h5>
                             <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/pixilart.webp" alt="Interface do programa Pixilart">
                             <div class="card-body">
@@ -105,7 +104,7 @@ include '../include/header.php'; ?>
                             </div>
                         </div>
                         <!-- Pixel Studio -->
-                        <div class="card">
+                        <div class="card mx-1">
                             <h5 class="card-title text-center py-2">Pixel Studio</h5>
                             <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/pixelstudio.webp" alt="Interface do programa Piskel">
                             <div class="card-body">
@@ -118,7 +117,6 @@ include '../include/header.php'; ?>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
