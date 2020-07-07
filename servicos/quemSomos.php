@@ -20,7 +20,7 @@ include '../include/header.php'; ?>
             </div>
             <!-- CARD do desenvolvedor Animação Digital -->
             <div class="card dev1">
-                <img class="card-img-top" src="../imagem/animacao/animacaoSandro.webp" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/quem_somos/animacaoSandro.webp" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Sandro Amâncio de Sá</h5>
                     <p class="text-center mb-1">RA: 2650831923001</p>
@@ -52,7 +52,7 @@ include '../include/header.php'; ?>
             </div>
             <!-- CARD do desenvolvedor Desenho Vetorial -->
             <div class="card dev2">
-                <img class="card-img-top" src="../imagem/user.png" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/quem_somos/user.png" alt="Imagem de perfil do Lucas">
                 <div class="card-body">
                     <h5 class="card-title text-center">Lucas Silvestre Paula</h5>
                     <p class="text-center mb-1">RA: 265083192306</p>
@@ -89,7 +89,7 @@ include '../include/header.php'; ?>
 
             <!-- CARD do desenvolvedor Ilustração Digital -->
             <div class="card dev3">
-                <img class="card-img-top" src="../imagem/ilustracao-digital/allan.webp" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/quem_somos/allan.webp" alt="Imagem de perfil do Allan">
                 <div class="card-body">
                     <h5 class="card-title text-center">Allan</h5>
                     <p class="text-center mb-1">RA: 2650831923014</p>
@@ -158,7 +158,7 @@ include '../include/header.php'; ?>
 
             <!-- CARD do desenvolvedor Pixel Art -->
             <div class="card dev5">
-                <img class="card-img-top" src="../imagem/carol-250-250.png" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/quem_somos/carol.webp" alt="Imagem de perfil da Carolina">
                 <div class="card-body">
                     <h5 class="card-title text-center">Carolina Kaji</h5>
                     <p class="text-center mb-1">RA: 2650831923018</p>
