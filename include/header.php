@@ -70,7 +70,7 @@ $modDrop = [
 $pixDrop = [
     'Pixel Art'=>'pixel.php',            //0
     'Sobre a Arte'=>'pixelSobre.php',     //1
-    'Artistas'=>'pixelArtistas.php',      //2
+    'Artistas'=>'pixelArtistas.php?artista=artistas',      //2
     'Galeria'=>'pixelGaleria.php'         //3
 ];
 
