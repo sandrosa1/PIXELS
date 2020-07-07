@@ -72,10 +72,10 @@ include 'include/header.php'; ?>
     <section class="bg-grey">
         <h3 class="text-center py-3">Você já ouviu falar sobre...</h3>
         <div class="row justify-content-center mx-3">
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <h4>Calendário de exposições</h4>
                 <div class="">
-                    <img src="imagem/indexp7calendario.jpg" class="float-md-left float-sm-none" alt="calendário de julho">
+                    <img src="imagem/indexp7calendario.jpg" class="float-md-left float-sm-none mr-md-3" alt="calendário de julho">
                     <p class=""><time datetime="2020-05-14">14/05/2020 - Masp </time></p>
 
                 </div>
