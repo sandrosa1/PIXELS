@@ -27,9 +27,9 @@ include 'include/header.php'; ?>
                             </div>
                         </li>
                         <li class="media">
-                            <a href="pixel/pixel.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/indexp2.jpg" alt="Imagem flat de um computador com programa"></a>
+                            <a href="pixel/pixel.php#programas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/indexp2.jpg" alt="Imagem flat de um computador com programa"></a>
                             <div class="media-body">
-                                <small><a href="pixel/pixel.php" class="card-link linksAnimacao1">#PixalArt</a></small>
+                                <small><a href="pixel/pixel.php" class="card-link linksAnimacao1">#PixelArt</a></small>
                                 <h5 class="mt-0 mb-1">
                                     <a href="pixel/pixel.php#programas" class="card-link linksAnimacao1">3 programas gratuitos para você começar sua arte em Pixel</a>
                                 </h5>
@@ -49,7 +49,7 @@ include 'include/header.php'; ?>
                             <div class="media-body">
                                 <small><a href="animacao/animacao.php" class="card-link linksAnimacao1">#AnimaçãoDigital</a></small>
                                 <h5 class="mt-0 mb-1">
-                                    <a href="pixel/pixel.php" class="card-link linksAnimacao1 ">Historia, nomes, técnicas e curiosidas do mundo da animação digital</a>
+                                    <a href="pixel/pixel.php" class="card-link linksAnimacao1 ">Historia, nomes, técnicas e curiosidades do mundo da animação digital</a>
                                 </h5>
                             </div>
                         </li>
@@ -69,17 +69,22 @@ include 'include/header.php'; ?>
     </article>
     <!--//////////////////////////////////////                 /////////////////////////////////////////////////////-->
     <!--Chamadas Secundárias-->
-    <article class="bg-grey">
+    <section class="bg-grey">
         <h3 class="text-center py-3">Você já ouviu falar sobre...</h3>
         <div class="row justify-content-center mx-3">
-            <div class="col-lg-4">
-                <h4>Claymation</h4>
+            <div class="col-lg-3">
+                <h4>Calendário de exposições</h4>
+                <div class="">
+                    <img src="imagem/indexp7calendario.jpg" class="float-md-left float-sm-none" alt="calendário de julho">
+                    <p class=""><time datetime="2020-05-14">14/05/2020 - Masp </time></p>
+
+                </div>
             </div>
             <div class="col-lg-4"></div>
             <div class="col-lg-4"></div>
 
         </div>
-    </article>
+    </section>
 
 
 
