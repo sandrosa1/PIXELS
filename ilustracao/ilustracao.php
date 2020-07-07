@@ -57,15 +57,14 @@
         </section>
     </div>
 
-    <section class="row no-margin  justify-content-center m-3 links_ilustracao">
+    <section class="row no-margin  justify-content-center p-2 links_ilustracao">
         <div class="col-lg-12">
             <div class="bg-grey">
                 <h2 class="text-left titulo-section-ilustracao p-2 h2-ilust">Tudo o que você precisa saber para começar</h2>
-                <p class=" px-5 py-3 ">Você não precisa de um kit com várias cores diferentes, porque todas elas já estão disponíveis e assim, ao invés de ter que misturar tintas até achar a tonalidade desejada, por que não usar o conta-gotas do próprio programa?</p>
-                <div class="px-5 pb-4">
-                    <div class="card-deck">
+                <p class="px-4 py-3 ">Você não precisa de um kit com várias cores diferentes, porque todas elas já estão disponíveis e assim, ao invés de ter que misturar tintas até achar a tonalidade desejada, por que não usar o conta-gotas do próprio programa?</p>
+                    <div class="card-deck px-3">
                         <!-- Mesa digitalizadora -->
-                        <div class="card">
+                        <div class="card mx-1">
                             <h5 class="card-title text-center py-2">Mesa digitalizadora</h5>
                             <img class="card-img-top" src="../imagem/ilustracao-digital/mesa1.webp" alt="Mesa digitalizadora">
                             <div class="card-body">
@@ -77,8 +76,8 @@
                             </div>
                         </div>
                         <!-- Softwares e programas -->
-                        <div class="card">
-                            <h5 class="card-title text-center py-2">Softwares e programas</h5>
+                        <div class="card mx-1">
+                            <h5 class="card-title text-center py-2">Softwares</h5>
                             <img class="card-img-top" src="../imagem/ilustracao-digital/ps1.webp" alt="Interface do programa Photoshop">
                             <div class="card-body">
                                 <p class="card-text">Sem dúvida alguma, a opção mais popular no mercado é o Photoshop. O programa da Adobe é muito completo, apresentando infinitos recursos como pincéis, camadas, ferramentas de corte e montagem, edição de cor e texto.</p>
@@ -89,7 +88,7 @@
                             </div>
                         </div>
                         <!-- Procreate -->
-                        <div class="card">
+                        <div class="card mx-1">
                             <h5 class="card-title text-center py-2">Procreate</h5>
                             <img class="card-img-top" src="../imagem/ilustracao-digital/procreate1.webp" alt="Interface do programa Procreate">
                             <div class="card-body">
@@ -101,7 +100,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
