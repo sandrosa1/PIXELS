@@ -6,7 +6,7 @@ $imgAniSec  = '../imagem/animacao/animacaoHome1.webp';
 $imgDeseSec  = '../imagem/vetoriais.webp';   
 $imgIlusSec  = '../imagem/animacao/ilustracao.webp';
 $imgModeSec  = '../imagem/animacao/modelagem.webp';
-$imgPixeSec  = '../imagem/animacao/pixelforest.webp';  
+$imgPixeSec  = '../imagem/pixel/pixelforest445.webp';  
 $imgSabQSec = '../imagem/animacao/fatec1.webp'; 
 $imgSabCSec = '../imagem/animacao/carreira.webp';
 $imgSabNSec = '../imagem/norma200.webp';
@@ -20,7 +20,7 @@ if($page == 'home')
     $imgDeseSec  = 'imagem/vetoriais.webp';   
     $imgIlusSec  = 'imagem/animacao/ilustracao.webp';
     $imgModeSec  = 'imagem/animacao/modelagem.webp';
-    $imgPixeSec  = 'imagem/animacao/pixelforest.webp';  
+    $imgPixeSec  = 'imagem/pixel/pixelforest445.webp';  
     $imgSabQSec = 'imagem/animacao/fatec1.webp'; 
     $imgSabCSec = 'imagem/animacao/carreira.webp';
     $imgSabNSec = 'imagem/norma200.webp';
@@ -153,7 +153,7 @@ else{
             </div>
             <div class="card-body sectionFooter">
                 <a class=" linksAnimacao1" href=" <?php echo $subPixel ; ?> " target="blank"><img
-                        src=" <?php echo $imgPixeSec  ; ?>" alt="Logo tipo doa pagina pixel art" class="sectionBottom">
+                        src=" <?php echo $imgPixeSec  ; ?>" alt="Logo tipo doa pagina pixel art" class="sectionBottom   max-445px img-fluid">
                     <h5 class="card-title  <?php echo $activeSec ;?> ">Pixel Art</h5>
                     <p class="text-left">A arte do ponto a ponto
                         <b>Saiba Mais...</b></p>

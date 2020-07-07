@@ -814,9 +814,7 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     color: var(--pixel-color);
 }
 
-.max-900px {
-    max-width: 900px;;
-}
+
 .max-300px {
     max-width: 300px;
 }
@@ -831,6 +829,10 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 .max-200px{
     max-width: 200px;
+}
+
+.max-500px {
+    max-width: 500px;
 }
 
 .no-border {

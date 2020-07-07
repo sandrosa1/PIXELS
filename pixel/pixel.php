@@ -63,12 +63,12 @@ include '../include/header.php'; ?>
         </section>
     </div>
     <!-- Seção com Indicação de Programas -->
-    <section class="row no-margin
+    <section id="programas" class="row no-margin
      justify-content-center m-3 mb-4 programas-links">
         <div class="col-lg-12">
             <div class="bg-grey">
                 <h2 class="text-center titulo-section-pixel p-2">Construa seus projetos</h2>
-                <p class=" px-5 py-3 ">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, flataforma Onlin e app para celular. Escolha o seu e divirta-se!</p>
+                <p class=" px-5 py-3 ">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, plataforma Online e app para celular. Escolha o seu e divirta-se!</p>
                 <div class="px-5 pb-4">
                     <div class="card-deck">
                         <!-- Piskel -->
