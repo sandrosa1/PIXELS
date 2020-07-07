@@ -6,59 +6,103 @@ include '../include/header.php'; ?>
     <h1 class="text-center m-3">Galeria</h1>
     <p class="text-center m-3">Confira a seleção de imagens de diversos artistas.</p>
     <section class="galeria-pixel">
-        <div class="row no-margin text-center">
+        <div class="row no-margin text-center justify-content-center">
 
-            <div class="d-flex justify-content-around flex-wrap ">
+            <div class="ilust">
                 <div class="align-self-end overlay">
-                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-01.webp">
-                    <div class="">
-                        <p class="text-center">David Bowie de Ivan Dixon</p>
-                    </div>
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/galeria/galeria-01.webp">
+                        <figure class="text-center pt-1">David Bowie de Ivan Dixon</figure>
+                    </figure>
                 </div>
                 <div class="align-self-end overlay">
-                    <img class="img-fluid align-self-center" src="../imagem/pixel/galeria/galeria-03.webp">
-                    <p class="text-center">Mascots de Paul Robertson</p>
+                    <figure>
+                        <img class="img-fluid align-self-center" src="../imagem/pixel/galeria/galeria-03.webp">
+                        <figcaption class="text-center pt-1">Mascots de Paul Robertson</figcaption>
+                    </figure>
                 </div>
                 <div class="align-self-end overlay">
-                    <img class="img-fluid" src="../imagem/pixel/pixelforest.webp">
-                    <p class="text-center">Filme Pixels, de Chris Columbus</p>
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/pixelforest.webp">
+                        <figcaption class="text-center pt-1">Filme Pixels, de Chris Columbus</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="ilust">
+                <div class="align-self-end overlay">
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/galeria/galeria-06.webp">
+                        <figcaption class="text-center pt-1">Rick & Morty de Ivan Dixon</figcaption>
+                    </figure>
+                </div>
+                <div class="align-self-end overlay">
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/galeria/galeria-07.webp">
+                        <figcaption class="text-center pt-1">3 espiãs demais de Bruno Moraes</figcaption>
+                    </figure>
+                </div>
+                <div class="align-self-end overlay">
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/galeria/galeria-09.webp">
+                        <figcaption class="text-center pt-1">Guia de restaurante de L.A. de eBoy</figcaption>
+                    </figure>
                 </div>
                 <div class="align-self-center overlay">
-                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-05.jpg">
-                    <p class="text-center">Jogo Chasm de Glauber Kotaki</p>
+                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-05.webp">
+                    <figcaption class="text-center pt-1">Jogo Chasm de Glauber Kotaki</figcaption>
+                    <figure></figure>
+                </div>
+            </div>
+            <div class="ilust">
+                <div class="align-self-end overlay ">
+                    <figure>
+                        <img class="img-fluid align-self-center" src="../imagem/pixel/galeria/galeria-04.webp">
+                        <figcaption class="text-center pt-1">Game Mockup de Bruno Moraes</figcaption>
+                    </figure>
                 </div>
                 <div class="align-self-end overlay">
-                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-06.webp">
-                    <p class="text-center">Rick & Morty de Ivan Dixon</p>
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/galeria/galeria-11.webp">
+                        <figcaption class="text-center pt-1">Escultura de Kelly Goelle</figcaption>
+                    </figure>
+                </div>
+ 
+                <div class="align-self-end overlay">
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/galeria/galeria-13.webp">
+                        <figcaption class="text-center pt-1">David Bowie de Bruno Moaes</figcaption>
+                    </figure>
+                </div>
+
+                <div class="align-self-end overlay">
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/galeria/galeria-12.webp">
+                        <figcaption class="text-center pt-1">Peecol de eBoy</figcaption>
+                    </figure>
+                </div>
+
+            </div>
+            <div class="ilust">
+                <div class="align-self-end overlay ">
+                    <figure>
+                        <img class="img-fluid align-self-center" src="../imagem/pixel/adventuretime.webp">
+                        <figcaption class="text-center pt-1">Adventure Time de Ivan Dixon</figcaption>
+                    </figure>
                 </div>
                 <div class="align-self-end overlay">
-                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-07.webp">
-                    <p class="text-center">3 espiãs demais de Bruno Moraes</p>
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/simpsons.webp">
+                        <figcaption class="text-center pt-1">Os Simpsons de Ivan Dixon</figcaption>
+                    </figure>
                 </div>
+ 
                 <div class="align-self-end overlay">
-                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-09.webp">
-                    <p class="text-center">Guia de restaurante de L.A. de eBoy</p>
+                    <figure>
+                        <img class="img-fluid" src="../imagem/pixel/galeria/galeria-10.webp">
+                        <figcaption class="text-center pt-1">Filme Pixels de Chris Columbus</figcaption>
+                    </figure>
                 </div>
-                <div class="align-self-end overlay">
-                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-12.webp">
-                    <p class="text-center">Peecol de eBoy</p>
-                </div>
-                <div class="align-self-end overlay">
-                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-08.webp">
-                    <p class="text-center">Tamagochi de Bruno Moraes</p>
-                </div>
-                <div class="align-self-end overlay">
-                    <img class="img-fluid align-self-center" src="../imagem/pixel/galeria/galeria-04.webp">
-                    <p class="text-center">Game Mockup de Bruno Moraes</p>
-                </div>
-                <div class="align-self-end overlay">
-                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-11.webp">
-                    <p class="text-center">Escultura de Kelly Goelle</p>
-                </div>
-                <div class="align-self-end overlay">
-                    <img class="img-fluid" src="../imagem/pixel/galeria/galeria-10.webp">
-                    <p class="text-center">Filme Pixels de Chris Columbus</p>
-                </div>
+
             </div>
     </section>
 

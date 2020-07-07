@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5 {
     overflow: hidden;
     background-color: white;
     padding: 0px 20px 0px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
   }
 
   .topnav1 a img{
@@ -103,9 +103,9 @@ h1, h2, h3, h4, h5 {
   }
   
   .dropdown-content1 {
-    display: none;
-    position: absolute;
-    background-color: var(--home-color);
+      display: none;
+      position: absolute;
+      background-color: #fff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -118,15 +118,21 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
-  .topnav1 .active1 a:hover, .dropdown1:hover .dropbtn1 {
+    border-bottom: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+}
+
+.topnav1 .active1 a:hover, .dropdown1:hover .dropbtn1 {
     background-color: var(--home-color);
     color: white;
-  }
- 
-  /*Muda a cor da seleção do dropdown*/
-  .dropdown-content1 a:hover {
+}
+
+/*Muda a cor da seleção do dropdown*/
+.dropdown-content1 a:hover {
+    border-left: 1px solid var(--home-color);
+    border-right: 1px solid var(--home-color);
+    border-bottom: 1px solid var(--home-color);
     background-color: var(--home-color);
     color: white;
   }
@@ -796,7 +802,13 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 }
 
 .link-site>a:hover {
-    text-decoration: none;
+    /* text-decoration: none;*/
+    background-color: transparent;
+    color: var(--pixel-color);
+}
+
+.pixel-veja-tambem a:hover{
+    color: var(--pixel-color);
 }
 
 .max-900px {
@@ -808,6 +820,14 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 .max-280px {
     max-width: 280px;
+}
+
+.max-445px{
+    max-width: 445px;
+}
+
+.max-200px{
+    max-width: 200px;
 }
 
 .no-border {
@@ -824,12 +844,23 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     transform: scale(1.05);
 }
 
-.overlay {
-    margin: .8rem;
-    background-color: #ddd;
-}
 .overlay p {
     padding-top: 10px; 
+}
+
+
+.pixel-galeria {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 0px;
+}
+
+
+.pixel-galeria img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 80%;
 }
 
 
@@ -967,6 +998,7 @@ footer .row .col-lg-4 a img {
         font-size: 3rem;
         font-weight: 300;          
     }
+
 }
 
 /* Até 600px obedece ao código abaixo. (do small até 600px*/

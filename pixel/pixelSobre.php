@@ -66,38 +66,26 @@ include '../include/header.php'; ?>
             </div>
         </div>
         <div class="row justify-content-center no-margin">
-            <div class="col-sm-12 col-md-11 col-lg-11 text-justify">
-                <h2 class="pb-3">Pensando fora da caixinha</h2>
-                <p>A arte em pixel também foi muito utilizada em propagandas. Alguns exemplos de marcas famosas são Coca-Cola, Nike, Adobe, Yahoo, Honda entre outros.</p>
+            <div class="col-sm-12 col-md-11 col-lg-11 text-center">
+                <h2 class="pb-3 text-left">Pixel Art na publicidade</h2>
+                <img class="card-img-top rounded max-200px float-sm-none float-md-none float-lg-right" src="../imagem/pixel/cocacola.webp" alt="Propaganda Coca-Cola">
+                <img class="card-img-top rounded max-200px float-sm-none float-md-none float-lg-right mx-3" src="../imagem/pixel/yahoo.webp" alt="Propaganda Yahoo">
+                <p class="text-justify ">A arte em pixel também foi muito utilizada em propagandas. Alguns exemplos de marcas famosas são Coca-Cola, Nike, Adobe, Yahoo, Honda entre outros. Como nas fotos de propagandas a baixo, o uso de pixel art é versátil e divertido.</p>
+  
+                <h2 class="pb-3 text-left">Inspiração para exposições</h2>
+                <p class="text-justify" id="pixelforest">Não só presente em jogos, e propaganda, o estilo atingiu um novo nível. Em 2017 no museu de artes de Houston, The Museum of Fine Arts, Pipilotti Rist, um artista suiço, em colaboração com a designer de luzes Kaori Kuwabara expuseram o Pipilotti Rist: Pixel Forest and Worry Will Vanish.</p>
+                <p class="text-justify">Através da inspiração pelos pixels, os artistas criaram uma composição de luzes pendentes, imagens, sons e cores que levavam os visitantes a sensação de uma viagem cósmica através do tempo e espaço, conciliando o advento tecnológico à arte.</p>
+                <img src="../imagem/pixel/galeria/galeria-11.webp" alt="Torneira saindo água em pixel na calçada" class=" img-fluid rounded ml-md-3 float-sm-none float-md-none float-lg-right mt-sm-3 mt-xs-3" />
+                <img src="../imagem/pixel/pixelforest.webp" alt="Exposição Pixel Forest com luzes pendentes" class="img-fluid rounded ml-md-3 float-sm-none float-md-none float-lg-right mt-xs-3 mt-sm-3" />
+                <p class="text-justify">Outra obra de arte inspirada por pixels pertence ao artista Kelly Goeller, de Portland.</p>
+                <p class="text-justify">O Pixel Art é uma arte tanto simples, quanto complexa.</p>
+                <p class="text-justify">E sua beleza está ao se ver o conjunto do ponto a ponto, ou melhor, do pixel a pixel.</p>
             </div>
-            <div class="col-sm-12 col-md-11 col-lg-11 card-deck ">
-                <div class="card no-border">
-                    <img class="card-img-top rounded max-300px d-block mx-auto" src="../imagem/pixel/cocacola.webp" alt="Propaganda Coca-Cola">
-                </div>
-                <div class="card no-border">
-                    <img class="card-img-top rounded max-300px d-block mx-auto" src="../imagem/pixel/yahoo.webp" alt="Propaganda Yahoo">
-                </div>
-                <div class="card no-border">
-                    <img class="card-img-top rounded max-300px d-block mx-auto" src="../imagem/pixel/honda.webp" alt="Propaganda da Honda">
-                </div>
-            </div>
-        </div>
-</div>
-<div class="row justify-content-center no-margin my-4">
-    <div class="col-sm-12 col-md-11 col-lg-11 text-center ">
-        <img src="../imagem/pixel/pixelforest.webp" alt="Exposição Pixel Forest com luzes pendentes" class="img-fluid rounded ml-md-3 float-sm-none float-md-none float-lg-right mt-xs-3 mt-sm-3" />
-        <img src="../imagem/pixel/galeria/galeria-11.JPG" alt="Torneira saindo água em pixel na calçada" class=" img-fluid rounded ml-md-3 float-sm-none float-md-none float-lg-right mt-sm-3 mt-xs-3" />
-        <p class="text-justify">Não só presente em jogos, e propaganda, o estilo atingiu um novo nível. Em 2017 no museu de artes de Houston, The Museum of Fine Arts, Pipilotti Rist, um artista suiço, em colaboração com a designer de luzes Kaori Kuwabara expuseram o Pipilotti Rist: Pixel Forest and Worry Will Vanish.</p>
-        <p class="text-justify">Através da inspiração pelos pixels, os artistas criaram uma composição de luzes pendentes, imagens, sons e cores que levavam os visitantes a sensação de uma viagem cósmica através do tempo e espaço, conciliando o advento tecnológico à arte.</p>
-        <p class="text-justify">Outra obra de arte inspirada por pixels pertence ao artista Kelly Goeller, de Portland.</p>
-        <p class="text-justify">E sua beleza está ao se ver o conjunto do ponto a ponto, ou melhor, do pixel a pixel.</p>
-        <p class="text-justify">O Pixel Art é uma arte tanto simples, quanto complexa.</p>
-    </div>
 </div>
 </article>
 <hr>
 <section class="row justify-content-center no-margin">
-    <div class="col-sm-12 col-md-10 col-lg-10">
+    <div class="col-sm-12 col-md-11 col-lg-11  pixel-veja-tambem">
         <?php include '../include/section.php' ?>
     </div>
 </section>

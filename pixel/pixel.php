@@ -21,11 +21,11 @@ include '../include/header.php'; ?>
     </article>
     <!-- Seção de artigo secundário -->
     <div class="row no-margin justify-content-center m-3">
-        <section class="col-sm-12 col-md-6 col-lg-5 grupo-imagem-secundaria align-item-center p-3">
-            <div class="card">
+        <section class="col-sm-12 col-md-6 col-lg-5 grupo-imagem-secundaria p-3 ">
+            <div class="card max-445px mx-auto">
                 <img class="card-img-top align-middle" src="../imagem/pixel/pixelforest445.webp" alt="Exposição Pixel-Forest">
                 <div class="card-body bg-grey">
-                    <h5 class="card-title">Conheça a Pixel Forest</h5>
+                    <h3 class="card-title">Conheça a Pixel Forest</h3>
                     <p class="card-text"><a href="pixelSobre.php#pixelforest">Pipilotti Rist em colaboração com a designer Kaori Kuwabara</a></p>
                 </div>
             </div>
@@ -37,24 +37,24 @@ include '../include/header.php'; ?>
                 <h2 class="text-center mt-3 titulo-section-pixel py-2">Fique por dentro</h2>
                 <ul class="list-unstyled p-3 sobre-pixel-lista">
                     <li class="media">
-                        <img class="mr-3" src="../imagem/brunoMoraes-01-thumb.png" alt="Pixel art de praia do Bruno Moraes">
+                        <img class="mr-3" src="../imagem/pixel/brunoMoraes-thumb.webp" alt="Pixel art de praia do Bruno Moraes">
                         <div class="media-body">
-                            <h4 class="mt-0 mb-1">O talentoso Bruno Moraes</h4>
+                            <h5 class="mt-0 mb-1">O talentoso Bruno Moraes</h5>
                             <a href="pixelArtistas.php?artista=bruno" class="">Ilustrador e programador, começou a trabalhar com ilustração em 2015
                             </a>
                         </div>
                     </li>
                     <li class="media my-2">
-                        <img class="mr-3" src="../imagem/ivandixon-01-thumb.png" alt="Pixel art de Ivan Dixon, Adventure Time">
+                        <img class="mr-3" src="../imagem/pixel/adventuretime-thumb.webp" alt="Pixel art de Ivan Dixon, Adventure Time">
                         <div class="media-body">
-                            <h4 class="mt-0 mb-1">Saiba sobre Ivan Dixon</h4>
+                            <h5 class="mt-0 mb-1">Saiba sobre Ivan Dixon</h5>
                             <a href="pixelArtistas.php?artista=ivan" class="">Com um currículo de dar inveja, Ivan Dixon possui, parcerias com Disney, os Simpsons e outras grandes</a>
                         </div>
                     </li>
                     <li class="media">
-                        <img class="mr-3" src="../imagem/glauberkotaki110.png" alt="Pixel art de Glauber Kotaki, cavaleiro com armadura">
+                        <img class="mr-3" src="../imagem/pixel/glauberkotaki110.webp" alt="Pixel art de Glauber Kotaki, cavaleiro com armadura">
                         <div class="media-body">
-                            <h4 class="mt-0 mb-1">Glauber Kotaki e os jogos</h4>
+                            <h5 class="mt-0 mb-1">Glauber Kotaki e os jogos</h5>
                             <a href="pixelArtistas.php?artista=glauber" class="">Artista e animador em Pixel Art, ilustra grandes jogos como Rogue Legacy, Chasm, entre outros</a>
                         </div>
                     </li>
@@ -124,7 +124,7 @@ include '../include/header.php'; ?>
     </section>
     <hr>
     <section class="row justify-content-center no-margin">
-        <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-12 col-md-12 col-lg-12  pixel-veja-tambem">
             <?php include '../include/section.php' ?>
         </div>
     </section>

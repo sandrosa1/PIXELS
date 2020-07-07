@@ -9,7 +9,7 @@ $imgModeSec  = '../imagem/animacao/modelagem.webp';
 $imgPixeSec  = '../imagem/animacao/pixelforest.webp';  
 $imgSabQSec = '../imagem/animacao/fatec1.webp'; 
 $imgSabCSec = '../imagem/animacao/carreira.webp';
-$imgSabNSec = '../imagem/norma800.png';
+$imgSabNSec = '../imagem/norma200.webp';
 
 
 if($page == 'home')

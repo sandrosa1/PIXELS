@@ -46,7 +46,7 @@ include '../include/header.php'; ?>
                 }
                 ?>
                 " id="glauber" role="tabpanel" aria-labelledby="glauber-tab">
-                    <img src="../imagem/pixel/glauber-300.webp" class="float-sm-none float-md-left my-3 mr-3" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
+                    <img src="../imagem/pixel/glauber200.webp" class="float-sm-none float-md-left my-3 mr-3" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
                     <div class="text-justify pt-3">
                         <h2>Glauber Kotaki</h2>
                         <p>Glauber Kotaki é um notável e talentoso artista brasileiro.</p>
@@ -103,7 +103,7 @@ include '../include/header.php'; ?>
                 ?>
                 text-center" id="bruno" role="tabpanel" aria-labelledby="bruno-tab">
                     <div>
-                        <img src="../imagem/pixel/brunomoraes300.webp" class="float-sm-none float-md-left  my-3 mr-3" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
+                        <img src="../imagem/pixel/brunomoraes200.webp" class="float-sm-none float-md-left  my-3 mr-3" alt="Foto de rosto do artista de pixel art Bruno Moraes">
                         <div class="text-justify pt-3">
                             <h2>Bruno Moraes</h2>
                             <p>Bruno Moraes é ilustrador e programador nascido em Niterói.</p>
@@ -119,7 +119,7 @@ include '../include/header.php'; ?>
                     <div class="row my-5">
                         <div class="card-deck mx-auto">
                             <!-- Pokémon -->
-                            <div class="card">
+                            <div class="card max-300px">
                                 <img class="card-img-top rounded" src="../imagem/pixel/pokemon.webp" alt="Pokemón sun e pokemón moon">
                                 <div class="card-body">
                                     <h5 class="card-title text-center px-2 py-1 bg-white">Pokémon</h5>
@@ -128,7 +128,7 @@ include '../include/header.php'; ?>
                                 </div>
                             </div>
                             <!-- David Bowie -->
-                            <div class="card">
+                            <div class="card max-300px">
                                 <img class="card-img-top rounded" src="../imagem/pixel/davidbowie.webp" alt="Daivid Bowie em pixel art">
                                 <div class="card-body">
                                     <h5 class="card-title text-center py-1 bg-white">David Bowie</h5>
@@ -137,7 +137,7 @@ include '../include/header.php'; ?>
                                 </div>
                             </div>
                             <!-- Praia -->
-                            <div class="card">
+                            <div class="card max-300px">
                                 <img class="card-img-top rounded" src="../imagem/pixel/praia.webp" alt="Mini praia em pixel art">
                                 <div class="card-body">
                                     <h5 class="card-title text-center py-1 bg-white">Mini praia</h5>
@@ -164,7 +164,7 @@ include '../include/header.php'; ?>
                 }
                 ?>
                 " id="ivan" role="tabpanel" aria-labelledby="ivan-tab">
-                    <img src="../imagem/pixel/ivandixon300.webp" class="float-sm-none float-md-left my-3 mr-3" alt="Foto de rosto do artista de pixel art Ivan Dixon">
+                    <img src="../imagem/pixel/ivandixon200.webp" class="float-sm-none float-md-left my-3 mr-3" alt="Foto de rosto do artista de pixel art Ivan Dixon">
                     <div class="text-justify pt-3">
                         <h2>Ivan Dixon</h2>
                         <p>Ivan Dixon é um pixel artista, ilustrador, animador e também faz games. Mora em Melbourne, Austrália.</p>
@@ -179,7 +179,7 @@ include '../include/header.php'; ?>
                         <div class="row my-5">
                             <div class="card-deck mx-auto">
                                 <!-- Adventure Time-->
-                                <div class="card">
+                                <div class="card max-300px">
                                     <img class="card-img-top rounded" src="../imagem/pixel/adventuretime.webp" alt="Imagem do desenho Adventure Time">
                                     <div class="card-body">
                                         <h5 class="card-title text-center py-1 bg-white">Adventure Time</h5>
@@ -188,7 +188,7 @@ include '../include/header.php'; ?>
                                     </div>
                                 </div>
                                 <!-- Simpsons -->
-                                <div class="card">
+                                <div class="card max-300px">
                                     <img class="card-img-top rounded" src="../imagem/pixel/simpsons.webp" alt="Bart em pixel art escrevendo na lousa">
                                     <div class="card-body">
                                         <h5 class="card-title text-center py-1 bg-white">The Simpsons</h5>
@@ -197,7 +197,7 @@ include '../include/header.php'; ?>
                                     </div>
                                 </div>
                                 <!-- Corsodyl -->
-                                <div class="card">
+                                <div class="card max-300px">
                                     <img class="card-img-top rounded" src="../imagem/pixel/corsodyl.webp" alt="Propaganda de pasta de dentes. Homem loiro escovando os dentes em pixel art">
                                     <div class="card-body">
                                         <h5 class="card-title text-center py-1 bg-white">Corsodyl</h5>
@@ -218,7 +218,7 @@ include '../include/header.php'; ?>
     </article>
     <hr>
     <section class="row justify-content-center no-margin">
-        <div class="col-sm-12 col-md-10 col-lg-11">
+        <div class="col-sm-12 col-md-10 col-lg-11 pixel-veja-tambem">
             <?php include '../include/section.php' ?>
         </div>
     </section>
