@@ -8,7 +8,7 @@ include 'include/header.php'; ?>
         <div id="borda" class="row justify-content-center m-3">
             <div class="col-lg-6 index1">
                 <div class="card mb-3 semBordas center-image text-center">
-                    <img class="card-img-top  max-500px" src="imagem/bemVindo.webp" alt="Imagem de capa do card">
+                    <img class="card-img-top  max-500px" src="imagem/bemVindo.webp" alt="Imagem de boas vindas">
                     <div class="card-body">
                         <h4 class="text-left">Bem-vindo ao portal PIXELS. Aqui você fica por dentro de tudo que acontece no mundo das artes digitais.</h4>
                     </div>
