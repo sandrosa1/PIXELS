@@ -1,49 +1,51 @@
 <?php include '../include/nossosLinksTop.php'; ?>
 <?php $page = 'saiba';
-include '../include/header.php'; ?>
+include '../include/header.php';
+//include '../include/resposta.php';
+?>
+
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid" id="inicio">
     <article class="row no-margin">
-        <div class="col-lg-12">
-            <h1 class="text-center">Fale Conosco</h1>
-            <form>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <div class="col-sm-12 col-md-7 col-lg-7 p-4">
+            <h1 class="text-left h1-arte pt-3">Fale Conosco</h1>
+            <hr>
+            <form class="lead" action="faleConosco.php" method="POST">
+                <label>Nome:</label>
+                <div class="form-row">                    
+                    <div class="form-group col-md-6">
+                        <input type="textl" class="form-control" id="nome" placeholder="Primeiro nome">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="sobrenome" placeholder="Último nome">
+                    </div>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
+                    <label>Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@exemplo.com">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect2">Example multiple select</label>
-                    <select multiple class="form-control" id="exampleFormControlSelect2">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
+                    <label>Mensagem:</label>
+                    <textarea class="form-control form-control-sm" id="mensagem" rows="3" placeholder="Escreva seu comentário"></textarea>
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div class="form-group text-right">
+                <input class="btn btn-danger btn-lg" type="submit" value="Submit">
+                <input class="btn btn-danger btn-lg" type="reset" value="Reset">
+                
                 </div>
             </form>
-
-
+            <script>
+    function enviar(){
+    alert('Mensagem Enviada!');
+    }
+</script>
+            
         </div>
-
     </article>
 
     <section>
-        <?php include '../include/section.php'?>
+        <?php
+        include '../include/section.php'?>
     </section>
 </div>
 <?php include '../include/footer.php' ?>
