@@ -5,13 +5,11 @@ include 'include/header.php'; ?>
 <div class="container-fluid" id="inicio">
     <!--Chamadas Principais-->
     <article>
-        <div id="borda" class="row justify-content-center m-3">
+        <div id="borda" class="row justify-content-center mt-3 no-margin">
             <div class="col-lg-6 index1">
-                <div class="card mb-3 semBordas center-image text-center">
-                    <img class="card-img-top  max-500px" src="imagem/bemVindo.webp" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h4 class="text-left">Bem-vindo ao portal PIXELS. Aqui você fica por dentro de tudo que acontece no mundo das artes digitais.</h4>
-                    </div>
+                <div class="card mb-3 semBordas text-center center-image">
+                    <img class="card-img-top img-fluid" src="imagem/bemvindo.webp" alt="Imagem de boas vindas">
+                    <h4 class="text-justify pt-2">Bem-vindo ao portal PIXELS. Aqui você fica por dentro de tudo que acontece no mundo das artes digitais.</h4>
                 </div>
             </div>
             <div class="col-lg-6 index2 galeria1">
@@ -70,17 +68,20 @@ include 'include/header.php'; ?>
     <!--//////////////////////////////////////                 /////////////////////////////////////////////////////-->
     <!--Chamadas Secundárias-->
     <section class="bg-grey">
-        <h3 class="text-center py-3">Você já ouviu falar sobre...</h3>
+        <h3 class="text-center py-3">Fique atento</h3>
         <div class="row justify-content-center mx-3">
-            <div class="col-lg-4">
+            <div class="col-lg-5 col-sm-12 col-md-6 text-sm-center">
                 <h4>Calendário de exposições</h4>
                 <div class="">
                     <img src="imagem/indexp7calendario.jpg" class="float-md-left float-sm-none mr-md-3" alt="calendário de julho">
                     <p class=""><time datetime="2020-05-14">14/05/2020 - Masp </time></p>
+                    <p class=""><time datetime="2020-05-14">18/05/2020 - Fiesp </time></p>
+                    <p class=""><time datetime="2020-05-14">27/05/2020</time> - Sesc Paulista</p>
+                    <p> -A Biblioteca à Noite</p>
 
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-3"></div>
             <div class="col-lg-4"></div>
 
         </div>
