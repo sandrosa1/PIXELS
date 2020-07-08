@@ -29,7 +29,7 @@ switch($page)
         <div class=" col-lg-4 col-0" >
         </div>
         <div class="col-lg-4 col-6" >
-            <p>&copy;Desenvolvido por Pixels</p>
+            <small>&copy;Desenvolvido por Pixels - 2020</small>
         </div>
         <div class="col-lg-4 col-6" id="logosFooter" >
             <a href="https://www.fatecsaoroque.edu.br/contato.html" target="blank"><img
