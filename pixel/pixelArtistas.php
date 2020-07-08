@@ -4,7 +4,7 @@ include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid pixel-links" id="inicio">
     <article class="row justify-content-center no-margin mt-4 pixel-artistas">
-        <div class="col-sm-12 col-md-10 col-lg-10">
+        <div class="col-lg-12">
             <div class="d-flex">
                 <ul class="nav nav-tabs mx-auto" id="myTab" role="tablist">
                     <!-- <li class="nav-item">
@@ -30,8 +30,8 @@ include '../include/header.php'; ?>
                 }
                 ?>
                 " id="artistas" role="tabpanel" aria-labelledby="artistas-tab">
-                    <div class="mb-3">
-                        <h2 class="text-center mt-3 ">Artistas de Pixel Art</h2>
+                    <div class="mb-3 px-md-3 px-2 text-justify">
+                        <h2 class="text-center mt-3 ">Principais Nomes</h2>
                         <p class="pt-3">Ao redor do mundo, muitos artistas nacionais e internacionais fazem parte de uma comunidade que não deixam a Pixel Art morrer. </p>
                         <p>Não se restringindo somente ao universo dos games, a arte quebrou barreiras e se deu muito bem em campanhas publicitárias e identidades visuais.</p>
                         <p class="mb-5">Para que você fique por dentro dessa tendência, selecionamos alguns artistas que produzem artes incríveis com a pixel art. Inspire-se e comece a criar você também!!!</p>
@@ -46,65 +46,79 @@ include '../include/header.php'; ?>
                 }
                 ?>
                 " id="glauber" role="tabpanel" aria-labelledby="glauber-tab">
-                    <img src="../imagem/pixel/glauber200.webp" class="float-sm-none float-md-left my-3 mr-3" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
+                    <img src="../imagem/pixel/glauber200.webp" class="float-sm-none float-md-left my-3 mx-md-3 mx-2" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
                     <div class="text-justify pt-3">
-                        <h2>Glauber Kotaki</h2>
-                        <p>Glauber Kotaki é um notável e talentoso artista brasileiro.</p>
-                        <p>Formado em Design Digital, descobriu a pixel art por acaso, quando criança. E na época era apenas um hobby.</p>
-                        <p>Por ter familiares envolvidos com desenho - arquitetos, sempre teve este apoio em casa.</p>
-                        <p>Desenvolveu um jogo com um amigo, mas esse jogo nunca foi lançado. E em paralelo sempre postava suas artes na internet. Até quando foi chamado para estagiar em uma empresa para trabalhar com arte, onde fazia jogos online, pixel arte entre outras atividades. Quando saiu da empresa se tornou freelancer focando mais em arte para games.</p>
-                        <p>Em seu currículo constam jogos como Rogue Legacy 2, Rogue Legacy, 30XX, Duelyst, Full Metal Furies, Deep Dungeons of Doom. </p>
-                        <p>Suas referências mais fortes vem de animes como o 'Dragon Ball Z' e jogos, como o 'Megaman X4'.</p>
+                        <div class="px-md-3 px-2">
+                            <h2>Glauber Kotaki</h2>
+                            <p>Glauber Kotaki é um notável e talentoso artista brasileiro.</p>
+                            <p>Formado em Design Digital, descobriu a pixel art por acaso, quando criança. E na época era apenas um hobby.</p>
+                            <p>Por ter familiares envolvidos com desenho - arquitetos, sempre teve este apoio em casa.</p>
+                            <p>Desenvolveu um jogo com um amigo, mas esse jogo nunca foi lançado. E em paralelo sempre postava suas artes na internet. Até quando foi chamado para estagiar em uma empresa para trabalhar com arte, onde fazia jogos online, pixel arte entre outras atividades. Quando saiu da empresa se tornou freelancer focando mais em arte para games.</p>
+                            <p>Em seu currículo constam jogos como Rogue Legacy 2, Rogue Legacy, 30XX, Duelyst, Full Metal Furies, Deep Dungeons of Doom. </p>
+                            <p>Suas referências mais fortes vem de animes como o 'Dragon Ball Z' e jogos, como o 'Megaman X4'.</p>
+                        </div>
 
-                        <div class="row my-5">
-                            <div class="card-deck mx-auto">
-                                <!-- Rogue Legacy -->
-                                <div class="card max-300px">
-                                    <img class="card-img-top rounded " src="../imagem/pixel/rogue-legacy.webp" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center  bg-white py-1">Rogue Legacy</h5>
-                                        <hr>
-                                        <p class="text-justify card-text bg-white px-2 ">Lançado em 2013, Rogue Legacy se tornou um dos jogos independentes mais queridos na época, colocando o jogador no controle de toda uma linhagem de guerreiros que se aventuram em um castelo, batalhando contra diferentes chefes.</p>
-                                    </div>
-                                </div>
-                                <!-- Deep Dungeons of Doom -->
-                                <div class="card max-300px">
-                                    <img class="card-img-top rounded" src="../imagem/pixel/deepdungeons.webp" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center py-1 bg-white">Deep Dungeons of Doom</h5>
-                                        <hr>
-                                        <p class="text-justify card-text bg-white px-2">Lançado em 2013, o Deep Dungeons of Doom é um jogo de RPG. O jogador pode escolher entre 3 personagens para batalhar. Cada batalha é necessário vencer inimigos descobrindo métodos de combate e fraquezas. A medida que se aprofunda no jogo, os desafios são maiores.</p>
-                                    </div>
-                                </div>
-                                <!-- Duelyst -->
-                                <div class="card max-300px">
-                                    <img class="card-img-top rounded" src="../imagem/pixel/duelyst.webp" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center py-1 bg-white">Duelyst</h5>
-                                        <hr>
-                                        <p class="text-justify card-text bg-white px-2">Lançado em 2016, o Duelyst é um jogo de estratégia competitiva, focada em combate tático, a base construção de decks. As batalhas são 1 contra 1 em turnos, entre oponentes online. As batalhas não duram mais de 10 minutos, e o objetivo é acabar com a vida do oponente.
-                                        </p>
+                        <section id="programas" class="row no-margin
+     justify-content-center mb-4">
+                            <div>
+                                <div class="pb-4 row no-margin">
+                                    <div class="d-flex flex-wrap">
+                                        <!-- Rogue Legacy -->
+                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                            <div class="text-center">
+                                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/rogue-legacy.webp" alt="Tela do jogo Rogue Legacy">
+                                                <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
+                                                    <h5 class="text-center">Rogue Legacy</h5>
+                                                    <hr class="mx-auto d-md-none d-lg-block">
+                                                    <p class="text-justify ">Lançado em 2013, Rogue Legacy se tornou um dos jogos independentes mais queridos na época, colocando o jogador no controle de toda uma linhagem de guerreiros que se aventuram em um castelo, batalhando contra diferentes chefes.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Deep Dungeons of Doom -->
+                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                            <div class="text-center">
+                                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/deepdungeons.webp" alt="Tela do jogo Deep dungeos of doom">
+                                                <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
+                                                    <h5 class="text-center">Deep Dungeons of Doom</h5>
+                                                    <hr class="mx-auto d-md-none d-lg-block">
+                                                    <p class="text-justify ">Lançado em 2013, o Deep Dungeons of Doom é um jogo de RPG. O jogador pode escolher entre 3 personagens para batalhar. Cada batalha é necessário vencer inimigos descobrindo métodos de combate e fraquezas. A medida que se aprofunda no jogo, os desafios são maiores.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Duelyst -->
+                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                            <div class="text-center">
+                                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/duelyst.webp" alt="Tela do jogo Duelyst">
+                                                <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
+                                                    <h5 class="text-center">Duelyst</h5>
+                                                    <hr class="mx-auto d-md-none d-lg-block">
+                                                    <p class="text-justify ">Lançado em 2016, o Duelyst é um jogo de estratégia competitiva, focada em combate tático, a base construção de decks. As batalhas são 1 contra 1 em turnos, entre oponentes online. As batalhas não duram mais de 10 minutos, e o objetivo é acabar com a vida do oponente.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
+
                         <div class="text-center my-5 ">
                             <p class="link-site">Conheça mais trabalhos visitando o site de <a href="https://glauberkotaki.com/" target="_blank">Glauber Kotaki</a></p>
                         </div>
                     </div>
                 </div>
+                <!-- Fim Glauber -->
 
                 <!-- Bruno Moraes -->
-                <div class="tab-pane fade
+                <div class="tab-pane fade text-center 
                 <?php
                 if ($_GET['artista'] === 'bruno') {
                     echo 'show active';
                 }
                 ?>
-                text-center" id="bruno" role="tabpanel" aria-labelledby="bruno-tab">
-                    <div>
-                        <img src="../imagem/pixel/brunomoraes200.webp" class="float-sm-none float-md-left  my-3 mr-3" alt="Foto de rosto do artista de pixel art Bruno Moraes">
-                        <div class="text-justify pt-3">
+                " id="bruno" role="tabpanel" aria-labelledby="bruno-tab">
+                    <img src="../imagem/pixel/brunomoraes200.webp" class="float-sm-none float-md-left my-3 mx-md-3 mx-2" alt="Foto de rosto do artista de pixel art Bruno Moraes">
+                    <div class="text-justify pt-3">
+                        <div class="px-md-3 px-2">
                             <h2>Bruno Moraes</h2>
                             <p>Bruno Moraes é ilustrador e programador nascido em Niterói.</p>
                             <p>Entrou para o mundo de artes digitais em 2015, quando começou a trabalhar com ilustrações.</p>
@@ -114,46 +128,55 @@ include '../include/header.php'; ?>
                             <p>Em seu trabalho, Bruno faz representações de ícones da cultura pop, princesas disney, personagens de games e cria ilustrações baseadas em fotografias.</p>
                         </div>
 
-                    </div>
-
-                    <div class="row my-5">
-                        <div class="card-deck mx-auto">
-                            <!-- Pokémon -->
-                            <div class="card max-300px">
-                                <img class="card-img-top rounded" src="../imagem/pixel/pokemon.webp" alt="Pokemón sun e pokemón moon">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center px-2 py-1 bg-white">Pokémon</h5>
-                                    <hr>
-                                    <p class="text-justify card-text bg-white px-2">Bruno iniciou com pixel art fazendo modificações de pokémon.</p>
+                        <section id="programas" class="row no-margin
+     justify-content-center mb-4">
+                            <div>
+                                <div class="pb-4 row no-margin">
+                                    <div class="d-flex flex-wrap">
+                                        <!-- Pokémon -->
+                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                            <div class="text-center">
+                                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/pokemon.webp" alt="Pokemón sun e pokemón moon">
+                                                <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
+                                                    <h5 class="text-center">Pokémon</h5>
+                                                    <hr class="mx-auto d-md-none d-lg-block">
+                                                    <p class="text-justify">Bruno começou a trilhar pelo pixel art fazendo modificações de jogos, como o pokemón.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- David Bowie -->
+                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                            <div class="text-center">
+                                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/galeria/galeria-13.webp" alt="David Bowie em pixel art">
+                                                <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
+                                                    <h5 class="text-center">David Bowie</h5>
+                                                    <hr class="mx-auto d-md-none d-lg-block">
+                                                    <p class="text-justify ">Pixel art criada em tributo a David Bowie. Após ser noticiada a morte do cantor.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Mini Praia -->
+                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                            <div class="text-center">
+                                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/praia.webp" alt="Mini praia em pixel art">
+                                                <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
+                                                    <h5 class="text-center">Mini praia</h5>
+                                                    <hr class="mx-auto d-md-none d-lg-block">
+                                                    <p class="text-justify">Bruno criou essa arte praia em 2017 para o dia dos namorados. Esta imagem, na realidade é uma animação, que é possível ver em seu <a href="https://brunopixels.tumblr.com/post/157235426332" target="_blank">portfolio</a>.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- David Bowie -->
-                            <div class="card max-300px">
-                                <img class="card-img-top rounded" src="../imagem/pixel/davidbowie.webp" alt="Daivid Bowie em pixel art">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center py-1 bg-white">David Bowie</h5>
-                                    <hr>
-                                    <p class="text-justify card-text bg-white px-2">Pixel art criada em tributo a David Bowie.</p>
-                                </div>
-                            </div>
-                            <!-- Praia -->
-                            <div class="card max-300px">
-                                <img class="card-img-top rounded" src="../imagem/pixel/praia.webp" alt="Mini praia em pixel art">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center py-1 bg-white">Mini praia</h5>
-                                    <hr>
-                                    <p class="text-justify card-text bg-white px-2">Mini praia criado em 2017 para o dia dos namorados.
-                                    </p>
-                                </div>
-                            </div>
+                        </section>
 
-
+                        <div class="text-center my-5 ">
+                            <p class="link-site">Conheça mais trabalhos visitando o site de <a href="https://brunopixels.tumblr.com/" class="programas-links" target="_blank">Bruno Moraes</a></p>
                         </div>
                     </div>
-                    <div class="text-center my-5">
-                        <p class="link-site">Conheça mais trabalhos visitando o site de <a href="https://brunopixels.tumblr.com/" class="programas-links" target="_blank">Bruno Moraes</a></p>
-                    </div>
                 </div>
+                <!-- Fim Bruno -->
 
 
                 <!-- Ivan Dixon -->
@@ -164,63 +187,74 @@ include '../include/header.php'; ?>
                 }
                 ?>
                 " id="ivan" role="tabpanel" aria-labelledby="ivan-tab">
-                    <img src="../imagem/pixel/ivandixon200.webp" class="float-sm-none float-md-left my-3 mr-3" alt="Foto de rosto do artista de pixel art Ivan Dixon">
+                    <img src="../imagem/pixel/ivandixon200.webp" class="float-sm-none float-md-left my-3 mx-md-3 mx-2" alt="Foto de rosto do artista de pixel art Ivan Dixon">
                     <div class="text-justify pt-3">
-                        <h2>Ivan Dixon</h2>
-                        <p>Ivan Dixon é um pixel artista, ilustrador, animador e também faz games. Mora em Melbourne, Austrália.</p>
-                        <p></p>
-                        <p>Pixel art foi a primeira arte que aprendeu a animar. E acha relaxante criar arte em pixel.</p>
-                        <p></p>
-                        <p>Em parceria com Paul Robertson, que também é pixel artista, fizeram a abertura do programa The Simpsons e postaram no youtube. Em um dia tiveram um milhão de acessos.</p>
-                        <p>Após tamanha repercussão, os produtores do programa enviaram um e-mail perguntando se poderiam usear a entrada para passar na abertura do programa. A visibilidade deles aumentou e tiveram oportunidade de visitar a Fox em Los Angeles.</p>
-                        <p>Com Paul, Ivan produziu material para Rick & Morty, Adventure Time e The Simpsons.</p>
-                        <p>Em sociedade com Greg Sharp, são diretores da Rubber House - situada em Sydney e Melbourne - e produziram uma variedade de conteúdos para a Cartoon Network, Nickelodeaon, Disney, Warner Bros entre outros. </p>
+                        <div class="px-md-3 px-2">
+                            <h2>Ivan Dixon</h2>
+                            <p>Ivan Dixon é um pixel artista, ilustrador, animador e também faz games. Mora em Melbourne, Austrália.</p>
+                            <p>Pixel art foi a primeira arte que aprendeu a animar. E acha relaxante criar arte em pixel.</p>
+                            <p></p>
+                            <p>Em parceria com Paul Robertson, que também é pixel artista, fizeram a abertura do programa The Simpsons e postaram no youtube. Em um dia tiveram um milhão de acessos.</p>
+                            <p>Após tamanha repercussão, os produtores do programa enviaram um e-mail perguntando se poderiam usear a entrada para passar na abertura do programa. A visibilidade deles aumentou e tiveram oportunidade de visitar a Fox em Los Angeles.</p>
+                            <p>Com Paul, Ivan produziu material para Rick & Morty, Adventure Time e The Simpsons.</p>
+                            <p>Em sociedade com Greg Sharp, são diretores da Rubber House - situada em Sydney e Melbourne - e produziram uma variedade de conteúdos para a Cartoon Network, Nickelodeaon, Disney, Warner Bros entre outros. </p>
+                        </div>
 
-                        <div class="row my-5">
-                            <div class="card-deck mx-auto">
-                                <!-- Adventure Time-->
-                                <div class="card max-300px">
-                                    <img class="card-img-top rounded" src="../imagem/pixel/adventuretime.webp" alt="Imagem do desenho Adventure Time">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center py-1 bg-white">Adventure Time</h5>
-                                        <hr>
-                                        <p class="text-justify card-text bg-white px-2">Abertura para o desenho Adventure Time feita por Ivan em parceria com Paul Robertson.</p>
-                                    </div>
-                                </div>
-                                <!-- Simpsons -->
-                                <div class="card max-300px">
-                                    <img class="card-img-top rounded" src="../imagem/pixel/simpsons.webp" alt="Bart em pixel art escrevendo na lousa">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center py-1 bg-white">The Simpsons</h5>
-                                        <hr>
-                                        <p class="text-justify card-text bg-white px-2">Abertura feita em pixel art, foi ao ar no episódio 14 da 26ª temporada.</p>
-                                    </div>
-                                </div>
-                                <!-- Corsodyl -->
-                                <div class="card max-300px">
-                                    <img class="card-img-top rounded" src="../imagem/pixel/corsodyl.webp" alt="Propaganda de pasta de dentes. Homem loiro escovando os dentes em pixel art">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center py-1 bg-white">Corsodyl</h5>
-                                        <hr>
-                                        <p class="text-justify card-text bg-white px-2">Publicidade para a marca de pastas de dente britânica Corsodyl.
-                                        </p>
+                        <section id="programas" class="row no-margin
+     justify-content-center mb-4">
+                            <div>
+                                <div class="pb-4 row no-margin">
+                                    <div class="d-flex flex-wrap">
+                                        <!-- Adventure Time-->
+                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                            <div class="text-center">
+                                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/adventuretime.webp" alt="Imagem do desenho Adventure Time">
+                                                <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
+                                                    <h5 class="text-center">Adventure Time</h5>
+                                                    <hr class="mx-auto d-md-none d-lg-block">
+                                                    <p class="text-justify">Abertura para o desenho Adventure Time feita por Ivan em parceria com Paul Robertson.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Simpsons -->
+                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                            <div class="text-center">
+                                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/simpsons.webp" alt="Bart em pixel art escrevendo na lousa">
+                                                <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
+                                                    <h5 class="text-center">The Simpsons</h5>
+                                                    <hr class="mx-auto d-md-none d-lg-block">
+                                                    <p class="text-justify ">Abertura feita em pixel art, foi ao ar no episódio 14 da 26ª temporada.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Corsodyl -->
+                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                            <div class="text-center">
+                                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/corsodyl.webp" alt="Propaganda de pasta de dentes. Homem loiro escovando os dentes em pixel art">
+                                                <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
+                                                    <h5 class="text-center">Corsodyl</h5>
+                                                    <hr class="mx-auto d-md-none d-lg-block">
+                                                    <p class="text-justify">Publicidade para a marca de pastas de dente britânica Corsodyl.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="text-center my-5">
+                        </section>
+
+                        <div class="text-center my-5 ">
                             <p class="link-site">Conheça mais trabalhos visitando o site de <a href="https://www.ivandixon.com/" target="_blank">Ivan Dixon</a></p>
                         </div>
                     </div>
                 </div>
+                <!-- Fim Ivan -->
             </div>
         </div>
     </article>
     <hr>
     <section class="row justify-content-center no-margin">
-        <div class="col-sm-12 col-md-10 col-lg-11">
-            <?php include '../include/section.php' ?>
-        </div>
+        <?php include '../include/section.php' ?>
     </section>
 </div>
 <?php include '../include/footer.php' ?>

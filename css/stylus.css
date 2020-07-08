@@ -12,11 +12,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 
 }
+
 /*escolha sua cor de preferencia aqui*/
 :root {
     --home-color: #ff4500;
@@ -38,14 +43,14 @@ h1, h2, h3, h4, h5 {
     overflow: hidden;
     background-color: white;
     padding: 0px 20px 0px;
-  }
+}
 
-  .topnav1 a img{
-      width: 51px;
-      height: 51px;
-  }
-  
-  .topnav1 a {
+.topnav1 a img {
+    width: 51px;
+    height: 51px;
+}
+
+.topnav1 a {
     float: left;
     display: block;
     color: var(--home-color);
@@ -55,62 +60,70 @@ h1, h2, h3, h4, h5 {
     font-size: 17px;
     font-family: var(--fonte-family);
 
-  }
-  .dropbtn1 {
-      color: red;
-  }
-  
-  /*Ativa onde esta*/
-  .active1 {
+}
+
+.dropbtn1 {
+    color: red;
+}
+
+/*Ativa onde esta*/
+.active1 {
     color: var(--home-color);
-  }
-  .active2 {
-    color:var(--animacao-color);
-  }
-  .active3 {
+}
+
+.active2 {
+    color: var(--animacao-color);
+}
+
+.active3 {
     color: var(--desenho-color);
-  }
-  .active4 {
+}
+
+.active4 {
     color: var(--ilustracao-color);
-  }
-  .active5 {
+}
+
+.active5 {
     color: var(--modelagem-color);
-  }
-  .active6 {
+}
+
+.active6 {
     color: var(--pixel-color);
-  }
-  .active7 {
+}
+
+.active7 {
     color: var(--saiba-color);
-  }
-  .topnav1 .icon1 {
+}
+
+.topnav1 .icon1 {
     display: none;
-  }
-  
-  .dropdown1 {
+}
+
+.dropdown1 {
     float: left;
     overflow: hidden;
-  }
-  
-  .dropdown1 .dropbtn1 {
-    font-size: 17px;    
+}
+
+.dropdown1 .dropbtn1 {
+    font-size: 17px;
     border: none;
     outline: none;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-  }
-  
-  .dropdown-content1 {
-      display: none;
-      position: absolute;
-      background-color: #fff;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #fff;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content1 a {
+}
+
+.dropdown-content1 a {
     float: none;
     color: black;
     padding: 12px 16px;
@@ -122,7 +135,8 @@ h1, h2, h3, h4, h5 {
     border-right: 1px solid #ebebeb;
 }
 
-.topnav1 .active1 a:hover, .dropdown1:hover .dropbtn1 {
+.topnav1 .active1 a:hover,
+.dropdown1:hover .dropbtn1 {
     background-color: var(--home-color);
     color: white;
 }
@@ -134,44 +148,58 @@ h1, h2, h3, h4, h5 {
     border-bottom: 1px solid var(--home-color);
     background-color: var(--home-color);
     color: white;
-  }
-  
-  .dropdown1:hover .dropdown-content1 {
+}
+
+.dropdown1:hover .dropdown-content1 {
     display: block;
-  }
-  
-  @media screen and (max-width: 1000px) {
-    .topnav1 a:not(:first-child), .dropdown1 .dropbtn1 {
-      display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .topnav1 a:not(:first-child),
+    .dropdown1 .dropbtn1 {
+        display: none;
     }
+
     .topnav1 a.icon1 {
-      float: right;
-      display: block;
-      width: 20px;
-      margin: 5px 10px 0px 0px;
+        float: right;
+        display: block;
+        width: 20px;
+        margin: 5px 10px 0px 0px;
     }
-  }
-  
-  @media screen and (max-width: 1000px) {
-    .topnav1.responsive1 {position: relative;}
+}
+
+@media screen and (max-width: 1000px) {
+    .topnav1.responsive1 {
+        position: relative;
+    }
+
     .topnav1.responsive1 .icon1 {
-      position: absolute;
-      right: 0;
-      top: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
+
     .topnav1.responsive1 a {
-      float: none;
-      display: block;
-      text-align: left;
+        float: none;
+        display: block;
+        text-align: left;
     }
-    .topnav1.responsive1 .dropdown1 {float: none;}
-    .topnav1.responsive1 .dropdown-content1 {position: relative;}
+
+    .topnav1.responsive1 .dropdown1 {
+        float: none;
+    }
+
+    .topnav1.responsive1 .dropdown-content1 {
+        position: relative;
+    }
+
     .topnav1.responsive1 .dropdown1 .dropbtn1 {
-      display: block;
-      width: 100%;
-      text-align: left;
+        display: block;
+        width: 100%;
+        text-align: left;
     }
-  }
+}
 
 /* css do nav*/
 
@@ -212,10 +240,15 @@ h1, h2, h3, h4, h5 {
 
 }
 
-.index2 img {
+.index2 img, .sobre-pixel-lista img {
     width: 100px;
     height: 100px;
 }
+
+.calendario li {
+    line-height: 2rem;
+}
+
 
 /*css para o diretório servicos*/
 /* Normas de Utilização */
@@ -514,7 +547,7 @@ h1, h2, h3, h4, h5 {
     padding: 0px;
 }
 
-.galeria a{
+.galeria a {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -666,8 +699,8 @@ h1, h2, h3, h4, h5 {
 
 /* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
 @media screen and (max-width: 800px) {
-    
-    
+
+
     .ilust {
         -ms-flex: 50%;
         flex: 50%;
@@ -680,9 +713,9 @@ h1, h2, h3, h4, h5 {
 /*
 Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra */
 @media screen and (max-width: 600px) {
-    
-    
-    
+
+
+
     .ilust {
         -ms-flex: 100%;
         flex: 100%;
@@ -701,12 +734,12 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
         width: 95%;
         margin: 0px auto 0px 10px;
     }
-    
+
 }
 
 .ilustSobre {
-        margin-top: 100px;
-    }
+    margin-top: 100px;
+}
 
 .h2-ilust {
     font-size: 2.5rem;
@@ -774,10 +807,12 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     background-color: var(--pixel-color);
     color: white;
 }
-.sobre-pixel-lista li{
+
+.sobre-pixel-lista li {
     background: #fafafa;
     padding: 1rem;
 }
+
 .width-inherit {
     width: 100%;
 }
@@ -810,7 +845,7 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     color: var(--pixel-color);
 }
 
-.pixel-veja-tambem a:hover{
+.pixel-veja-tambem a:hover {
     color: var(--pixel-color);
 }
 
@@ -823,11 +858,11 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     max-width: 280px;
 }
 
-.max-445px{
+/* .max-445px {
     max-width: 445px;
-}
+} */
 
-.max-200px{
+.max-200px {
     max-width: 200px;
 }
 
@@ -841,7 +876,7 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 .galeria-pixel img {
     max-width: 300px;
-    height: 100%: 
+    height: 100%:
 }
 
 .galeria-pixel .overlay:hover {
@@ -850,7 +885,7 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 }
 
 .overlay p {
-    padding-top: 10px; 
+    padding-top: 10px;
 }
 
 
@@ -1007,7 +1042,7 @@ footer .row .col-lg-4 a img {
 
     .h1-arte {
         font-size: 3rem;
-        font-weight: 300;          
+        font-weight: 300;
     }
 
 }
@@ -1028,10 +1063,30 @@ footer .row .col-lg-4 a img {
         font-size: 1.8rem;
         font-weight: 300;
     }
+
     .h2-ilust {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .calendario-img {
+        display: none;
+    }
+
+    .max-445px {
+        max-width: 445px;
+    }
 }
 
-}
+@media (max-width: 500px) {
+
+    .index1 h4 {
+        font-size: 1.3rem;
+    }
+    .sobre-pixel-lista h5 {
+        font-size: 1.2rem;
+
+    }
+    .galeria1 h5, .sobre-pixel-lista p {
+        font-size: 1rem;
+    }
