@@ -5,7 +5,7 @@ include '../include/header.php'; ?>
 <div class="container-fluid pixel-links my-4" id="inicio">
     <!-- Seção do artigo principal -->
     <article>
-        <div class="row justify-content-center m-3">
+        <div class="row justify-content-center no-margin">
             <div class="grupo-imagem-titulo col-sm-12 col-md-12 col-lg-12">
                 <img class="center-image" src="../imagem/pixel/pixelart-principal882x296.webp" alt="Pixels coloridos">
                 <div id="titulo" class="align-items-center">
@@ -20,10 +20,10 @@ include '../include/header.php'; ?>
         </div>
     </article>
     <!-- Seção de artigo secundário -->
-    <div class="row no-margin justify-content-center m-3">
+    <div class="row no-margin justify-content-center">
         <section class="col-sm-12 col-md-6 col-lg-5 grupo-imagem-secundaria p-3 ">
-            <div class="card max-445px mx-auto">
-                <img class="card-img-top align-middle" src="../imagem/pixel/pixelforest445.webp" alt="Exposição Pixel-Forest">
+            <div class="card max-445px  d-block mx-md-auto mx-sm-auto">
+                <img class="card-img-top align-middle " src="../imagem/pixel/pixelforest445.webp" alt="Exposição Pixel-Forest">
                 <div class="card-body bg-grey">
                     <h3 class="card-title">Conheça a Pixel Forest</h3>
                     <p class="card-text"><a href="pixelSobre.php#pixelforest">Pipilotti Rist em colaboração com a designer Kaori Kuwabara</a></p>
@@ -31,7 +31,7 @@ include '../include/header.php'; ?>
             </div>
         </section>
         <!-- Seção de artigos menores -->
-        <section class="col-sm-12 col-md-6 col-lg-7 pl-5">
+        <section class="col-sm-12 col-md-6 col-lg-7">
             <!-- Cards com artigos menores -->
             <div class="mb-3 bg-grey">
                 <h2 class="text-center mt-3 titulo-section-pixel py-2">Fique por dentro</h2>
@@ -64,24 +64,24 @@ include '../include/header.php'; ?>
     </div>
     <!-- Seção com Indicação de Programas -->
     <section id="programas" class="row no-margin
-     justify-content-center m-3 mb-4 programas-links">
+     justify-content-center mx-sm-0 mb-4 programas-links">
         <div class="col-lg-12">
             <div class="bg-grey">
                 <h2 class="text-center titulo-section-pixel p-2">Construa seus projetos</h2>
-                <p class=" px-5 py-3 ">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, plataforma Online e app para celular. Escolha o seu e divirta-se!</p>
-                <div class="px-5 pb-4">
-                    <div class="card-deck">
+                <p class=" px-2 py-3 ">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, plataforma Online e app para celular. Escolha o seu e divirta-se!</p>
+                <div class="pb-4">
+                    <div class="card-columns">
                         <!-- Piskel -->
                         <div class="card">
                             <h5 class="card-title text-center py-2">Piskel</h5>
-                            <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/piskel.webp" alt="Interface do programa Piskel">
+                            <img class="card-img-top max-280px d-lg-block mx-auto" src="../imagem/pixel/piskel.webp" alt="Interface do programa Piskel">
                             <div class="card-body">
-                                <p class="card-text">Crie sua pixel art com o programa Piskel.</p>
-                                <p class="card-text">O Piskel e um editor gratuito para
+                                <p class="text-justify">Crie sua pixel art com o programa Piskel.</p>
+                                <p class="text-justify">O Piskel e um editor gratuito para
                                     fazer animação e pixel art. Possui versão para download
                                     (Windows, Linux e Mac OS.X) e
                                     versão online.</p>
-                                <p class="card-text">É uma iniciativa Open Source, possui
+                                <p class="text-justify">É uma iniciativa Open Source, possui
                                     live preview e galeria privada..</p>
                             </div>
                             <div class="card-footer">
@@ -89,7 +89,7 @@ include '../include/header.php'; ?>
                             </div>
                         </div>
                         <!-- Pixilart -->
-                        <div class="card">
+                        <div class="card d-md-block">
                             <h5 class="card-title text-center py-2">Pixilart</h5>
                             <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/pixilart.webp" alt="Interface do programa Pixilart">
                             <div class="card-body">
