@@ -67,32 +67,36 @@ include 'include/header.php'; ?>
     </article>
     <!--//////////////////////////////////////                 /////////////////////////////////////////////////////-->
     <!--Chamadas Secundárias-->
-    <section class="bg-grey">
-        <h3 class="text-center py-3">Fique atento</h3>
-        <div class="row justify-content-center mx-3">
-            <div class="col-lg-5 col-sm-12 col-md-6 text-sm-center">
-                <h4>Calendário de exposições</h4>
-                <div class="">
-                    <img src="imagem/indexp7calendario.jpg" class="float-md-left float-sm-none mr-md-3" alt="calendário de julho">
-                    <p class=""><time datetime="2020-05-14">14/05/2020 - Masp </time></p>
-                    <p class=""><time datetime="2020-05-14">18/05/2020 - Fiesp </time></p>
-                    <p class=""><time datetime="2020-05-14">27/05/2020</time> - Sesc Paulista</p>
-                    <p> -A Biblioteca à Noite</p>
-
-                </div>
-            </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-4"></div>
-
+    <section class="bg-grey calendario py-4 my-3">
+        <div class="row justify-content-center no-margin mt-3">
+            <h3 class="text-center">Calendário de Exposições</h3>
         </div>
-    </section>
+        <div class="row justify-content-center no-margin my-3">
+            <div class="col-lg-6 col-sm-12 col-md-auto text-center d-md-flex flex-md-nowrap justify-content-center">
+                <img src="imagem/fiesp.jpg" class="img-fluid" alt="">
+                <img src="imagem/indexp7calendario.jpg" class="img-fluid calendario-img" alt="calendário de julho">
+
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <ul class="list-group list-unstyled p-1">
+                    <li><time datetime="2020-05-14"><strong>12/05</strong> - Sesi - No céu iluminado </time></li>
+                    <li><time datetime="2020-05-14"><strong>14/05</strong> - Expo São Paulo - Digital ao quadrado</time></li>
+                    <li><time datetime="2020-05-14"><strong>18/05</strong> - Fiesp - Natureza Urbana – Riscos e Traços</time></li>
+                    <li><time datetime="2020-05-14"><strong>27/05</strong></time> - Sesc Paulista - A Biblioteca à Noite</li>
+                    <li><time datetime="2020-05-14"><strong>27/05</strong></time> - Memorial de Curitiba - Bienal de artes digitais</li>
+                    
+                </ul>
+            </div>
+        </div>
+</div>
+</section>
 
 
 
-    <section>
-        <?php include 'include/section.php' ?>
-    </section>
-    <!--////                                                                                                        /-->
+<section>
+    <?php include 'include/section.php' ?>
+</section>
+<!--////                                                                                                        /-->
 </div>
 <!--FOOTER-->
 <?php include 'include/footer.php' ?>

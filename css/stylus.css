@@ -245,6 +245,9 @@ h5 {
     height: 100px;
 }
 
+.calendario li {
+    line-height: 2rem;
+}
 
 
 /*css para o diretório servicos*/
@@ -1066,13 +1069,17 @@ footer .row .col-lg-4 a img {
         font-weight: 400;
     }
 
+    .calendario-img {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+
     .index1 h4 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
-    .galeria1 h5{
-        font-size: .95rem;
+    .galeria1 h5 {
+        font-size: 1rem;
     }
-}
-
-}
