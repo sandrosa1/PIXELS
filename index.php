@@ -66,7 +66,7 @@ include 'include/header.php'; ?>
         </div>
     </article>
     <!--//////////////////////////////////////                 /////////////////////////////////////////////////////-->
-    <!--Chamadas Secundárias-->
+    <!--Calendário-->
     <section class="bg-grey calendario py-4 my-3">
         <div class="row justify-content-center no-margin mt-3">
             <h3 class="text-center">Calendário de Exposições</h3>
