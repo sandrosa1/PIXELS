@@ -15,14 +15,14 @@ include '../include/header.php'; ?>
         </div>
         <div class="row no-margin justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <p class="lead pr-2 pl-3"><a class="link-paragrafo" href="pixelSobre.php">O Pixel Art é uma forma de arte digital no qual imagens são criadas a partir de pixels. A técnica surgiu no final da década de 70, mas só teve seu auge na década de 80. </a></p>
+                <p class="lead pr-2 pl-3 py-1"><a class="link-paragrafo" href="pixelSobre.php">O Pixel Art é uma forma de arte digital no qual imagens são criadas a partir de pixels. A técnica surgiu no final da década de 70, mas só teve seu auge na década de 80. </a></p>
             </div>
         </div>
     </article>
     <!-- Seção de artigo secundário -->
     <div class="row no-margin justify-content-center">
         <section class="col-sm-12 col-md-6 col-lg-5 grupo-imagem-secundaria p-3 ">
-            <div class="card max-445px  d-block mx-md-auto mx-sm-auto">
+            <div class="card max-445px d-block mx-md-0 mx-sm-auto">
                 <img class="card-img-top align-middle " src="../imagem/pixel/pixelforest445.webp" alt="Exposição Pixel-Forest">
                 <div class="card-body bg-grey">
                     <h3 class="card-title">Conheça a Pixel Forest</h3>
@@ -33,26 +33,26 @@ include '../include/header.php'; ?>
         <!-- Seção de artigos menores -->
         <section class="col-sm-12 col-md-6 col-lg-7">
             <!-- Cards com artigos menores -->
-            <div class="mb-3 bg-grey">
-                <h2 class="text-center mt-3 titulo-section-pixel py-2">Fique por dentro</h2>
-                <ul class="list-unstyled p-3 sobre-pixel-lista">
+            <div class="bg-grey m-0">
+                <h2 class="text-center mt-3 titulo-section-pixel py-1">Fique por dentro</h2>
+                <ul class="list-unstyled pb-2 px-2 sobre-pixel-lista">
                     <li class="media">
-                        <img class="mr-3" src="../imagem/pixel/brunoMoraes-thumb.webp" alt="Pixel art de praia do Bruno Moraes">
+                        <img class="mr-3 align-self-center" src="../imagem/pixel/brunoMoraes-thumb.webp" alt="Pixel art de praia do Bruno Moraes">
                         <div class="media-body">
                             <h5 class="mt-0 mb-1">O talentoso Bruno Moraes</h5>
-                            <a href="pixelArtistas.php?artista=bruno" class="">Ilustrador e programador, começou a trabalhar com ilustração em 2015
-                            </a>
+                            <p><a href="pixelArtistas.php?artista=bruno" class="">Ilustrador e programador, começou a trabalhar com ilustração em 2015
+                                </a></p>
                         </div>
                     </li>
                     <li class="media my-2">
-                        <img class="mr-3" src="../imagem/pixel/adventuretime-thumb.webp" alt="Pixel art de Ivan Dixon, Adventure Time">
+                        <img class="mr-3 align-self-center" src="../imagem/pixel/adventuretime-thumb.webp" alt="Pixel art de Ivan Dixon, Adventure Time">
                         <div class="media-body">
                             <h5 class="mt-0 mb-1">Saiba sobre Ivan Dixon</h5>
                             <a href="pixelArtistas.php?artista=ivan" class="">Com um currículo de dar inveja, Ivan Dixon possui, parcerias com Disney, os Simpsons e outras grandes</a>
                         </div>
                     </li>
                     <li class="media">
-                        <img class="mr-3" src="../imagem/pixel/glauberkotaki110.webp" alt="Pixel art de Glauber Kotaki, cavaleiro com armadura">
+                        <img class="mr-3 align-self-center" src="../imagem/pixel/glauberkotaki110.webp" alt="Pixel art de Glauber Kotaki, cavaleiro com armadura">
                         <div class="media-body">
                             <h5 class="mt-0 mb-1">Glauber Kotaki e os jogos</h5>
                             <a href="pixelArtistas.php?artista=glauber" class="">Artista e animador em Pixel Art, ilustra grandes jogos como Rogue Legacy, Chasm, entre outros</a>
@@ -64,69 +64,67 @@ include '../include/header.php'; ?>
     </div>
     <!-- Seção com Indicação de Programas -->
     <section id="programas" class="row no-margin
-     justify-content-center mx-sm-0 mb-4 programas-links">
-        <div class="col-lg-12">
-            <div class="bg-grey">
+     justify-content-center mb-4 programas-links">
+        <div>
+            <div class="bg-grey ">
                 <h2 class="text-center titulo-section-pixel p-2">Construa seus projetos</h2>
-                <p class=" px-2 py-3 ">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, plataforma Online e app para celular. Escolha o seu e divirta-se!</p>
-                <div class="pb-4">
-                    <div class="card-columns">
-                        <!-- Piskel -->
-                        <div class="card">
-                            <h5 class="card-title text-center py-2">Piskel</h5>
-                            <img class="card-img-top max-280px d-lg-block mx-auto" src="../imagem/pixel/piskel.webp" alt="Interface do programa Piskel">
-                            <div class="card-body">
-                                <p class="text-justify">Crie sua pixel art com o programa Piskel.</p>
-                                <p class="text-justify">O Piskel e um editor gratuito para
-                                    fazer animação e pixel art. Possui versão para download
-                                    (Windows, Linux e Mac OS.X) e
-                                    versão online.</p>
-                                <p class="text-justify">É uma iniciativa Open Source, possui
-                                    live preview e galeria privada..</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Acesse: <a href="https://www.piskelapp.com/" target="_blank">piskelapp.com</a></small>
-                            </div>
-                        </div>
-                        <!-- Pixilart -->
-                        <div class="card d-md-block">
-                            <h5 class="card-title text-center py-2">Pixilart</h5>
-                            <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/pixilart.webp" alt="Interface do programa Pixilart">
-                            <div class="card-body">
-                                <p class="card-text"> O Pixilart é uma ferramenta online
-                                    e possui app para Android e IOS.</p>
-                                <p class="card-text">É gratuito e você pode compartilhar
-                                    suas criações na plataforma. Em sua plataforma e possivel se
-                                    socializar com otros artistas, reportar ou bloquear.</p>
-                                <p class="card-text">A pixilart é uma plataforma para todas as idades.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Acesse: <a href="https://www.pixilart.com/" target="_blank">pixilart.com</a></small>
+                <p class="text-justify p-3 ">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, plataforma Online e app para celular. Escolha o seu e divirta-se!</p>
+                <div class="pb-4 row no-margin">
+                    <div class="d-flex flex-wrap">
+                        <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-stretch mb-3">
+                            <div class="text-center bg-white ">
+                                <h5 class="text-center py-2">Piskel</h5>
+                                <img class="img-fluid float-sm-none float-md-left float-lg-none mx-md-3 mr-lg-0" src="../imagem/pixel/piskel.webp" alt="Interface do programa Piskel">
+                                <div class="p-md-3 p-2">
+                                    <p class="text-justify ">Crie sua pixel art com o programa Piskel.</p>
+                                    <p class="text-justify">O Piskel e um editor gratuito para
+                                        fazer animação e pixel art. Possui versão para download
+                                        (Windows, Linux e Mac OS.X) e
+                                        versão online.</p>
+                                    <p class="text-justify">É uma iniciativa Open Source, possui
+                                        live preview e galeria privada.</p>
+                                </div>
+                                <div class="text-center  align-content-end py-3">
+                                    <small class="text-muted">Acesse: <a href="https://www.piskelapp.com/" target="_blank">piskelapp.com</a></small>
+                                </div>
                             </div>
                         </div>
-                        <!-- Pixel Studio -->
-                        <div class="card">
-                            <h5 class="card-title text-center py-2">Pixel Studio</h5>
-                            <img class="card-img-top max-280px d-block mx-auto" src="../imagem/pixel/pixelstudio.webp" alt="Interface do programa Piskel">
-                            <div class="card-body">
-                                <p class="card-text">O Pixel Studio é uma ferramenta simples, rápida e portátil.</p>
-                                <p class="card-text">Pode ser usada por iniciantes e profissionais. Com ele é possível criar usa pixel art, animações e usar paletas incorporadas dos melhores mestres de pixel art.</p>
-                                <p class="card-text">Está disponível na Steam, Adroid e IOS.</p>
+                        <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-stretch mb-3">
+                            <div class=" text-center bg-white">
+                                <h5 class="text-center py-2 ">Pixilart</h5>
+                                <img class="float-sm-none float-md-left float-lg-none img-fluid mx-md-3  mr-lg-0" src="../imagem/pixel/pixilart.webp" alt="Interface do programa Pixilart">
+                                <div class="p-md-3 p-2">
+                                    <p class="text-justify"> O Pixilart é uma ferramenta online
+                                        e possui app para Android e IOS.</p>
+                                    <p class="text-justify">É gratuito e você pode compartilhar
+                                        suas criações na plataforma. Em sua plataforma e possivel se
+                                        socializar com otros artistas, reportar ou bloquear.</p>
+                                    <p class="text-justify">A pixilart é uma plataforma para todas as idades.</p>
+                                </div>
+                                <div class="text-center py-3">
+                                    <small class="text-muted">Acesse: <a href="https://www.pixilart.com/" target="_blank">pixilart.com</a></small>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Acesse: <a href="https://twitter.com/pixelstudioteam" target="_blank">twitter.com/pixelstudioteam</a></small>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-stretch mb-3 ">
+                            <div class="text-center mr-lg-0 bg-white">
+                                <h5 class="text-center py-2">Pixel Studio</h5>
+                                <img class="float-sm-none float-md-left float-lg-none img-fluid mx-md-3" src="../imagem/pixel/pixelstudio.webp" alt="Interface do programa Pixel Studio">
+                                <div class="p-md-3 p-2">
+                                    <p class="text-justify">O Pixel Studio é uma ferramenta simples, rápida e portátil.</p>
+                                    <p class="text-justify">Pode ser usada por iniciantes e profissionais. Com ele é possível criar usa pixel art, animações e usar paletas incorporadas dos melhores mestres de pixel art.</p>
+                                    <p class="text-justify">Está disponível na Steam, Adroid e IOS.</p>
+                                </div>
+                                <div class="text-center py-3"><small class="text-muted">Acesse: <a href="https://twitter.com/pixelstudioteam" target="_blank">twitter.com/pixelstudioteam</a></small></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <hr>
     <section class="row justify-content-center no-margin">
-        <div class="col-sm-12 col-md-12 col-lg-12  ">
             <?php include '../include/section.php' ?>
-        </div>
     </section>
 </div>
 <?php include '../include/footer.php' ?>

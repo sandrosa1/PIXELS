@@ -240,7 +240,7 @@ h5 {
 
 }
 
-.index2 img {
+.index2 img, .sobre-pixel-lista img {
     width: 100px;
     height: 100px;
 }
@@ -858,9 +858,9 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     max-width: 280px;
 }
 
-.max-445px {
+/* .max-445px {
     max-width: 445px;
-}
+} */
 
 .max-200px {
     max-width: 200px;
@@ -1072,6 +1072,10 @@ footer .row .col-lg-4 a img {
     .calendario-img {
         display: none;
     }
+
+    .max-445px {
+        max-width: 445px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -1079,7 +1083,10 @@ footer .row .col-lg-4 a img {
     .index1 h4 {
         font-size: 1.3rem;
     }
+    .sobre-pixel-lista h5 {
+        font-size: 1.2rem;
 
-    .galeria1 h5 {
+    }
+    .galeria1 h5, .sobre-pixel-lista p {
         font-size: 1rem;
     }
