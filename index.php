@@ -20,7 +20,7 @@ include 'include/header.php'; ?>
                             <div class="media-body">
                                 <small> <a href="desenho/desenho.php" class="card-link linksAnimacao1">#DesenhoVetorial</a></small>
                                 <h5 class="mt-0 mb-1">
-                                    <a href="pixel/pixel.php" class="card-link linksAnimacao1 ">Chamada para Desenho Vetorial</a>
+                                    <a href="desenho/desenho.php" class="card-link linksAnimacao1 ">Chamada para Desenho Vetorial</a>
                                 </h5>
                             </div>
                         </li>
@@ -38,7 +38,7 @@ include 'include/header.php'; ?>
                             <div class="media-body">
                                 <small><a href="modelagem/modelagem.php" class="card-link linksAnimacao1">#Modelagem3D</a></small>
                                 <h5 class="mt-0 mb-1">
-                                    <a href="pixel/pixel.php" class="card-link linksAnimacao1 ">Tudo o que você precisa saber para começar</a>
+                                    <a href="modelagem/modelagem.php" class="card-link linksAnimacao1 ">Tudo o que você precisa saber para começar</a>
                                 </h5>
                             </div>
                         </li>
@@ -47,7 +47,7 @@ include 'include/header.php'; ?>
                             <div class="media-body">
                                 <small><a href="animacao/animacao.php" class="card-link linksAnimacao1">#AnimaçãoDigital</a></small>
                                 <h5 class="mt-0 mb-1">
-                                    <a href="pixel/pixel.php" class="card-link linksAnimacao1 ">Historia, nomes, técnicas e curiosidades do mundo da animação digital</a>
+                                    <a href="animacao/animacao.php" class="card-link linksAnimacao1 ">Historia, nomes, técnicas e curiosidades do mundo da animação digital</a>
                                 </h5>
                             </div>
                         </li>
@@ -56,7 +56,7 @@ include 'include/header.php'; ?>
                             <div class="media-body">
                                 <small><a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1">#IlustraçãoDigital</a></small>
                                 <h5 class="mt-0 mb-1">
-                                    <a href="pixel/pixel.php" class="card-link linksAnimacao1 ">Tecnologia, inovação, praticidade, diversão e arte. Um mundo de criação</a>
+                                    <a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1 ">Tecnologia, inovação, praticidade, diversão e arte. Um mundo de criação</a>
                                 </h5>
                             </div>
                         </li>
