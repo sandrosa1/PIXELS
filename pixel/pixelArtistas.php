@@ -7,9 +7,6 @@ include '../include/header.php'; ?>
         <div class="col-lg-12">
             <div class="d-flex">
                 <ul class="nav nav-tabs mx-auto" id="myTab" role="tablist">
-                    <!-- <li class="nav-item">
-                    <a class="nav-link active" id="artistas-tab" data-toggle="tab" href="#artistas" role="tab" aria-controls="artistas" aria-selected="true">Artistas Pixel</a>
-                </li> -->
                     <li class="nav-item mx-md-3">
                         <a class="nav-link px-md-5 px-sm-2" id="glauber-tab" data-toggle="tab" href="#glauber" role="tab" aria-controls="glauber" aria-selected="true">Glauber</a>
                     </li>
@@ -30,7 +27,8 @@ include '../include/header.php'; ?>
                 }
                 ?>
                 " id="artistas" role="tabpanel" aria-labelledby="artistas-tab">
-                    <div class="mb-3 px-md-3 px-2 text-justify">
+                
+                    <div class="px-md-5 px-3 text-justify">
                         <h2 class="text-center mt-3 ">Principais Nomes</h2>
                         <p class="pt-3">Ao redor do mundo, muitos artistas nacionais e internacionais fazem parte de uma comunidade que não deixam a Pixel Art morrer. </p>
                         <p>Não se restringindo somente ao universo dos games, a arte quebrou barreiras e se deu muito bem em campanhas publicitárias e identidades visuais.</p>
