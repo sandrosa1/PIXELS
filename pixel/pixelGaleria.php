@@ -3,7 +3,7 @@
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid" id="inicio">
-    <h1 class="text-center m-3">Galeria</h1>
+    <h1 class="text-center m-3">Galeria de artes</h1>
     <p class="text-center m-3">Confira a seleção de imagens de diversos artistas.</p>
     <section class="galeria-pixel">
         <div class="row no-margin text-center justify-content-center">
