@@ -79,11 +79,11 @@ include 'include/header.php'; ?>
             </div>
             <div class="col-lg-6 col-sm-12">
                 <ul class="list-group list-unstyled p-1">
-                    <li><time datetime="2020-05-14"><strong>12/05</strong> - Sesi - No céu iluminado </time></li>
-                    <li><time datetime="2020-05-14"><strong>14/05</strong> - Expo São Paulo - Digital ao quadrado</time></li>
-                    <li><time datetime="2020-05-14"><strong>18/05</strong> - Fiesp - Natureza Urbana – Riscos e Traços</time></li>
-                    <li><time datetime="2020-05-14"><strong>27/05</strong></time> - Sesc Paulista - A Biblioteca à Noite</li>
-                    <li><time datetime="2020-05-14"><strong>27/05</strong></time> - Memorial de Curitiba - Bienal de artes digitais</li>
+                    <li><time datetime="2020-07-12"><strong>12/07</strong> - Sesi - No céu iluminado </time></li>
+                    <li><time datetime="2020-07-14"><strong>14/07</strong> - Expo São Paulo - Digital ao quadrado</time></li>
+                    <li><time datetime="2020-07-18"><strong>18/07</strong> - Fiesp - Natureza Urbana – Riscos e Traços</time></li>
+                    <li><time datetime="2020-07-27"><strong>27/07</strong></time> - Sesc Paulista - A Biblioteca à Noite</li>
+                    <li><time datetime="2020-07-27"><strong>27/07</strong></time> - Memorial de Curitiba - Bienal de artes digitais</li>
                     
                 </ul>
             </div>
