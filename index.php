@@ -34,7 +34,7 @@ include 'include/header.php'; ?>
                             </div>
                         </li>
                         <li class="media">
-                            <a href="modelagem/modelagem.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/modelagem/modelagem9.png" alt="Imagem de exemplo genérica"></a>
+                            <a href="modelagem/modelagem.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/modelagem/modelagem9.webp" alt="Imagem de exemplo genérica"></a>
                             <div class="media-body">
                                 <small><a href="modelagem/modelagem.php" class="card-link linksAnimacao1">#Modelagem3D</a></small>
                                 <h5 class="mt-0 mb-1">

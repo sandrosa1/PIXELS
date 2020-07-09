@@ -5,7 +5,7 @@ include '../include/header.php'; ?>
 <div class="container-fluid" id="inicio">
     <h1 class="text-center m-3">Quem Somos</h1>
     <div class="row no-margin justify-content-center mt-5">
-        <div class="card-deck max-width ">
+        <div class="card-deck max-width p-2">
             <div class="card dev0">
                 <img class="card-img-top" src="../imagem/logo500.png" alt="Card image cap">
                 <div class="card-body">
@@ -14,9 +14,6 @@ include '../include/header.php'; ?>
                     <p class="card-text">Grupo de desenvolvedores multidisciplinares, estudantes do 2º semestre da faculdade de tecnologia FATEC São Roque.</p>
                     <p>Fundado em meados de 2020, em meio à pandemia de COVID-19, o grupo se juntou com o intuito de trazer conhecimento e diversão através de um portal sobre diversas formas de artes digitais.</p>
                 </div>
-                <!-- <div class="card-footer">
-                    <small class="text-muted">AAAAAAAAA</small>
-                </div> -->
             </div>
             <!-- CARD do desenvolvedor Animação Digital -->
             <div class="card dev1">
@@ -27,22 +24,21 @@ include '../include/header.php'; ?>
                     <p class="text-center mt-1">Scrum Master, TI Architecture, dev Front-End and back-End</p>
                     <hr>
                     <p class="card-text">Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.</p>
-                    <p>
-                        <ul class="list-inline animacao text-center">
-                            <!-- Font Awesome - Linkedin -->
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/sandro-a-56424276/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                            <!-- Font Awesome - Github -->
-                            <li class="list-inline-item">
-                                <a href="https://github.com/sandrosa1" target="_blank"><i class="fab fa-github-square"></i></a>
-                            </li>
-                            <!-- Font Awesome - Instagram -->
-                            <li class="list-inline-item">
-                                <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                            </li>
-                        </ul>
-                    </p>
+                    <ul class="list-inline animacao text-center">
+                        <!-- Font Awesome - Linkedin -->
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/sandro-a-56424276/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <!-- Font Awesome - Github -->
+                        <li class="list-inline-item">
+                            <a href="https://github.com/sandrosa1" target="_blank"><i class="fab fa-github-square"></i></a>
+                        </li>
+                        <!-- Font Awesome - Instagram -->
+                        <li class="list-inline-item">
+                            <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        </li>
+                    </ul>
+
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">
@@ -59,22 +55,20 @@ include '../include/header.php'; ?>
                     <p class="text-center mt-1"> Função no desenvolvimento do portal</p>
                     <hr>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p>
-                        <ul class="list-inline desenho text-center">
-                            <!-- Font Awesome - Linkedin -->
-                            <li class="list-inline-item">
-                                <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                            <!-- Font Awesome - Github -->
-                            <li class="list-inline-item">
-                                <a href="https://github.com/lucas-silvestre-fatecsr" target="_blank"><i class="fab fa-github-square"></i></a>
-                            </li>
-                            <!-- Font Awesome - Instagram -->
-                            <li class="list-inline-item">
-                                <a href="https://www.instagram.com/luu.cas_silvestre/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                            </li>
-                        </ul>
-                    </p>
+                    <ul class="list-inline desenho text-center">
+                        <!-- Font Awesome - Linkedin -->
+                        <li class="list-inline-item">
+                            <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <!-- Font Awesome - Github -->
+                        <li class="list-inline-item">
+                            <a href="https://github.com/lucas-silvestre-fatecsr" target="_blank"><i class="fab fa-github-square"></i></a>
+                        </li>
+                        <!-- Font Awesome - Instagram -->
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/luu.cas_silvestre/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">
@@ -85,34 +79,32 @@ include '../include/header.php'; ?>
         </div>
     </div>
     <div class="row no-margin justify-content-center mt-5 mb-5">
-        <div class="card-deck max-width ">
+        <div class="card-deck max-width p-2">
 
             <!-- CARD do desenvolvedor Ilustração Digital -->
             <div class="card dev3">
                 <img class="card-img-top" src="../imagem/quem_somos/allan.webp" alt="Imagem de perfil do Allan">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Allan</h5>
+                    <h5 class="card-title text-center">Allan de Abreu Tridade</h5>
                     <p class="text-center mb-1">RA: 2650831923014</p>
                     <p class="text-center mt-1">Dev Back-End</p>
                     <hr>
                     <p class="card-text">Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom.</p>
                     <p class="card-text">O mundo como o conhecemos se torna cada vez mais digital!</p>
-                    <p>
-                        <ul class="list-inline ilustracao text-center">
-                            <!-- Font Awesome - Linkedin -->
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/allan-trindade-980940a1" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                            <!-- Font Awesome - Github -->
-                            <li class="list-inline-item">
-                                <a href="https://github.com/allantrindade" target="_blank"><i class="fab fa-github-square"></i></a>
-                            </li>
-                            <!-- Font Awesome - Instagram -->
-                            <li class="list-inline-item">
-                                <a href="https://www.instagram.com/allanabreu10" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                            </li>
-                        </ul>
-                    </p>
+                    <ul class="list-inline ilustracao text-center">
+                        <!-- Font Awesome - Linkedin -->
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/allan-trindade-980940a1" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <!-- Font Awesome - Github -->
+                        <li class="list-inline-item">
+                            <a href="https://github.com/allantrindade" target="_blank"><i class="fab fa-github-square"></i></a>
+                        </li>
+                        <!-- Font Awesome - Instagram -->
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/allanabreu10" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">
@@ -130,29 +122,24 @@ include '../include/header.php'; ?>
                     <p class="text-center mt-1"> Dev Back-End e Front-end</p>
                     <hr>
                     <p class="card-text">Sempre tive interesse na área de TI e agora abracei esse desafio. Ainda não sei qual caminho seguir dentre as diversas áreas, mas com certeza sera uma jornada maravilhosa e cheia de surpresas.</p>
-                    
-                    <p>
-                        <p>
-                            <ul class="list-inline modelagem text-center">
-                                <!-- Font Awesome - Linkedin -->
-                                <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/in/alexandre-silvestre-de-paula-37953054/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                </li>
-                                <!-- Font Awesome - Github -->
-                                <li class="list-inline-item">
-                                    <a href="https://github.com/rulesx1" target="_blank"><i class="fab fa-github-square"></i></a>
-                                </li>
-                                <!-- Font Awesome - Instagram -->
-                                <li class="list-inline-item">
-                                    <a href="https://www.instagram.com/alexandresilvestrepaula/?hl=pt-br" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                                </li>
-                            </ul>
-                        </p>
-                    </p>
+                    <ul class="list-inline modelagem text-center">
+                        <!-- Font Awesome - Linkedin -->
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/alexandre-silvestre-de-paula-37953054/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <!-- Font Awesome - Github -->
+                        <li class="list-inline-item">
+                            <a href="https://github.com/rulesx1" target="_blank"><i class="fab fa-github-square"></i></a>
+                        </li>
+                        <!-- Font Awesome - Instagram -->
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/alexandresilvestrepaula/?hl=pt-br" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">
-                    <p><b>Desenvolvimento</b>: <a href="../modelagem/modelagem.php" target="_blank">Modelagem 3D</a>, <a href="../modelagem/modelagemSobre.php" target="_blank">Modelagem 3D - Sobre</a>, <a href="../modelagem/modelagemArtistas.php" target="_blank">Modelagem 3D - Artistas</a>, <a href="../modelagem/modelagemGaleria.php" target="_blank">Modelagem 3D - Galeria</a>
+                        <p><b>Desenvolvimento</b>: <a href="../modelagem/modelagem.php" target="_blank">Modelagem 3D</a>, <a href="../modelagem/modelagemSobre.php" target="_blank">Modelagem 3D - Sobre</a>, <a href="../modelagem/modelagemArtistas.php" target="_blank">Modelagem 3D - Artistas</a>, <a href="../modelagem/modelagemGaleria.php" target="_blank">Modelagem 3D - Galeria</a>
                     </small>
                 </div>
             </div>
@@ -194,7 +181,7 @@ include '../include/header.php'; ?>
     </div>
 </div>
 <section>
-        <?php include '../include/section.php'?>
+    <?php include '../include/section.php'?>
 </section>
 </div>
 
