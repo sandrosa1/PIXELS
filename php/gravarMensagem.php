@@ -1,4 +1,6 @@
 <?php
+date_default_timezone_set('America/Sao_Paulo');
+
 $nome = (isset($_POST['nome'])) ? $_POST['nome'] : '';
 $sobrenome = (isset($_POST['sobrenome'])) ? $_POST['sobrenome'] : '';
 $email = (isset($_POST['email'])) ? $_POST['email']: '';

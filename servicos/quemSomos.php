@@ -93,29 +93,30 @@ include '../include/header.php'; ?>
                 <div class="card-body">
                     <h5 class="card-title text-center">Allan</h5>
                     <p class="text-center mb-1">RA: 2650831923014</p>
-                    <p class="text-center mt-1"> Dev Back-End</p>
+                    <p class="text-center mt-1">Dev Back-End</p>
                     <hr>
                     <p class="card-text">Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom.</p>
+                    <p class="card-text">O mundo como o conhecemos se torna cada vez mais digital!</p>
                     <p>
                         <ul class="list-inline ilustracao text-center">
                             <!-- Font Awesome - Linkedin -->
                             <li class="list-inline-item">
-                                <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/allan-trindade-980940a1" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </li>
                             <!-- Font Awesome - Github -->
                             <li class="list-inline-item">
-                                <a href="" target="_blank"><i class="fab fa-github-square"></i></a>
+                                <a href="https://github.com/allantrindade" target="_blank"><i class="fab fa-github-square"></i></a>
                             </li>
                             <!-- Font Awesome - Instagram -->
                             <li class="list-inline-item">
-                                <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                                <a href="https://www.instagram.com/allanabreu10" target="_blank"><i class="fab fa-instagram-square"></i></a>
                             </li>
                         </ul>
                     </p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">
-                        <p><b>Desenvolvimento</b>: <a href="../ilustracao/ilustracao.php" target="_blank">Ilustração Digital</a>, <a href="../ilustracao/ilustracaoSobre.php" target="_blank">Ilustração Digital - Sobre</a>, <a href="../ilustracao/ilustracaoArtistas.php" target="_blank">Ilustração Digital - Artistas</a>, <a href="../ilustracao/ilustracaoGaleria.php" target="_blank">Ilustração Digital - Galeria</a>
+                        <p><b>Desenvolvimento</b>: <a href="../servicos/faleConosco.php" target="_blank">Fale Conosco</a>, <a href="../ilustracao/ilustracao.php" target="_blank">Ilustração Digital</a>, <a href="../ilustracao/ilustracaoSobre.php" target="_blank">Ilustração Digital - Sobre</a>, <a href="../ilustracao/ilustracaoArtistas.php" target="_blank">Ilustração Digital - Artistas</a>, <a href="../ilustracao/ilustracaoGaleria.php" target="_blank">Ilustração Digital - Galeria</a>
                     </small>
                 </div>
             </div>

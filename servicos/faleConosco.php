@@ -10,7 +10,7 @@ include '../include/header.php';
         <article class="col-sm-12 col-md-6 col-lg-6 p-4">
             <h1 class="text-left h1-arte pt-2">Fale Conosco</h1>
             <hr>
-            <form class="lead" action="../php/resposta.php" method="POST">
+            <form class="lead" action="../php/gravarMensagem.php" method="POST">
                 <label>Nome:</label>
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -29,19 +29,16 @@ include '../include/header.php';
                     <textarea class="form-control form-control-sm" name="mensagem" rows="3" placeholder="Escreva seu comentário" required></textarea>
                 </div>
                 <div class="form-group text-right">
-                    <input class="btn btn-danger btn-lg" type="submit" value="Submit">
-                    <input class="btn btn-danger btn-lg" type="reset" value="Reset">
+                    <input class="btn btn-danger" type="submit" value="Enviar">
+                    <input class="btn btn-danger" type="reset" value="Limpar">
                 </div>
             </form>
         </article>
         <aside class="col-sm-12 col-md-6 col-lg-6 p-4">
-            <h2 class="text-center h2-ilust pt-4">Mensagens</h2>
+            <h2 class="text-center h2-ilust pt-4 pb-4">Mensagens</h2>
             <?php include '../include/mensagens.php'?>
         </aside>
-
-
     </div>
-
     <section>
         <?php        
         include '../include/section.php'?>
