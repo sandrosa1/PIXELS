@@ -10,7 +10,7 @@
                 <div class="col-md-12">
                     <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
                         style='float:left;width:500px; margin-right:20px;'
-                        src="../imagem/modelagem/pedro.png" />
+                        src="../imagem/modelagem/pedro.webp" />
                     <h2 class=" text-center animacaoh1">Pedro Conti</h2>
                     <p class=" text-justify">
                     Pedro Conti é outro brazuca de destaque nesse universo! Ele é um desenhista que tem como foco o design de personagens e 
@@ -36,7 +36,7 @@
                     <h2 class=" text-center animacaoh1">Letícia Reinaldo</h2>
                     <img class="img-fluid  align-items-center" alt=" Foto de Letícia Reinaldo "
                     style='width:100%; margin-top:20px;'
-                        src="../imagem/modelagem/leticia.png" />
+                        src="../imagem/modelagem/leticia.webp" />
                     <p class=" text-justify">Leticia Reinaldo é uma designer brasileira que vive em Los Angeles, onde estuda e participa de projetos em sua carreira de freelancer. 
                         Ela tem focado em modelagem e texturição de personagens em diversos tipos de cenários. 
                         <a href="https://www.behance.net/leticiareinaldo" class="">Você pode conferir o portfólio no Behance.</a></p>                      
@@ -47,7 +47,7 @@
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Studio Miagui</h2>
                     <img class="img-fluid  align-items-center" alt=" Foto do Studio Miagui "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/miagui.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/miagui.webp" />
                     <p class=" text-justify">
                     O pessoal do Studio Miagui, de Porto Alegre, é focado em produções 3D para publicidade e já criou campanhas incríveis para a Gillete, Yamaha, Zero Hora, Fox Sports, NatGeo, dentre outras. 
                     Vale super a pena ficar de olho em todos os projetos produzidos por estes gaúchos. </p>
@@ -58,7 +58,7 @@
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Fausto de Martini </h2>
                     <img class="img-fluid  align-items-center" alt=" Foto de um trabalho de Fausto de Martini  "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto.webp" />
                     <p class=" text-justify">
                     As cinematics de World of Warcraft e StarCraft são incríveis, concorda? Boa parte delas são lideradas por Fausto de Martini, brasileiro que desde 2003 é diretor de arte da 
                     Blizzard. Mas além da Blizzard, ele tem outros projetos incríveis no currículo, como Transformers 4: Era da Extinção e o novo Robocop, onde foi o responsável pela nova armadura do Murphy e pelos carros do filme! 
@@ -72,7 +72,7 @@
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Wagner de Souza</h2>
                     <img class="img-fluid  align-items-center" alt=" Foto de um trabalho de Wagner de Souza "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner.webp" />
                     <p class=" text-justify">
                     Você deve ter visto em sua timeline do Facebook a imagem desse Minion do Capitão América. 
                     Quem o criou foi Wagner de Souza, um curitibano que realizou diversos trabalhos pra Volkswagen, Estrela, Coca-Cola, dentre outros. Seu foco tem sido a criação de personagens e cenários para games para plataformas mobile, especialmente para Android e iOS, e Facebook. 
@@ -84,7 +84,7 @@
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Marcelo Jr.</h2>
                     <img class="img-fluid  align-items-center" alt=" Foto de Marcelo Jr. "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/marcelo.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/marcelo.webp" />
                     <p class=" text-justify">
                     Marcelo Jr. é nascido de Campos-RJ, mas veio pro Rio de Janeiro aos 16 anos para estudar. Se formou em Desenho Industrial e ficou por aqui mesmo. 
                     Ele trabalhou no Stúdio Ícone, Seagulls Fly e atualmente atua na MMJ Studio, onde cria para marcas como Coca-Cola, Oi, Hellman’s, Devassa, Loreal e Spoleto.</p>
@@ -95,7 +95,7 @@
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Jorge Pepelife</h2>
                     <img class="img-fluid  align-items-center" alt=" Foto de um trabalho de Jorge Pepelife "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge.webp" />
                     <p class=" text-justify">
                     Jorge Pepelife é outro carioca que tem criações incríveis! Ele já fez trabalhos para a Petrobras, Jornal Extra, Audi e Close Up. 
                     Mas seus destaques são suas fan-arts. </p>
@@ -106,7 +106,7 @@
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Rafael Grasseti </h2>
                     <img class="img-fluid  align-items-center" alt=" Foto de um trabalho de Rafael Grasseti  "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/rafael.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/rafael.webp" />
                     <p class=" text-justify">
                     Rafael Grasseti começou trabalhando em agências de publicidade brasileiras, até que em 2011 a BioWare o convocou pra ser o seu Senior Character Artist, 
                     onde ele atuou com a franquia Mass Effect e Dragon Age. Em 2013, a Sony o contratou, de lá pra cá ele trabalhou em games como Killzone: 

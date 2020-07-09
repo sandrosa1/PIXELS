@@ -19,7 +19,7 @@
     </article>
     <div class="row no-margin justify-content-center m-3">
         <section class="col-sm-12 col-md-12 col-lg-5 grupo-imagem-secundaria p-3">
-            <img class="center-image" src="../imagem/modelagem/modelagem4.png" alt="Galeria de Modelagem 3D">
+            <img class="center-image" src="../imagem/modelagem/modelagem4.webp" alt="Galeria de Modelagem 3D">
             <div class="bg-grey col-lg-12 pt-3 pb-2">
                 <h3>Veja nossa galeria dos melhores exemplos de modelagem 3D</h3>
                 <p class="sub-titulo"><a href="modelagemGaleria.php" class="">Cada vez há mais brasileiros se especializando em modelagem 3D, em nossa galeria voce poderá acompanhar seus trabalhos</a></p>
@@ -32,7 +32,7 @@
                 <h2 class="text-center mt-3 ">Fique por dentro</h2>
                 <ul class="list-unstyled p-3">
                     <li class="media">
-                        <img class="mr-3" src="../imagem/modelagem/modelagem5.png" alt="Modelagem 3D de Letícia Reinaldo">
+                        <img class="mr-3" src="../imagem/modelagem/modelagem5.webp" alt="Modelagem 3D de Letícia Reinaldo">
                         <div class="media-body  col-sm-12">
                             <h4 class="mt-0 mb-1">Conheça Letícia Reinaldo</h4>
                             <a href="modelagemArtistas.php" class="">Leticia Reinaldo tem focado em modelagem e texturição de personagens em diversos tipos de cenários
@@ -40,14 +40,14 @@
                         </div>
                     </li>
                     <li class="media my-4">
-                        <img class="mr-3" src="../imagem/modelagem/modelagem6.png" alt="Propaganda 3D da Studio Miagui">
+                        <img class="mr-3" src="../imagem/modelagem/modelagem6.webp" alt="Propaganda 3D da Studio Miagui">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Saiba sobre Studio Miagui</h4>
                             <a href="modelagemArtistas.php" class="">O pessoal do Studio Miagui, de Porto Alegre, é focado em produções 3D para publicidade.</a>
                         </div>
                     </li>
                     <li class="media">
-                        <img class="mr-3" src="../imagem/modelagem/modelagem7.png" alt="Modelagem de Wagner de Souza, ">
+                        <img class="mr-3" src="../imagem/modelagem/modelagem7.webp" alt="Modelagem de Wagner de Souza, ">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">A estrela da modelagem 3D Wagner de Souza</h4>
                             <a href="modelagemArtistas.php" class="">Você deve ter visto em sua timeline do Facebook a imagem desse Minion do Capitão América. 
@@ -74,7 +74,7 @@
                     <div class="card-deck">
                             <div class="card">
                             <h5 class="card-title text-center py-2">3DS Max</h5>
-                            <img class="card-img-top" src="../imagem/modelagem/modelagem8.png" alt="Projeto do 3DS Max">
+                            <img class="card-img-top" src="../imagem/modelagem/modelagem8.webp" alt="Projeto do 3DS Max">
                             <div class="card-body">
                                 <p class="card-text">O 3DS Max da Autodesk é talvez o mais famoso entre os softwares de modelagem 3D. 
                                     Ele é quase um padrão do mercado, portanto dominar o 3DS abre portas na maioria das empresas do ramo.</p>
@@ -89,7 +89,7 @@
                   
                         <div class="card">
                             <h5 class="card-title text-center py-2">Maya</h5>
-                            <img class="card-img-top" src="../imagem/modelagem/modelagem9.png" alt="Projeto feito no Maya">
+                            <img class="card-img-top" src="../imagem/modelagem/modelagem9.webp" alt="Projeto feito no Maya">
                             <div class="card-body">
                                 <p class="card-text">Também da Autodesk, o Maya é um software muito poderoso e usado principalmente na indústria do cinema e videogames, devido às suas capacidades únicas de renderização.</p>
                                 <p class="card-text">Se a sua praia é trabalhar com computação gráfica e efeitos visuais para filmes, séries e jogos, esta é uma ferramenta ideal para se preparar para o mercado.</p>
@@ -102,7 +102,7 @@
                         <!-- Procreate -->
                         <div class="card">
                             <h5 class="card-title text-center py-2">ZBrush</h5>
-                            <img class="card-img-top" src="../imagem/modelagem/modelagem10.png" alt="Projeto feito no ZBrush">
+                            <img class="card-img-top" src="../imagem/modelagem/modelagem10.webp" alt="Projeto feito no ZBrush">
                             <div class="card-body">
                                 <p class="card-text">Talvez sua área seja a modelagem livre de personagens para jogos e animações, como se fazia antigamente com as esculturas em massa. Se este é o seu caso, experimente o ZBrush.</p>
                                 <p class="card-text">A ferramenta da Pixologic é focada em modelagem 3D com uma veia mais artística. 

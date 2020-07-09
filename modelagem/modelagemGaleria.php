@@ -15,21 +15,21 @@
 
                     <img class="img-fluid  align-items-center" alt=" Projeto leticia "
                     style='width:100%; margin-top:20px;'
-                        src="../imagem/modelagem/leticia1.png" />
+                        src="../imagem/modelagem/leticia1.webp" />
 
                 </div>
            
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projeto Leticia "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/leticia2.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/leticia2.webp" />
 
                 </div>
 
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projeto Leticia  "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/leticia3.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/leticia3.webp" />
  
                 </div>
 
@@ -37,7 +37,7 @@
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projeto Leticia  "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/leticia4.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/leticia4.webp" />
  
                 </div>
             </div>
@@ -48,28 +48,28 @@
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Wagner de Souza "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner1.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner1.webp" />
 
                 </div>
          
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Wagner de Souza "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner2.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner2.webp" />
 
                 </div>
           
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Wagner de Souza "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner3.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner3.webp" />
 
                 </div>
           
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Wagner de Souza  "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner4.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner4.webp" />
                    
 
 
@@ -83,28 +83,28 @@
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Fausto de Martini "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto1.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto1.webp" />
 
                 </div>
          
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Fausto de Martini "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto2.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto2.webp" />
 
                 </div>
           
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Fausto de Martini "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto3.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto3.webp" />
 
                 </div>
           
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Fausto de Martini  "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto4.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto4.webp" />
                    
 
 
@@ -118,28 +118,28 @@
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Jorge Pepelife "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge1.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge1.webp" />
 
                 </div>
          
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Jorge Pepelife "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge2.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge2.webp" />
 
                 </div>
           
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Jorge Pepelife "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge3.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge3.webp" />
 
                 </div>
           
                 <div class="col-md-3">
 
                     <img class="img-fluid  align-items-center" alt=" Projetos de Jorge Pepelife  "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge4.png" />
+                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge4.webp" />
                    
 
 

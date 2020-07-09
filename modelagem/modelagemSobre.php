@@ -9,7 +9,7 @@
             <hr>
             <div class="row">
                 <div class="col-md-12">
-                    <img src="../imagem/modelagem/modelagem1.png" alt="foto de um design em seu computador"
+                    <img src="../imagem/modelagem/modelagem1.webp" alt="foto de um design em seu computador"
                     class="img-fluid  align-items-center" style='float:left;width:500px; margin-right:20px;' />
                     <p class=" text-justify">É basicamente o processo de criar um objeto com 3 dimensões, por meio de programas específicos para isso. 
             Com essa técnica, é possível simular objetos, cenários e personagens em cenas animadas ou estáticas. 
@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-md-12">
                 <h2 class=" text-center animacaoh1 ">Entendimento e comunicação do projeto ao cliente</h2>
-                    <img src="../imagem/modelagem/modelagem2.png" alt="foto da concepção de um modelo automotivo em 3D" class="img-fluid  align-items-center"
+                    <img src="../imagem/modelagem/modelagem2.webp" alt="foto da concepção de um modelo automotivo em 3D" class="img-fluid  align-items-center"
                         style='float:right;width:400px; margin-left:20px;' />
                     <p class=" text-justify">Para começar essa comunicação com o cliente, é necessário que se preocupe inicialmente com a fase de Briefing, 
                         o qual gera como produto um documento com o escopo base pedido pelo cliente.</p>
@@ -55,7 +55,7 @@
                     <h2 class=" text-center animacaoh1 ">Inicio no Cinema</h2>
                     <img class="img-fluid  align-items-center" alt="Exemplo de modelo 3D"
                         style='float:left;width:300px; margin-right:20px;'
-                        src="../imagem/modelagem/modelagem3.png" >
+                        src="../imagem/modelagem/modelagem3.webp" >
                     <p class=" text-justify">A partir do planejamento realizado na concepção, é iniciada a modelagem nos softwares específicos. Alguns programas como Autodesk Maya, Max, cinema 4d ou Blender são os mais usados. 
                 Contudo, é possível contar com o apoio de programas como Zbrush ou Mudbox para elaboração de modelagens mais orgânicas como as de personagens.</p>
             <p>Também em programas 3D são feitas estruturas, conhecidas como rigging, para que seja possível animar os objetos modelados. Por exemplo, mãos e pés podem conter dedos com articulações. 
