@@ -6,6 +6,8 @@ $sobrenome = (isset($_POST['sobrenome'])) ? $_POST['sobrenome'] : '';
 $email = (isset($_POST['email'])) ? $_POST['email']: '';
 $mensagem = (isset($_POST['mensagem'])) ? $_POST['mensagem']: '';
 $mensagemErro = '';
+$root = $_SERVER['DOCUMENT_ROOT'];
+$arquivo = "$root/pixels/php/mensagens.txt";
 
 
 //Cria uma variavel para retornar a página
@@ -13,8 +15,8 @@ $link = '../servicos/faleConosco.php';
 
 	
 	$contadorLinha = 0;
-	if (file_exists('mensagens.txt')) {
-		$file = fopen('mensagens.txt', 'a+');
+	if (file_exists($arquivo)) {
+		$file = fopen($arquivo, 'a+');
 		while(!feof($file)) {
 			$temp = fgets($file, 1024);
 			$contadorLinha++;
@@ -22,7 +24,7 @@ $link = '../servicos/faleConosco.php';
 		fclose($file);
 		$contadorLinha--;
 	}
-		$file = fopen('mensagens.txt', 'a+');
+		$file = fopen($arquivo, 'a+');
 		if ($contadorLinha == 0){
 			fwrite($file, "CODIGO | NOME | SOBRENOME | EMAIL | MENSAGEM | DATA_MSG" . PHP_EOL);
 			$contadorLinha++;
