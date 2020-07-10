@@ -8,7 +8,7 @@ include 'include/header.php'; ?>
         <div id="borda" class="row justify-content-center mt-3 no-margin">
             <div class="col-lg-6 index1">
                 <div class="card mb-3 semBordas text-center center-image">
-                    <img class="card-img-top img-fluid" src="imagem/bemvindo.webp" alt="Imagem de boas vindas">
+                    <img class="card-img-top img-fluid" src="imagem/index/bemvindo.webp" alt="Imagem de boas vindas">
                     <h4 class="text-justify pt-2">Bem-vindo ao portal PIXELS. Aqui você fica por dentro de tudo que acontece no mundo das artes digitais.</h4>
                 </div>
             </div>
@@ -16,7 +16,7 @@ include 'include/header.php'; ?>
                 <div class="card mb-3 semBordas">
                     <ul class="list-unstyled">
                         <li class="media">
-                            <a href="desenho/desenho.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/indexp1.jpg" alt="Imagem de exemplo genérica"></a>
+                            <a href="desenho/desenho.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/indexp1.webp" alt="Imagem de exemplo genérica"></a>
                             <div class="media-body">
                                 <small> <a href="desenho/desenho.php" class="card-link linksAnimacao1">#DesenhoVetorial</a></small>
                                 <h5 class="mt-0 mb-1">
@@ -25,7 +25,7 @@ include 'include/header.php'; ?>
                             </div>
                         </li>
                         <li class="media">
-                            <a href="pixel/pixel.php#programas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/indexp2.jpg" alt="Imagem flat de um computador com programa"></a>
+                            <a href="pixel/pixel.php#programas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/indexp2.webp" alt="Imagem flat de um computador com programa"></a>
                             <div class="media-body">
                                 <small><a href="pixel/pixel.php" class="card-link linksAnimacao1">#PixelArt</a></small>
                                 <h5 class="mt-0 mb-1">
@@ -73,8 +73,8 @@ include 'include/header.php'; ?>
         </div>
         <div class="row justify-content-center no-margin my-3">
             <div class="col-lg-6 col-sm-12 col-md-auto text-center d-md-flex flex-md-nowrap justify-content-center">
-                <img src="imagem/fiesp.jpg" class="img-fluid" alt="">
-                <img src="imagem/indexp7calendario.jpg" class="img-fluid calendario-img" alt="calendário de julho">
+                <img src="imagem/index/fiesp.webp" class="img-fluid" alt="">
+                <img src="imagem/index/indexp7calendario.webp" class="img-fluid calendario-img" alt="calendário de julho">
 
             </div>
             <div class="col-lg-6 col-sm-12">
@@ -88,7 +88,6 @@ include 'include/header.php'; ?>
                 </ul>
             </div>
         </div>
-</div>
 </section>
 
 
@@ -96,8 +95,6 @@ include 'include/header.php'; ?>
 <section>
     <?php include 'include/section.php' ?>
 </section>
-<!--////                                                                                                        /-->
-</div>
 <!--FOOTER-->
 <?php include 'include/footer.php' ?>
 <!--Links botom css -->

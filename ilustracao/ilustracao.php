@@ -2,13 +2,13 @@
 <?php $page = 'ilustracao'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid" id="inicio">
-    <article class="links_ilustracao">
+    <article class="px-0 px-lg-3 links_ilustracao">
         <div class="row justify-content-center m-3">
             <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h1 class="text-left h1-arte">Um mundo de vantagens</h1>
+                <hr>
                 <img class="center-image" src="../imagem/ilustracao-digital/ilistrucao-principal900x300.webp" alt="Ilustração Digital">
-                <div id="titulo" class="align-items-center">
-                    <h1 class="text-left pt-4 h1-arte">Um mundo de vantagens</h1>
-                </div>
+                
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12">

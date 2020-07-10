@@ -8,7 +8,7 @@
     <div class="row mb-4">       
         <div class="col-sm-12 col-md-12 col-lg-6">
             <h2 class="text-left pl-3 h2-ilust">Kaol Porfírio</h2>
-            <p class="text-left lead pr-2 pl-3">Quem nunca viu as artes de "Fight Like A Girl"? Os desenhos da ilustradora e desenvolvedora de jogos <a href="https://www.instagram.com/kaolporfirio/">Kaol Porfírio</a> fazem sucesso até no exterior. Em novembro, a protagonista da série Doctor Who, Jodie Whittaker, foi fotografada usando uma camiseta com uma ilustração de Carolina</p>     
+            <p class="text-left lead pr-2 pl-3">Quem nunca viu as artes de "Fight Like A Girl"? Os desenhos da ilustradora e desenvolvedora de jogos <a href="https://www.instagram.com/kaolporfirio/">Kaol Porfírio</a> fazem sucesso até no exterior. Em novembro, a protagonista da série Doctor Who, Jodie Whittaker, foi fotografada usando uma camiseta com uma ilustração de Carolina</p> 
     </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
             <img class="figure-img img-fluid rounded" src="../imagem/ilustracao-digital/kaol.webp" alt="Imagem Rey de Kaol Porfírio">

@@ -7,7 +7,7 @@ include '../include/header.php'; ?>
     <div class="row no-margin justify-content-center mt-5">
         <div class="card-deck max-width p-2">
             <div class="card dev0">
-                <img class="card-img-top" src="../imagem/logo500.png" alt="Card image cap">
+                <img class="card-img-top" src="../imagem/logos/logo500.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title text-center">Grupo Pixels</h5>
                     <hr>
@@ -115,7 +115,7 @@ include '../include/header.php'; ?>
 
             <!-- CARD do desenvolvedor Modelagem 3D -->
             <div class="card dev4">
-                <img class="card-img-top" src="../imagem/alexandre.png" alt="Foto do integrante Alexandre">
+                <img class="card-img-top" src="../imagem/quem_somos/alexandre.webp" alt="Foto do integrante Alexandre">
                 <div class="card-body">
                     <h5 class="card-title text-center">Alexandre Silvestre de Paula</h5>
                     <p class="text-center mb-1">RA: 2650831923023 </p>

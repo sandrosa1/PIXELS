@@ -51,19 +51,19 @@ $aniDrop3 = [
 $desDrop = [
     'Desenho Vetorial' => 'desenho.php',        //0
     'Sobre a Arte' => 'desenhoSobre.php',       //1
-    'Artistas' => 'desenhoArtistas.php',        //2
+    'Principais Nomes' => 'desenhoArtistas.php',        //2
     'Galeria' => 'desenhoGaleria.php'           //3
 ];
 $desDrop2 = [
     'Desenho Vetorial' => 'desenho/desenho.php',        //0
     'Sobre a Arte' => 'desenho/desenhoSobre.php',       //1
-    'Artistas' => 'desenho/desenhoArtistas.php',        //2
+    'Principais Nomes' => 'desenho/desenhoArtistas.php',        //2
     'Galeria' => 'desenho/desenhoGaleria.php'           //3
 ];
 $desDrop3 = [
     'Desenho Vetorial' => '../desenho/desenho.php',        //0
     'Sobre a Arte' => '../desenho/desenhoSobre.php',       //1
-    'Artistas' => '../desenho/desenhoArtistas.php',        //2
+    'Principais Nomes' => '../desenho/desenhoArtistas.php',        //2
     'Galeria' => '../desenho/desenhoGaleria.php'           //3
 ];
 //Menu para ilustração aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
@@ -71,19 +71,19 @@ $desDrop3 = [
 $iluDrop = [
     'Ilustração Digital' => 'ilustracao.php',  //0
     'Sobre a Arte' => 'ilustracaoSobre.php',   //1
-    'Artista' => 'ilustracaoArtistas.php',     //2
+    'Principais Nomes' => 'ilustracaoArtistas.php',     //2
     'Galeria' => 'ilustracaoGaleria.php'       //3
 ];
 $iluDrop2 = [
     'Ilustração Digital' => 'ilustracao/ilustracao.php',  //0
     'Sobre a Arte' => 'ilustracao/ilustracaoSobre.php',   //1
-    'Artista' => 'ilustracao/ilustracaoArtistas.php',     //2
+    'Principais Nomes' => 'ilustracao/ilustracaoArtistas.php',     //2
     'Galeria' => 'ilustracao/ilustracaoGaleria.php'       //3
 ];
 $iluDrop3 = [
     'Ilustração Digital' => '../ilustracao/ilustracao.php',  //0
     'Sobre a Arte' => '../ilustracao/ilustracaoSobre.php',   //1
-    'Artista' => '../ilustracao/ilustracaoArtistas.php',     //2
+    'Principais Nomes' => '../ilustracao/ilustracaoArtistas.php',     //2
     'Galeria' => '../ilustracao/ilustracaoGaleria.php'       //3
 ];
 //Menu para modelagemaqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
@@ -91,19 +91,19 @@ $iluDrop3 = [
 $modDrop = [
     'Modelagem 3d' => 'modelagem.php',          //0
     'Sobre a Arte' => 'modelagemSobre.php',     //1
-    'Artistas' => 'modelagemArtistas.php',      //2
+    'Principais Nomes' => 'modelagemArtistas.php',      //2
     'Galeria' => 'modelagemGaleria.php'         //3
 ];
 $modDrop2 = [
     'Modelagem 3d' => 'modelagem/modelagem.php',          //0
     'Sobre a Arte' => 'modelagem/modelagemSobre.php',     //1
-    'Artistas' => 'modelagem/modelagemArtistas.php',      //2
+    'Principais Nomes' => 'modelagem/modelagemArtistas.php',      //2
     'Galeria' => 'modelagem/modelagemGaleria.php'         //3
 ];
 $modDrop3 = [
     'Modelagem 3d' => '../modelagem/modelagem.php',          //0
     'Sobre a Arte' => '../modelagem/modelagemSobre.php',     //1
-    'Artistas' => '../modelagem/modelagemArtistas.php',      //2
+    'Principais Nomes' => '../modelagem/modelagemArtistas.php',      //2
     'Galeria' => '../modelagem/modelagemGaleria.php'         //3
 ];
 //Menu para pixel aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
@@ -219,9 +219,9 @@ switch ($page) {
 
                         ?>" class=" <?php if ($page == 'home') echo $novoMenu; ?>"><img src="
                 <?php if ($page == 'home') {
-                    echo 'imagem/logo500.png';
+                    echo 'imagem/logos/logo500.png';
                 } else {
-                    echo '../imagem/logo500.png';
+                    echo '../imagem/logos/logo500.png';
                 }
 
                 ?>" alt="Logo"></a>
@@ -468,6 +468,6 @@ switch ($page) {
     </nav>
     <div id="portal" class="row <?= $footer ?>">
         <div class="col-lg-12">
-            <p class="h1 text-center fonteh1"><?= $display ?></p>
+            <p class="h1 text-center fonteh1 pt-1"><?= $display ?></p>
         </div>
     </div>
