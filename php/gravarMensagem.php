@@ -6,8 +6,7 @@ $sobrenome = (isset($_POST['sobrenome'])) ? $_POST['sobrenome'] : '';
 $email = (isset($_POST['email'])) ? $_POST['email']: '';
 $mensagem = (isset($_POST['mensagem'])) ? $_POST['mensagem']: '';
 $mensagemErro = '';
-$root = $_SERVER['DOCUMENT_ROOT'];
-$arquivo = "$root/pixels/php/mensagens.txt";
+$arquivo = "mensagens.txt";
 
 
 //Cria uma variavel para retornar a página
