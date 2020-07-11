@@ -3,7 +3,7 @@
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid" id="inicio">
-    <h1 class="text-center m-3">Quem Somos</h1>
+    <h1 class="text-center m-3 h1-arte">Quem Somos</h1>
     <div class="row no-margin justify-content-center mt-5">
         <div class="card-deck max-width p-2">
             <div class="card dev0">
