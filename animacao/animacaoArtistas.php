@@ -3,7 +3,7 @@
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid" id="inicio">
     <article>
-        <div class="container">
+        <div class="container artistaAnimacao">
             <h1 class=" text-center animacaoh1 ">Conheça Alvy Ray</h1>
             <div class="row">
                 <div class="col-md-12 artistasAni">

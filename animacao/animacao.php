@@ -3,12 +3,12 @@
 <?php $page = 'animacao' ; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid animacaoHome1 " id="inicio">
-                <div class="row justify-content-center center-image  m-sm-0">
-                        <div class=" col-lg-12 logoAni">
-                                <img src="../imagem/animacao/animaHome.webp" class="img-fluid headerAni"
-                                        alt="Logo da pagina Portal Animação digital">
-                        </div>
+        <div class="row justify-content-center center-image  m-sm-0">
+                <div class=" col-lg-12 logoAni">
+                        <img src="../imagem/animacao/animaHome.webp" class="img-fluid headerAni"
+                                alt="Logo da pagina Portal Animação digital">
                 </div>
+        </div>
         <article>
                 <div class="row justify-content-md-center m-lg-0 ">
                         <div class=" col-lg-6 ">
@@ -23,51 +23,85 @@
                                                 <a href="animacaoSobre.php" class=" linksAnimacao ">Saiba mais...</a>
                                         </div>
                                 </div>
-                                <div class="row justify-content-md-center  m-lg-auto">
+                                <div class="row justify-content-center center-image  m-sm-0  ">
+                                        <div class=" col-lg-12 logoAni container3">
+                                                <a href="https://www.vestibularfatec.com.br/home/"
+                                                        class="linksAnimacao1">
+                                                        <h5 class=" text-center ">Processo seletivo adptado à Pandeimia
+                                                        </h5><img class=" a" src="../imagem/animacao/animacaoFatec.webp"
+                                                                alt="Propagandao do vestibular fatec">
+                                                </a>
+                                        </div>
+                                </div>
+                                <div class="row justify-content-md-center  m-lg-auto container2">
                                         <div class=" col-lg-12">
                                                 <div class="card-deck container2">
                                                         <div class="card semBordas">
+                                                                <a href="animacaoArtistas.php#JohnAlanLasseter">
+                                                                        <h6 class=" text-danger ">John Alan Lasseter
+                                                                        </h6>
+                                                                </a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoJohnAlanLasseter2.webp"
                                                                         alt="John Alan Lasseter com dois personagens do toy story na mão">
-                                                                <div class="card-body">
-                                                                        <h5 class="card-title">John Alan Lasseter</h5>
+                                                                <div class=" img-fluid linksAnimacao1">
                                                                         <a href="animacaoArtistas.php#JohnAlanLasseter"
                                                                                 class=" linksAnimacao1 ">
-                                                                                <p class="card-text">Depois de ser
-                                                                                        demitido da Disney por promover
-                                                                                        a animação computadorizada
-                                                                                        Saiba mais...</p>
+                                                                                <p class=" text-left "><b>Depois de ser
+                                                                                                demitido da Disney por
+                                                                                                promover
+                                                                                                a animação
+                                                                                                computadorizada.</b></p>
+                                                                        </a>
+                                                                        <a href="animacaoTecnicas.php"
+                                                                                class=" linksAnimacao1">
+                                                                                <p><b>Saiba mais...</b></p>
                                                                         </a>
                                                                 </div>
                                                         </div>
                                                         <div class="card semBordas">
+                                                                <a href="animacaoTecnicas.php">
+                                                                        <h6 class=" text-danger">Tudo sobre Animação
+                                                                        </h6>
+                                                                </a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoCap2.webp"
                                                                         alt="Imagem de capa do card">
-                                                                <div class="card-body semBordas ">
-                                                                        <h5 class="card-title">Tecnicas de Animação</h5>
+                                                                <div class=" img-fluid linksAnimacao1">
                                                                         <a href="animacaoTecnicas.php"
                                                                                 class=" linksAnimacao1 ">
-                                                                                <p class="card-text">Conheça as
-                                                                                        principais tecnicas de Animação.
-                                                                                Saiba mais...</p>
+                                                                                <p class=" text-left"><b>Conheça as
+                                                                                                principais tecnicas de
+                                                                                                Animação.</b></p>
+                                                                        </a>
+                                                                        <a href="animacaoTecnicas.php"
+                                                                                class=" linksAnimacao1 ">
+                                                                                <p><b>Saiba mais...</b></p>
+                                                                        </a>
                                                                         </a>
                                                                 </div>
                                                         </div>
                                                         <div class="card semBordas">
+                                                                <a href="animacaoSobre.php#fantasmagol">
+                                                                        <h6 class=" text-danger ">Primeira Animação</h6>
+                                                                </a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoFantasmagol.webp"
                                                                         alt="Imagem de uma cena da primerira animação no cinema">
-                                                                <div class="card-body">
-                                                                        <h5 class="card-title ">Primeira Animação</h5>
+                                                                <div class=" img-fluid linksAnimacao1">
                                                                         <a href="animacaoSobre.php#fantasmagol"
                                                                                 class=" linksAnimacao1 ">
-                                                                                <p class="card-text">Em 1892 Émile
-                                                                                        Courtet criou o que éprimeira
-                                                                                        animação sendo reproduzida em um
-                                                                                        projetor na cidade de Paris
-                                                                                Saiba mais...</p>
+                                                                                <p class=" text-left"><b>Em 1892 Émile
+                                                                                                Courtet criou o que é
+                                                                                                primeira
+                                                                                                animação sendo
+                                                                                                reproduzida em um
+                                                                                                projetor na cidade de
+                                                                                                Paris.</b></p>
+                                                                        </a>
+                                                                        <a href="animacaoSobre.php#fantasmagol"
+                                                                                class=" linksAnimacao1 ">
+                                                                                <p><b>Saiba mais...</b></p>
                                                                         </a>
                                                                 </div>
                                                         </div>
@@ -79,61 +113,84 @@
                                 <div class="card-columns container2">
                                         <div class="card semBordas ">
                                                 <div class="card-body">
-                                                        <img class="card-img-top"
-                                                                src="../imagem/animacao/animacaoFrozen1.webp"
-                                                                alt="Capa da animação frozen">
-                                                        <a href="animacaoSobre.php#bilheterias"
-                                                                class=" linksAnimacao1 ">
-                                                                <h5 class="card-title text-left">Maiores Bilheterias
-                                                                </h5>
-                                                        </a>
+                                                        <a href="animacaoSobre.php#bilheterias">
+                                                                <h6 class="card-title text-left text-danger">Maiores
+                                                                        Bilheterias</h6>
+                                                                <img class="card-img-top"
+                                                                        src="../imagem/animacao/animacaoFrozen1.webp"
+                                                                        alt="Capa da animação frozen">
+                                                                <a href="animacaoSobre.php#bilheterias"
+                                                                        class=" linksAnimacao1 ">
+                                                                        <p><b>Conhece as maiores bilheterias de animação
+                                                                                        da historia</b></p>
+                                                                </a>
                                                 </div>
                                         </div>
                                         <div class="card p-3 semBordas">
-                                                <h5 class="card-title">Steve Jobs</h5>
+                                                <a href="animacaoSobre.php#steve">
+                                                        <h6 class="card-title text-danger">Steve Jobs</h6>
+                                                </a>
                                                 <a href="animacaoSobre.php#steve" class=" linksAnimacao1 ">
-                                                        <p>Com uma parceria estratégica com a Disney criou, produziu e
-                                                                lançou vários filmes em animação 3D de sucesso
+                                                        <p><b>Com uma parceria estratégica com a Disney criou, produziu
+                                                                        e
+                                                                        lançou vários filmes em animação 3D de
+                                                                        sucesso.</b>
                                                         </p>
                                                 </a>
                                         </div>
                                         <div class="card p-3 semBordas">
-                                                <h5 class="card-title">Grandes Nomes</h5>
                                                 <a href="animacaoArtistas.php#Giaimo" class=" linksAnimacao1 ">
-                                                        <p>WALT DISNEY, Winsor McCay, Walter Lantz grandes nomes da
-                                                                animação
+                                                        <h6 class="card-title text-danger">Grandes Nomes</h6>
+                                                </a>
+                                                <a href="animacaoArtistas.php#Giaimo" class=" linksAnimacao1 ">
+                                                        <p><b>WALT DISNEY, Winsor McCay, Walter Lantz grandes nomes da
+                                                                        animação.</b>
                                                         </p>
                                                 </a>
                                         </div>
                                         <div class="card semBordas">
                                                 <div class="card-body">
+                                                        <a href="animacaoTecnicas.php#pixilation"
+                                                                class=" linksAnimacao1 ">
+                                                                <h6 class="card-title text-left text-danger">Pixilation
+                                                                </h6>
+                                                        </a>
                                                         <img class="card-img"
                                                                 src="../imagem/animacao/animacaoPixilation.webp"
                                                                 alt="Imagem de capa do card">
-                                                        <h5 class="card-title text-left">Pixilation</h5>
                                                         <a href="animacaoTecnicas.php#pixilation"
                                                                 class=" linksAnimacao1 ">
-                                                                <p class="card-text ">Técnica muito usado para misturar
-                                                                        atores ao vivo com os animados em um filme</p>
+                                                                <p class="card-text "><b>Técnica muito usado para
+                                                                                misturar
+                                                                                atores ao vivo com os animados em um
+                                                                                filme.</b></p>
                                                         </a>
                                                 </div>
                                         </div>
                                         <div class="card semBordas">
                                                 <div class="card-body semBordas">
+                                                        <a href="animacaoTecnicas.php#limitada">
+                                                                <h6 class="card-title text-left text-danger">Animação
+                                                                        Limitada</h6>
+                                                        </a>
                                                         <img class="card-img "
                                                                 src="../imagem/animacao/animacaoMisterMagoo.webp"
                                                                 alt="Imagem do Desnho Mister Magoo">
-                                                        <h6 class="card-title text-left ">Animação Limitada</h6>
                                                         <a href="animacaoTecnicas.php#limitada"
                                                                 class=" linksAnimacao1 ">
-                                                                <p>esenhos animados onde os quadros não são redesenhados
-                                                                        inteiramente.
+                                                                <p><b>Desenhos animados onde os quadros não são
+                                                                                redesenhados
+                                                                                inteiramente.</b>
                                                                 </p>
                                                         </a>
                                                 </div>
                                         </div>
                                         <div class="card semBordas">
                                                 <div class="card-body semBordas">
+                                                        <a href="animacaoGaleria.php" class=" linksAnimacao ">
+                                                                <h6 class=" text-left text-danger">Conheça a Galeria
+                                                                </h6>
+                                                        </a>
                                                         <a href="animacaoGaleria.php" class=" linksAnimacao "><img
                                                                         class="card-img"
                                                                         src="../imagem/animacao/animacaogaleria.webp"
@@ -141,31 +198,40 @@
                                                 </div>
                                         </div>
                                         <div class="card p-3 text-right semBordas">
-                                                <h5 class="card-title text-left ">Mas o que é Animaçao Digital</h5>
+                                                <a href="animacaoSobre.php#oQueE">
+                                                        <h6 class="card-title text-left text-danger ">Mas o que é
+                                                                Animaçao Digital</h6>
+                                                </a>
                                                 <a href="animacaoSobre.php#oQueE" class=" linksAnimacao1 ">
-                                                        <p class=" text-left ">A animação digital é a arte de criar
-                                                                imagens em movimento utilizando computadores...</p>
+                                                        <p class=" text-left "><b>A animação digital é a arte de criar
+                                                                        imagens em movimento utilizando
+                                                                        computadores...</b></p>
                                                 </a>
                                         </div>
                                         <div class="card semBordas">
                                                 <div class="card-body semBordas">
-                                                        <h5 class="card-title">Machinima</h5>
-                                                        <a href="animacaoTecnicas.php#machinima " class="linksAnimacao1 ">
-                                                                <p class=" card-text ">Saiba o que significa Machinama e
-                                                                        como foi utilizado no inicio da década de 2000.</p>
+                                                        <a href="animacaoTecnicas.php#machinima ">
+                                                                <h6 class="card-title text-danger">Machinima</h6>
+                                                        </a>
+                                                        <a href="animacaoTecnicas.php#machinima "
+                                                                class="linksAnimacao1 ">
+                                                                <p class=" card-text "><b>Saiba o que significa
+                                                                                Machinama e
+                                                                                como foi utilizado no inicio da década
+                                                                                de 2000.</b></p>
                                                         </a>
                                                 </div>
                                         </div>
                                 </div>
-                                <aside>
-                                        <div class="container1 "><a href="https://www.vestibularfatec.com.br/home/"
+                                <div class="row justify-content-center center-image  m-sm-0">
+                                        <div class=" col-lg-12 logoAni">
+                                                <a href="https://www.saoroque.sp.gov.br/portal/noticias/0/3/7835/lsta-de-contatos-dos-departamentos-da-prefeitura-durante-a-quarentena/"
                                                         class="linksAnimacao1">
-                                                        <h5 class=" text-center ">Processo seletivo adptado à Pandeimia
-                                                        </h5><img src="../imagem/animacao/animacaoFatec.webp"
+                                                        <h5 class=" text-center ">Telefones Úteis</h5><img class=" a" src="../imagem/animacao/animacaoPrefeitura.webp"
                                                                 alt="Propagandao do vestibular fatec">
                                                 </a>
                                         </div>
-                                </aside>
+                                </div>
                         </div>
                 </div>
         </article>

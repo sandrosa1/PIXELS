@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <img src="../imagem/animacao/animacaoInicio.webp" alt="Ivan Sutherland e sua caneta óptica"
-                        class="img-fluid  align-items-center imagemLeft1" />
+                        class=" align-items-center imagemLeft1" />
                     <p class=" text-justify">A história da animação digital está diretamente relacionada com
                         a história da computação gráfica. Desde os primeiros dispositivos
                         disponíveis foram percebidas as possibilidade de uso para geração
