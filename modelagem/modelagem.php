@@ -26,13 +26,13 @@
             </div>
         </section>
 
-        <section class="col-sm-12 col-md-12 col-lg-7 pl-5 p-3">
+        <section class="col-sm-12 col-md-12 col-lg-7">
             <!-- Cards com artigos menores -->
             <div class="mb-3">
-                <h2 class="text-center mt-3 ">Fique por dentro</h2>
+                <h2 class="text-center p-3 ">Fique por dentro</h2>
                 <ul class="list-unstyled p-3">
                     <li class="media">
-                        <img class="mr-3" src="../imagem/modelagem/modelagem5.webp" alt="Modelagem 3D de Letícia Reinaldo">
+                        <img class="mr-0" src="../imagem/modelagem/modelagem5.webp" alt="Modelagem 3D de Letícia Reinaldo">
                         <div class="media-body  col-sm-12">
                             <h4 class="mt-0 mb-1">Conheça Letícia Reinaldo</h4>
                             <a href="modelagemArtistas.php" class="">Leticia Reinaldo tem focado em modelagem e texturição de personagens em diversos tipos de cenários
@@ -57,21 +57,16 @@
                 </ul>
             </div>
         </section>
-
-
-
-
     </div>
 
     <section class="row no-margin  justify-content-center m-3">
         <div class="col-lg-12">
             <div class="bg-grey">
-                <h2 class="text-center">Tudo o que você precisa saber para começar</h2>
+                <h2 class="text-center">Tudo o que você precisa saber</h2>
                 <p class=" px-5 py-3 ">Você já pensou em fazer carreira como um modelador 3D? 
                     Além de ser uma atividade desafiadora e com novidades o tempo todo, ser um profissional desta área te dá a chance de 
                     trabalhar em projetos incríveis na indústria de videogames e no cinema. Separamos 3 softwares que irão te auxiliar.</p>
-                <div class="px-5 pb-4">
-                    <div class="card-deck">
+                    <div class="card-deck px-3">
                             <div class="card">
                             <h5 class="card-title text-center py-2">3DS Max</h5>
                             <img class="card-img-top" src="../imagem/modelagem/modelagem8.webp" alt="Projeto do 3DS Max">
@@ -87,7 +82,7 @@
                             </div>
                         </div>
                   
-                        <div class="card">
+                        <div class="card mx-1">
                             <h5 class="card-title text-center py-2">Maya</h5>
                             <img class="card-img-top" src="../imagem/modelagem/modelagem9.webp" alt="Projeto feito no Maya">
                             <div class="card-body">
@@ -99,8 +94,7 @@
                                 <small class="text-muted">Acesse: <a href="https://www.autodesk.com.br/products/maya/overview" target="_blank">autodesk.com.br</a></small>
                             </div>
                         </div>
-                        <!-- Procreate -->
-                        <div class="card">
+                        <div class="card mx-1">
                             <h5 class="card-title text-center py-2">ZBrush</h5>
                             <img class="card-img-top" src="../imagem/modelagem/modelagem10.webp" alt="Projeto feito no ZBrush">
                             <div class="card-body">
@@ -119,14 +113,10 @@
 
                     </div>
 
-                </div>
-
             </div>
         </div>
     </section>
 </div>
 
-
-</div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>

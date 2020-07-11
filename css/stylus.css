@@ -697,6 +697,13 @@ h5 {
     width: 80%;
 }
 
+@media screen and (min-width: 800px) {
+    .mt-100 {
+        margin-top: 100px;
+    }
+    
+}
+
 /* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
 @media screen and (max-width: 800px) {
 
@@ -707,8 +714,6 @@ h5 {
         max-width: 50%;
     }
 }
-
-
 
 /*
 Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra */
@@ -738,7 +743,7 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 }
 
 .ilustSobre {
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .h2-ilust {
@@ -1107,4 +1112,6 @@ footer .row .col-lg-4 a img {
         font-size: 1.8rem;
     }
     
+}
+       
 }
