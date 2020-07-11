@@ -1,7 +1,7 @@
 <?php include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'ilustracao'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid">
+<div class="container-fluid" id="inicio">
     <!-- Photo Grid -->
     <article class="ilustracaoGaleria">
         <h1 class=" text-left h1-arte">Galeria de Imagens</h1>

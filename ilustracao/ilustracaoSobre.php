@@ -1,7 +1,7 @@
 <?php include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'ilustracao'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid">
+<div class="container-fluid" id="inicio">
     <article>
         <div class="row mx-3 my-3 justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-12">
