@@ -2,11 +2,11 @@
 <?php $page = 'pixel';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid pixel-links pixel-index my-4" id="inicio">
+<div class=" pixel-links pixel-index my-4 row mx-auto" id="inicio">
     <!-- Seção do artigo principal -->
-    <article class="px-0 px-lg-3">
+    <article class="px-0">
         <div class="row justify-content-center no-margin">
-            <div class="grupo-imagem-titulo col-sm-12 col-md-12 col-lg-12">
+            <div class="grupo-imagem-titulo col-sm-12 col-md-12">
                 <img class="center-image" src="../imagem/pixel/pixelart-principal882x296.webp" alt="Pixels coloridos">
                 <div id="titulo" class="align-items-center">
                     <h1 class="text-center h1-arte">A arte do ponto a ponto</h1>
@@ -14,16 +14,16 @@ include '../include/header.php'; ?>
             </div>
         </div>
         <div class="row no-margin justify-content-center">
-            <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="col-sm-12 col-md-12">
                 <p class="lead pr-2 pl-3 py-1"><a class="link-paragrafo" href="pixelSobre.php">O Pixel Art é uma forma de arte digital no qual imagens são criadas a partir de pixels. A técnica surgiu no final da década de 70, mas só teve seu auge na década de 80. </a></p>
             </div>
         </div>
     </article>
     <!-- Seção de artigo secundário -->
-    <div class="row no-margin justify-content-center px-0 px-lg-3">
-        <section class="col-sm-12 col-md-6 col-lg-5 grupo-imagem-secundaria p-3">
-            <div class="card max-445px d-block mx-md-0 mx-sm-auto">
-                <img class="card-img-top align-middle " src="../imagem/pixel/pixelforest445.webp" alt="Exposição Pixel-Forest">
+    <div class="row no-margin justify-content-center px-0">
+        <section class="col-sm-12 col-md-6 col-lg-6 grupo-imagem-secundaria p-3">
+            <div class="card mx-auto">
+                <img class="card-img-top" src="../imagem/pixel/pixelforest445.webp" alt="Exposição Pixel-Forest">
                 <div class="card-body bg-grey">
                     <h3 class="card-title h3-mobile">Conheça a Pixel Forest</h3>
                     <p class="card-text"><a href="pixelSobre.php#pixelforest">Pipilotti Rist em colaboração com a designer Kaori Kuwabara</a></p>
@@ -31,7 +31,7 @@ include '../include/header.php'; ?>
             </div>
         </section>
         <!-- Seção de artigos menores -->
-        <section class="col-sm-12 col-md-6 col-lg-7">
+        <section class="col-sm-12 col-md-6 col-lg-6">
             <!-- Cards com artigos menores -->
             <div class="bg-grey m-0">
                 <h2 class="text-center mt-3 titulo-section-pixel py-1 h2-mobile">Fique por dentro</h2>
@@ -65,10 +65,10 @@ include '../include/header.php'; ?>
     <!-- Seção com Indicação de Programas -->
     <section id="programas" class="row no-margin
      justify-content-center mb-4 programas-links">
-        <div class="bg-grey col-lg-12">
-            <h2 class="text-center titulo-section-pixel p-2 h2-mobile">Construa seus projetos</h2>
-            <p class="text-justify p-3">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, plataforma Online e app para celular. Escolha o seu e divirta-se!</p>
-            <div class="pb-4 row no-margin">
+        <div class=" col-lg-12 m-3 bg-grey">
+            <h2 class="text-center titulo-section-pixel py-2 h2-mobile">Construa seus projetos</h2>
+            <p class="text-justify p-2">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, plataforma Online e app para celular. Escolha o seu e divirta-se!</p>
+            <div class="pb-4 row no-margin bg-grey">
                 <div class="d-flex flex-wrap">
                     <!-- Piskel -->
                     <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-stretch mb-3">
@@ -76,7 +76,7 @@ include '../include/header.php'; ?>
                             <h5 class="text-center py-2">Piskel</h5>
                             <img class="img-fluid float-sm-none float-md-left float-lg-none mx-md-0 mr-md-3 mr-lg-0 " src="../imagem/pixel/piskel.webp" alt="Interface do programa Piskel">
                             <div class="pt-2 ">
-                                <p class="text-justify ">Crie sua pixel art com o programa Piskel.</p>
+                                <p class="text-justify">Crie sua pixel art com o programa Piskel.</p>
                                 <p class="text-justify">O Piskel e um editor gratuito para
                                     fazer animação e pixel art. Possui versão para download
                                     (Windows, Linux e Mac OS.X) e
@@ -123,6 +123,7 @@ include '../include/header.php'; ?>
             </div>
         </div>
     </section>
+
     <hr>
     <section class="row justify-content-center no-margin">
         <?php include '../include/section.php' ?>
