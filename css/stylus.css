@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 html {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -17,490 +17,491 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 
 }
 
 /*escolha sua cor de preferencia aqui*/
 :root {
-    --home-color: #ff4500;
-    --animacao-color: #4169E1;
-    --desenho-color: #008B8B;
-    --ilustracao-color: #2E8B57;
-    --modelagem-color: #ff8c00;
-    --pixel-color: #F2003F;
-    --saiba-color: #8B0000;
-    --link-paragrafo-color: #3d3d3d;
-    --link-paragrafo-color-hover: #000;
-    --fonte-family: 'Raleway', sans-serif;
-    --bg-grey: #ececec;
+  --home-color: #ff4500;
+  --animacao-color: #4169E1;
+  --desenho-color: #008B8B;
+  --ilustracao-color: #2E8B57;
+  --modelagem-color: #ff8c00;
+  --pixel-color: #F2003F;
+  --saiba-color: #8B0000;
+  --link-paragrafo-color: #3d3d3d;
+  --link-paragrafo-color-hover: #000;
+  --fonte-family: 'Raleway', sans-serif;
+  --bg-grey: #ececec;
 }
 
 /*Novo nav*/
 
 .topnav1 {
-    overflow: hidden;
-    background-color: white;
-    padding: 0px 20px 0px;
+  overflow: hidden;
+  background-color: white;
+  padding: 0px 20px 0px;
 }
 
 .topnav1 a img {
-    width: 51px;
-    height: 51px;
+  width: 51px;
+  height: 51px;
 }
 
 .topnav1 a {
-    float: left;
-    display: block;
-    color: var(--home-color);
-    text-align: center;
-    padding: 0px 0px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: var(--fonte-family);
+  float: left;
+  display: block;
+  color: var(--home-color);
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: var(--fonte-family);
 
 }
 
 .dropbtn1 {
-    color: red;
+  color: red;
 }
 
 /*Ativa onde esta*/
 .active1 {
-    color: var(--home-color);
+  color: var(--home-color);
 }
 
 .active2 {
-    color: var(--animacao-color);
+  color: var(--animacao-color);
 }
 
 .active3 {
-    color: var(--desenho-color);
+  color: var(--desenho-color);
 }
 
 .active4 {
-    color: var(--ilustracao-color);
+  color: var(--ilustracao-color);
 }
 
 .active5 {
-    color: var(--modelagem-color);
+  color: var(--modelagem-color);
 }
 
 .active6 {
-    color: var(--pixel-color);
+  color: var(--pixel-color);
 }
 
 .active7 {
-    color: var(--saiba-color);
+  color: var(--saiba-color);
 }
 
 .topnav1 .icon1 {
-    display: none;
+  display: none;
 }
 
 .dropdown1 {
-    float: left;
-    overflow: hidden;
+  float: left;
+  overflow: hidden;
 }
 
 .dropdown1 .dropbtn1 {
-    font-size: 17px;
-    border: none;
-    outline: none;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
 .dropdown-content1 {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .dropdown-content1 a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    border-bottom: 1px solid #ebebeb;
-    border-left: 1px solid #ebebeb;
-    border-right: 1px solid #ebebeb;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
 }
 
 .topnav1 .active1 a:hover,
 .dropdown1:hover .dropbtn1 {
-    background-color: var(--home-color);
-    color: white;
+  background-color: var(--home-color);
+  color: white;
 }
 
 /*Muda a cor da seleção do dropdown*/
 .dropdown-content1 a:hover {
-    border-left: 1px solid var(--home-color);
-    border-right: 1px solid var(--home-color);
-    border-bottom: 1px solid var(--home-color);
-    background-color: var(--home-color);
-    color: white;
+  border-left: 1px solid var(--home-color);
+  border-right: 1px solid var(--home-color);
+  border-bottom: 1px solid var(--home-color);
+  background-color: var(--home-color);
+  color: white;
 }
 
 .dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .topnav1 a:not(:first-child),
+  .dropdown1 .dropbtn1 {
+    display: none;
+  }
+
+  .topnav1 a.icon1 {
+    float: right;
     display: block;
+    width: 20px;
+    margin: 5px 10px 0px 0px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
+  .topnav1.responsive1 {
+    position: relative;
+  }
 
-    .topnav1 a:not(:first-child),
-    .dropdown1 .dropbtn1 {
-        display: none;
-    }
+  .topnav1.responsive1 .icon1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
-    .topnav1 a.icon1 {
-        float: right;
-        display: block;
-        width: 20px;
-        margin: 5px 10px 0px 0px;
-    }
-}
+  .topnav1.responsive1 a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
-@media screen and (max-width: 1000px) {
-    .topnav1.responsive1 {
-        position: relative;
-    }
+  .topnav1.responsive1 .dropdown1 {
+    float: none;
+  }
 
-    .topnav1.responsive1 .icon1 {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
+  .topnav1.responsive1 .dropdown-content1 {
+    position: relative;
+  }
 
-    .topnav1.responsive1 a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
-    .topnav1.responsive1 .dropdown1 {
-        float: none;
-    }
-
-    .topnav1.responsive1 .dropdown-content1 {
-        position: relative;
-    }
-
-    .topnav1.responsive1 .dropdown1 .dropbtn1 {
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
+  .topnav1.responsive1 .dropdown1 .dropbtn1 {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
 }
 
 /* css do nav*/
 
 
 #portal {
-    width: 100%;
-    height: 60px;
-    padding: 0;
-    margin: 0;
-    color: white;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  color: white;
 }
 
 .container-fluid {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .fonteh1 {
-    font-family: var(--fonte-family);
+  font-family: var(--fonte-family);
 }
 
 /*css para pagina INDEX*/
 
 .galeria1 img:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .index1 img {
-    max-width: 700px;
+  max-width: 700px;
 }
 
 .index2 li {
-    margin-top: 20px;
+  margin-top: 20px;
 
 }
 
-.index2 img, .sobre-pixel-lista img {
-    width: 100px;
-    height: 100px;
+.index2 img,
+.sobre-pixel-lista img {
+  width: 100px;
+  height: 100px;
 }
 
 .calendario li {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
 
 /*css para o diretório servicos*/
 /* Normas de Utilização */
 .center-image {
-    display: block;
-    width: 100%;
-    margin: auto;
+  display: block;
+  width: 100%;
+  margin: auto;
 }
 
 /* Quem Somos */
 .dev0 {
-    border: .2rem solid var(--home-color);
+  border: .2rem solid var(--home-color);
 
 }
 
 .dev1 {
-    border: .2rem solid var(--animacao-color);
+  border: .2rem solid var(--animacao-color);
 }
 
 .dev2 {
-    border: .2rem solid var(--desenho-color);
+  border: .2rem solid var(--desenho-color);
 }
 
 .dev3 {
-    border: .2rem solid var(--ilustracao-color);
+  border: .2rem solid var(--ilustracao-color);
 }
 
 .dev4 {
-    border: .2rem solid var(--modelagem-color);
+  border: .2rem solid var(--modelagem-color);
 }
 
 .dev5 {
-    border: .2rem solid var(--pixel-color);
+  border: .2rem solid var(--pixel-color);
 }
 
 .bg-white {
-    background-color: white;
+  background-color: white;
 }
 
 .max-width {
-    max-width: 960px;
+  max-width: 960px;
 }
 
 .no-margin,
 .max-width {
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .list-inline li {
-    padding: 0 5px;
+  padding: 0 5px;
 }
 
 .list-inline li a {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 /* Hover para Pixel Art */
 .pixel li a {
-    color: var(--pixel-color)
+  color: var(--pixel-color)
 }
 
 .pixel li a:hover {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 /* Hover para Modelagem 3D */
 .modelagem li a {
-    color: var(--modelagem-color)
+  color: var(--modelagem-color)
 }
 
 .modelagem li a:hover {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 /* Hover para Ilustração Digital*/
 .ilustracao li a {
-    color: var(--ilustracao-color)
+  color: var(--ilustracao-color)
 }
 
 .ilustracao li a:hover {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 /* Hover para Desenho Veotrial*/
 .desenho li a {
-    color: var(--desenho-color)
+  color: var(--desenho-color)
 }
 
 .desenho li a:hover {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 /* Hover para Animação Digital*/
 .animacao li a {
-    color: var(--animacao-color)
+  color: var(--animacao-color)
 }
 
 .animacao li a:hover {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 
 /*css ------------------------------------------para o diretório Animação Digital-----------------*/
 .animacaoHome1 {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .logoAni img {
-    width: 100%;
+  width: 100%;
 
 }
 
 /*cria uma margem no container*/
 
 .animacaoHomeP {
-    margin: 30px 10px 0px 10px;
+  margin: 30px 10px 0px 10px;
 }
 
 /*Da uma posição e tamanho maximo para o container*/
 
 .container1 {
-    position: relative;
-    max-width: 600px;
-    margin: 30px auto 20px auto;
+  position: relative;
+  max-width: 600px;
+  margin: 30px auto 20px auto;
 }
 
 .container2 {
-    position: relative;
-    max-width: 800px;
-    margin: 10px auto;
+  position: relative;
+  max-width: 800px;
+  margin: 10px auto;
 }
 
 
 /*Avisa a imagem que ela pode usar 100% do*/
 
 .container1 img {
-    width: 100%;
-    vertical-align: middle;
+  width: 100%;
+  vertical-align: middle;
 }
 
 /* Coloca o elemento content1 sobre o container e aplica um opacidade */
 
 .container1 .content1 {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
 .block2 {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .verticalLine {
-    border-right: 1px solid;
-    border-color: var(--animacao-color);
+  border-right: 1px solid;
+  border-color: var(--animacao-color);
 }
 
 .horizontalline {
-    border-bottom: 1px solid;
-    border-color: var(--animacao-color);
+  border-bottom: 1px solid;
+  border-color: var(--animacao-color);
 }
 
 .semBordas {
-    border: 0px;
+  border: 0px;
 }
 
 .linksAnimacao:link {
-    text-decoration: none;
+  text-decoration: none;
 
 }
 
 .linksAnimacao1:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .linksAnimacao {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .linksAnimacao1 {
-    color: black;
+  color: black;
 }
 
 
 /*--------------------------------Animação-Sobre------------------------*/
 .animacaoh1 {
-    font-family: var(--fonte-family);
-    font-weight: 600;
-    color: var(--animacao-color);
-    padding: 20px;
+  font-family: var(--fonte-family);
+  font-weight: 600;
+  color: var(--animacao-color);
+  padding: 20px;
 }
 
 .animacaoSobre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .animacaoSobre .animacaoSobreTexto {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .imagemRight {
-    float: right;
-    width: 500px;
-    margin-left: 20px;
+  float: right;
+  width: 500px;
+  margin-left: 20px;
 }
 
 .imagemLeft1 {
-    float: left;
-    ;
-    width: 400px;
-    margin-right: 20px;
+  float: left;
+  ;
+  width: 400px;
+  margin-right: 20px;
 }
 
 .imagemLeft2 {
-    float: left;
-    ;
-    width: 300px;
-    margin: 10px 20px 20px 10px;
+  float: left;
+  ;
+  width: 300px;
+  margin: 10px 20px 20px 10px;
 }
 
 .grandesAni a img {
-    width: 100%;
-    height: 80px;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
 }
 
 .imagemLeft3 {
-    width: 100px;
-    max-height: 100px;
-    margin-bottom: 20px;
+  width: 100px;
+  max-height: 100px;
+  margin-bottom: 20px;
 }
 
 .imagemLeft4 {
-    float: left;
-    width: 100px;
-    margin-right: 20px;
+  float: left;
+  width: 100px;
+  margin-right: 20px;
 }
 
 .imagemLeft5 {
-    float: left;
-    width: 100px;
-    margin-right: 20px;
+  float: left;
+  width: 100px;
+  margin-right: 20px;
 }
 
 
@@ -508,147 +509,147 @@ h5 {
 /*--------------------------------Tecnicas De Animação-----------------------------*/
 
 .tecnicasAni {
-    margin: 10px auto 0px auto;
+  margin: 10px auto 0px auto;
 }
 
 .tecnicasAni aside img {
-    float: left;
-    max-width: 220px;
-    margin: 15px;
+  float: left;
+  max-width: 220px;
+  margin: 15px;
 }
 
 .tecnicasAni aside {
-    border-bottom: solid 0.3px blue;
+  border-bottom: solid 0.3px blue;
 }
 
 /*Artistas Animaçao*/
 
 .artistasAni img {
-    float: left;
-    width: 500px;
-    margin-right: 20px;
+  float: left;
+  width: 500px;
+  margin-right: 20px;
 
 }
 
 .artistasAni3 img {
-    width: 400px;
+  width: 400px;
 }
 
 
 /*------------------------------------ANIMAÇAO--GALERIA-------------------------------*/
 .galeriaAni {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .animacaoGaleria {
-    max-width: 90%;
-    margin: 20px 35px 0px auto;
-    padding: 0px;
+  max-width: 90%;
+  margin: 20px 35px 0px auto;
+  padding: 0px;
 }
 
 .galeria a {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 0px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 0px;
 }
 
 /* Crie quatro colunas iguais que ficam próximas uma da outra */
 
 .galeria {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 0px;
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 0px;
 }
 
 .galeria img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 80%;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 80%;
 }
 
 .galeria img:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /*--------------------------------- Layout responsivo - Tablet------------------------*/
 @media screen and (max-width: 800px) {
 
-    /*cria um layout de duas colunas em vez de quatro colunas*/
-    .galeria {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
+  /*cria um layout de duas colunas em vez de quatro colunas*/
+  .galeria {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 
-    .animacaoGaleria {
-        margin: 20px 5px 0px auto;
+  .animacaoGaleria {
+    margin: 20px 5px 0px auto;
 
-    }
+  }
 
-    .artistasAni2 img {
+  .artistasAni2 img {
 
-        margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 
-    }
+  }
 }
 
 /*---------------------------------Layout-Responsivo-Celular---------------------------*/
 
 @media screen and (max-width: 600px) {
 
-    /*Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra*/
-    .container1 {
-        position: relative;
-        max-width: 450px;
-        margin: 20px auto;
-    }
+  /*Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra*/
+  .container1 {
+    position: relative;
+    max-width: 450px;
+    margin: 20px auto;
+  }
 
-    /*Avisa a imagem que ela pode usar 100% do*/
-    .container1 img {
-        width: 100%;
-        vertical-align: middle;
-    }
+  /*Avisa a imagem que ela pode usar 100% do*/
+  .container1 img {
+    width: 100%;
+    vertical-align: middle;
+  }
 
-    /* Coloca o elemento content1 sobre o container e aplica um opacidade */
-    .container1 .content1 {
-        position: absolute;
-        bottom: 0;
-        background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        width: 100%;
-        padding: 5px;
-    }
+  /* Coloca o elemento content1 sobre o container e aplica um opacidade */
+  .container1 .content1 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 5px;
+  }
 
-    .galeria {
-        -ms-flex: 100%;
-        flex: 100%;
-        margin-bottom: 10px;
-        max-width: 90%;
-    }
+  .galeria {
+    -ms-flex: 100%;
+    flex: 100%;
+    margin-bottom: 10px;
+    max-width: 90%;
+  }
 
-    .galeria a {
-        margin-left: 50px;
+  .galeria a {
+    margin-left: 50px;
 
-    }
+  }
 
-    .animacaoGaleria {
-        margin: 20px px 0px auto;
-    }
+  .animacaoGaleria {
+    margin: 20px px 0px auto;
+  }
 
-    .artistasAni2 img {
+  .artistasAni2 img {
 
-        margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 
-    }
+  }
 }
 
 
@@ -661,51 +662,51 @@ h5 {
 
 /*css para o diretório Ilustração Digital*/
 .titulo-section-ilustracao {
-    background-color: var(--ilustracao-color);
-    color: white;
+  background-color: var(--ilustracao-color);
+  color: white;
 }
 
 .ilustracao-links a {
-    color: var(--link-paragrafo-color);
+  color: var(--link-paragrafo-color);
 }
 
 .links_ilustracao a {
-    color: var(--ilustracao-color);
+  color: var(--ilustracao-color);
 }
 
 .links_ilustracao a:hover {
-    color: var(--link-paragrafo-color-hover);
+  color: var(--link-paragrafo-color-hover);
 }
 
 .ilustracaoGaleria {
-    max-width: 90%;
-    margin: 10px auto 0px auto;
-    padding: 0px;
+  max-width: 90%;
+  margin: 10px auto 0px auto;
+  padding: 0px;
 }
 
 .ilust {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 0px;
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 0px;
 }
 
 
 .ilust img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 80%;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 80%;
 }
 
 /* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
 @media screen and (max-width: 800px) {
 
 
-    .ilust {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
+  .ilust {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
 
@@ -716,192 +717,193 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 
 
-    .ilust {
-        -ms-flex: 100%;
-        flex: 100%;
-        margin-bottom: 10px;
-        max-width: 90%;
+  .ilust {
+    -ms-flex: 100%;
+    flex: 100%;
+    margin-bottom: 10px;
+    max-width: 90%;
 
-    }
+  }
 
-    .ilust a {
+  .ilust a {
 
-        margin-left: 50px;
+    margin-left: 50px;
 
-    }
+  }
 
-    .container2 img {
-        width: 95%;
-        margin: 0px auto 0px 10px;
-    }
+  .container2 img {
+    width: 95%;
+    margin: 0px auto 0px 10px;
+  }
 
 }
 
 .ilustSobre {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .h2-ilust {
-    font-size: 2.5rem;
-    font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 
 /*css para o diretório Modelagem 3d*/
 
 
 /*css para o diretório Pixel Art*/
+.pixel-index, .container-max {
+  max-width: 1200px;
+}
 
 .grupo-imagem-titulo {
-    position: relative;
+  position: relative;
 }
 
 .grupo-imagem-titulo #titulo {
-    color: #fff;
-    margin: 0;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 5px 5px 15px rgba(0, 0, 0, .8);
+  color: #fff;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, .8);
 }
 
 .h1-arte {
-    font-size: 4.5rem;
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif, 'liberation sans';
+  font-size: 4.5rem;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif, 'liberation sans';
 
 }
 
 .link-paragrafo {
-    color: var(--link-paragrafo-color);
+  color: var(--link-paragrafo-color);
 }
 
 .link-paragrafo:hover {
-    color: var(--link-paragrafo-color-hover);
+  color: var(--link-paragrafo-color-hover);
 }
 
 .grupo-imagem-secundaria {
-    display: relative;
-    padding: 0;
+  display: relative;
+  padding: 0;
 }
 
 .titulo-sobre-imagem {
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: .8rem 1rem;
-    background-color: rgba(255, 255, 255, 0.822);
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: .8rem 1rem;
+  background-color: rgba(255, 255, 255, 0.822);
 }
 
 .sub-titulo {
-    width: inherit;
+  width: inherit;
 }
 
 .bg-grey {
-    background-color: var(--bg-grey);
+  background-color: var(--bg-grey);
 }
 
 .titulo-section-pixel {
-    background-color: var(--pixel-color);
-    color: white;
+  background-color: var(--pixel-color);
+  color: white;
 }
 
 .sobre-pixel-lista li {
-    background: #fafafa;
-    padding: 1rem;
+  background: #fafafa;
+  padding: 1rem;
 }
 
 .width-inherit {
-    width: 100%;
+  width: 100%;
 }
 
 .pixel-links a {
-    color: var(--link-paragrafo-color);
+  color: var(--link-paragrafo-color);
 }
 
 .pixel-links a:hover {
-    color: var(--link-paragrafo-color-hover);
+  color: var(--link-paragrafo-color-hover);
 }
 
 .pixel-links a {
-    color: var(--link-paragrafo-color);
+  color: var(--link-paragrafo-color);
 }
 
 .programas-links a,
 .pixel-artistas a {
-    color: var(--pixel-color);
+  color: var(--pixel-color);
 }
 
 .pixel-artistas a:hover {
-    color: white;
-    background-color: var(--pixel-color);
+  color: white;
+  background-color: var(--pixel-color);
 }
 
 .link-site>a:hover {
-    /* text-decoration: none;*/
-    background-color: transparent;
-    color: var(--pixel-color);
+  /* text-decoration: none;*/
+  background-color: transparent;
+  color: var(--pixel-color);
 }
 
 .pixel-veja-tambem a:hover {
-    color: var(--pixel-color);
+  color: var(--pixel-color);
 }
 
 
 .max-300px {
-    max-width: 300px;
+  max-width: 300px;
 }
 
 .max-280px {
-    max-width: 280px;
+  max-width: 280px;
 }
 
-/* .max-445px {
-    max-width: 445px;
-} */
 
 .max-200px {
-    max-width: 200px;
+  max-width: 200px;
 }
 
 .max-500px {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .no-border {
-    border: none;
+  border: none;
 }
 
 .galeria-pixel img {
-    max-width: 300px;
-    height: 100%:
+  max-width: 300px;
+  height: 100%:
 }
 
 .galeria-pixel .overlay:hover {
-    opacity: 1;
-    transform: scale(1.05);
+  opacity: 1;
+  transform: scale(1.05);
 }
 
 .overlay p {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 
 .pixel-galeria {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 0px;
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 0px;
 }
 
 
 .pixel-galeria img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 80%;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 80%;
 }
+
 
 
 
@@ -912,61 +914,61 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 section .animacaoGaleria {
 
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 
 }
 
 .homeSec {
-    color: var(--home-color);
-    font-family: var(--fonte-family);
-    margin-top: 10px;
+  color: var(--home-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
 }
 
 .animacaoSec {
-    color: var(--animacao-color);
-    font-family: var(--fonte-family);
-    margin-top: 10px;
+  color: var(--animacao-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
 }
 
 .desenhoSec {
-    color: var(--desenho-color);
-    font-family: var(--fonte-family);
-    margin-top: 10px;
+  color: var(--desenho-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
 }
 
 .ilustracaoSec {
-    color: var(--ilustracao-color);
-    font-family: var(--fonte-family);
-    margin-top: 10px;
+  color: var(--ilustracao-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
 }
 
 .modelagemSec {
-    color: var(--modelagem-color);
-    font-family: var(--fonte-family);
-    margin-top: 10px;
+  color: var(--modelagem-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
 }
 
 .pixelSec {
-    color: var(--pixel-color);
-    font-family: var(--fonte-family);
-    margin-top: 10px;
+  color: var(--pixel-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
 }
 
 .saibaSec {
-    color: var(--saiba-color);
-    font-family: var(--fonte-family);
-    margin-top: 10px;
+  color: var(--saiba-color);
+  font-family: var(--fonte-family);
+  margin-top: 10px;
 }
 
 .sectionFooter {
-    width: 100%;
-    right: 400Px;
+  width: 100%;
+  right: 400Px;
 }
 
 .sectionFooter img {
-    width: 100%;
-    max-height: 140px;
+  width: 100%;
+  max-height: 140px;
 }
 
 /*---------------------------------------------------------------------------------*/
@@ -974,56 +976,56 @@ section .animacaoGaleria {
 /*---------------------------------------------------------------------------------*/
 
 footer {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 footer .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    margin: auto;
-    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin: auto;
+  color: #fff;
 }
 
 .homeFooter {
-    background-color: var(--home-color);
+  background-color: var(--home-color);
 }
 
 .animacaoFooter {
-    background-color: var(--animacao-color);
+  background-color: var(--animacao-color);
 }
 
 .desenhoFooter {
-    background-color: var(--desenho-color);
+  background-color: var(--desenho-color);
 }
 
 .modelagemFooter {
-    background-color: var(--modelagem-color);
+  background-color: var(--modelagem-color);
 }
 
 .ilustracaoFooter {
-    background-color: var(--ilustracao-color);
+  background-color: var(--ilustracao-color);
 }
 
 .pixelFooter {
-    background-color: var(--pixel-color);
+  background-color: var(--pixel-color);
 }
 
 .saibaFooter {
-    background-color: var(--saiba-color);
+  background-color: var(--saiba-color);
 }
 
 footer .row .col-lg-4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
 }
 
 footer .row .col-lg-4 a img {
-    height: 30px;
-    margin: 10px 40px 10px 0px;
+  height: 30px;
+  margin: 10px 40px 10px 0px;
 }
 
 /*---------------------------------------------------------------------------------*/
@@ -1032,79 +1034,88 @@ footer .row .col-lg-4 a img {
 
 /* Até 989px obedece ao código abaixo. (de 601px até 989px*/
 @media (max-width: 989px) {
-    #borda .indexdiv2 ul li {
-        padding: 30px 10px 10px 10px;
-    }
 
-    section .logo {
-        display: none;
-    }
+  #borda .indexdiv2 ul li {
+    padding: 30px 10px 10px 10px;
+  }
 
-    .h1-arte {
-        font-size: 3.2rem;
-        font-weight: 300;
-    }
+  section .logo {
+    display: none;
+  }
+
+  .h1-arte {
+    font-size: 3.2rem;
+    font-weight: 300;
+  }
 
 }
 
 /* Até 600px obedece ao código abaixo. (do small até 600px*/
 @media (max-width: 600px) {
 
-    footer .row .col-6 {
-        font-size: 0.8em;
-    }
+  footer .row .col-6 {
+    font-size: 0.8em;
+  }
 
-    footer .row .col-lg-4 a img {
-        height: 20px;
-        margin: 0px 10px 10px 0px;
-    }
+  footer .row .col-lg-4 a img {
+    height: 20px;
+    margin: 0px 10px 10px 0px;
+  }
 
-    .h1-arte {
-        font-size: 2.6rem;
-        font-weight: 300;
-    }
+  .h1-arte {
+    font-size: 2.6rem;
+    font-weight: 300;
+  }
 
-    .h2-ilust {
-        font-size: 1.5rem;
-        font-weight: 400;
-    }
+  .h2-ilust {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
 
-    .calendario-img {
-        display: none;
-    }
+  .calendario-img, .carreira {
+    display: none;
+  }
 
-    .max-445px {
-        max-width: 445px;
-    }
+  .max-445px {
+    max-width: 445px;
+  }
 }
 
 @media (max-width: 500px) {
 
-    .index1 h4 {
-        font-size: 1.3rem;
-    }
-    .sobre-pixel-lista h5 {
-        font-size: 1.2rem;
+  .index1 h4 {
+    font-size: 1.3rem;
+  }
 
-    }
-    .galeria1 h5, .sobre-pixel-lista p {
-        font-size: 1rem;
-    }
-    .h1-arte {
-        font-size: 1.6rem;
-        font-weight: 300;
-    }
-    .h1-mobile {
-        font-size: 2.2rem;
-    }
-    .pixel-index .lead {
-        font-size: 1.1rem;
-    }
-    .h3-mobile {
-        font-size: 1.4rem;
-    }
-    .h2-mobile {
-        font-size: 1.8rem;
-    }
-    
+  .sobre-pixel-lista h5 {
+    font-size: 1.2rem;
+
+  }
+
+  .galeria1 h5,
+  .sobre-pixel-lista p {
+    font-size: 1rem;
+  }
+
+  .h1-arte {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+
+  .h1-mobile {
+    font-size: 2.2rem;
+  }
+
+  .pixel-index .lead {
+    font-size: 1.1rem;
+  }
+
+  .h3-mobile {
+    font-size: 1.4rem;
+  }
+
+  .h2-mobile {
+    font-size: 1.8rem;
+  }
+
 }

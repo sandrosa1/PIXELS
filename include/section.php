@@ -100,7 +100,7 @@ else{
     }
 }
 ?>
-<div class="animacaoGaleria">
+<div class="">
     <h3 class=" text-center <?php
      echo $activeSec ; ?> ">Veja também</h3>
     <div class=" row imagensGaleria">

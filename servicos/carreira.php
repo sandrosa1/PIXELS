@@ -6,15 +6,15 @@ include '../include/header.php'; ?>
   <h1 class="text-center my-3 p-2 h1-arte">Carreira</h1>
   <article class="row justify-content-center pixel-index mx-auto">
 
-    <div class="col-md-6 carreira text-center  my-3">
+    <div class="col-md-12 col-lg-6 carreira my-3 text-sm-center">
       <img src="../imagem/coworking.webp" class="img-fluid" alt="">
     </div>
 
-    <div class="col-md-6 pixel-index mx-auto">
+    <div class="col-md-12 col-lg-6 pixel-index mx-auto">
       <h4 class=" mb-3">Venha fazer parte da nossa equipe, cadastre-se!</h4>
 
       <form method="POST" action="../php/cadastroCurriculo.php">
-        <h5>Dados pessoais</h5>
+        <h5 class="mt-3">Dados pessoais</h5>
         <hr>
         <div class="form-group mb-3">
           <label for="nome">Nome:</label>
@@ -29,7 +29,7 @@ include '../include/header.php'; ?>
           <input type="date" name="nascimento" id="nascimento" class="form-control" required>
         </div>
 
-        <h5>Informações para contato</h5>
+        <h5 class="mt-3">Informações para contato</h5>
         <hr>
         <div class="form-group mb-3">
           <label for="endereco">Endereço:</label>
@@ -85,7 +85,7 @@ include '../include/header.php'; ?>
           </div>
         </div>
 
-        <h5>Atividade Profissional Atual</h5>
+        <h5 class="mt-3">Atividade Profissional Atual</h5>
         <hr>
         <div class="form-group mb-3">
           <label for="empresa">Empresa:</label>
@@ -100,7 +100,7 @@ include '../include/header.php'; ?>
           <textarea name="atividade" id="atividade" cols="30" rows="10" class="form-control" placeholder="Conte-nos um pouco de suas atividades"></textarea>
         </div>
 
-        <h5>Caso seja estudante</h5>
+        <h5 class="mt-3">Caso seja estudante</h5>
         <hr>
         <div class="form-group mb-3">
           <label for="universidade">Universidade:</label>
@@ -140,7 +140,7 @@ include '../include/header.php'; ?>
     </form>
 </div>
 </article>
-<section class="pixel-index mx-auto">
+<section class="pixel-index mx-auto my-3">
   <?php include '../include/section.php' ?>
 </section>
 </div>
