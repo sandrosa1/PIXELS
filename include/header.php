@@ -56,10 +56,7 @@ $desDrop2 = [
            //3
 ];
 $desDrop3 = [
-    'Desenho Vetorial' => '../desenho/desenho.php',        //0
-    'Sobre a Arte' => '../desenho/desenhoSobre.php',       //1
-    'Principais Nomes' => '../desenho/desenhoArtistas.php',        //2
-    'Galeria' => '../desenho/desenhoGaleria.php'           //3
+    'Desenho Vetorial' => '../desenho/desenho.php',        //0          //3
 ];
 //Menu para ilustração aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
 //Anexe quantas paginas precisar
