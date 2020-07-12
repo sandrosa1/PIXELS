@@ -48,13 +48,13 @@ include '../include/header.php'; ?>
             </div>
             <!-- CARD do desenvolvedor Desenho Vetorial -->
             <div class="card dev2">
-                <img class="card-img-top" src="../imagem/quem_somos/user.png" alt="Imagem de perfil do Lucas">
+                <img class="card-img-top" src="../imagem/quem_somos/lucas.webp" alt="Imagem de perfil do Lucas">
                 <div class="card-body">
                     <h5 class="card-title text-center">Lucas Silvestre Paula</h5>
                     <p class="text-center mb-1">RA: 265083192306</p>
                     <p class="text-center mt-1"> Função no desenvolvimento do portal</p>
                     <hr>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">Buscando um novo horizonte, em meio as visões embassadas do momento.</p>
                     <ul class="list-inline desenho text-center">
                         <!-- Font Awesome - Linkedin -->
                         <li class="list-inline-item">
@@ -72,7 +72,7 @@ include '../include/header.php'; ?>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">
-                        <p><b>Desenvolvimento</b>: <a href="#" target="_blank">Site</a>
+                        <p><b>Desenvolvimento</b>: <a href="../desenho/desenho.php" target="_blank">Desenho Vetorial</a>
                     </small>
                 </div>
             </div>
