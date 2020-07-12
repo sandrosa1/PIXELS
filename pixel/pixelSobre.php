@@ -89,12 +89,8 @@ include '../include/header.php'; ?>
         </div>
       </div>
     </div>
-    
-    <hr>
-    <section class="row justify-content-center no-margin">
-      <?php include '../include/section.php' ?>
-    </section>
   </article>
+  <?php include '../include/section.php' ?>
 </div>
 <?php include '../include/footer.php' ?>
 <?php include '../include/nossosLinksBotom.php' ?>

@@ -92,10 +92,8 @@ include 'include/header.php'; ?>
   </section>
 
 
-  <section class="container-max mx-auto">
-    <?php include 'include/section.php' ?>
-  </section>
 </div>
+<?php include 'include/section.php' ?>
 <!--FOOTER-->
 <?php include 'include/footer.php' ?>
 <!--Links botom css -->

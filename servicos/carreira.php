@@ -140,9 +140,9 @@ include '../include/header.php'; ?>
     </form>
 </div>
 </article>
-<section class="container-max mx-auto my-3">
+
   <?php include '../include/section.php' ?>
-</section>
+
 </div>
 <?php include '../include/footer.php' ?>
 <?php include '../include/nossosLinksBotom.php' ?>

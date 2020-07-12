@@ -126,10 +126,9 @@ include '../include/header.php'; ?>
         </div>
     </section>
 
-    <hr>
+    <?php include '../include/section.php' ?>
   </div>
-      <section>
-          <?php include '../include/section.php' ?>
-      </section>
+
+
 <?php include '../include/footer.php' ?>
 <?php include '../include/nossosLinksBotom.php' ?>
