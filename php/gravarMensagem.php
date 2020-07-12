@@ -16,6 +16,7 @@ $link = '../servicos/faleConosco.php';
 	$contadorLinha = 0;
 	if (file_exists($arquivo)) {
 		$file = fopen($arquivo, 'a+');
+		chmod("$arquivo", 777);
 		while(!feof($file)) {
 			$temp = fgets($file, 1024);
 			$contadorLinha++;
@@ -24,13 +25,14 @@ $link = '../servicos/faleConosco.php';
 		$contadorLinha--;
 	}
 		$file = fopen($arquivo, 'a+');
+		chmod("$arquivo", 777);
 		if ($contadorLinha == 0){
 			fwrite($file, "CODIGO | NOME | SOBRENOME | EMAIL | MENSAGEM | DATA_MSG" . PHP_EOL);
 			$contadorLinha++;
 		}
 		$codigo = str_pad($contadorLinha, 2, '0', STR_PAD_LEFT);
 		$data = date('d/m/Y H:i:s');
-		$linha = "$codigo | $nome | $sobrenome | $email | $mensagem | $data" . PHP_EOL;
+		$linha = "$codigo | $nome | $sobrenome | $email | $mensagem | $data" . PHP_EOL;		
 		fwrite($file, $linha);		
 		fclose($file);
 		echo "<script>alert('Mensagem enviada!');</script>";
