@@ -55,6 +55,7 @@ include '../include/header.php'; ?>
                     <p class="text-center mt-1"> Função no desenvolvimento do portal</p>
                     <hr>
                     <p class="card-text">Buscando um novo horizonte, em meio as visões embassadas do momento.</p>
+                    <p class="card-text">“Um homem que não se alimenta de seus sonhos, envelhece cedo.” - William Shakespeare</p>
                     <ul class="list-inline desenho text-center">
                         <!-- Font Awesome - Linkedin -->
                         <li class="list-inline-item">
