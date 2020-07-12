@@ -19,7 +19,7 @@
                 <!-- vetor -->
                 <div class="tab-pane fade show active  text-center" id="vetor" role="tabpanel"
                     aria-labelledby="vetor-tab">
-                    <h3>O que é um desenho vetorial?</h3>
+                    <h3 class="pb-5">O que é um desenho vetorial?</h3>
                     <img src="../imagem/vetor/gears-5193383.webp" class="float-sm-none float-md-left mr-3"
                         alt="Foto de demonstração de objetos vetores - Retirado Pixabay">
                     <div class="text-justify">
@@ -61,7 +61,7 @@
                                             está na estrutura: enquanto imagens vetoriais baseiam-se em cálculos
                                             matemáticos para serem feitas, as raster são divididas em milhares de
                                             pixels, onde cada unidade guarda um tom de cor específico.</p>
-                                            <div class="card-body">
+                                        
                                         <h5 class="card-title text-center py-1 bg-white">Quais suas vantagens?</h5>
 
                                         <p class="text-justify card-text bg-white px-2">O fato de serem calculadas
@@ -71,7 +71,6 @@
                                             redimensionadas.</p>
 
                                     </div>
-                                    </div>
                                 </div>
                                 <div class="card">
                                     <img class="card-img-top rounded" src="../imagem/vetor/SW.webp" alt="Card image cap">
@@ -79,7 +78,7 @@
                                         <h5 class="card-title text-center py-1 bg-white">Software que manipulam imagens
                                             vetoriais?</h5>
                                         <p class="text-justify card-text bg-white px-2">A seguir alguns softwares que
-                                            conseguem criar imagens vectoriais.</p>
+                                            conseguem criar imagens vetoriais.</p>
                                         <ul class="list-group-item list-group-item-light">
                                             <li class="list-group-item"> <a class="nav-link"
                                                     href="https://www.adobe.com/br/products/illustrator.html">Adobe
@@ -146,7 +145,7 @@
                             <h1 class="text-center m-3">Galeria de Artes</h1>
                             <p class="text-center m-3">Confira a seleção de imagens de diversos artistas.</p>
                         </div>
-                        <section class="galeria-pixel">
+                        <section class="galeria-pixel mx-auto">
                             <div class="row no-margin text-center justify-content-center">
 
                                 <div class="ilust">
