@@ -587,7 +587,15 @@ h5 {
 
 /*css para o diretório Desenho Vetorial*/
 
+.desenho-artistas a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: var(--desenho-color);
+}
 
+.desenho-artistas a {
+  color: var(--desenho-color);
+}
 
 
 /*css para o diretório Ilustração Digital*/
