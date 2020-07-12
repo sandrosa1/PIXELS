@@ -61,12 +61,7 @@
                                             está na estrutura: enquanto imagens vetoriais baseiam-se em cálculos
                                             matemáticos para serem feitas, as raster são divididas em milhares de
                                             pixels, onde cada unidade guarda um tom de cor específico.</p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img class="card-img-top rounded" src="../imagem/vetor/vortex-5268247.webp"
-                                        alt="Card image cap">
-                                    <div class="card-body">
+                                            <div class="card-body">
                                         <h5 class="card-title text-center py-1 bg-white">Quais suas vantagens?</h5>
 
                                         <p class="text-justify card-text bg-white px-2">O fato de serem calculadas
@@ -74,12 +69,8 @@
                                             diminuir suas dimensões sem perda de qualidade, ao contrário de imagens
                                             bitmap, que apresentam serrilhados e perda de definição assim que
                                             redimensionadas.</p>
-                                        <p class="text-justify card-text bg-white px-2">Outro ponto forte é o tamanho
-                                            dos arquivos. Enquanto as raster precisam guardar informações de cor para
-                                            cada pixel constituinte, tendo seu peso aumentado conforme seu tamanho
-                                            também aumenta, as imagens vetoriais precisam apenas registrar seus
-                                            atributos, os cálculos matemáticos usados, sendo muito mais leves.</p>
 
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="card">
