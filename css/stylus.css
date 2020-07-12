@@ -608,12 +608,6 @@ h5 {
   color: var(--link-paragrafo-color-hover);
 }
 
-.ilustracaoGaleria {
-  max-width: 90%;
-  margin: 10px auto 0px auto;
-  padding: 0px;
-}
-
 .ilust {
   -ms-flex: 25%;
   flex: 25%;
@@ -623,9 +617,8 @@ h5 {
 
 
 .ilust img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 80%;
+  width: 90%;
+  padding-top: 10px;
 }
 
 @media screen and (min-width: 800px) {
@@ -671,10 +664,6 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
     margin: 0px auto 0px 10px;
   }
 
-}
-
-.ilustSobre {
-  margin-top: 100px;
 }
 
 .h2-ilust {
