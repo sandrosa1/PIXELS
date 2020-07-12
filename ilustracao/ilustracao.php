@@ -15,41 +15,41 @@
             <p class="text-left lead pt-3">Tecnologia, inovação, praticidade, diversão e arte. Um mundo de criação. Você constrói, destrói, faz, desfaz, refaz, amplia, diminui, redimensiona, inventa e desvenda, não há limites, a não ser sua própria criatividade. Você é o autor da sua própria obra...<a href="ilustracaoSobre.php">Saiba Mais.</a></p>
         </div>
     </article>
-    <div class="row">
+    <div class="row mx-2 my-2">
 
-        <section class="col-sm-12 col-md-12 col-lg-5 ilustracao-links mx-4 my-4">
+        <section class="col-sm-12 col-md-12 col-lg-5 ilustracao-links mb-3">
             <img class="center-image" src="../imagem/ilustracao-digital/mesa-digitalizadora.webp" alt="Galeria de Ilustração Digital">
             <div class="bg-grey col-lg-12 pt-3 pb-2">
-                <h3>Melhor galeria de Ilustração Digital</h3>
-                <p class="sub-titulo"><a href="ilustracaoGaleria.php">Mais rápido e eficiente do que meios tradicionais, muitos artistas estão aderindo a ilustração digital, conheça nossa galeria...</a></p>
+                <h3 class="card-title h3-mobile">Galeria de Ilustração Digital</h3>
+                <a href="ilustracaoGaleria.php">Mais rápido do que meios tradicionais, muitos artistas estão aderindo a ilustração digital, conheça nossa galeria...</a>
             </div>
         </section>
 
-        <section class="col-sm-12 col-md-12 col-lg-7 ilustracao-links mx-4 my-4">
+        <section class="col-sm-12 col-md-12 col-lg-7">
             <!-- Cards com artigos menores -->
-            <div class="mt-3 mb-3 bg-grey">
-                <h2 class="text-left p-3">Cursos online de ilustração digital</h2>
-                <ul class="list-unstyled pt-3">
-                    <li class="media">
-                        <img class="mr-0" src="../imagem/ilustracao-digital/curso1.webp" alt="Curso de retrato digital">
-                        <div class="media-body  col-sm-12">
-                            <h4 class="mb-0 mb-0">Retrato digital no Photoshop com um toque de fantasia</h4>
-                            <a href="#" class="">Aprenda a criar narrativas encantadoras em seus retratos digitais</a>
+            <div class="bg-grey">
+                <h2 class="text-left p-2 titulo-section-ilustracao h2-mobile">Cursos de ilustração digital</h2>
+                <ul class="list-unstyled pb-2 px-3">
+                    <li class="media py-2">
+                        <img class="mr-3 align-self-center" src="../imagem/ilustracao-digital/curso1.webp" alt="Curso de retrato digital">
+                        <div class="media-body">
+                            <h4 class="mb-0 mb-1">Retrato digital no Photoshop</h4>
+                            <p>Aprenda a criar narrativas encantadoras em seus retratos digitais</p>
                         </div>
                     </li>
-                    <li class="media my-4">
-                        <img class="mr-3" src="../imagem/ilustracao-digital/curso2.webp" alt="Retrato de personagens de menina">
+                    <li class="media py-3">
+                        <img class="mr-3 align-self-center" src="../imagem/ilustracao-digital/curso2.webp" alt="Retrato de personagens de menina">
 
                         <div class="media-body">
-                            <h4 class="mt-0 mb-0">Retrato de personagens femininas com Procreate</h4>
-                            <a href="#" class="">Explore técnicas de desenho digital criando retratos repletos de imaginação</a>
+                            <h4 class="mt-0 mb-1">Retrato de personagens com Procreate</h4>
+                            <p>Explore técnicas de desenho digital criando retratos repletos de imaginação</p>
                         </div>
                     </li>
-                    <li class="media my-3">
-                        <img class="mr-3" src="../imagem/ilustracao-digital/curso3.webp" alt="Adobe Photshop para ilustração">
+                    <li class="media py-2">
+                        <img class="mr-3 align-self-center" src="../imagem/ilustracao-digital/curso3.webp" alt="Adobe Photshop para ilustração">
                         <div class="media-body">
-                            <h4 class="mt-0 mt-0">Adobe Photoshop para ilustração</h4>
-                            <a href="#" class="">Aprenda do zero a dominar as ferramentas que oferece o Photoshop para criar</a>
+                            <h4 class="mt-0 mt-1">Adobe Photoshop para ilustração</h4>
+                            <p>Aprenda do zero a dominar as ferramentas que oferece o Photoshop para criar</p>
                         </div>
                     </li>
                 </ul>
@@ -60,7 +60,7 @@
     <section class="row links_ilustracao mx-2 my-2">
         <div class="col-lg-12">
             <div class="bg-grey">
-                <h2 class="text-left titulo-section-ilustracao p-2 h2-ilust">Tudo o que você precisa saber para começar</h2>
+                <h2 class="text-center titulo-section-ilustracao p-2 h2-ilust">Tudo para você começar</h2>
                 <p class="px-4 py-3 ">Você não precisa de um kit com várias cores diferentes, porque todas elas já estão disponíveis e assim, ao invés de ter que misturar tintas até achar a tonalidade desejada, por que não usar o conta-gotas do próprio programa?</p>
                     <div class="card-deck mx-1 pb-1">
                         <!-- Mesa digitalizadora -->
