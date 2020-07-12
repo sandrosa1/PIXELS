@@ -6,8 +6,8 @@ include '../include/header.php'; ?>
   <article id="pixel-sobre">
     <!-- Título e sub-título -->
     <div class="row my-3 justify-content-center no-margin">
-      <div class="col-lg-6">
-        <h1 class="text-center h1-mobile h1-arte">O que é o Pixel Art?</h1>
+      <div class="col-md-10">
+        <h1 class="text-center h1-arte h1-mobile ">O que é o Pixel Art?</h1>
         <p class="text-muted text-center">Entenda sobre a arte que fez sucesso nos anos 80 e 90.
         </p>
         <hr>
