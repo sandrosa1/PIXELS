@@ -2,9 +2,9 @@
 <?php $page = 'saiba';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<article class="container-fluid" id="inicio">
+<article class="container-fluid container-max mx-auto" id="inicio">
     <h1 class="text-center m-3 h1-arte">Normas de utilização</h1>
-    <div class="row no-margin justify-content-center p-3">
+    <div class="row no-margin justify-content-center py-3">
         <div class="col-sm-12 col-md-12 col-lg-12 ">
             <p>
                 Fica terminantemente proibido a publicação ou divulgação de qualquer conteúdo presente no site do Pixels sem devida autorização e atruibuição de créditos.
@@ -29,10 +29,8 @@ include '../include/header.php'; ?>
             </p>
         </div>
     </div>
-</article>
-<hr>
-<section>
     <?php include '../include/section.php' ?>
-</section>
+</article>
+
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>
