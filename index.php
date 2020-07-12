@@ -77,7 +77,7 @@ include 'include/header.php'; ?>
         <img src="imagem/index/fiesp.webp" class="img-fluid" alt="">
         <img src="imagem/index/indexp7calendario.webp" class="img-fluid calendario-img" alt="calendário de julho">
       </div>
-      <div class="col-lg-5 offset-1 col-sm-12 col-md-auto text-left d-md-flex flex-md-nowrap ">
+      <div class="col-lg-6 ">
         <ul class="list-group list-unstyled p-1 ">
           <li><time datetime="2020-07-12"><strong>12/07</strong> - Sesi - No céu iluminado </time></li>
           <li><time datetime="2020-07-14"><strong>14/07</strong> - Expo São Paulo - Digital ao quadrado</time></li>
