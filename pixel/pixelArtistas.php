@@ -2,23 +2,23 @@
 <?php $page = 'pixel';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid pixel-links pixel-index mx-auto" id="inicio">
+<div class="container-fluid pixel-links container-max mx-auto" id="inicio">
     <article class="row justify-content-center no-margin mt-4 pixel-artistas">
         <div class="col-lg-12">
             <div class="d-flex">
                 <ul class="nav nav-tabs mx-auto" id="myTab" role="tablist">
-                    <li class="nav-item mx-md-3">
-                        <a class="nav-link px-md-5 px-sm-2" id="glauber-tab" data-toggle="tab" href="#glauber" role="tab" aria-controls="glauber" aria-selected="true">Glauber</a>
+                    <li class="nav-item mx-2 mx-md-3">
+                        <a class="nav-link px-md-5 px-3" id="glauber-tab" data-toggle="tab" href="#glauber" role="tab" aria-controls="glauber" aria-selected="true">Glauber</a>
                     </li>
-                    <li class="nav-item mx-md-3">
-                        <a class="nav-link px-md-5 px-sm-2" id="bruno-tab" data-toggle="tab" href="#bruno" role="tab" aria-controls="bruno" aria-selected="false">Bruno</a>
+                    <li class="nav-item mx-2 mx-md-3">
+                        <a class="nav-link px-md-5 px-3" id="bruno-tab" data-toggle="tab" href="#bruno" role="tab" aria-controls="bruno" aria-selected="false">Bruno</a>
                     </li>
-                    <li class="nav-item mx-md-3">
-                        <a class="nav-link px-md-5 px-sm-2" id="ivan-tab" data-toggle="tab" href="#ivan" role="tab" aria-controls="ivan" aria-selected="false">Ivan</a>
+                    <li class="nav-item mx-2 mx-md-3">
+                        <a class="nav-link px-md-5 px-3" id="ivan-tab" data-toggle="tab" href="#ivan" role="tab" aria-controls="ivan" aria-selected="false">Ivan</a>
                     </li>
                 </ul>
             </div>
-            <div class="tab-content mt-5" id="myTabContent">
+            <div class="tab-content my-5" id="myTabContent">
                 <!-- Conheça artistas -->
                 <div class="tab-pane fade 
                 <?php
@@ -28,8 +28,8 @@ include '../include/header.php'; ?>
                 ?>
                 " id="artistas" role="tabpanel" aria-labelledby="artistas-tab">
                 
-                    <div class="px-md-5 px-3 text-justify">
-                        <h2 class="text-center mt-3 ">Principais Nomes</h2>
+                    <div class=" text-justify px-md-3 px-2">
+                        <h2 class="text-center h1-arte">Principais Nomes</h2>
                         <p class="pt-3">Ao redor do mundo, muitos artistas nacionais e internacionais fazem parte de uma comunidade que não deixam a Pixel Art morrer. </p>
                         <p>Não se restringindo somente ao universo dos games, a arte quebrou barreiras e se deu muito bem em campanhas publicitárias e identidades visuais.</p>
                         <p class="mb-5">Para que você fique por dentro dessa tendência, selecionamos alguns artistas que produzem artes incríveis com a pixel art. Inspire-se e comece a criar você também!!!</p>
@@ -47,7 +47,7 @@ include '../include/header.php'; ?>
                     <img src="../imagem/pixel/glauber200.webp" class="float-sm-none float-md-left my-3 mx-md-3 mx-2" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
                     <div class="text-justify pt-3">
                         <div class="px-md-3 px-2">
-                            <h2>Glauber Kotaki</h2>
+                            <h2 class="text-center text-md-left">Glauber Kotaki</h2>
                             <p>Glauber Kotaki é um notável e talentoso artista brasileiro.</p>
                             <p>Formado em Design Digital, descobriu a pixel art por acaso, quando criança. E na época era apenas um hobby.</p>
                             <p>Por ter familiares envolvidos com desenho - arquitetos, sempre teve este apoio em casa.</p>
@@ -57,7 +57,7 @@ include '../include/header.php'; ?>
                         </div>
 
                         <section id="programas" class="row no-margin
-     justify-content-center mb-4">
+     justify-content-center mt-4">
                             <div>
                                 <div class="pb-4 row no-margin">
                                     <div class="d-flex flex-wrap">
@@ -99,7 +99,7 @@ include '../include/header.php'; ?>
                             </div>
                         </section>
 
-                        <div class="text-center my-5 ">
+                        <div class="text-center mb-5 ">
                             <p class="link-site">Conheça mais trabalhos visitando o site de <a href="https://glauberkotaki.com/" target="_blank">Glauber Kotaki</a></p>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ include '../include/header.php'; ?>
                     <img src="../imagem/pixel/brunomoraes200.webp" class="float-sm-none float-md-left my-3 mx-md-3 mx-2" alt="Foto de rosto do artista de pixel art Bruno Moraes">
                     <div class="text-justify pt-3">
                         <div class="px-md-3 px-2">
-                            <h2>Bruno Moraes</h2>
+                            <h2 class="text-center text-md-left">Bruno Moraes</h2>
                             <p>Bruno Moraes é ilustrador e programador nascido em Niterói.</p>
                             <p>Entrou para o mundo de artes digitais em 2015, quando começou a trabalhar com ilustrações.</p>
                             <p>Entretanto, a brincadeira começou bem antes, quando aos 10 anos de idade criava seus próprios projetos pixel art modificando os jogos de pokémon.</p>
@@ -188,10 +188,9 @@ include '../include/header.php'; ?>
                     <img src="../imagem/pixel/ivandixon200.webp" class="float-sm-none float-md-left my-3 mx-md-3 mx-2" alt="Foto de rosto do artista de pixel art Ivan Dixon">
                     <div class="text-justify pt-3">
                         <div class="px-md-3 px-2">
-                            <h2>Ivan Dixon</h2>
+                            <h2 class="text-center text-md-left">Ivan Dixon</h2>
                             <p>Ivan Dixon é um pixel artista, ilustrador, animador e também faz games. Mora em Melbourne, Austrália.</p>
                             <p>Pixel art foi a primeira arte que aprendeu a animar. E acha relaxante criar arte em pixel.</p>
-                            <p></p>
                             <p>Em parceria com Paul Robertson, que também é pixel artista, fizeram a abertura do programa The Simpsons e postaram no youtube. Em um dia tiveram um milhão de acessos.</p>
                             <p>Após tamanha repercussão, os produtores do programa enviaram um e-mail perguntando se poderiam usear a entrada para passar na abertura do programa. A visibilidade deles aumentou e tiveram oportunidade de visitar a Fox em Los Angeles.</p>
                             <p>Com Paul, Ivan produziu material para Rick & Morty, Adventure Time e The Simpsons.</p>
