@@ -25,7 +25,7 @@ switch($page)
 }
 ?>
 <footer>
-    <div class="row <?= $footer ?> ">
+    <div class="row <?= $footer ?>">
         <div class=" col-lg-4 col-0" >
         </div>
         <div class="col-lg-4 col-6" >

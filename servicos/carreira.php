@@ -2,7 +2,7 @@
 <?php $page = 'saiba';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid pixel-index mx-auto" id="inicio">
+<div class="container-fluid container-max mx-auto" id="inicio">
   <h1 class="text-center my-3 p-2 h1-arte">Carreira</h1>
   <article class="row justify-content-center pixel-index mx-auto">
 
@@ -140,7 +140,7 @@ include '../include/header.php'; ?>
     </form>
 </div>
 </article>
-<section class="pixel-index mx-auto my-3">
+<section class="container-max mx-auto my-3">
   <?php include '../include/section.php' ?>
 </section>
 </div>

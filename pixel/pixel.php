@@ -2,7 +2,7 @@
 <?php $page = 'pixel';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class=" pixel-links pixel-index my-4 row mx-auto" id="inicio">
+<div class=" pixel-links container-max my-4 row mx-auto no-margin" id="inicio">
     <!-- Seção do artigo principal -->
     <article class="px-0">
         <div class="row justify-content-center no-margin">
@@ -65,13 +65,15 @@ include '../include/header.php'; ?>
     <!-- Seção com Indicação de Programas -->
     <section id="programas" class="row no-margin
      justify-content-center mb-4 programas-links">
-        <div class=" col-lg-12 m-3 bg-grey">
-            <h2 class="text-center titulo-section-pixel py-2 h2-mobile">Construa seus projetos</h2>
+        <div class="col-lg-12 ">
+          <h2 class="text-center titulo-section-pixel py-2 h2-mobile mb-0">Construa seus projetos</h2>
+          <div class="col-lg-12 bg-grey">
             <p class="text-justify p-2">Selecionamos 3 ferramentas para você iniciar seus projetos em Pixel Art. Tem para todos os gostos: programa para computador, plataforma Online e app para celular. Escolha o seu e divirta-se!</p>
-            <div class="pb-4 row no-margin bg-grey">
-                <div class="d-flex flex-wrap">
-                    <!-- Piskel -->
-                    <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-stretch mb-3">
+
+            <div class="pb-4 row no-margin">
+              <div class="d-flex flex-wrap">
+                <!-- Piskel -->
+                <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-stretch mb-3">
                         <div class="text-center bg-white p-3">
                             <h5 class="text-center py-2">Piskel</h5>
                             <img class="img-fluid float-sm-none float-md-left float-lg-none mx-md-0 mr-md-3 mr-lg-0 " src="../imagem/pixel/piskel.webp" alt="Interface do programa Piskel">
@@ -120,14 +122,14 @@ include '../include/header.php'; ?>
                             <div class="text-center py-3"><small class="text-muted">Acesse: <a href="https://twitter.com/pixelstudioteam" target="_blank">twitter.com/pixelstudioteam</a></small></div>
                         </div>
                     </div>
-            </div>
+            </div>  </div>
         </div>
     </section>
 
     <hr>
-    <section class="row justify-content-center no-margin">
-        <?php include '../include/section.php' ?>
-    </section>
-</div>
+  </div>
+      <section>
+          <?php include '../include/section.php' ?>
+      </section>
 <?php include '../include/footer.php' ?>
 <?php include '../include/nossosLinksBotom.php' ?>

@@ -2,7 +2,7 @@
 <?php $page = 'pixel';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid pixel-links pixel-index mx-auto" id="inicio">
+<div class="container-fluid pixel-links container-max mx-auto" id="inicio">
   <article id="pixel-sobre">
     <!-- Título e sub-título -->
     <div class="row my-3 justify-content-center no-margin">

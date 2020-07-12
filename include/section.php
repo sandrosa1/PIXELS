@@ -100,10 +100,10 @@ else{
     }
 }
 ?>
-<div class="">
+<div class="container-max mx-md-auto px-sm-3">
     <h3 class=" text-center <?php
      echo $activeSec ; ?> ">Veja também</h3>
-    <div class=" row imagensGaleria">
+    <div class=" row imagensGaleria no-margin">
         <div class=" col-lg-3 galeria ">
             <div class="card-body sectionFooter">
                 <a class=" linksAnimacao1 "  href=" <?php echo $subDesenho ; ?> " target="blank"><img
@@ -153,9 +153,9 @@ else{
             </div>
             <div class="card-body sectionFooter">
                 <a class=" linksAnimacao1" href=" <?php echo $subPixel ; ?> " target="blank"><img
-                        src=" <?php echo $imgPixeSec  ; ?>" alt="Logo tipo doa pagina pixel art" class="sectionBottom   max-445px img-fluid">
+                        src=" <?php echo $imgPixeSec  ; ?>" alt="Logo tipo doa pagina pixel art" class="sectionBottom max-445px img-fluid">
                     <h5 class="card-title  <?php echo $activeSec ;?> ">Pixel Art</h5>
-                    <p class="text-left">A arte do ponto a ponto
+                    <p class="text-left">A conheça a arte do ponto a ponto
                         <b>Saiba Mais...</b></p>
                 </a>
             </div>

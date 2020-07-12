@@ -5,7 +5,7 @@ include '../include/header.php';
 ?>
 
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid" id="inicio">
+<div class="container-fluid container-max mx-auto" id="inicio">
     <div class="row no-margin">
         <article class="col-sm-12 col-md-6 col-lg-6 p-4">
             <h1 class="text-left h1-arte pt-2">Fale Conosco</h1>

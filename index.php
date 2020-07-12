@@ -92,7 +92,7 @@ include 'include/header.php'; ?>
   </section>
 
 
-  <section class="pixel-index mx-auto">
+  <section class="container-max mx-auto">
     <?php include 'include/section.php' ?>
   </section>
 </div>

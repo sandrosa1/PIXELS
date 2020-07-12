@@ -2,7 +2,7 @@
 <?php $page = 'pixel';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid pixel-index mx-auto" id="inicio">
+<div class="container-fluid container-max mx-auto" id="inicio">
   <div class="row">
     <div class="col-sm-12">
       <h1 class="text-center m-3">Galeria de Artes</h1>
