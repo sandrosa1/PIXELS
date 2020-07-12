@@ -2,12 +2,12 @@
 <?php $page = 'pixel';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid pixel-links pixel-index mx-auto" id="inicio">
+<div class="container-fluid pixel-links container-max mx-auto" id="inicio">
   <article id="pixel-sobre">
     <!-- Título e sub-título -->
     <div class="row my-3 justify-content-center no-margin">
       <div class="col-lg-6">
-        <h1 class="text-center h1-mobile">O que é o Pixel Art?</h1>
+        <h1 class="text-center h1-mobile h1-arte">O que é o Pixel Art?</h1>
         <p class="text-muted text-center">Entenda sobre a arte que fez sucesso nos anos 80 e 90.
         </p>
         <hr>
