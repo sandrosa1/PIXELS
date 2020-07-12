@@ -1,8 +1,8 @@
 <?php include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'ilustracao'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid" id="inicio">
-    <article class="links_ilustracao ilustracaoGaleria">
+<div class="container-fluid container-max mx-auto" id="inicio">
+    <article class="links_ilustracao mx-4 my-4">
     <h1 class="text-left pt-1 h1-arte">Artistas Ilustração Digital</h1>
         <hr>
     <div class="row mb-4">       
@@ -60,6 +60,9 @@
         </div>
     </div>
         </article>
+        <section>
+        <?php include '../include/section.php'?>
+    </section>
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>
