@@ -16,11 +16,6 @@ $link = '../servicos/faleConosco.php';
 	$contadorLinha = 0;
 	if (file_exists($arquivo)) {
 		$file = fopen($arquivo, 'a+');
-<<<<<<< HEAD
-		chmod('../php', 777);
-=======
-		chmod("$arquivo", 777);
->>>>>>> 9e64ce9bb64d2c56aae5730177365cec3a18eebc
 		while(!feof($file)) {
 			$temp = fgets($file, 1024);
 			$contadorLinha++;
@@ -29,11 +24,6 @@ $link = '../servicos/faleConosco.php';
 		$contadorLinha--;
 	}
 		$file = fopen($arquivo, 'a+');
-<<<<<<< HEAD
-		chmod('../php', 777);
-=======
-		chmod("$arquivo", 777);
->>>>>>> 9e64ce9bb64d2c56aae5730177365cec3a18eebc
 		if ($contadorLinha == 0){
 			fwrite($file, "CODIGO | NOME | SOBRENOME | EMAIL | MENSAGEM | DATA_MSG" . PHP_EOL);
 			$contadorLinha++;
