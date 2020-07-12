@@ -91,9 +91,8 @@ include 'include/header.php'; ?>
     </div>
   </section>
 
-
+  <?php include 'include/section.php' ?>
 </div>
-<?php include 'include/section.php' ?>
 <!--FOOTER-->
 <?php include 'include/footer.php' ?>
 <!--Links botom css -->
