@@ -53,7 +53,7 @@ include 'include/header.php'; ?>
               </div>
             </li>
             <li class="media">
-              <a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/ilustracao-digital/galeria1.webp" alt="Imagem de exemplo genérica"></a>
+              <a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/ilustracao-digital/galeria/galeria1.webp" alt="Imagem de exemplo genérica"></a>
               <div class="media-body">
                 <small><a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1">#IlustraçãoDigital</a></small>
                 <h5 class="mt-0 mb-1">

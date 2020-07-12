@@ -165,7 +165,7 @@ else{
                 <a class=" linksAnimacao1" href=" <?php echo $subIlustracao ; ?>" target="blank"><img
                         src=" <?php echo $imgIlusSec ; ?> " alt="Logo do portal ilustraçao digital" class="sectionBottom">
                     <h5 class="card-title <?php echo $activeSec ;?> ">Ilustração Digital</h5>
-                    <p class=" text-left">Um mundo de vantagens
+                    <p class=" text-left">Um mundo de vantagens para vocẽ
                         <b>Saiba
                             mais...</b></p>
                 </a>
