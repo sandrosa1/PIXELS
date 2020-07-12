@@ -587,7 +587,15 @@ h5 {
 
 /*css para o diretório Desenho Vetorial*/
 
+.desenho-artistas a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: var(--desenho-color);
+}
 
+.desenho-artistas a {
+  color: var(--desenho-color);
+}
 
 
 /*css para o diretório Ilustração Digital*/
@@ -612,7 +620,7 @@ h5 {
   -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
-  padding: 0 0px;
+  padding: 0px;
 }
 
 
@@ -630,45 +638,27 @@ h5 {
 
 /* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
 @media screen and (max-width: 800px) {
-
-
   .ilust {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
+  
 }
 
 /*
 Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra */
 @media screen and (max-width: 600px) {
-
-
-
   .ilust {
     -ms-flex: 100%;
     flex: 100%;
     margin-bottom: 10px;
-    max-width: 90%;
-
+    max-width: 100%;
   }
 
-  .ilust a {
-
-    margin-left: 50px;
-
+  .galeria-ilust {
+    margin-left: 10%;
   }
-
-  .container2 img {
-    width: 95%;
-    margin: 0px auto 0px 10px;
-  }
-
-}
-
-.h2-ilust {
-  font-size: 2.5rem;
-  font-weight: 400;
 }
 
 /*css para o diretório Modelagem 3d*/

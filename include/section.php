@@ -37,13 +37,13 @@ if($page == 'home')
 else{
     if($page == 'animacao')
     {
-        $subAnimacacao = 'animacao.php';
+        $subAnimacao = 'animacao.php';
         $activeSec = 'animacaoSec';
 
     }
     else
     {
-        $subAnimacacao = '../animacao/animacao.php';
+        $subAnimacao = '../animacao/animacao.php';
 
     }
     if($page == 'desenho')
