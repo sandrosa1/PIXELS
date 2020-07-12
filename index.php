@@ -4,9 +4,9 @@ include 'include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid container-max mx-auto" id="inicio">
   <!--Chamadas Principais-->
-  <article>
+  <article >
 
-    <div id="borda" class="row justify-content-center mt-3 no-margin">
+    <div id="borda" class="row justify-content-center mt-3 no-margin indexPrin">
       <div class="col-lg-6 index1">
         <div class="card mb-3 semBordas text-center center-image">
           <img class="card-img-top img-fluid" src="imagem/index/bemvindo.webp" alt="Imagem de boas vindas">
@@ -73,25 +73,21 @@ include 'include/header.php'; ?>
       <h3 class="text-center">Calendário de Exposições</h3>
     </div>
     <div class="row justify-content-center no-margin my-3">
-      <div class="col-lg-6 col-sm-12 col-md-auto text-center d-md-flex flex-md-nowrap justify-content-center">
+      <div class="col-lg-6 col-sm-12 col-md-auto text-center d-md-flex flex-md-nowrap text-justify">
         <img src="imagem/index/fiesp.webp" class="img-fluid" alt="">
         <img src="imagem/index/indexp7calendario.webp" class="img-fluid calendario-img" alt="calendário de julho">
-
       </div>
-      <div class="col-lg-6 col-sm-12">
-        <ul class="list-group list-unstyled p-1">
+      <div class="col-lg-5 offset-1 col-sm-12 col-md-auto text-left d-md-flex flex-md-nowrap ">
+        <ul class="list-group list-unstyled p-1 ">
           <li><time datetime="2020-07-12"><strong>12/07</strong> - Sesi - No céu iluminado </time></li>
           <li><time datetime="2020-07-14"><strong>14/07</strong> - Expo São Paulo - Digital ao quadrado</time></li>
           <li><time datetime="2020-07-18"><strong>18/07</strong> - Fiesp - Natureza Urbana – Riscos e Traços</time></li>
           <li><time datetime="2020-07-27"><strong>27/07</strong></time> - Sesc Paulista - A Biblioteca à Noite</li>
           <li><time datetime="2020-07-27"><strong>27/07</strong></time> - Memorial de Curitiba - Bienal de artes digitais</li>
-
         </ul>
       </div>
     </div>
   </section>
-
-
   <section class="pixel-index mx-auto">
     <?php include 'include/section.php' ?>
   </section>

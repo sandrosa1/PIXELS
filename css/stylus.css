@@ -1156,6 +1156,7 @@ footer .row .col-lg-4 a img {
       width: 100%;
   }
 
+
 }
 @media screen and (max-width: 400px)
 {
@@ -1198,6 +1199,9 @@ footer .row .col-lg-4 a img {
   footer .row .col-lg-4 {
       font-size: 0.7em;
       padding-bottom: 10px;
+  }
+  .indexPrin {
+    margin: 0px 10px 0px 10px;
   }
   
 }
