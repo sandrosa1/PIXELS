@@ -235,9 +235,13 @@
                         </div>
                 </div>
         </article>
+        <div class="row justify-content-center center-image  m-sm-0">
+        <div class=" col-lg-12 ">
         <section>
                 <?php include '../include/section.php'?>
         </section>
+        </div>
+        </div>
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>
