@@ -3,7 +3,7 @@
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid container-max mx-auto" id="inicio">
     <article>
-        <div class="row justify-content-center m-3">
+        <div class="row no-margin justify-content-center m-3">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 
                 <div id="titulo" class="align-items-center">
