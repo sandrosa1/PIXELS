@@ -14,8 +14,6 @@
             <div class=" col-lg-3 galeria ">
                 <a><img src="../imagem/animacao/animacaoAlvyRaySmith.webp" alt="Foto de Alvy Ray"  onclick="aumetaImagem(this);"></a>
                 <a><img src="../imagem/animacao/animacaoWalter.webp" alt="Imagem de walter criador do desenho pica-pau" onclick="aumetaImagem(this);"></a>
-                
-
             </div>
             <div class=" col-lg-3 galeria ">
                 <a><img src="../imagem/animacao/animacaoWallt.webp" alt="Imagem de WALT DISNEY " onclick="aumetaImagem(this);"></a>
