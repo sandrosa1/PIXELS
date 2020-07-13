@@ -113,7 +113,7 @@
                                                 <div class="card-body">
                                                         <a href="animacaoSobre.php#bilheterias">
                                                                 <h6 class="card-title text-left text-danger">Maiores
-                                                                        Bilheterias</h6>
+                                                                        Bilheterias</h6></a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoFrozen1.webp"
                                                                         alt="Capa da animação frozen">
