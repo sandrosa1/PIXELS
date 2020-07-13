@@ -2,7 +2,7 @@
 <?php include '../include/nossosLinksTop.php' ; ?>
 <?php $page = 'animacao' ; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid animacaoHome1 " id="inicio">
+<div class="container-fluid mx-auto animacaoHome1  " id="inicio">
         <div class="row justify-content-center center-image  m-sm-0">
                 <div class=" col-lg-12 logoAni">
                         <img src="../imagem/animacao/animaHome.webp" class="img-fluid headerAni"
@@ -235,7 +235,7 @@
                         </div>
                 </div>
         </article>
-        <div class="row justify-content-center center-image  m-sm-0">
+        <div class="row container-fluid mx-auto ">
         <div class=" col-lg-12 ">
         <section>
                 <?php include '../include/section.php'?>

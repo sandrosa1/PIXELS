@@ -149,11 +149,11 @@
                         passou a usar a luminária Luxo Jr. como símbolo da empresa.</p>
                 </div>
             </div>
-        </div>
-    </article>
-    <section>
+            <section>
         <?php include '../include/section.php'?>
     </section>
+        </div>
+    </article>
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>

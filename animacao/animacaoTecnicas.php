@@ -120,11 +120,12 @@
                                 relativamente flexível, para reforçar as esculturas de massa.</p>
                         </div>
                     </div>
-                </div>
-    </article>
-    <section>
+                    <section>
         <?php include '../include/section.php'?>
     </section>
+                </div>
+    </article>
+    
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>
