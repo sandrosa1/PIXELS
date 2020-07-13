@@ -100,10 +100,10 @@ else{
     }
 }
 ?>
-<div class="">
+<div class=" px-md-0 px-sm-3 px-lg-0">
     <h3 class=" text-center <?php
      echo $activeSec ; ?> ">Veja também</h3>
-    <div class=" row imagensGaleria">
+    <div class=" row imagensGaleria no-margin">
         <div class=" col-lg-3 galeria ">
             <div class="card-body sectionFooter">
                 <a class=" linksAnimacao1 "  href=" <?php echo $subDesenho ; ?> " target="blank"><img

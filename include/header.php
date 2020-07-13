@@ -109,13 +109,13 @@ $pixDrop = [
 $pixDrop2 = [
     'Pixel Art' => 'pixel/pixel.php',            //0
     'Sobre a Arte' => 'pixel/pixelSobre.php',     //1
-    'Principais Nomes' => 'pixel/pixelArtistas.php',      //2
+    'Principais Nomes' => 'pixel/pixelArtistas.php?artista=artistas',      //2
     'Galeria' => 'pixel/pixelGaleria.php'         //3
 ];
 $pixDrop3 = [
     'Pixel Art' => '../pixel/pixel.php',            //0
     'Sobre a Arte' => '../pixel/pixelSobre.php',     //1
-    'Principais Nomes' => '../pixel/pixelArtistas.php',      //2
+    'Principais Nomes' => '../pixel/pixelArtistas.php?artista=artistas',      //2
     'Galeria' => '../pixel/pixelGaleria.php'         //3
 ];
 
