@@ -253,6 +253,12 @@ h5 {
 
 
 /*css para o diretório servicos*/
+/* Fale Conosco */
+
+.border-right{
+  border-right: 1px dashed rgba(214, 8, 8, 0.445);
+}
+
 /* Normas de Utilização */
 .center-image {
   display: block;
