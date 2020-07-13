@@ -31,7 +31,7 @@
         </div>
       </form>
     </article>
-    <aside class="col-sm-12 col-md-6 col-lg-6 p-4">
+    <aside class="col-sm-12 col-md-6 col-lg-6">
       <h2 class="text-center h2-mobile pb-4">Mensagens</h2>
 
       <?php include '../include/mensagens.php' ?>
