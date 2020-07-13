@@ -1,7 +1,7 @@
 <?php include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'modelagem'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid" id="inicio">
+<div class="container-fluid container-max mx-auto" id="inicio">
     <article>
     <div class="container">
             <h1 class=" text-center animacaoh1 ">Artistas e Estudios Brasileiros de modelagem 3D</h1>
