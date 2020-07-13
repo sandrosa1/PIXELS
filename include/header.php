@@ -7,13 +7,13 @@ $saiDrop = [
     'Quem Somos?' => 'quemSomos.php',       //1
     'Fale Cosnosco' => 'faleConosco.php',   //2
     'Carreira' => 'carreira.php',  //3
-    'Nomas' => 'normas.php'                 //
+    'Normas' => 'normas.php'                 //
 ];
 $saiDrop2 =  [
     'Quem Somos?' => 'servicos/quemSomos.php',       //1
     'Fale Cosnosco' => 'servicos/faleConosco.php',   //2
     'Carreira' => 'servicos/carreira.php',  //3
-    'Nomas' => 'servicos/normas.php'                 //
+    'Normas' => 'servicos/normas.php'                 //
 ];
 $saiDrop3 = [
     'Quem Somos?' => '../servicos/quemSomos.php',       //1
