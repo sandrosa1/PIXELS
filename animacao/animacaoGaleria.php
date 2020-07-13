@@ -1,50 +1,46 @@
 <?php include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'animacao'; include '../include/header.php';?>
-<!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid galeriaAni" id="inicio">
     <!-- Photo Grid -->
     <section class="animacaoGaleria">
     <h2 class=" text-center animacaoh1">Galeria de Imagens Animação digital</h2>
-    
+    <div class="container containerImagem">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg">
+        <div id="imgtext"></div>
+    </div>
         <div class=" row imagensGaleria">
             <div class=" col-lg-3 galeria ">
-                <a><img src="../imagem/animacao/animacaoAlvyRaySmith.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoCap.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoCelShading.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoClaymation.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoFantasmagol.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoWalter.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoStarTrekEspecial.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoDupla.webp" alt="#"></a>
+                <a><img src="../imagem/animacao/animacaoAlvyRaySmith.webp" alt="Foto de Alvy Ray"  onclick="myFunction(this);"></a>
+                <a><img src="../imagem/animacao/animacaoWalter.webp" alt="Imagem de walter criador do desenho pica-pau" onclick="myFunction(this);"></a>
+                
 
             </div>
             <div class=" col-lg-3 galeria ">
-                <a><img src="../imagem/animacao/animacaoFrozen1.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoInicio.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoJohnAlanLasseter.webp" alt="#" ></a>
-                <a><img src="../imagem/animacao/animacaoluxojr.webp" alt="#" ></a>
-                <a><img src="../imagem/animacao/animacaoWallt.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoMinions.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoFlash.webp" alt="#"></a>
+                <a><img src="../imagem/animacao/animacaoWallt.webp" alt="Imagem de WALT DISNEY " onclick="myFunction(this);"></a>
+                <a><img src="../imagem/animacao/animacaoMax.webp" alt="MAX FLEISCHER inventor do  o Rotoscópio." onclick="myFunction(this);"></a>
             </div>
             <div class=" col-lg-3 galeria ">
-                <a><img src="../imagem/animacao/animacaoWilson.webp" alt="#" ></a>
-                <a><img src="../imagem/animacao/animacaoPixarLogo.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoPixilation.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoQuake.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoHayao.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoMax.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoTrabalhando.webp" alt="#"></a>
+                <a><img src="../imagem/animacao/animacaoWilson.webp" alt="Winsor McCay Sua técnica para desenhar era tão apurada, tão diferente, que serviria como base para diversos animadores que surgiriam depois como Tex Avery, Walter Lantz, até mesmo Walt Disney." onclick="myFunction(this);" ></a>
+                <a><img src="../imagem/animacao/animacaoHayao.webp" alt="Hayao Miyazaki Começou a desenhar em 1958, quando fazia Ciências Políticas e Economia na Universidade Gakushuin" onclick="myFunction(this);" ></a>
+
+                
             </div>
             <div class=" col-lg-3 galeria ">
-                <a><img src="../imagem/animacao/animacaoTinToy.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoToyHistory.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacao.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoWallb.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/animacaoTerminator1984.webp" alt="#"></a>
-                <a><img src="../imagem/animacao/fatec1.webp" alt="#"></a>
+                <a><img src="../imagem/animacao/animacaoSteve.webp" alt="Imagem de Steve Jobs quando tornou-se o maior acionista individual da Disney" onclick="myFunction(this);"></a>
+                <a><img src="../imagem/animacao/animacaoJohnAlanLasseter.webp" alt="Imagem de John Alan Lasseter conhecido por ser o diretor de criação da Pixar, Walt Disney Animation Studios" onclick="myFunction(this);" ></a>
+                <a><img src="../imagem/animacao/animacaoDupla.webp" alt="Fot de William Hanna e Joseph Barbera dupal que criou tom e jerry" onclick="myFunction(this);"></a>
             </div>
-        </div>
+            <script>
+                    function myFunction(imgs) 
+                    {
+                        var expandImg = document.getElementById("expandedImg");
+                        var imgText = document.getElementById("imgtext");
+                        expandImg.src = imgs.src;
+                        imgText.innerHTML = imgs.alt;
+                        expandImg.parentElement.style.display = "block";
+                    }
+            </script>
     </section>
 </div>
 <?php include '../include/footer.php'?>

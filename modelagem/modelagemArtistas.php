@@ -103,26 +103,11 @@
 
                 </div>
           
-                <div class="col-md-4">
-                    <h2 class=" text-center animacaoh1">Rafael Grasseti </h2>
-                    <img class="img-fluid  align-items-center" alt=" Foto de um trabalho de Rafael Grasseti  "
-                        style='width:100%; margin-top:20px;' src="../imagem/modelagem/rafael.webp" />
-                    <p class=" text-justify">
-                    Rafael Grasseti começou trabalhando em agências de publicidade brasileiras, até que em 2011 a BioWare o convocou pra ser o seu Senior Character Artist, 
-                    onde ele atuou com a franquia Mass Effect e Dragon Age. Em 2013, a Sony o contratou, de lá pra cá ele trabalhou em games como Killzone: 
-                    Shadow Fall, Infamous 3 e The Order 1886. Além disso, ele já trabalhou em outros projetos de Cinema, Games, TV, Print e até modelagem de brinquedos. </p>
-
-
-                </div>
-
-
             </div>
     </article>
     <section>
         <?php include '../include/section.php'?>
     </section>
-</div>
-</div>   
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>
