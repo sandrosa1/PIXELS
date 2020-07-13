@@ -48,7 +48,7 @@
 
                         <div class="row my-5">
                             <div class="card-deck mx-auto">
-                                <div class="card">
+                                <div class="card" id="diferencas">
                                     <img class="card-img-top rounded" src="../imagem/vetor/ship-5268224.webp"
                                         alt="Card image cap">
                                     <div class="card-body">
@@ -145,11 +145,7 @@
                             <h1 class="text-center m-3">Galeria de Artes</h1>
                             <p class="text-center m-3">Confira a seleção de imagens de diversos artistas.</p>
                         </div>
-<<<<<<< HEAD
-                        <section class="galeria-pixel mx-auto">
-=======
                         <section class="galeria-pixel   mx-auto">
->>>>>>> normas
                             <div class="row no-margin text-center justify-content-center">
 
                                 <div class="ilust">
