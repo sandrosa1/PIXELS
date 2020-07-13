@@ -5,7 +5,6 @@ include 'include/header.php'; ?>
 <div class="container-fluid container-max mx-auto" id="inicio">
   <!--Chamadas Principais-->
   <article >
-
     <div id="borda" class="row justify-content-center mt-3 no-margin indexPrin">
       <div class="col-lg-6 index1">
         <div class="card mb-3 semBordas text-center center-image">
@@ -17,11 +16,11 @@ include 'include/header.php'; ?>
         <div class="card mb-3 semBordas">
           <ul class="list-unstyled">
             <li class="media">
-              <a href="desenho/desenho.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/office-110.webp" alt="Desenho vetorial de uma mesa, computador, pássaro, árvores e céu azul com nuvens"></a>
+              <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/office-110.webp" alt="Desenho vetorial de uma mesa, computador, pássaro, árvores e céu azul com nuvens"></a>
               <div class="media-body">
-                <small> <a href="desenho/desenho.php" class="card-link linksAnimacao1">#DesenhoVetorial</a></small>
+                <small> <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1">#DesenhoVetorial</a></small>
                 <h5 class="mt-0 mb-1">
-                  <a href="desenho/desenho.php" class="card-link linksAnimacao1 ">Diferenças e vantagens de um desenho vetorial</a>
+                  <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1 ">Diferenças e vantagens de um desenho vetorial</a>
                 </h5>
               </div>
             </li>
