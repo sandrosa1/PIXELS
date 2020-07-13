@@ -729,7 +729,7 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
   text-shadow: 5px 5px 15px rgba(0, 0, 0, .8);
 }
 
-.h1-arte {
+.h1-arte, .h1-resize {
   font-size: 4.5rem;
   font-weight: 400;
   font-family: 'Raleway', sans-serif, 'liberation sans';
@@ -1002,7 +1002,7 @@ footer .row .col-lg-4 a img {
     display: none;
   }
 
-  .h1-arte {
+  .h1-arte, .h1-resize {
     font-size: 3.2rem;
     font-weight: 300;
   }
@@ -1021,7 +1021,7 @@ footer .row .col-lg-4 a img {
     margin: 0px 10px 10px 0px;
   }
 
-  .h1-arte {
+  .h1-arte, .h1-resize {
     font-size: 2.6rem;
     font-weight: 300;
   }
@@ -1052,8 +1052,12 @@ footer .row .col-lg-4 a img {
     .galeria1 h5, .sobre-pixel-lista p {
         font-size: 1rem;
     }
+    .h1-resize {
+      font-size: 1.8rem;
+      font-weight: 300;
+    }
     .h1-arte {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
         font-weight: 300;
     }
     .h1-mobile {
