@@ -309,7 +309,11 @@ h5 {
 }
 
 .quem-somos a {
-  color: 
+  color: var(--link-paragrafo-color);
+}
+.quem-somos a:hover {
+  color: var(--home-color);
+  text-decoration: none;
 }
 
 

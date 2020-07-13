@@ -2,11 +2,11 @@
 <?php $page = 'saiba';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<article class="container-fluid container-max mx-auto quem-somos" id="inicio">
+<article class="container-fluid container-max mx-auto" id="inicio">
   <h1 class="text-center m-3 h1-arte">Quem Somos</h1>
 
   <div class="pb-4 row no-margin">
-    <div class="d-flex flex-wrap">
+    <div class="d-flex flex-wrap quem-somos">
       <!-- Grupo Pixels -->
       <div class="col-sm-12 col-md-12 col-lg-4 d-flex 
            mb-3">
@@ -16,6 +16,10 @@ include '../include/header.php'; ?>
             <h5 class="text-center py-2">Grupo Pixels</h5>
             <p class="text-justify">Grupo de desenvolvedores multidisciplinares, estudantes do 2º semestre da faculdade de tecnologia FATEC São Roque.</p>
             <p class="text-justify ">Fundado em meados de 2020, em meio à pandemia de COVID-19, o grupo se juntou com o intuito de trazer conhecimento e diversão através de um portal sobre diversas formas de artes digitais.</p>
+            <blockquote class="blockquote text-right">
+              <p>“A arte desafia a tecnologia, e a tecnologia inspira a arte”</p>
+              <footer class="blockquote-footer"><cite>John Lasseter</cite></footer>
+            </blockquote>
           </div>
         </div>
       </div>
@@ -26,7 +30,7 @@ include '../include/header.php'; ?>
           <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle" src="../imagem/quem_somos/sandro.webp" height="280" width="280" alt="Interface do programa Pixilart">
           <h5 class="text-center py-2">Sandro Amâncio de Sá</h5>
           <p class="text-center mb-1">RA: 2650831923001</p>
-          <p class="text-center mt-1">TI Architecture, desenvolvedor fullstack</p>
+          <p class="text-center mt-1">Scrum Master, TI Architecture, desenvolvedor fullstack</p>
           <ul class="list-inline animacao text-center">
             <!-- Font Awesome - Linkedin -->
             <li class="list-inline-item">
@@ -45,8 +49,9 @@ include '../include/header.php'; ?>
           <div class="p-2">
             <p class="text-justify">Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.</p>
             <blockquote class="blockquote text-right">
-              <p>"Frase de citação"</p>
-              <footer class="blockquote-footer"><cite>Autor da frase</cite></footer>
+              <p>“Faça da sua vida mais <em>Responsivo</em>”
+              </p>
+              <footer class="blockquote-footer"><cite>Dica para Programadores de Sistemas</cite></footer>
             </blockquote>
           </div>
           <div class="stick-bottom px-2 mt-5 justify-content-left text-justify">
@@ -82,13 +87,13 @@ include '../include/header.php'; ?>
           <div class="p-2">
             <p class="text-justify">Em meio as visões embaçadas, busco um novo horizonte e com novas experiências no mundo da tecnologia encontro o Bootstrap.</p>
             <blockquote class="blockquote text-right">
-              <p>"O mundo é deveras cômico, mas a piada está na raça humana."</p>
+              <p>“O mundo é deveras cômico, mas a piada está na raça humana”</p>
               <footer class="blockquote-footer"><cite>H. P. Lovecraft</cite></footer>
             </blockquote>
           </div>
           <hr>
           <div class="stick-bottom px-2 justify-content-left text-justify">
-            <small class="text-muted"><b>Desenvolvimento</b>: <a href="../desenho/desenho.php" target="_blank">Desenho Vetorial - O que é desenho vetorial</a>, <a href="../desenho/desenho.php" target="_blank">Desenho Vetorial - Galeria de artes</a>, <a href="../servicos/carreira.php" target="_blank">Carreira</a>
+            <small class="text-muted"><b>Desenvolvimento</b>: <a href="../desenho/desenho.php" target="_blank">Desenho Vetorial</a>, <a href="../servicos/carreira.php" target="_blank">Carreira</a>
             </small>
           </div>
         </div>
@@ -100,7 +105,7 @@ include '../include/header.php'; ?>
           <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle " src="../imagem/quem_somos/allan.webp" height="280" width="280" alt="Imagem do Allan">
           <h5 class="text-center py-2">Allan de Abreu Tridade</h5>
           <p class="text-center mb-1">RA: 2650831923014</p>
-          <p class="text-center mt-1">Desenvolvedor Back-End e Analista de testes</p>
+          <p class="text-center mt-1">Desenvolvedor back-end e Analista de testes</p>
           <ul class="list-inline ilustracao text-center">
             <!-- Font Awesome - Linkedin -->
             <li class="list-inline-item">
@@ -119,7 +124,7 @@ include '../include/header.php'; ?>
           <div class="p-2 ">
             <p class="text-justify">Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom. O mundo como o conhecemos se torna cada vez mais digital!</p>
             <blockquote class="blockquote text-right">
-              <p>"Frase de citação"</p>
+              <p>“ ”</p>
               <footer class="blockquote-footer"><cite>Autor da frase</cite></footer>
             </blockquote>
           </div>
@@ -156,7 +161,7 @@ include '../include/header.php'; ?>
           <div class="p-2 ">
             <p class="text-justify">Sempre tive interesse na área de TI e agora abracei esse desafio. Ainda não sei qual caminho seguir dentre as diversas áreas, mas com certeza sera uma jornada maravilhosa e cheia de surpresas.</p>
             <blockquote class="blockquote text-right">
-              <p>"Frase de citação"</p>
+              <p>“ ”</p>
               <footer class="blockquote-footer"><cite>Autor da frase</cite></footer>
             </blockquote>
           </div>
@@ -174,7 +179,7 @@ include '../include/header.php'; ?>
           <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle " src="../imagem/quem_somos/carol.webp" height="280" width="280" alt="Imagem do Allan">
           <h5 class="text-center py-2">Carolina Issa Kaji</h5>
           <p class="text-center mb-1">RA: 2650831923018</p>
-          <p class="text-center mt-1">UI/UX Designer e desenvolvedora front-end</p>
+          <p class="text-center mt-1">UI/UX Designer e Desenvolvedora front-end</p>
           <ul class="list-inline pixel text-center">
             <!-- Font Awesome - Linkedin -->
             <li class="list-inline-item">
@@ -193,7 +198,7 @@ include '../include/header.php'; ?>
           <div class="p-2">
             <p class="text-justify">A paixão por desenvolvimento web client-side é algo que a faz se mover em direção à carreira que tanto almeja. E se tornar desenvolvedora Front-end, é seu objetivo.</p>
             <blockquote class="blockquote text-right">
-              <p>"Seu futuro é criado a partir do que você faz hoje, não amanhã!"</p>
+              <p>“Seu futuro é criado a partir do que você faz hoje, não amanhã”</p>
               <footer class="blockquote-footer"><cite>Robert Kiyosaki</cite></footer>
             </blockquote>
           </div>
