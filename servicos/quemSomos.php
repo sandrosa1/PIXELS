@@ -54,7 +54,8 @@ include '../include/header.php'; ?>
                     <p class="text-center mb-1">RA: 265083192306</p>
                     <p class="text-center mt-1"> Função no desenvolvimento do portal</p>
                     <hr>
-                    <p class="card-text">Buscando um novo horizonte, em meio as visões embassadas do momento.</p>
+                    <p class="card-text">Em meio as visões embaçadas busco um novo horizonte e com novas experiências encontro Bootstrap.</p>
+                    <p class="card-text">“O mundo é deveras cômico, mas a piada está na raça humana.” - H. P. Lovecraft</p>
                     <ul class="list-inline desenho text-center">
                         <!-- Font Awesome - Linkedin -->
                         <li class="list-inline-item">
