@@ -124,8 +124,8 @@ include '../include/header.php'; ?>
           <div class="p-2 ">
             <p class="text-justify">Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom.</p>
             <blockquote class="blockquote text-right">
-              <p>“Ajustar-se ao requisito de perfeição é, penso eu, a parte mais difícil de aprender a programar.”</p>
-              <footer class="blockquote-footer"><cite>Frederick Phillips Brooks Jr.</cite></footer>
+              <p>“Ajustar-se ao requisito de perfeição é, penso eu, a parte mais difícil de aprender a programar”</p>
+              <footer class="blockquote-footer"><cite>Frederick Phillips Brooks Jr</cite></footer>
             </blockquote>
           </div>
           <hr>
@@ -161,8 +161,8 @@ include '../include/header.php'; ?>
           <div class="p-2 ">
             <p class="text-justify">Sempre tive interesse na área de TI e agora abracei esse desafio. Ainda não sei qual caminho seguir dentre as diversas áreas, mas com certeza sera uma jornada maravilhosa e cheia de surpresas.</p>
             <blockquote class="blockquote text-right">
-              <p>“ ”</p>
-              <footer class="blockquote-footer"><cite>Autor da frase</cite></footer>
+              <p>“90% do sucesso baseia-se simlesmente em persistir”</p>
+              <footer class="blockquote-footer"><cite>Woody Allen</cite></footer>
             </blockquote>
           </div>
           <hr>
