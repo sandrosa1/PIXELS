@@ -49,7 +49,7 @@
                         <div class="row my-5">
                             <div class="card-deck mx-auto">
                                 <div class="card">
-                                    <img class="card-img-top rounded" src="../imagem/vetor/ship-5268224.webp"
+                                    <img class="card-img-top rounded" src="../imagem/vetor/vortex-5268247.webp"
                                         alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title text-center py-1 bg-white">Qual seu diferencial?</h5>

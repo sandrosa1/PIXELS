@@ -54,12 +54,12 @@ include '../include/header.php'; ?>
                     <p class="text-center mb-1">RA: 265083192306</p>
                     <p class="text-center mt-1"> Função no desenvolvimento do portal</p>
                     <hr>
-                    <p class="card-text">Em meio as visões embaçadas busco um novo horizonte e com novas experiências encontro Bootstrap.</p>
+                    <p class="card-text">Em meio as visões embaçadas busco um novo horizonte e com novas experiências no mundo da tecnologia encontro Bootstrap.</p>
                     <p class="card-text">“O mundo é deveras cômico, mas a piada está na raça humana.” - H. P. Lovecraft</p>
                     <ul class="list-inline desenho text-center">
                         <!-- Font Awesome - Linkedin -->
                         <li class="list-inline-item">
-                            <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/lucas-silvestre-paula-4669061b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </li>
                         <!-- Font Awesome - Github -->
                         <li class="list-inline-item">
