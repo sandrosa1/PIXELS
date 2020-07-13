@@ -73,11 +73,11 @@ include 'include/header.php'; ?>
       <h3 class="text-center">Calendário de Exposições</h3>
     </div>
     <div class="row justify-content-center no-margin my-3">
-      <div class="col-lg-6 col-sm-12 col-md-auto text-center">
+      <div class="col-lg-7 col-sm-12 col-md-auto text-center">
         <img src="imagem/index/fiesp.webp" class="img-fluid" alt="Pédio da FIESP iluminado com LEDs em espiral roxo">
         <img src="imagem/index/calendario.webp" class="img-fluid calendario-img" alt="calendário de julho">
       </div>
-      <div class="col-lg-6 col-sm-12 col-md-auto text-left d-md-flex flex-md-nowrap text-l">
+      <div class="col-lg-5 col-sm-12 col-md-auto text-left d-md-flex flex-md-nowrap text-l">
         <ul class="list-group list-unstyled p-1 ">
           <li><time datetime="2020-07-12"><strong>12/07</strong> - Sesi - No céu iluminado </time></li>
           <li><time datetime="2020-07-14"><strong>14/07</strong> - Expo São Paulo - Digital ao quadrado</time></li>
