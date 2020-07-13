@@ -49,16 +49,17 @@
                 </div>
             </div>
 
-            
+            <h2 class="text-center animacaoh1 ">Inicio no Cinema</h2>
             <div class="row">
-                <div class="col-md-12">
-                    <h2 class=" text-center animacaoh1 ">Inicio no Cinema</h2>
-                    <img class="img-fluid  align-items-center" alt="Exemplo de modelo 3D"
-                        style='float:left;width:300px; margin-right:20px;'
+                
+                <div class="text-center col-sm-12 col-md-6 col-lg-3">                    
+                    <img class="img-fluid pb-4  align-items-center" alt="Exemplo de modelo 3D"
                         src="../imagem/modelagem/modelagem3.webp" >
-                    <p class=" text-justify">A partir do planejamento realizado na concepção, é iniciada a modelagem nos softwares específicos. Alguns programas como Autodesk Maya, Max, cinema 4d ou Blender são os mais usados. 
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-9"> 
+                    <p class=" text-left">A partir do planejamento realizado na concepção, é iniciada a modelagem nos softwares específicos. Alguns programas como Autodesk Maya, Max, cinema 4d ou Blender são os mais usados. 
                 Contudo, é possível contar com o apoio de programas como Zbrush ou Mudbox para elaboração de modelagens mais orgânicas como as de personagens.</p>
-            <p>Também em programas 3D são feitas estruturas, conhecidas como rigging, para que seja possível animar os objetos modelados. Por exemplo, mãos e pés podem conter dedos com articulações. 
+            <p class=" text-left">Também em programas 3D são feitas estruturas, conhecidas como rigging, para que seja possível animar os objetos modelados. Por exemplo, mãos e pés podem conter dedos com articulações. 
                 O limite aqui é a sua criatividade!</p>
                 </div>
 
