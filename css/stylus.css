@@ -35,6 +35,7 @@ h5 {
   --link-paragrafo-color-hover: #000;
   --fonte-family: 'Raleway', sans-serif;
   --bg-grey: #ececec;
+  --alpha-80: .8;
 }
 
 /*Novo nav*/
@@ -262,7 +263,6 @@ h5 {
 /* Quem Somos */
 .dev0 {
   border: .2rem solid var(--home-color);
-
 }
 
 .dev1 {
@@ -288,6 +288,8 @@ h5 {
 .bg-white {
   background-color: white;
 }
+
+
 
 .max-width {
   max-width: 960px;

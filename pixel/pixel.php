@@ -72,7 +72,8 @@ include '../include/header.php'; ?>
         <div class="pb-4 row no-margin">
           <div class="d-flex flex-wrap">
             <!-- Piskel -->
-            <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-stretch mb-3">
+            <div class="col-sm-12 col-md-12 col-lg-4 d-flex 
+           mb-3">
               <div class="text-center bg-white p-3">
                 <h5 class="text-center py-2">Piskel</h5>
                 <img class="img-fluid float-sm-none float-md-left float-lg-none mx-md-0 mr-md-3 mr-lg-0 " src="../imagem/pixel/piskel.webp" alt="Interface do programa Piskel">
