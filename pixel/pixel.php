@@ -23,7 +23,7 @@ include '../include/header.php'; ?>
   <div class="row no-margin justify-content-center px-0">
     <section class="col-sm-12 col-md-6 col-lg-6 grupo-imagem-secundaria p-3">
       <div class="card mx-auto">
-        <img class="card-img-top" src="../imagem/pixel/pixelforest445.webp" alt="Exposição Pixel-Forest">
+        <img class="card-img-top" src="../imagem/pixel/pixelforest500.webp" alt="Exposição Pixel-Forest">
         <div class="card-body bg-grey">
           <h3 class="card-title h3-mobile">Conheça a Pixel Forest</h3>
           <p class="card-text"><a href="pixelSobre.php#pixelforest">Pipilotti Rist em colaboração com a designer Kaori Kuwabara</a></p>

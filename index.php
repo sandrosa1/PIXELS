@@ -94,4 +94,4 @@ include 'include/header.php'; ?>
 <!--FOOTER-->
 <?php include 'include/footer.php' ?>
 <!--Links botom css -->
-<? include 'include/nossosLinksBotom.php'?>
+<?php include 'include/nossosLinksBotom.php'?>
