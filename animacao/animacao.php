@@ -26,7 +26,7 @@
                                         <div class=" col-lg-12 logoAni container3">
                                                 <a href="https://www.vestibularfatec.com.br/home/"
                                                         class="linksAnimacao1">
-                                                        <h5 class=" text-center ">Processo seletivo adptado à Pandeimia
+                                                        <h5 class=" text-center ">Processo seletivo adptado à Pandemia
                                                         </h5><img class=" a" src="../imagem/animacao/animacaoFatec.webp"
                                                                 alt="Propagandao do vestibular fatec">
                                                 </a>
