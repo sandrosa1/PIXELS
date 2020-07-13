@@ -122,10 +122,10 @@ include '../include/header.php'; ?>
           </ul>
 
           <div class="p-2 ">
-            <p class="text-justify">Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom. O mundo como o conhecemos se torna cada vez mais digital!</p>
+            <p class="text-justify">Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom.</p>
             <blockquote class="blockquote text-right">
-              <p>“ ”</p>
-              <footer class="blockquote-footer"><cite>Autor da frase</cite></footer>
+              <p>“Ajustar-se ao requisito de perfeição é, penso eu, a parte mais difícil de aprender a programar.”</p>
+              <footer class="blockquote-footer"><cite>Frederick Phillips Brooks Jr.</cite></footer>
             </blockquote>
           </div>
           <hr>
