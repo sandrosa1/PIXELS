@@ -67,7 +67,7 @@ include '../include/header.php'; ?>
           <ul class="list-inline desenho text-center">
             <!-- Font Awesome - Linkedin -->
             <li class="list-inline-item">
-              <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/lucas-silvestre-paula-4669061b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </li>
             <!-- Font Awesome - Github -->
             <li class="list-inline-item">
