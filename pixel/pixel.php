@@ -1,6 +1,5 @@
-<?php include '../include/nossosLinksTop.php'; ?>
-<?php $page = 'pixel';
-include '../include/header.php'; ?>
+<?php $page = 'pixel'; include '../include/nossosLinksTop.php'; ?>
+<?php $page = 'pixel'; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class=" pixel-links container-max my-4 row mx-auto" id="inicio">
   <!-- Seção do artigo principal -->
@@ -9,7 +8,7 @@ include '../include/header.php'; ?>
       <div class="grupo-imagem-titulo col-sm-12 col-md-12">
         <img class="center-image" src="../imagem/pixel/pixelart-principal882x296.webp" alt="Pixels coloridos">
         <div id="titulo" class="align-items-center">
-          <h1 class="text-center h1-arte">A arte do ponto a ponto</h1>
+          <h1 class="text-center h1-resize">A arte do ponto a ponto</h1>
         </div>
       </div>
     </div>
@@ -23,7 +22,7 @@ include '../include/header.php'; ?>
   <div class="row no-margin justify-content-center px-0">
     <section class="col-sm-12 col-md-6 col-lg-6 grupo-imagem-secundaria p-3">
       <div class="card mx-auto">
-        <img class="card-img-top" src="../imagem/pixel/pixelforest445.webp" alt="Exposição Pixel-Forest">
+        <img class="card-img-top" src="../imagem/pixel/pixelforest500.webp" alt="Exposição Pixel-Forest">
         <div class="card-body bg-grey">
           <h3 class="card-title h3-mobile">Conheça a Pixel Forest</h3>
           <p class="card-text"><a href="pixelSobre.php#pixelforest">Pipilotti Rist em colaboração com a designer Kaori Kuwabara</a></p>

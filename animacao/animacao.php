@@ -1,8 +1,7 @@
-<?php include '../include/nossosLinksTop.php' ; ?>
-<?php include '../include/nossosLinksTop.php' ; ?>
+<?php $page = 'animacao' ;include '../include/nossosLinksTop.php' ; ?>
 <?php $page = 'animacao' ; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid animacaoHome1 " id="inicio">
+<div class="container-max mx-auto animacaoHome1  " id="inicio">
         <div class="row justify-content-center center-image  m-sm-0">
                 <div class=" col-lg-12 logoAni">
                         <img src="../imagem/animacao/animaHome.webp" class="img-fluid headerAni"
@@ -27,7 +26,7 @@
                                         <div class=" col-lg-12 logoAni container3">
                                                 <a href="https://www.vestibularfatec.com.br/home/"
                                                         class="linksAnimacao1">
-                                                        <h5 class=" text-center ">Processo seletivo adptado à Pandeimia
+                                                        <h5 class=" text-center ">Processo seletivo adptado à Pandemia
                                                         </h5><img class=" a" src="../imagem/animacao/animacaoFatec.webp"
                                                                 alt="Propagandao do vestibular fatec">
                                                 </a>
@@ -78,7 +77,6 @@
                                                                                 class=" linksAnimacao1 ">
                                                                                 <p><b>Saiba mais...</b></p>
                                                                         </a>
-                                                                        </a>
                                                                 </div>
                                                         </div>
                                                         <div class="card semBordas">
@@ -115,7 +113,7 @@
                                                 <div class="card-body">
                                                         <a href="animacaoSobre.php#bilheterias">
                                                                 <h6 class="card-title text-left text-danger">Maiores
-                                                                        Bilheterias</h6>
+                                                                        Bilheterias</h6></a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoFrozen1.webp"
                                                                         alt="Capa da animação frozen">
@@ -235,7 +233,7 @@
                         </div>
                 </div>
         </article>
-        <div class="row justify-content-center center-image  m-sm-0">
+        <div class="row container-fluid mx-auto ">
         <div class=" col-lg-12 ">
         <section>
                 <?php include '../include/section.php'?>

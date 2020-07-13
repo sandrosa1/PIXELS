@@ -1,4 +1,4 @@
-<?php include '../include/nossosLinksTop.php' ;?>
+<?php $page = 'animacao'; include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'animacao'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid" id="inicio">
@@ -120,11 +120,12 @@
                                 relativamente flexível, para reforçar as esculturas de massa.</p>
                         </div>
                     </div>
-                </div>
-    </article>
-    <section>
+                    <section>
         <?php include '../include/section.php'?>
     </section>
+                </div>
+    </article>
+    
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>

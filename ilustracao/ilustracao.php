@@ -1,9 +1,9 @@
-<?php include '../include/nossosLinksTop.php' ;?>
+<?php $page = 'ilustracao'; include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'ilustracao'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid container-max mx-auto" id="inicio">
     <article class="links_ilustracao mx-4 my-4">
-        <div class="row">
+        <div class="row no-margin">
             <div class="col-sm-12 col-md-12 col-lg-12">
                     <h1 class="text-left h1-arte">Um mundo de vantagens</h1>
                 <hr>

@@ -1,11 +1,9 @@
-<?php include 'include/nossosLinksTop.php'; ?>
-<?php $page = 'home';
-include 'include/header.php'; ?>
+<?php  $page = 'home'; include 'include/nossosLinksTop.php'; ?>
+<?php $page = 'home'; include 'include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid container-max mx-auto" id="inicio">
   <!--Chamadas Principais-->
   <article >
-
     <div id="borda" class="row justify-content-center mt-3 no-margin indexPrin">
       <div class="col-lg-6 index1">
         <div class="card mb-3 semBordas text-center center-image">
@@ -17,11 +15,11 @@ include 'include/header.php'; ?>
         <div class="card mb-3 semBordas">
           <ul class="list-unstyled">
             <li class="media">
-              <a href="desenho/desenho.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/indexp1.webp" alt="Imagem de exemplo genérica"></a>
+              <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/office-110.webp" alt="Desenho vetorial de uma mesa, computador, pássaro, árvores e céu azul com nuvens"></a>
               <div class="media-body">
-                <small> <a href="desenho/desenho.php" class="card-link linksAnimacao1">#DesenhoVetorial</a></small>
+                <small> <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1">#DesenhoVetorial</a></small>
                 <h5 class="mt-0 mb-1">
-                  <a href="desenho/desenho.php" class="card-link linksAnimacao1 ">Chamada para Desenho Vetorial</a>
+                  <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1 ">Diferenças e vantagens de um desenho vetorial</a>
                 </h5>
               </div>
             </li>
@@ -35,7 +33,7 @@ include 'include/header.php'; ?>
               </div>
             </li>
             <li class="media">
-              <a href="modelagem/modelagem.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/modelagem/modelagem9.webp" alt="Imagem de exemplo genérica"></a>
+              <a href="modelagem/modelagem.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/modelagem9-110.webp" alt="Construção de um personagem em programa 3D"></a>
               <div class="media-body">
                 <small><a href="modelagem/modelagem.php" class="card-link linksAnimacao1">#Modelagem3D</a></small>
                 <h5 class="mt-0 mb-1">
@@ -44,7 +42,7 @@ include 'include/header.php'; ?>
               </div>
             </li>
             <li class="media">
-              <a href="animacao/animacao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/animacao/animacaoWallt.webp" alt="Imagem de exemplo genérica"></a>
+              <a href="animacao/animacao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/animacao/animacaoWallt.webp" alt="Walt Disney com seus personagens, Mickey, Pateta e Pato Donald"></a>
               <div class="media-body">
                 <small><a href="animacao/animacao.php" class="card-link linksAnimacao1">#AnimaçãoDigital</a></small>
                 <h5 class="mt-0 mb-1">
@@ -53,7 +51,7 @@ include 'include/header.php'; ?>
               </div>
             </li>
             <li class="media">
-              <a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/ilustracao-digital/galeria/galeria1.webp" alt="Imagem de exemplo genérica"></a>
+              <a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/ilustracao-digital/galeria/galeria1.webp" alt="Moça sentada na calçada em imagem preto e branco"></a>
               <div class="media-body">
                 <small><a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1">#IlustraçãoDigital</a></small>
                 <h5 class="mt-0 mb-1">
@@ -73,11 +71,11 @@ include 'include/header.php'; ?>
       <h3 class="text-center">Calendário de Exposições</h3>
     </div>
     <div class="row justify-content-center no-margin my-3">
-      <div class="col-lg-6 col-sm-12 col-md-auto text-center">
-        <img src="imagem/index/fiesp.webp" class="img-fluid" alt="">
-        <img src="imagem/index/indexp7calendario.webp" class="img-fluid calendario-img" alt="calendário de julho">
+      <div class="col-lg-7 col-sm-12 col-md-auto text-center">
+        <img src="imagem/index/fiesp.webp" class="img-fluid" alt="Pédio da FIESP iluminado com LEDs em espiral roxo">
+        <img src="imagem/index/calendario.webp" class="img-fluid calendario-img" alt="calendário de julho">
       </div>
-      <div class="col-lg-6 col-sm-12 col-md-auto text-left d-md-flex flex-md-nowrap text-l ">
+      <div class="col-lg-5 col-sm-12 col-md-auto text-left d-md-flex flex-md-nowrap text-l">
         <ul class="list-group list-unstyled p-1 ">
           <li><time datetime="2020-07-12"><strong>12/07</strong> - Sesi - No céu iluminado </time></li>
           <li><time datetime="2020-07-14"><strong>14/07</strong> - Expo São Paulo - Digital ao quadrado</time></li>
@@ -95,4 +93,4 @@ include 'include/header.php'; ?>
 <!--FOOTER-->
 <?php include 'include/footer.php' ?>
 <!--Links botom css -->
-<? include 'include/nossosLinksBotom.php'?>
+<?php include 'include/nossosLinksBotom.php'?>

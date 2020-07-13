@@ -51,7 +51,6 @@
                 </div>
                 <div class="modal-body">
                     <?php
-            if (file_exists('../php/mensagens.txt')) {
             $file = fopen('../php/mensagens.txt', 'r');
             $contadorLinha = 0;
             while(!feof($file)) {
@@ -75,14 +74,7 @@
             }
                 
             fclose($file);
-            
-            }
-            else{
                 ?>
-                    <p class="card-text text-center pt-5">Não temos mensagens recentes !</p>
-                    <?php
-            }
-    ?>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
@@ -94,7 +86,7 @@
             }
             else{
                 ?>
-    <p class="card-text text-center pt-5">Não temos mensagens recentes !</p>
+    <p class="card-text text-center">Não temos mensagens recentes !</p>
     <?php
             }
     ?>

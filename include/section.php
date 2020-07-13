@@ -6,7 +6,7 @@ $imgAniSec  = '../imagem/animacao/animacaoHome1.webp';
 $imgDeseSec  = '../imagem/vetoriais.webp';   
 $imgIlusSec  = '../imagem/animacao/ilustracao.webp';
 $imgModeSec  = '../imagem/animacao/modelagem.webp';
-$imgPixeSec  = '../imagem/pixel/pixelforest445.webp';  
+$imgPixeSec  = '../imagem/pixel/galeria/galeria-09.webp';  
 $imgSabQSec = '../imagem/animacao/fatec1.webp'; 
 $imgSabCSec = '../imagem/animacao/carreira.webp';
 $imgSabNSec = '../imagem/norma200.webp';
@@ -20,7 +20,7 @@ if($page == 'home')
     $imgDeseSec  = 'imagem/vetoriais.webp';   
     $imgIlusSec  = 'imagem/animacao/ilustracao.webp';
     $imgModeSec  = 'imagem/animacao/modelagem.webp';
-    $imgPixeSec  = 'imagem/pixel/pixelforest445.webp';  
+    $imgPixeSec  = 'imagem/pixel/galeria/galeria-09.webp';  
     $imgSabQSec = 'imagem/animacao/fatec1.webp'; 
     $imgSabCSec = 'imagem/animacao/carreira.webp';
     $imgSabNSec = 'imagem/norma200.webp';

@@ -1,6 +1,5 @@
-<?php include '../include/nossosLinksTop.php'; ?>
-<?php $page = 'pixel';
-include '../include/header.php'; ?>
+<?php $page = 'pixel'; include '../include/nossosLinksTop.php'; ?>
+<?php $page = 'pixel'; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid pixel-links container-max mx-auto" id="inicio">
     <article class="row justify-content-center no-margin mt-4 pixel-artistas">
@@ -28,7 +27,7 @@ include '../include/header.php'; ?>
                 ?>
                 " id="artistas" role="tabpanel" aria-labelledby="artistas-tab">
                 
-                    <div class=" text-justify px-md-3 px-2">
+                    <div class=" text-justify px-sm-2">
                         <h2 class="text-center h1-arte">Principais Nomes</h2>
                         <p class="pt-3">Ao redor do mundo, muitos artistas nacionais e internacionais fazem parte de uma comunidade que não deixam a Pixel Art morrer. </p>
                         <p>Não se restringindo somente ao universo dos games, a arte quebrou barreiras e se deu muito bem em campanhas publicitárias e identidades visuais.</p>
@@ -44,9 +43,9 @@ include '../include/header.php'; ?>
                 }
                 ?>
                 " id="glauber" role="tabpanel" aria-labelledby="glauber-tab">
-                    <img src="../imagem/pixel/glauber200.webp" class="float-sm-none float-md-left my-3 mx-md-3 mx-2" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
+                    <img src="../imagem/pixel/glauber200.webp" class="float-sm-none float-md-left my-3 mx-2" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
                     <div class="text-justify pt-3">
-                        <div class="px-md-3 px-2">
+                        <div class="px-2">
                             <h2 class="text-center text-md-left">Glauber Kotaki</h2>
                             <p>Glauber Kotaki é um notável e talentoso artista brasileiro.</p>
                             <p>Formado em Design Digital, descobriu a pixel art por acaso, quando criança. E na época era apenas um hobby.</p>
@@ -114,9 +113,9 @@ include '../include/header.php'; ?>
                 }
                 ?>
                 " id="bruno" role="tabpanel" aria-labelledby="bruno-tab">
-                    <img src="../imagem/pixel/brunomoraes200.webp" class="float-sm-none float-md-left my-3 mx-md-3 mx-2" alt="Foto de rosto do artista de pixel art Bruno Moraes">
+                    <img src="../imagem/pixel/brunomoraes200.webp" class="float-sm-none float-md-left my-3 mx-2" alt="Foto de rosto do artista de pixel art Bruno Moraes">
                     <div class="text-justify pt-3">
-                        <div class="px-md-3 px-2">
+                        <div class="px-2">
                             <h2 class="text-center text-md-left">Bruno Moraes</h2>
                             <p>Bruno Moraes é ilustrador e programador nascido em Niterói.</p>
                             <p>Entrou para o mundo de artes digitais em 2015, quando começou a trabalhar com ilustrações.</p>
@@ -185,9 +184,9 @@ include '../include/header.php'; ?>
                 }
                 ?>
                 " id="ivan" role="tabpanel" aria-labelledby="ivan-tab">
-                    <img src="../imagem/pixel/ivandixon200.webp" class="float-sm-none float-md-left my-3 mx-md-3 mx-2" alt="Foto de rosto do artista de pixel art Ivan Dixon">
+                    <img src="../imagem/pixel/ivandixon200.webp" class="float-sm-none float-md-left my-3 mx-2" alt="Foto de rosto do artista de pixel art Ivan Dixon">
                     <div class="text-justify pt-3">
-                        <div class="px-md-3 px-2">
+                        <div class="px-2">
                             <h2 class="text-center text-md-left">Ivan Dixon</h2>
                             <p>Ivan Dixon é um pixel artista, ilustrador, animador e também faz games. Mora em Melbourne, Austrália.</p>
                             <p>Pixel art foi a primeira arte que aprendeu a animar. E acha relaxante criar arte em pixel.</p>
@@ -200,10 +199,10 @@ include '../include/header.php'; ?>
                         <section id="programas" class="row no-margin
      justify-content-center mb-4">
                             <div>
-                                <div class="pb-4 row no-margin">
+                                <div class="pb-4 row no-margin my-3">
                                     <div class="d-flex flex-wrap">
                                         <!-- Adventure Time-->
-                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                        <div class="col-sm-12 col-md-12 col-lg-4">
                                             <div class="text-center">
                                                 <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/adventuretime.webp" alt="Imagem do desenho Adventure Time">
                                                 <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
@@ -214,7 +213,7 @@ include '../include/header.php'; ?>
                                             </div>
                                         </div>
                                         <!-- Simpsons -->
-                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                        <div class="col-sm-12 col-md-12 col-lg-4">
                                             <div class="text-center">
                                                 <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/simpsons.webp" alt="Bart em pixel art escrevendo na lousa">
                                                 <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
@@ -225,7 +224,7 @@ include '../include/header.php'; ?>
                                             </div>
                                         </div>
                                         <!-- Corsodyl -->
-                                        <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                                        <div class="col-sm-12 col-md-12 col-lg-4">
                                             <div class="text-center">
                                                 <img class="img-fluid float-sm-none float-md-left float-lg-none mx-lg-auto mr-2 mb-2" src="../imagem/pixel/corsodyl.webp" alt="Propaganda de pasta de dentes. Homem loiro escovando os dentes em pixel art">
                                                 <div class="pl-md-3 pr-md-0 pr-lg-3 px-2">
@@ -240,7 +239,7 @@ include '../include/header.php'; ?>
                             </div>
                         </section>
 
-                        <div class="text-center my-5 ">
+                        <div class="text-center mt-2 mb-5">
                             <p class="link-site">Conheça mais trabalhos visitando o site de <a href="https://www.ivandixon.com/" target="_blank">Ivan Dixon</a></p>
                         </div>
                     </div>
@@ -250,9 +249,9 @@ include '../include/header.php'; ?>
         </div>
     </article>
     <hr>
-    <section class="row justify-content-center no-margin">
+
         <?php include '../include/section.php' ?>
-    </section>
+
 </div>
 <?php include '../include/footer.php' ?>
 <?php include '../include/nossosLinksBotom.php' ?>

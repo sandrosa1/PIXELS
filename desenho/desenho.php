@@ -1,4 +1,4 @@
-<?php include '../include/nossosLinksTop.php' ;?>
+<?php $page = 'desenho'; include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'desenho'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid desenho-artistas" id="inicio">
@@ -48,8 +48,8 @@
 
                         <div class="row my-5">
                             <div class="card-deck mx-auto">
-                                <div class="card">
-                                    <img class="card-img-top rounded" src="../imagem/vetor/vortex-5268247.webp"
+                                <div class="card" id="diferencas">
+                                    <img class="card-img-top rounded" src="../imagem/vetor/ship-5268224.webp"
                                         alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title text-center py-1 bg-white">Qual seu diferencial?</h5>
@@ -145,11 +145,7 @@
                             <h1 class="text-center m-3">Galeria de Artes</h1>
                             <p class="text-center m-3">Confira a seleção de imagens de diversos artistas.</p>
                         </div>
-<<<<<<< HEAD
-                        <section class="galeria-pixel mx-auto">
-=======
                         <section class="galeria-pixel   mx-auto">
->>>>>>> normas
                             <div class="row no-margin text-center justify-content-center">
 
                                 <div class="ilust">
