@@ -146,7 +146,7 @@
                             <h1 class="text-center m-3">Galeria de Artes</h1>
                             <p class="text-center m-3">Confira a seleção de imagens de diversos artistas.</p>
                         </div>
-                        <section class="galeria-pixel">
+                        <section class="galeria-pixel   mx-auto">
                             <div class="row no-margin text-center justify-content-center">
 
                                 <div class="ilust">
