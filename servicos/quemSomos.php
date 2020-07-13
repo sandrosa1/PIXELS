@@ -1,6 +1,5 @@
-<?php include '../include/nossosLinksTop.php'; ?>
-<?php $page = 'saiba';
-include '../include/header.php'; ?>
+<?php $page = 'saiba'; include '../include/nossosLinksTop.php'; ?>
+<?php $page = 'saiba'; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <article class="container-fluid container-max mx-auto" id="inicio">
   <h1 class="text-center m-3 h1-arte">Quem Somos</h1>

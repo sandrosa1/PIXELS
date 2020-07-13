@@ -1,4 +1,4 @@
-<?php include '../include/nossosLinksTop.php' ;?>
+<?php $page = 'animacao'; include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'animacao'; include '../include/header.php';?>
 <div class="container-fluid galeriaAni" id="inicio">
     <!-- Photo Grid -->

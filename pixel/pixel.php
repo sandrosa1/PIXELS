@@ -1,6 +1,5 @@
-<?php include '../include/nossosLinksTop.php'; ?>
-<?php $page = 'pixel';
-include '../include/header.php'; ?>
+<?php $page = 'pixel'; include '../include/nossosLinksTop.php'; ?>
+<?php $page = 'pixel'; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class=" pixel-links container-max my-4 row mx-auto" id="inicio">
   <!-- Seção do artigo principal -->
