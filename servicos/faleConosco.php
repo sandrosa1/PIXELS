@@ -35,7 +35,7 @@ include '../include/header.php';
             </form>
         </article>
         <aside class="col-sm-12 col-md-6 col-lg-6 p-4">
-            <h2 class="text-center h2-ilust pt-4 pb-4">Mensagens</h2>
+            <h2 class="text-center h2-mobile pb-4">Mensagens</h2>
             <?php include '../include/mensagens.php'?>
         </aside>
     </div>
