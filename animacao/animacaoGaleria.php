@@ -1,14 +1,15 @@
 <?php $page = 'animacao'; include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'animacao'; include '../include/header.php';?>
-<div class="container-fluid galeriaAni" id="inicio">
-    <!-- Photo Grid -->
-    <section class="animacaoGaleria">
-    <h2 class=" text-center animacaoh1">Galeria de Imagens Animação digital</h2>
-    <div class="container containerImagem">
+<div class="container" id="inicio">
+     <div class="row containerImagem">
+        <div class=" col-12">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
         <img id="expandedImg">
         <div id="imgtext"></div>
     </div>
+     </div>
+    <section class="animacaoGaleria">
+    <h2 class=" text-center animacaoh1">Galeria de Imagens Animação digital</h2>
         <div class=" row imagensGaleria">
             <div class=" col-lg-3 galeria ">
                 <a><img src="../imagem/animacao/animacaoAlvyRaySmith.webp" alt="Foto de Alvy Ray"  onclick="myFunction(this);"></a>
