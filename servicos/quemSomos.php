@@ -2,7 +2,7 @@
 <?php $page = 'saiba';
 include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<article class="container-fluid container-max mx-auto" id="inicio">
+<article class="container-fluid container-max mx-auto quem-somos" id="inicio">
   <h1 class="text-center m-3 h1-arte">Quem Somos</h1>
 
   <div class="pb-4 row no-margin">
@@ -44,6 +44,10 @@ include '../include/header.php'; ?>
 
           <div class="p-2">
             <p class="text-justify">Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.</p>
+            <blockquote class="blockquote text-right">
+              <p>"Frase de citação"</p>
+              <footer class="blockquote-footer"><cite>Autor da frase</cite></footer>
+            </blockquote>
           </div>
           <div class="stick-bottom px-2 mt-5 justify-content-left text-justify">
             <hr>
@@ -114,6 +118,10 @@ include '../include/header.php'; ?>
 
           <div class="p-2 ">
             <p class="text-justify">Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom. O mundo como o conhecemos se torna cada vez mais digital!</p>
+            <blockquote class="blockquote text-right">
+              <p>"Frase de citação"</p>
+              <footer class="blockquote-footer"><cite>Autor da frase</cite></footer>
+            </blockquote>
           </div>
           <hr>
           <div class="stick-bottom px-2 justify-content-left text-justify">
@@ -147,6 +155,10 @@ include '../include/header.php'; ?>
 
           <div class="p-2 ">
             <p class="text-justify">Sempre tive interesse na área de TI e agora abracei esse desafio. Ainda não sei qual caminho seguir dentre as diversas áreas, mas com certeza sera uma jornada maravilhosa e cheia de surpresas.</p>
+            <blockquote class="blockquote text-right">
+              <p>"Frase de citação"</p>
+              <footer class="blockquote-footer"><cite>Autor da frase</cite></footer>
+            </blockquote>
           </div>
           <hr>
           <div class="stick-bottom px-2 justify-content-left text-justify">
@@ -181,9 +193,9 @@ include '../include/header.php'; ?>
           <div class="p-2">
             <p class="text-justify">A paixão por desenvolvimento web client-side é algo que a faz se mover em direção à carreira que tanto almeja. E se tornar desenvolvedora Front-end, é seu objetivo.</p>
             <blockquote class="blockquote text-right">
-                <p>"Seu futuro é criado a partir do que você faz hoje, não amanhã!"</p>
-                <footer class="blockquote-footer"><cite >Robert Kiyosaki</cite></footer>
-              </blockquote>
+              <p>"Seu futuro é criado a partir do que você faz hoje, não amanhã!"</p>
+              <footer class="blockquote-footer"><cite>Robert Kiyosaki</cite></footer>
+            </blockquote>
           </div>
           <hr>
           <div class="stick-bottom px-2 justify-content-left text-justify">
