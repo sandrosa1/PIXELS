@@ -1,4 +1,4 @@
-<?php include '../include/nossosLinksTop.php' ;?>
+<?php $page = 'modelagem'; include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'modelagem'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid container-max mx-auto" id="inicio">
