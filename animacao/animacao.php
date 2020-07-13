@@ -1,5 +1,4 @@
 <?php include '../include/nossosLinksTop.php' ; ?>
-<?php include '../include/nossosLinksTop.php' ; ?>
 <?php $page = 'animacao' ; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid mx-auto animacaoHome1  " id="inicio">
@@ -77,7 +76,6 @@
                                                                         <a href="animacaoTecnicas.php"
                                                                                 class=" linksAnimacao1 ">
                                                                                 <p><b>Saiba mais...</b></p>
-                                                                        </a>
                                                                         </a>
                                                                 </div>
                                                         </div>
