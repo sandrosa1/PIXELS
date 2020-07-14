@@ -1,5 +1,4 @@
-<?php include '../include/nossosLinksTop.php' ; ?>
-<?php include '../include/nossosLinksTop.php' ; ?>
+<?php $page = 'animacao' ; include '../include/nossosLinksTop.php' ; ?>
 <?php $page = 'animacao' ; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <div class="container-fluid ">
