@@ -1,15 +1,11 @@
-<?php $page = 'animacao' ;include '../include/nossosLinksTop.php' ; ?>
+<?php $page = 'animacao' ; include '../include/nossosLinksTop.php' ; ?>
 <?php $page = 'animacao' ; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-max mx-auto animacaoHome1  " id="inicio">
-        <div class="row justify-content-center center-image  m-sm-0">
-                <div class=" col-lg-12 logoAni">
-                        <img src="../imagem/animacao/animaHome.webp" class="img-fluid headerAni"
-                                alt="Logo da pagina Portal Animação digital">
-                </div>
-        </div>
-        <article>
-                <div class="row justify-content-md-center m-lg-0 ">
+<div class="container-fluid ">
+                <img src="../imagem/animacao/animaHome.webp" class="img-fluid headerAni" alt="Logo da pagina Portal Animação digital" style=width:100%;>
+</div>
+<article>
+<div class="row justify-content-center no-margin">
                         <div class=" col-lg-6 ">
                                 <div class="container1">
                                         <img src="../imagem/animacao/animacaoInicio.webp" class="imgInicio"
@@ -22,7 +18,7 @@
                                                 <a href="animacaoSobre.php" class=" linksAnimacao ">Saiba mais...</a>
                                         </div>
                                 </div>
-                                <div class="row justify-content-center center-image  m-sm-0  ">
+                                <div class="row justify-content-center no-margin">
                                         <div class=" col-lg-12 logoAni container3">
                                                 <a href="https://www.vestibularfatec.com.br/home/"
                                                         class="linksAnimacao1">
@@ -32,7 +28,7 @@
                                                 </a>
                                         </div>
                                 </div>
-                                <div class="row justify-content-md-center  m-lg-auto container2">
+                                <div class="row justify-content-center no-margin">
                                         <div class=" col-lg-12">
                                                 <div class="card-deck container2">
                                                         <div class="card semBordas">
@@ -221,7 +217,7 @@
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="row justify-content-center center-image  m-sm-0">
+                                <div class="row justify-content-center no-margin">
                                         <div class=" col-lg-12 logoAni">
                                                 <a href="https://www.saoroque.sp.gov.br/portal/noticias/0/3/7835/lsta-de-contatos-dos-departamentos-da-prefeitura-durante-a-quarentena/"
                                                         class="linksAnimacao1">
@@ -233,13 +229,13 @@
                         </div>
                 </div>
         </article>
-        <div class="row container-fluid mx-auto ">
-        <div class=" col-lg-12 ">
+<div class="row justify-content-center no-margin ">
+        <div class="col-md-12">
         <section>
                 <?php include '../include/section.php'?>
         </section>
         </div>
-        </div>
+</div>
 </div>
 <?php include '../include/footer.php'?>
 <?php include '../include/nossosLinksBotom.php' ?>
