@@ -7,7 +7,7 @@
     <div id="borda" class="row justify-content-center mt-3 no-margin indexPrin">
       <div class="col-lg-6 index1">
         <div class="card mb-3 semBordas text-center center-image">
-          <img class="card-img-top img-fluid" src="imagem/index/bemvindo.webp" alt="Imagem de boas vindas">
+          <img class="card-img-top img-fluid" src="imagem/index/bemvindo.webp" alt="Mãos segurando placa com a mensagem 'Bem Vindo'">
           <h4 class="text-justify pt-2">Bem-vindo ao portal PIXELS. Aqui você fica por dentro de tudo que acontece no mundo das artes digitais.</h4>
         </div>
       </div>
@@ -24,7 +24,7 @@
               </div>
             </li>
             <li class="media">
-              <a href="pixel/pixel.php#programas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/indexp2.webp" alt="Imagem flat de um computador com programa"></a>
+              <a href="pixel/pixel.php#programas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/indexp2.webp" alt="Imagem flat de um computador com programas em execução."></a>
               <div class="media-body">
                 <small><a href="pixel/pixel.php" class="card-link linksAnimacao1">#PixelArt</a></small>
                 <h5 class="mt-0 mb-1">
@@ -51,7 +51,7 @@
               </div>
             </li>
             <li class="media">
-              <a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/ilustracao-digital/galeria/galeria1.webp" alt="Moça sentada na calçada em imagem preto e branco"></a>
+              <a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/ilustracao-digital/galeria/galeria1.webp" alt="Desenho de uma moça sentada na calçada em imagem preto e branco"></a>
               <div class="media-body">
                 <small><a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1">#IlustraçãoDigital</a></small>
                 <h5 class="mt-0 mb-1">
@@ -73,7 +73,7 @@
     <div class="row justify-content-center no-margin my-3">
       <div class="col-lg-7 col-sm-12 col-md-auto text-center">
         <img src="imagem/index/fiesp.webp" class="img-fluid" alt="Pédio da FIESP iluminado com LEDs em espiral roxo">
-        <img src="imagem/index/calendario.webp" class="img-fluid calendario-img" alt="calendário de julho">
+        <img src="imagem/index/calendario.webp" class="img-fluid calendario-img" alt="calendário de julho de dois mil e vinte">
       </div>
       <div class="col-lg-5 col-sm-12 col-md-auto text-left d-md-flex flex-md-nowrap text-l">
         <ul class="list-group list-unstyled p-1 ">
