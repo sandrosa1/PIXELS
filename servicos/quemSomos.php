@@ -26,7 +26,7 @@
       <div class="col-sm-12 col-md-12 col-lg-4 d-flex 
            mb-3">
         <div class="text-center dev1 p-2 rounded container-card ">
-          <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle" src="../imagem/quem_somos/sandro.webp" height="280" width="280" alt="Interface do programa Pixilart">
+          <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle" src="../imagem/quem_somos/sandro.webp" height="280" width="280" alt="Imagem do Sandro">
           <h5 class="text-center py-2">Sandro Amâncio de Sá</h5>
           <p class="text-center mb-1">RA: 2650831923001</p>
           <p class="text-center mt-1">Scrum Master, TI Architecture, desenvolvedor fullstack</p>
@@ -64,7 +64,7 @@
       <div class="col-sm-12 col-md-12 col-lg-4 d-flex 
            mb-3 container-card">
         <div class="text-center dev2 p-2 rounded ">
-          <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle" src="../imagem/quem_somos/lucas.webp" height="280" width="280" alt="Interface do programa Pixilart">
+          <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle" src="../imagem/quem_somos/lucas.webp" height="280" width="280" alt="Imagem do Lucas">
           <h5 class="text-center py-2">Lucas Silvestre Paula</h5>
           <p class="text-center mb-1">RA: 265083192306</p>
           <p class="text-center mt-1">Desenvolverdor fullstack</p>
@@ -138,7 +138,7 @@
       <div class="col-sm-12 col-md-12 col-lg-4 d-flex 
            mb-3">
         <div class="text-center dev4 p-2 rounded">
-          <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle " src="../imagem/quem_somos/alexandre.webp" height="280" width="280" alt="Imagem do Allan">
+          <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle " src="../imagem/quem_somos/alexandre.webp" height="280" width="280" alt="Imagem do Alexandre">
           <h5 class="text-center py-2">Alexandre Silvestre de Paula</h5>
           <p class="text-center mb-1">RA: 2650831923023</p>
           <p class="text-center mt-1">Desenvolvedor fullstack</p>
@@ -175,7 +175,7 @@
       <div class="col-sm-12 col-md-12 col-lg-4 d-flex 
            mb-3">
         <div class="text-center dev5 p-2 rounded">
-          <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle " src="../imagem/quem_somos/carol.webp" height="280" width="280" alt="Imagem do Allan">
+          <img class="float-sm-none float-md-left float-lg-none img-fluid mx-auto px-2 rounded-circle " src="../imagem/quem_somos/carol.webp" height="280" width="280" alt="Imagem da Carolina">
           <h5 class="text-center py-2">Carolina Issa Kaji</h5>
           <p class="text-center mb-1">RA: 2650831923018</p>
           <p class="text-center mt-1">UI/UX Designer e Desenvolvedora front-end</p>
