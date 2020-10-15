@@ -50,7 +50,7 @@
                             <div class="card-deck mx-auto">
                                 <div class="card" id="diferencas">
                                     <img class="card-img-top rounded" src="../imagem/vetor/ship-5268224.webp"
-                                        alt="Card image cap">
+                                        alt="Desenho vetorial em preto e branco. Um barco em auto mar afundando com pessoas e cavalos ao mar. ">
                                     <div class="card-body">
                                         <h5 class="card-title text-center py-1 bg-white">Qual seu diferencial?</h5>
 
@@ -73,7 +73,7 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img-top rounded" src="../imagem/vetor/SW.webp" alt="Card image cap">
+                                    <img class="card-img-top rounded" src="../imagem/vetor/SW.webp" alt="Imagem vetorial do personagem do filme Star Wars, Kylo Ren usando capa e segurando uma espada.">
                                     <div class="card-body">
                                         <h5 class="card-title text-center py-1 bg-white">Software que manipulam imagens
                                             vetoriais?</h5>
@@ -153,21 +153,21 @@
                                         <figure>
                                             <img class="img-fluid img-thumbnail"
                                                 src="../imagem/vetor/robot-in-space-4556429.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial de um robô no espaço segurando balões em forma de planetas. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid align-self-center img-thumbnail"
                                                 src="../imagem/vetor/amsterdam-4167026.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial de 5 casas com 4 andares geminadas www.pixabay.com">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail"
                                                 src="../imagem/vetor/background-5389532.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho abstrato com muitas cores">
                                         </figure>
                                     </div>
                                 </div>
@@ -175,27 +175,27 @@
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail" src="../imagem/vetor/fish-33712.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial de um peixe de cor verde azulado">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail" src="../imagem/vetor/lion-5391996.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial de um leão deitado, em preto e branco">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail"
                                                 src="../imagem/vetor/office-2319299.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial em 2D, com árvores, mesa, computador e um pássaro">
                                         </figure>
                                         <figure>
                                     </div>
                                     <div class="align-self-center overlay">
                                         <img class="img-fluid img-thumbnail"
                                             src="../imagem/vetor/great-wall-of-china-154648.webp"
-                                            alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                            alt="Desenho vetorial da muralha da china">
                                         </figure>
                                     </div>
                                 </div>
@@ -204,21 +204,21 @@
                                         <figure>
                                             <img class="img-fluid align-self-center img-thumbnail"
                                                 src="../imagem/vetor/hud-3149462.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial da visão frontal de uma lente de câmera">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail"
                                                 src="../imagem/vetor/joystick-2389216.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial de um joystick">
                                         </figure>
                                     </div>
 
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail" src="../imagem/vetor/castle-23204.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial de um castelo em 2D">
                                         </figure>
                                     </div>
 
@@ -229,20 +229,20 @@
                                         <figure>
                                             <img class="img-fluid align-self-center img-thumbnail"
                                                 src="../imagem/vetor/ekg-5052162.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial de 3 linhas distintas de frequência e 3 contornos guitarras feito com estas linha">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail" src="../imagem/vetor/covid-5247929.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Desenho vetorial de profissionais da saúde com máscaras">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail"
                                                 src="../imagem/vetor/colosseum-295080.webp"
-                                                alt="Imagem retirada de banco de imagens - www.pixabay.com">
+                                                alt="Imagem vetorial do Coliseu, como se fosse uma pintura colorida">
                                         </figure>
                                     </div>
 
