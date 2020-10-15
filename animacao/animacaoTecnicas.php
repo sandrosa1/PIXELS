@@ -7,7 +7,7 @@
             <h1 class=" text-center animacaoh1 ">Principais Técnicas de Animação</h1>
             <div class="row">
                 <div class="col-md-12 tecnicasAni">
-                    <img alt="Tela com um progroma flash em execução" src="../imagem/animacao/animacaoFlash.webp" />
+                    <img alt="Imagem da tela com o progroma flash em execução" src="../imagem/animacao/animacaoFlash.webp" />
                     <h4 class=" text-center animacaoh1 ">Flash</h4>
                     <p class=" text-justify">Flash é um tipo de animação originalmente criadas no programa Macromedia
                         Flash tinham suporte basicamente à animação 2D vetorial. Já atualmente, podem ser criadas
