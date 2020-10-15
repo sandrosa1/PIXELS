@@ -15,7 +15,7 @@
     <!-- Introdução -->
     <div class="row justify-content-center no-margin">
       <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-        <img class="img-fluid mb-3 mr-3 rounded float-sm-none float-md-left" src="../imagem/pixel/pac_man.webp" alt="tela do jogo">
+        <img class="img-fluid mb-3 mr-3 rounded float-sm-none float-md-left" src="../imagem/pixel/pac_man.webp" alt="Tela do jogo do pac man">
         <p class="text-justify">Você já viu os jogos de video-game dos 80 e 90? Para quem era criança nessa época, deve se lembrar dos jogos de Atari, Mega Drive, Super Nintendo. Pois os graficos para esses video-games eram feitos em PIXEL.</p>
         <p class="text-justify">Mas você sabe o que que é um PIXEL? O Pixel é o menor ponto de uma imagem digital. O conjunto de pixels formam a imagem como um todo.</p>
         <p class="text-justify">Já o Pixel Art é uma forma de arte digital que consiste na criação de elementos gráficos pela composição de um conjunto de pixels.</p>

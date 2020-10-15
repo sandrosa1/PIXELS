@@ -6,7 +6,7 @@
   <article class="row justify-content-center pixel-index mx-auto">
 
     <div class="col-md-12 col-lg-6 carreira my-3 text-sm-center">
-      <img src="../imagem/coworking.webp" class="img-fluid" alt="">
+      <img src="../imagem/coworking.webp" class="img-fluid" alt="Foto de um espaço coworking com quatro jovens trabalhando em seus computadores dividindo uma mesa extensa">
     </div>
 
     <div class="col-md-12 col-lg-6 pixel-index mx-auto">
