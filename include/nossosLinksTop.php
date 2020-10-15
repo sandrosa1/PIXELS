@@ -7,8 +7,8 @@
     <meta property="og:site_name" content="PIXELS">
     <meta property="og:image" content="www.pixels.sytes.net/imagem/logos/logo500.png">
     <meta property="og:image:type" content="imagem/logos/logo500.png">
-    <meta property="og:image:width" content="500"> /** PIXELS **/
-    <meta property="og:image:height" content="500"> /** PIXELS **/
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
     <meta property="og:type" content="website">
     <!-- Required meta tags -->
     <meta charset="utf-8">
