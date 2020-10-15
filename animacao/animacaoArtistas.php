@@ -46,7 +46,7 @@
             <h2 class=" text-center animacaoh1">Grandes nomes da Animação</h2>
             <div class="row">
                 <div class="col-md-4 artistasAni2">
-                    <img class="img-fluid  align-items-center" alt=" Foto de >William Hanna e Joseph Barbera" src="../imagem/animacao/animacaoDupla.webp" />
+                    <img class="img-fluid  align-items-center" alt=" Foto de William Hanna e Joseph Barbera criadores do desenho Os Jetsons" src="../imagem/animacao/animacaoDupla.webp" />
                     <h2 class=" text-center animacaoh1">William Hanna e Joseph Barbera</h2>
                     <p class=" text-justify">A frase ”duas cabeças pensam melhor que uma” pode ser muito bem usada para descrever uma das melhores duplas da história das animações.A dupla se conheceu em 1937, quando trabalhavam para a MGM, e lá produziram sua primeira grande animação, Tom e Jerry , que entre o ano de fundação, e até 1953, rendeu a dupla 8 Oscar. O desenho se tornou extremamente popular, devido ao alto conteúdo de ação que possuía, pois a base dele era o gato Tom perseguindo a ratinha Jerry, e era assim até que o curta acabasse.</p>
                     <img class="img-fluid  align-items-center" alt=" Foto de Walter Lantz "
@@ -102,7 +102,7 @@
                         estúdio na época, tais como os clássicos filmes "O Cão e a Raposa" e "Contos de Natal do
                         Mickey". Em 1980, mesmo ano de sua formatura, John ainda ganhou um segundo Student Academy
                         Awards, desta vez por "Nitemare", curta que escreveu e dirigiu como trabalho de seu último ano.
-                        <img class="img-fluid  align-items-center" alt="Duas luminarias olhanda para uma bola"
+                        <img class="img-fluid  align-items-center" alt="Animação de uma pessoa e uma abelha dentro de uma floresta"
                             src="../imagem/animacao/animacaoWallb.webp" />
                         Foi dentro dos seus cinco anos de trabalho como animador na Disney que John teve sua primeira
                         experiência em animação digital. Durante a produção do filme TRON, de 1982, que misturava atores

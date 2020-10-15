@@ -9,7 +9,7 @@
                         <div class=" col-lg-6 ">
                                 <div class="container1">
                                         <img src="../imagem/animacao/animacaoInicio.webp" class="imgInicio"
-                                                alt="Ivan Sutherland desenvolveu e sua invenção a caneta óptica ">
+                                                alt="Ivan Sutherland e sua invenção a caneta óptica ">
                                         <div class="content1">
                                                 <h1>Historia da Animação</h1>
                                                 <p>Desde os primeiros dispositivos disponíveis foram percebidas as
@@ -24,7 +24,7 @@
                                                         class="linksAnimacao1">
                                                         <h5 class=" text-center ">Processo seletivo adptado à Pandemia
                                                         </h5><img class=" a" src="../imagem/animacao/animacaoFatec.webp"
-                                                                alt="Propagandao do vestibular fatec">
+                                                                alt="Propagandao do vestibular Fatec do segundo semestre de dois mil e vinte">
                                                 </a>
                                         </div>
                                 </div>
@@ -61,7 +61,7 @@
                                                                 </a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoCap2.webp"
-                                                                        alt="Imagem de capa do card">
+                                                                        alt="Imagem da produção do Filme Avatar">
                                                                 <div class=" img-fluid linksAnimacao1">
                                                                         <a href="animacaoTecnicas.php"
                                                                                 class=" linksAnimacao1 ">
@@ -81,7 +81,7 @@
                                                                 </a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoFantasmagol.webp"
-                                                                        alt="Imagem de uma cena da primerira animação no cinema">
+                                                                        alt="Imagem preta e branca da primerira animação no cinema, que possuia um boneco praticando esgrima">
                                                                 <div class=" img-fluid linksAnimacao1">
                                                                         <a href="animacaoSobre.php#fantasmagol"
                                                                                 class=" linksAnimacao1 ">
@@ -151,7 +151,7 @@
                                                         </a>
                                                         <img class="card-img"
                                                                 src="../imagem/animacao/animacaoPixilation.webp"
-                                                                alt="Imagem de capa do card">
+                                                                alt="Imagem congelada de um escritório onde possui duas pessoas e uma delas esta derrubando algumas pastas sobre a mesa em que a outra pessoa esta trabalhando.">
                                                         <a href="animacaoTecnicas.php#pixilation"
                                                                 class=" linksAnimacao1 ">
                                                                 <p class="card-text "><b>Técnica muito usado para
@@ -188,7 +188,7 @@
                                                         <a href="animacaoGaleria.php" class=" linksAnimacao "><img
                                                                         class="card-img"
                                                                         src="../imagem/animacao/animacaogaleria.webp"
-                                                                        alt="Imagem da galeria de imagens"></a>
+                                                                        alt="Imagem com diversas imagens em miniatura com a chamada para a galeria da Animação Digital"></a>
                                                 </div>
                                         </div>
                                         <div class="card p-3 text-right semBordas">
@@ -222,7 +222,7 @@
                                                 <a href="https://www.saoroque.sp.gov.br/portal/noticias/0/3/7835/lsta-de-contatos-dos-departamentos-da-prefeitura-durante-a-quarentena/"
                                                         class="linksAnimacao1">
                                                         <h5 class=" text-center ">Telefones Úteis</h5><img class=" a" src="../imagem/animacao/animacaoPrefeitura.webp"
-                                                                alt="Propagandao do vestibular fatec">
+                                                                alt="Imagem com a chamada 'Lista de contatos dos departamentos da Prefeitura de São Roque'">
                                                 </a>
                                         </div>
                                 </div>

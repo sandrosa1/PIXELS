@@ -38,7 +38,7 @@
                 <div class="col-md-12" id="oQueE">
                     <h2 class=" text-center animacaoh1 ">Mas o que é Animaçã Digital</h2>
                     <img src="../imagem/animacao/animacaoTrabalhando.webp"
-                        alt="Imagen de um tela de computador animando uma imagem" class="img-fluid  align-items-center imagemRight"/>
+                        alt="Imagen de um tela de computador animando uma imagem 3D" class="img-fluid  align-items-center imagemRight"/>
                     <p class=" text-justify">A animação digital é a arte de criar imagens em movimento
                         utilizando computadores, mais especificamente usando recursos de computação gráfica que
                         surgiu durante a era da animação por computador. É um subcampo da computação gráfica e
@@ -70,7 +70,7 @@
             <div class="row">
                 <div class="col-md-8" id="fantasmagol">
                     <h2 class=" text-center animacaoh1 ">Inicio no Cinema</h2>
-                    <img class="img-fluid  align-items-center imagemLeft2" alt="Cena da Primeira animação reconhecida "
+                    <img class="img-fluid  align-items-center imagemLeft2" alt="Cena da Primeira animação reconhecida que possui um boneco brincando de esgrima "
                         src="../imagem/animacao/animacaoFantasmagol.webp" />
                     <p class=" text-justify">A primeira animação reconhecida é de Émile Courtet e se concretizou em
                         1892, sendo reproduzida em um projetor na cidade de Paris. Já o primeiro longa-metragem
@@ -117,8 +117,8 @@
                             </ul>
                         </div>
                         <div class="col - 3 galeria  grandesAni">
-                            <a href="http://blueskystudios.com/"><img src="../imagem/animacao/animacaoBlueSky.webp" alt="Logo da BlueSky" ></a>
-                            <a href="https://www.illuminationmacguff.com/"><img src="../imagem/animacao/animacaoIlumination.webp" alt="Logo da Ilumination" ></a>
+                            <a href="http://blueskystudios.com/"><img src="../imagem/animacao/animacaoBlueSky.webp" alt="Logo da BlueSky Studios, empresa de Animação Digital" ></a>
+                            <a href="https://www.illuminationmacguff.com/"><img src="../imagem/animacao/animacaoIlumination.webp" alt="Logo da Illumination Entertainment, empresa de Animação Digital" ></a>
                         </div>
                         <div class="col- 3 galeria ">
                             <ul>
@@ -133,8 +133,8 @@
                             </ul>
                         </div>
                         <div class="col- 3 galeria  grandesAni">
-                            <a href="https://www.dreamworks.com/" ><img src="../imagem/animacao/animacao.webp" alt="Logo Da dream works"></a>
-                            <a href="https://www.pixar.com/"><img src="../imagem/animacao/animacaoPixarLogo.webp" alt="Logo da pixar" ></a>
+                            <a href="https://www.dreamworks.com/" ><img src="../imagem/animacao/animacao.webp" alt="Logo da Dream Works, empresa de Animação Digital"></a>
+                            <a href="https://www.pixar.com/"><img src="../imagem/animacao/animacaoPixarLogo.webp" alt="Logo da Pixar, empresa de Animação Digital" ></a>
                         </div>
                     </div>
                     <aside>
@@ -153,7 +153,7 @@
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1" id="bilheterias">Maiores Bilheterias</h2>
                     <aside>
-                        <aside><img class="img-fluid  align-items-center imagemLeft5" alt="Imagem de da capa da animação tintoY"
+                        <aside><img class="img-fluid  align-items-center imagemLeft5" alt="Imagem de da capa da animação Frozen"
                                 src="../imagem/animacao/animacaoFrozen.webp" />
                             <p class=" text-justify"><b>Frozen </b>Uma Aventura Congelante, Bilheteria mundial:
                                 US$ 1,27 bilhão.
@@ -191,7 +191,7 @@
                             individual da Disney, onde deveria ocupar um posto no conselho diretivo, segundo uma nota
                             divulgada pela Disney no dia da aquisição, em 2006.</p>
                             <img class="img-fluid  align-items-center"
-                                alt="Imagem de Steve Jobs"
+                                alt="Imagem do Steve Jobs, junto ao logo da Pixar"
                                 src="../imagem/animacao/animacaoSteve.webp" />
                         
                     </aside>
