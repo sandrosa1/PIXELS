@@ -199,7 +199,7 @@ switch ($page) {
 
 <body>
     <nav>
-        <div class="topnav1" id="myTopnav1">
+        <div class="topnav1" id="myTopnav1 logo">
             <!-- Logo -->
             <a href="<?php
                         if ($page == 'home') {
