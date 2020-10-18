@@ -1,7 +1,7 @@
-<?php include '../include/nossosLinksTop.php' ;?>
+<?php $page = 'desenho'; include '../include/nossosLinksTop.php' ;?>
 <?php $page = 'desenho'; include '../include/header.php';?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid" id="inicio">
+<div class="container-fluid desenho-artistas" id="inicio">
     <div class="container-fluid pixel-artistas" id="inicio">
     <article class="row justify-content-center no-margin mt-4">
         <div class="col-sm-12 col-md-10 col-lg-9 ">
@@ -21,7 +21,7 @@
                 <!-- Glauber Kotaki -->
                 <div class="tab-pane fade show active  text-center" id="glauber" role="tabpanel" aria-labelledby="glauber-tab">
                 <h3 id="conteudo">O Que é um Desenho Vetorial?</h3>
-                    <img src="../imagem/vetor/gears-5193383.png" class="float-sm-none float-md-left mr-3" alt="Foto de demonstração de objetos vetores - Retirado Pixabay">
+                    <img src="../imagem/vetor/gears-5193383.webp" class="float-sm-none float-md-left mr-3" alt="Foto de demonstração de objetos vetores - Retirado Pixabay">
                     <div class="text-justify">
                     
                         <p>Desenho vetorial é o uso de formas  primitivas geométricas como pontos, linhas, curvas e formas ou polígonos - todos os quais são baseados em expressões matemáticas - para representar imagens em computação gráfica.</p>
@@ -70,7 +70,7 @@
 
                 <!-- Bruno Moraes -->
                 <div class="tab-pane fade  text-center" id="bruno" role="tabpanel" aria-labelledby="bruno-tab">
-                    <img src="../imagem/pixel/brunomoraes300.webp" class="float-sm-none float-md-left mr-3" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
+                    <img src="../imagem/pixel/brunomoraes200.webp" class="float-sm-none float-md-left mr-3" alt="Foto de rosto do artista de pixel art bruno Morais">
                     <div class="text-justify">
                         <p>Bruno Moraes é ilustrador e programador nascido em Niterói.</p>
                         <p>Entrou para o mundo de artes digitais em 2015, quando começou a trabalhar com ilustrações.</p>
@@ -117,7 +117,7 @@
 
                 <!-- Ivan Dixon -->
                 <div class="tab-pane fade text-center" id="ivan" role="tabpanel" aria-labelledby="ivan-tab">
-                    <img src="../imagem/pixel/.webp" class="float-sm-none float-md-left mr-3" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
+                    <img src="../imagem/pixel/glauber200.webp" class="float-sm-none float-md-left mr-3" alt="Foto de rosto do artista de pixel art Glauber Kotaki">
                     <div class="text-justify">
                         <p>Glauber Kotaki é um notável e talentoso artista brasileiro.</p>
                         <p>Formado em Design Digital, descobriu a pixel art por acaso, quando criança. E na época era apenas um hobby.</p>
