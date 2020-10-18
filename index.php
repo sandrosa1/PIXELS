@@ -8,7 +8,7 @@
       <div class="col-lg-6 index1">
         <div class="card mb-3 semBordas text-center center-image">
           <img class="card-img-top img-fluid" src="imagem/index/bemvindo.webp" alt="Mãos segurando placa com a mensagem 'Bem Vindo'">
-          <h4 class="text-justify pt-2">Bem-vindo ao portal PIXELS. Aqui você fica por dentro de tudo que acontece no mundo das artes digitais.</h4>
+          <h4 id="conteudo" class="text-justify pt-2">Bem-vindo ao portal PIXELS. Aqui você fica por dentro de tudo que acontece no mundo das artes digitais.</h4>
         </div>
       </div>
       <div class="col-lg-6 index2 galeria1">

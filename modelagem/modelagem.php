@@ -7,7 +7,7 @@
             <div class="col-sm-12 col-md-12 col-lg-12">
                 
                 <div id="titulo" class="align-items-center">
-                    <h1 class="text-center h1-arte">Aproximando você da realidade</h1>
+                    <h1 id="conteudo" class="text-center h1-arte">Aproximando você da realidade</h1>
                 </div>
             </div>
         </div>

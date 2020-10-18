@@ -28,7 +28,7 @@
                 " id="artistas" role="tabpanel" aria-labelledby="artistas-tab">
                 
                     <div class=" text-justify px-sm-2">
-                        <h2 class="text-center h1-arte">Principais Nomes</h2>
+                        <h2 id="conteudo" class="text-center h1-arte">Principais Nomes</h2>
                         <p class="pt-3">Ao redor do mundo, muitos artistas nacionais e internacionais fazem parte de uma comunidade que não deixam a Pixel Art morrer. </p>
                         <p>Não se restringindo somente ao universo dos games, a arte quebrou barreiras e se deu muito bem em campanhas publicitárias e identidades visuais.</p>
                         <p class="mb-5">Para que você fique por dentro dessa tendência, selecionamos alguns artistas que produzem artes incríveis com a pixel art. Inspire-se e comece a criar você também!!!</p>

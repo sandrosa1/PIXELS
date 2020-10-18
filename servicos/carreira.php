@@ -10,7 +10,7 @@
     </div>
 
     <div class="col-md-12 col-lg-6 pixel-index mx-auto">
-      <h4 class=" mb-3">Venha fazer parte da nossa equipe, cadastre-se!</h4>
+      <h4 id="conteudo" class=" mb-3">Venha fazer parte da nossa equipe, cadastre-se!</h4>
 
       <form method="POST" action="../php/cadastroCurriculo.php">
         <h5 class="mt-3">Dados pessoais</h5>

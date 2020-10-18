@@ -6,7 +6,7 @@
     <!-- Título e sub-título -->
     <div class="row my-3 justify-content-center no-margin">
       <div class="col-md-10">
-        <h1 class="text-center h1-arte h1-mobile ">O que é o Pixel Art?</h1>
+        <h1 id="conteudo" class="text-center h1-arte h1-mobile ">O que é o Pixel Art?</h1>
         <p class="text-muted text-center">Entenda sobre a arte que fez sucesso nos anos 80 e 90.
         </p>
         <hr>

@@ -8,7 +8,7 @@
       <div class="grupo-imagem-titulo col-sm-12 col-md-12">
         <img class="center-image" src="../imagem/pixel/pixelart-principal882x296.webp" alt="Pixels coloridos">
         <div id="titulo" class="align-items-center">
-          <h1 class="text-center h1-resize">A arte do ponto a ponto</h1>
+          <h1 id="conteudo" class="text-center h1-resize">A arte do ponto a ponto</h1>
         </div>
       </div>
     </div>

@@ -2,124 +2,6 @@
 date_default_timezone_set('America/Sao_paulo');
 
 
-// Esse array recebe os links somente para o saiba mais do  nav do index
-$saiDrop = [
-    'Quem Somos?' => 'quemSomos.php',       //1
-    'Fale Cosnosco' => 'faleConosco.php',   //2
-    'Carreira' => 'carreira.php',  //3
-    'Normas' => 'normas.php'                 //
-];
-$saiDrop2 =  [
-    'Quem Somos?' => 'servicos/quemSomos.php',       //1
-    'Fale Cosnosco' => 'servicos/faleConosco.php',   //2
-    'Carreira' => 'servicos/carreira.php',  //3
-    'Normas' => 'servicos/normas.php'                 //
-];
-$saiDrop3 = [
-    'Quem Somos?' => '../servicos/quemSomos.php',       //1
-    'Fale Cosnosco' => '../servicos/faleConosco.php',   //2
-    'Carreira' => '../servicos/carreira.php',  //3
-    'Normas' => '../servicos/normas.php'                 //
-];
-//Menu para animacao digital aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
-//Anexe quantas paginas precisar
-$aniDrop = [
-    'Animação Digital' => 'animacao.php',      //0
-    'Sobre a Arte' => 'animacaoSobre.php',     //1
-    'Técnicas de Animação' => 'animacaoTecnicas.php',    //2
-    'Principais Nomes' => 'animacaoArtistas.php',      //3
-    'Galeria' => 'animacaoGaleria.php'         //4
-];
-$aniDrop2 = [
-    'Animação Digital' => 'animacao/animacao.php',      //0
-    'Sobre a Arte' => 'animacao/animacaoSobre.php',     //1
-    'Técnicas de Animação' => 'animacao/animacaoTecnicas.php',    //2
-    'Principais Nomes' => 'animacao/animacaoArtistas.php',      //3
-    'Galeria' => 'animacao/animacaoGaleria.php'         //4
-];
-$aniDrop3 = [
-    'Animação Digital' => '../animacao/animacao.php',      //0
-    'Sobre a Arte' => '../animacao/animacaoSobre.php',     //1
-    'Técnicas de Animação' => '../animacao/animacaoTecnicas.php',    //2
-    'Principais Nomes' => '../animacao/animacaoArtistas.php',      //3
-    'Galeria' => '../animacao/animacaoGaleria.php'         //4
-];
-
-
-//Menu para desenho vetorial aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
-//Anexe quantas paginas precisar
-$desDrop = [
-    'Desenho Vetorial' => 'desenho.php'        //0
-];
-$desDrop2 = [
-    'Desenho Vetorial' => 'desenho/desenho.php'       //0
-           //3
-];
-$desDrop3 = [
-    'Desenho Vetorial' => '../desenho/desenho.php',        //0          //3
-];
-//Menu para ilustração aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
-//Anexe quantas paginas precisar
-$iluDrop = [
-    'Ilustração Digital' => 'ilustracao.php',  //0
-    'Sobre a Arte' => 'ilustracaoSobre.php',   //1
-    'Principais Nomes' => 'ilustracaoArtistas.php',     //2
-    'Galeria' => 'ilustracaoGaleria.php'       //3
-];
-$iluDrop2 = [
-    'Ilustração Digital' => 'ilustracao/ilustracao.php',  //0
-    'Sobre a Arte' => 'ilustracao/ilustracaoSobre.php',   //1
-    'Principais Nomes' => 'ilustracao/ilustracaoArtistas.php',     //2
-    'Galeria' => 'ilustracao/ilustracaoGaleria.php'       //3
-];
-$iluDrop3 = [
-    'Ilustração Digital' => '../ilustracao/ilustracao.php',  //0
-    'Sobre a Arte' => '../ilustracao/ilustracaoSobre.php',   //1
-    'Principais Nomes' => '../ilustracao/ilustracaoArtistas.php',     //2
-    'Galeria' => '../ilustracao/ilustracaoGaleria.php'       //3
-];
-//Menu para modelagemaqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
-//Anexe quantas paginas precisar
-$modDrop = [
-    'Modelagem 3d' => 'modelagem.php',          //0
-    'Sobre a Arte' => 'modelagemSobre.php',     //1
-    'Principais Nomes' => 'modelagemArtistas.php',      //2
-    'Galeria' => 'modelagemGaleria.php'         //3
-];
-$modDrop2 = [
-    'Modelagem 3d' => 'modelagem/modelagem.php',          //0
-    'Sobre a Arte' => 'modelagem/modelagemSobre.php',     //1
-    'Principais Nomes' => 'modelagem/modelagemArtistas.php',      //2
-    'Galeria' => 'modelagem/modelagemGaleria.php'         //3
-];
-$modDrop3 = [
-    'Modelagem 3d' => '../modelagem/modelagem.php',          //0
-    'Sobre a Arte' => '../modelagem/modelagemSobre.php',     //1
-    'Principais Nomes' => '../modelagem/modelagemArtistas.php',      //2
-    'Galeria' => '../modelagem/modelagemGaleria.php'         //3
-];
-//Menu para pixel aqui o editor dessa area nomeia a pagina e atribui um endereço a ela, siga o padrão 
-//Anexe quantas paginas precisar
-$pixDrop = [
-    'Pixel Art' => 'pixel.php',            //0
-    'Sobre a Arte' => 'pixelSobre.php',     //1
-    'Principais Nomes' => 'pixelArtistas.php?artista=artistas',      //2
-    'Galeria' => 'pixelGaleria.php'         //3
-];
-$pixDrop2 = [
-    'Pixel Art' => 'pixel/pixel.php',            //0
-    'Sobre a Arte' => 'pixel/pixelSobre.php',     //1
-    'Principais Nomes' => 'pixel/pixelArtistas.php?artista=artistas',      //2
-    'Galeria' => 'pixel/pixelGaleria.php'         //3
-];
-$pixDrop3 = [
-    'Pixel Art' => '../pixel/pixel.php',            //0
-    'Sobre a Arte' => '../pixel/pixelSobre.php',     //1
-    'Principais Nomes' => '../pixel/pixelArtistas.php?artista=artistas',      //2
-    'Galeria' => '../pixel/pixelGaleria.php'         //3
-];
-
-
 //Variaveis declaradas 
 $subMenu = '';  // recebe os links das para os sub menus dos portais
 $active = '';  //  variavel de comparação da cor ao links (voce pode mudar a cor do link no css/stylus.css)
@@ -198,265 +80,272 @@ switch ($page) {
 <!--Estamos inciando a tag body nesse include e  está sendo fechado no include nossosLinksBotom -->
 
 <body>
-    <nav>
-        <div class="topnav1" id="myTopnav1 logo">
-            <!-- Logo -->
-            <a href="<?php
-                        if ($page == 'home') {
-                            $display = "PIXELS";
-                            echo 'index.php';
-                        } else {
-                            echo '../index.php';
-                        }
 
-                        ?>" class=" <?php if ($page == 'home') echo $novoMenu; ?>"><img src="
-                <?php if ($page == 'home') {
-                    echo 'imagem/logos/logo500.png';
-                } else {
-                    echo '../imagem/logos/logo500.png';
-                }
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <?php
+        if ($page == 'home'){ echo '
+        <a class="navbar-brand" href="index.php">
+            <img src="imagem/logos/logo500.png" width="30" height="30"
+                class="d-inline-block align-top" alt="">
+            PIXELS
+        </a>';
+        }else{
+             echo '
+                <a class="navbar-brand" href="../index.php">
+                    <img src="../imagem/logos/logo500.png" width="30" height="30"
+                        class="d-inline-block align-top" alt="">
+                    PIXELS
+                </a>';
+        }
 
-                ?>" alt="Logo"></a>
+        ?>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- Links de navegação -->
-            <div class="d-lg-flex justify-content-end mr-2">
-                <?php
-                if ($page == 'animacao') {
-                    $display = 'Animação Digital';
-                    echo '<div class="dropdown1 ' . $novoMenu . '">
-                    <button class="dropbtn1 ' . $novoMenu . ' ">Animação Digital 
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content1">';
-                    foreach ($aniDrop as $subName => $subAdress) {
-                        echo ' <a href="' . $subAdress . '" >' . $subName . '</a>';
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#conteudo">Ir ao Conteúdo<span class="sr-only">(current)</span></a>
+                </li>
+        
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Animação
+                    </a>
+                    <?php 
+                    if($page == 'animacao')
+                    { 
+                        $display = 'ANIMAÇÂO DIGITAL';
+                        echo '
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="animacao.php">Animação Digital</a>
+                        <a class="dropdown-item" href="animacaoSobre.php">Sobre a arte</a>
+                        <a class="dropdown-item" href="animacaoArtistas.php">Artista</a>
+                        <a class="dropdown-item" href="animacaoTecnicas.php">Tecnicas</a>
+                        <a class="dropdown-item" href="animacaoGaleria.php">Galeria</a>
+                    </div>
+                </li> ';
+                    }elseif($page == 'home'){ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="animacao/animacao.php">Animação Digital</a>
+                            <a class="dropdown-item" href="animacao/animacaoSobre.php">Sobre a arte</a>
+                            <a class="dropdown-item" href="animacao/animacaoArtistas.php">Artista</a>
+                            <a class="dropdown-item" href="animacao/animacaoTecnicas.php">Tecnicas</a>
+                            <a class="dropdown-item" href="animacao/animacaoGaleria.php">Galeria</a>
+                        </div>
+                    </li> ';
+
                     }
-                    echo '</div>
-                    </div> ';
-                } else {
-                    if ($page == 'home') {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 ">Animação Digital 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($aniDrop2 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
-                    } else {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Animação Digital 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($aniDrop3 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
+                    else{ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../animacao/animacao.php">Animação Digital</a>
+                            <a class="dropdown-item" href="../animacao/animacaoSobre.php">Sobre a arte</a>
+                            <a class="dropdown-item" href="../animacao/animacaoArtistas.php">Artista</a>
+                            <a class="dropdown-item" href="../animacao/animacaoTecnicas.php">Tecnicas</a>
+                            <a class="dropdown-item" href="../animacao/animacaoGaleria.php">Galeria</a>
+                        </div>
+                    </li> ';
+
                     }
-                }
-                if ($page == 'desenho') {
-                    $display = 'Desenho Vetorial';
-                    echo '<div class="dropdown1 ' . $novoMenu . '">
-                    <button class="dropbtn1 ' . $novoMenu . ' ">Desenho Vetorial 
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content1">';
-                    foreach ($desDrop as $subName => $subAdress) {
-                        echo ' <a href="' . $subAdress . '">' . $subName . '</a>';
+                    ?>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Vetorial
+                    </a>
+                <?php 
+                    if($page == 'desenho')
+                    { 
+                        $display = 'Desenho Vetorial';
+                        echo '
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="desenho.php">Desenho Vetorial</a>
+                        <a class="dropdown-item" href="desenho2.php">Sobre a arte</a>
+                    </div>          </li> ';
+                    }elseif($page == 'home'){ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="desenho/desenho.php">Desenho Vetorial</a>
+                            <a class="dropdown-item" href="desenho/desenho2.php">Sobre a arte</a>
+                        </div>           </li> ';
+
                     }
-                    echo '</div>
-                    </div> ';
-                } else {
-                    if ($page == 'home') {
-                        echo '<div class="dropdown1 ">
-                        <button class="dropbtn1 ">Desenho Vetorial  
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($desDrop2 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
-                    } else {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Desenho Vetorial  
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($desDrop3 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
+                    else{ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../desenho/desenho.php">Desenho Vetoriall</a>
+                            <a class="dropdown-item" href="../desenho/desenho2.php">Sobre a arte</a>
+                        </div>                
+                    </li> ';
+
                     }
-                }
-                if ($page == 'ilustracao') {
-                    $display = 'Ilustração Digital';
-                    echo '<div class="dropdown1 ' . $novoMenu . '">
-                    <button class="dropbtn1 ' . $novoMenu . '">Ilustração Digital 
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content1">';
-                    foreach ($iluDrop as $subName => $subAdress) {
-                        echo ' <a href="' . $subAdress . '">' . $subName . '</a>';
+                    ?>
+
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ilustração
+                    </a>
+                    <?php 
+                    if($page == 'ilustracao')
+                    { 
+                        $display = 'Ilustração Digital';
+                        echo '
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="ilustracao.php">Ilustração Digital</a>
+                        <a class="dropdown-item" href="ilustracaoSobre.php">Sobre a arte</a>
+                        <a class="dropdown-item" href="ilustracaoArtistas.php">Artista</a>
+                        <a class="dropdown-item" href="ilustracaoGaleria.php">Galeria</a>
+                    </div>
+                </li> ';
+                    }elseif($page == 'home'){ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="ilustracao/ilustracao.php">Ilustração Digital</a>
+                            <a class="dropdown-item" href="ilustracao/ilustracaoSobre.php">Sobre a arte</a>
+                            <a class="dropdown-item" href="ilustracao/ilustracaoArtistas.php">Artista</a>
+                            <a class="dropdown-item" href="ilustracao/ilustracaoGaleria.php">Galeria</a>
+                        </div>
+                    </li> ';
+
                     }
-                    echo '</div>
-                    </div> ';
-                } else {
-                    if ($page == 'home') {
-                        echo '<div class="dropdown1 ">
-                        <button class="dropbtn1 ">Ilustração Digital 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($iluDrop2 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
-                    } else {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 <?php echo $novoMenu; ?>">Ilustração Digital 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($iluDrop3 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
+                    else{ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../ilustracao/ilustracao.php">Ilustração Digital</a>
+                            <a class="dropdown-item" href="../ilustracao/ilustracaoSobre.php">Sobre a arte</a>
+                            <a class="dropdown-item" href="../ilustracao/ilustracaoArtistas.php">Artista</a>
+                            <a class="dropdown-item" href="../ilustracao/ilustracaoGaleria.php">Galeria</a>
+                        </div>
+                    </li> ';
+
                     }
-                }
-                if ($page == 'modelagem') {
-                    $display = 'Modelagem 3D';
-                    echo '<div class="dropdown1 ' . $novoMenu . '">
-                    <button class="dropbtn1 ' . $novoMenu . ' ">Modelagem 3D 
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content1">';
-                    foreach ($modDrop as $subName => $subAdress) {
-                        echo ' <a href="' . $subAdress . '">' . $subName . '</a>';
+                    ?>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Modelagem 3D
+                    </a>
+                    <?php 
+                    if($page == 'modelagem')
+                    { 
+                        $display = 'Modelagem 3D';
+                        echo '
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="modelagem.php">Modelagem 3D</a>
+                        <a class="dropdown-item" href="modelagemSobre.php">Sobre a arte</a>
+                        <a class="dropdown-item" href="modelagemArtistas.php">Artista</a>
+                        <a class="dropdown-item" href="modelagemGaleria.php">Galeria</a>
+                    </div>
+                </li> ';
+                    }elseif($page == 'home'){ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="modelagem/modelagem.php">Modelagem 3D</a>
+                            <a class="dropdown-item" href="modelagem/modelagemSobre.php">Sobre a arte</a>
+                            <a class="dropdown-item" href="modelagem/modelagemArtistas.php">Artista</a>
+                            <a class="dropdown-item" href="modelagem/modelagemGaleria.php">Galeria</a>
+                        </div>
+                    </li> ';
+
                     }
-                    echo '</div>
-                    </div> ';
-                } else {
-                    if ($page == 'home') {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 ">Modelagem 3D 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($modDrop2 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
-                    } else {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 ">Modelagem 3D 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($modDrop3 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
+                    else{ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../modelagem/modelagem.php">Modelagem 3D</a>
+                            <a class="dropdown-item" href="../modelagem/modelagemSobre.php">Sobre a arte</a>
+                            <a class="dropdown-item" href="../modelagem/modelagemArtistas.php">Artista</a>
+                            <a class="dropdown-item" href="../modelagem/modelagemGaleria.php">Galeria</a>
+                        </div>
+                    </li> ';
+
                     }
-                }
-                if ($page == 'pixel') {
-                    $display = 'Pixel Art';
-                    echo '<div class="dropdown1 ' . $novoMenu . '">
-                    <button class="dropbtn1 ' . $novoMenu . '">Pixel Art
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content1">';
-                    foreach ($pixDrop as $subName => $subAdress) {
-                        echo ' <a href="' . $subAdress . '">' . $subName . '</a>';
+                    ?>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pixel
+                        </a>
+                        <?php 
+                    if($page == 'pixel')
+                    { 
+                        $display = 'Pixel Art';
+                        echo '
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="pixel.php">Pixel Art</a>
+                        <a class="dropdown-item" href="pixelSobre.php">Sobre a arte</a>
+                        <a class="dropdown-item" href="pixelArtistas.php">Artista</a>
+                        <a class="dropdown-item" href="pixelGaleria.php">Galeria</a>
+                    </div>
+                </li> ';
+                    }elseif($page == 'home'){ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="pixel/pixel.php">Pixel Art</a>
+                            <a class="dropdown-item" href="pixel/pixelSobre.php">Sobre a arte</a>
+                            <a class="dropdown-item" href="pixel/pixelArtistas.php">Artista</a>
+                            <a class="dropdown-item" href="pixel/pixelGaleria.php">Galeria</a>
+                        </div>
+                    </li> ';
+
                     }
-                    echo '</div>
-                    </div> ';
-                } else {
-                    if ($page == 'home') {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 ">Pixel Art
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($pixDrop2 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
-                    } else {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 ">Pixel Art 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($pixDrop3 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
+                    else{ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../pixel/pixel.php">Pixel Art</a>
+                            <a class="dropdown-item" href="../pixel/pixelSobre.php">Sobre a arte</a>
+                            <a class="dropdown-item" href="../pixel/pixelArtistas.php">Artista</a>
+                            <a class="dropdown-item" href="../pixel/pixelGaleria.php">Galeria</a>
+                        </div>
+                    </li> ';
+
                     }
-                }
-                if ($page == 'saiba') {
-                    $display = 'Saiba Mais';
-                    echo '<div class="dropdown1 ' . $novoMenu . '">
-                    <button class="dropbtn1 ' . $novoMenu . ' ">Saiba Mais
-                    <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content1">';
-                    foreach ($saiDrop as $subName => $subAdress) {
-                        echo ' <a href="' . $subAdress . '">' . $subName . '</a>';
+                    ?>
+
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Saiba Mais
+                    </a>
+                    <?php 
+                    if($page == 'saiba')
+                    { 
+                        $display = 'Saiba Mais';
+                        echo '
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="quemSomos.php">Quem Somos</a>
+                        <a class="dropdown-item" href="faleConosco.php">Fale Conosco</a>
+                        <a class="dropdown-item" href="carreira.php">Carreira</a>
+                        <a class="dropdown-item" href="normas.php">Normas</a>
+                    </div>
+                </li> ';
+                    }elseif($page == 'home'){ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/servicos/quemSomos.php">Quem Somos</a>
+                        <a class="dropdown-item" href="/servicos/faleConosco.php">Fale Conosco</a>
+                        <a class="dropdown-item" href="/servicos/carreira.php">Carreira</a>
+                        <a class="dropdown-item" href="/servicos/normas.php">Normas</a>
+                    </div>
+                    </li> ';
+
                     }
-                    echo '</div>
-                    </div> ';
-                } else {
-                    if ($page == 'home') {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 ">Saiba Mais
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($saiDrop2 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
-                    } else {
-                        echo '<div class="dropdown1">
-                        <button class="dropbtn1 ">Saiba Mais
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content1">';
-                        foreach ($saiDrop3 as $subName => $subAdress) {
-                            echo '<a href="' . $subAdress . '">' . $subName . '</a>';
-                        }
-                        echo '</div>
-                        </div> ';
+                    else{ echo '
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../servicos/quemSomos.php">Quem Somos</a>
+                        <a class="dropdown-item" href="../servicos/faleConosco.php">Fale Conosco</a>
+                        <a class="dropdown-item" href="../servicos/carreira.php">Carreira</a>
+                        <a class="dropdown-item" href="../servicos/normas.php">Normas</a>
+                    </div>
+                    </li> ';
+
                     }
-                }
-                ?>
-            </div>
-            <a href="javascript:void(0);" style="font-size:30px;" class="icon1" onclick="myFunction()">&#9776;</a>
+                    ?>
+            </ul>
         </div>
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav1");
-                if (x.className === "topnav1") {
-                    x.className += " responsive1";
-                } else {
-                    x.className = "topnav1";
-                }
-            }
-        </script>
+
     </nav>
     <div id="portal" class="row <?= $footer ?>">
         <div class="col-lg-12">
