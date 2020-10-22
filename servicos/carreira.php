@@ -88,11 +88,11 @@
         <hr>
         <div class="form-group mb-3">
           <label for="empresa">Empresa:</label>
-          <input type="text" name="empresa" id="empresa" class="form-control" placeholder="ex: Accenture Brasil">
+          <input type="text" name="empresa" id="empresa" class="form-control" placeholder="exemmplo: Accenture Brasil">
         </div>
         <div class="form-group mb-3">
           <label for="cargo">Cargo:</label>
-          <input type="text" name="cargo" id="cargo" class="form-control" placeholder="ex: Desenvolvedor Angular Jr.">
+          <input type="text" name="cargo" id="cargo" class="form-control" placeholder="exemplo: Desenvolvedor Angular Jr.">
         </div>
         <div class="form-group mb-3">
           <label for="atividade">Atividade:</label>
@@ -103,7 +103,7 @@
         <hr>
         <div class="form-group mb-3">
           <label for="universidade">Universidade:</label>
-          <input type="text" name="universidade" id="universidade" class="form-control" placeholder="ex: Fatec São Roque" required>
+          <input type="text" name="universidade" id="universidade" class="form-control" placeholder="exemplo: Fatec São Roque" required>
         </div>
         <div class="form-row mb-3">
           <div class="form-group col-sm-4 mb-3">

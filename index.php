@@ -72,8 +72,8 @@
     </div>
     <div class="row justify-content-center no-margin my-3">
       <div class="col-lg-7 col-sm-12 col-md-auto text-center">
-        <img src="imagem/index/fiesp.webp" class="img-fluid" alt="Pédio da FIESP iluminado com LEDs em espiral roxo">
-        <img src="imagem/index/calendario.webp" class="img-fluid calendario-img" alt="calendário de julho de dois mil e vinte">
+        <img src="imagem/index/fiesp.webp" class="img-fluid" alt="Prédio da FIESP iluminado com LEDs em espiral roxo">
+        <img src="imagem/index/calendario.webp" class="img-fluid calendario-img" alt="calendário de julho">
       </div>
       <div class="col-lg-5 col-sm-12 col-md-auto text-left d-md-flex flex-md-nowrap text-l">
         <ul class="list-group list-unstyled p-1 ">

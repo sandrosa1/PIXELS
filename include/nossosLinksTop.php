@@ -13,6 +13,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@flickr" />
+<meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+<meta name="twitter:description" content="View the album on Flickr." />
+<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+
+
     <!-- Bootstrap CSS -->
     <!--Esse css e para as demais paginas-->
     <link href="../css/bootstrap.min.css" rel="stylesheet" >
