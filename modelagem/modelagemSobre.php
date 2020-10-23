@@ -5,7 +5,7 @@
 
     <div class="container">
         <article>
-            <h1 class=" text-center animacaoh1 ">O que é o Modelagem 3D</h1>
+            <h1 id="conteudo" class=" text-center animacaoh1 ">O que é o Modelagem 3D</h1>
             <hr>
             <div class="row">
                 <div class="col-md-12">
@@ -53,7 +53,7 @@
             <div class="row">
                 
                 <div class="text-center col-sm-12 col-md-6 col-lg-3">                    
-                    <img class="img-fluid pb-4  align-items-center" alt="Exemplo de modelo 3D"
+                    <img class="img-fluid pb-4  align-items-center" alt="Exemplo de modelo 3D, uma mulher utilizando equipamento de astronauta e arma futurista "
                         src="../imagem/modelagem/modelagem3.webp" >
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-9"> 

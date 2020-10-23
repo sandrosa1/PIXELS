@@ -4,7 +4,7 @@
 <div class="container-fluid" id="inicio">
     <article>
         <div class="container artistaAnimacao">
-            <h1 class=" text-center animacaoh1 ">Conheça Alvy Ray</h1>
+            <h1 id="conteudo" class=" text-center animacaoh1 ">Conheça Alvy Ray</h1>
             <div class="row">
                 <div class="col-md-12 artistasAni">
                     <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "

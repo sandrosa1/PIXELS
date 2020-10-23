@@ -4,7 +4,7 @@
 <div class="container-fluid" id="inicio">
     <article>
         <div class="container animacaoTecnicas">
-            <h1 class=" text-center animacaoh1 ">Principais Técnicas de Animação</h1>
+            <h1 id="conteudo" class=" text-center animacaoh1 ">Principais Técnicas de Animação</h1>
             <div class="row">
                 <div class="col-md-12 tecnicasAni">
                     <img alt="Imagem da tela com o progroma flash em execução" src="../imagem/animacao/animacaoFlash.webp" />

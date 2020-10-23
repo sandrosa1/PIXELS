@@ -4,7 +4,7 @@
 <div class="container-fluid container-max mx-auto" id="inicio">
     <article>
     <div class="container">
-            <h1 class=" text-center animacaoh1 ">Artistas e Estudios Brasileiros de modelagem 3D</h1>
+            <h1 id="conteudo" class=" text-center animacaoh1 ">Artistas e Estudios Brasileiros de modelagem 3D</h1>
             <hr></hr>
             <div class="row">
                 <div class="col-md-12">
@@ -57,7 +57,7 @@
 
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Fausto de Martini </h2>
-                    <img class="img-fluid  align-items-center" alt=" Foto de um trabalho de Fausto de Martini  "
+                    <img class="img-fluid  align-items-center" alt=" Foto de Fausto de Martini  "
                         style='width:100%; margin-top:20px;' src="../imagem/modelagem/fausto.webp" />
                     <p class=" text-justify">
                     As cinematics de World of Warcraft e StarCraft são incríveis, concorda? Boa parte delas são lideradas por Fausto de Martini, brasileiro que desde 2003 é diretor de arte da 
@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Wagner de Souza</h2>
-                    <img class="img-fluid  align-items-center" alt=" Foto de um trabalho de Wagner de Souza "
+                    <img class="img-fluid  align-items-center" alt=" Foto de Wagner de Souza "
                         style='width:100%; margin-top:20px;' src="../imagem/modelagem/wagner.webp" />
                     <p class=" text-justify">
                     Você deve ter visto em sua timeline do Facebook a imagem desse Minion do Capitão América. 
@@ -94,7 +94,7 @@
           
                 <div class="col-md-4">
                     <h2 class=" text-center animacaoh1">Jorge Pepelife</h2>
-                    <img class="img-fluid  align-items-center" alt=" Foto de um trabalho de Jorge Pepelife "
+                    <img class="img-fluid  align-items-center" alt=" Foto de Jorge Pepelife "
                         style='width:100%; margin-top:20px;' src="../imagem/modelagem/jorge.webp" />
                     <p class=" text-justify">
                     Jorge Pepelife é outro carioca que tem criações incríveis! Ele já fez trabalhos para a Petrobras, Jornal Extra, Audi e Close Up. 

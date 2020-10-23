@@ -4,7 +4,7 @@
 <div class="container-fluid container-max mx-auto" id="inicio">
     <!-- Photo Grid -->
     <article class="mx-4 my-4">
-        <h1 class="text-left h1-arte">Galeria de Imagens</h1>
+        <h1 id="conteudo" class="text-left h1-arte">Galeria de Imagens</h1>
         <hr>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3 ilust galeria-ilust">

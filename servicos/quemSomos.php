@@ -2,7 +2,7 @@
 <?php $page = 'saiba'; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
 <article class="container-fluid container-max mx-auto" id="inicio">
-  <h1 class="text-center m-3 h1-arte">Quem Somos</h1>
+  <h1 id="conteudo" class="text-center m-3 h1-arte">Quem Somos</h1>
 
   <div class="pb-4 row no-margin">
     <div class="d-flex flex-wrap quem-somos">
@@ -33,15 +33,15 @@
           <ul class="list-inline animacao text-center">
             <!-- Font Awesome - Linkedin -->
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/sandro-a-56424276/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/sandro-a-56424276/" target="_blank" aria-label="Linkedin do Sandro"><i class="fab fa-linkedin" aria-hidden="true" title="Linkdin do Sandro"></i></a>
             </li>
             <!-- Font Awesome - Github -->
             <li class="list-inline-item">
-              <a href="https://github.com/sandrosa1" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://github.com/sandrosa1" target="_blank" aria-label="Github do Sandro"><i class="fab fa-github-square" title="Github do Sandro" aria-hidden="true" title="Github do Sandro"></i></a>
             </li>
             <!-- Font Awesome - Instagram -->
             <li class="list-inline-item">
-              <a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
+              <a href="" target="_blank" aria-label="Instagram do Sandro"><i class="fab fa-instagram-square" aria-hidden="true" title="Instagram do Sandro"></i></a>
             </li>
           </ul>
 
@@ -71,15 +71,15 @@
           <ul class="list-inline desenho text-center">
             <!-- Font Awesome - Linkedin -->
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/lucas-silvestre-paula-4669061b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/lucas-silvestre-paula-4669061b2/" target="_blank" aria-label="Linkedin do Lucas"><i class="fab fa-linkedin" title="Linkdin do Lucas" aria-hidden="true"></i></a>
             </li>
             <!-- Font Awesome - Github -->
             <li class="list-inline-item">
-              <a href="https://github.com/lucas-silvestre-fatecsr" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://github.com/lucas-silvestre-fatecsr" target="_blank" aria-label="Github do Lucas"><i class="fab fa-github-square" title="Github do Lucas" aria-hidden="true"></i></a>
             </li>
             <!-- Font Awesome - Instagram -->
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/luu.cas_silvestre/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+              <a href="https://www.instagram.com/luu.cas_silvestre/" target="_blank" aria-label="Instagram do Lucas"><i class="fab fa-instagram-square" title="Linkdin do Sandro" aria-label="Instagram do Lucas" aria-hidden="true"></i></a>
             </li>
           </ul>
 
@@ -108,15 +108,15 @@
           <ul class="list-inline ilustracao text-center">
             <!-- Font Awesome - Linkedin -->
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/allan-trindade-980940a1" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/allan-trindade-980940a1" target="_blank" aria-label="Linkedin do Allan"><i class="fab fa-linkedin" title="Linkdin do Allan" aria-hidden="true"></i></a>
             </li>
             <!-- Font Awesome - Github -->
             <li class="list-inline-item">
-              <a href="https://github.com/allantrindade" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://github.com/allantrindade" target="_blank" aria-label="Github do Allan"><i class="fab fa-github-square" title="Github do Allan" aria-hidden="true"></i></a>
             </li>
             <!-- Font Awesome - Instagram -->
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/allanabreu10" target="_blank"><i class="fab fa-instagram-square"></i></a>
+              <a href="https://www.instagram.com/allanabreu10" target="_blank" aria-label="Instagram do Allan"><i class="fab fa-instagram-square" title="Instagram do Allan" aria-hidden="true"></i></a>
             </li>
           </ul>
 
@@ -145,15 +145,15 @@
           <ul class="list-inline modelagem text-center">
             <!-- Font Awesome - Linkedin -->
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/alexandre-silvestre-de-paula-37953054/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/alexandre-silvestre-de-paula-37953054/" target="_blank" aria-label="Linkedin do Alexandre"><i class="fab fa-linkedin" title="Linkdin do Alexandre" aria-hidden="true"></i></a>
             </li>
             <!-- Font Awesome - Github -->
             <li class="list-inline-item">
-              <a href="https://github.com/rulesx1" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://github.com/rulesx1" target="_blank" aria-label="Github do Alexandre"><i class="fab fa-github-square" title="Github do Alexandre" aria-hidden="true"></i></a>
             </li>
             <!-- Font Awesome - Instagram -->
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/alexandresilvestrepaula/?hl=pt-br" target="_blank"><i class="fab fa-instagram-square"></i></a>
+              <a href="https://www.instagram.com/alexandresilvestrepaula/?hl=pt-br" target="_blank" aria-label="Instagram do Alexandre"><i class="fab fa-instagram-square" title="Instagram do Alexandre" aria-hidden="true"></i></a>
             </li>
           </ul>
 
@@ -182,15 +182,15 @@
           <ul class="list-inline pixel text-center">
             <!-- Font Awesome - Linkedin -->
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/carolina-kaji-88520915b" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/carolina-kaji-88520915b" target="_blank" aria-label="Linkedin da Carolina"><i class="fab fa-linkedin" title="Linkedin da Carolina" aria-hidden="true"></i></a>
             </li>
             <!-- Font Awesome - Github -->
             <li class="list-inline-item">
-              <a href="https://github.com/carolinakaji" target="_blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://github.com/carolinakaji" target="_blank" aria-label="Github da Carolina" ><i class="fab fa-github-square" title="Github da Carolina" aria-hidden="true"></i></a>
             </li>
             <!-- Font Awesome - Instagram -->
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/carol85_k/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+              <a href="https://www.instagram.com/carol85_k/" target="_blank" aria-label="Instagram da Carolina"><i class="fab fa-instagram-square" title="Instagram da Carolina" aria-hidden="true"></i></a>
             </li>
           </ul>
 

@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Required meta tags FACE OPEN GRAPH -->
+    <meta property="og:url" content="http://pixels.sytes.net/index.php">
+    <meta property="og:title" content="O portal para quem se liga em artes digitais">
+    <meta property="og:site_name" content="PIXELS">
+    <meta property="og:image" content="www.pixels.sytes.net/imagem/logos/logo500.png">
+    <meta property="og:image:type" content="imagem/logos/logo500.png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+    <meta property="og:type" content="website">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@flickr" />
+<meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+<meta name="twitter:description" content="View the album on Flickr." />
+<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+
+
     <!-- Bootstrap CSS -->
     <!--Esse css e para as demais paginas-->
     <link href="../css/bootstrap.min.css" rel="stylesheet" >

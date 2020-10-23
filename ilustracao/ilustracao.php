@@ -5,7 +5,7 @@
     <article class="links_ilustracao mx-4 my-4">
         <div class="row no-margin">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                    <h1 class="text-left h1-arte">Um mundo de vantagens</h1>
+                    <h1 id="conteudo" class="text-left h1-arte">Um mundo de vantagens</h1>
                 <hr>
                 <img class="center-image" src="../imagem/ilustracao-digital/ilistrucao-principal900x300.webp" alt="Pessoa utilizando uma mesa digitalizadora enquando desenha o rosto de um personagem feminino">
                 
@@ -28,7 +28,7 @@
         <section class="col-sm-12 col-md-12 col-lg-7">
             <!-- Cards com artigos menores -->
             <div class="bg-grey">
-                <h2 class="text-left p-2 titulo-section-ilustracao h2-mobile">Cursos de ilustração digital</h2>
+                <h2  class="text-left p-2 titulo-section-ilustracao h2-mobile">Cursos de ilustração digital</h2>
                 <ul class="list-unstyled pb-2 px-3">
                     <li class="media py-2">
                         <img class="mr-3 align-self-center" src="../imagem/ilustracao-digital/curso1.webp" alt="Curso de retrato digital">

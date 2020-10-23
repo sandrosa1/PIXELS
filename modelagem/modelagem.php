@@ -7,7 +7,7 @@
             <div class="col-sm-12 col-md-12 col-lg-12">
                 
                 <div id="titulo" class="align-items-center">
-                    <h1 class="text-center h1-arte">Aproximando você da realidade</h1>
+                    <h1 id="conteudo" class="text-center h1-arte">Aproximando você da realidade</h1>
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
     </article>
     <div class="row no-margin justify-content-center m-3">
         <section class="col-sm-12 col-md-12 col-lg-5 grupo-imagem-secundaria p-3">
-            <img class="center-image" src="../imagem/modelagem/modelagem4.webp" alt="Galeria de Modelagem 3D">
+            <img class="center-image" src="../imagem/modelagem/modelagem4.webp" alt="Galeria de fotos sobre Modelagem 3D">
             <div class="bg-grey col-lg-12 pt-3 pb-2">
                 <h3>Veja nossa galeria dos melhores exemplos de modelagem 3D</h3>
                 <p class="sub-titulo"><a href="modelagemGaleria.php" class="">Cada vez há mais brasileiros se especializando em modelagem 3D, em nossa galeria voce poderá acompanhar seus trabalhos</a></p>

@@ -4,7 +4,7 @@
 <div class="container-fluid container-max mx-auto" id="inicio">
   <div class="row no-margin">
     <div class="col-sm-12">
-      <h1 class="text-center m-3 h1-arte">Galeria de Artes</h1>
+      <h1 id="conteudo" class="text-center m-3 h1-arte">Galeria de Artes</h1>
       <p class="text-center m-3">Confira a seleção de imagens de diversos artistas.</p>
     </div>
     <section class="galeria-pixel px-3">

@@ -9,7 +9,7 @@
     </div>
      </div>
     <section class="animacaoGaleria">
-    <h2 class=" text-center animacaoh1">Galeria de Imagens Animação digital</h2>
+    <h2 id="conteudo" class=" text-center animacaoh1">Galeria de Imagens Animação digital</h2>
         <div class=" row imagensGaleria">
             <div class=" col-lg-3 galeria ">
                 <a><img src="../imagem/animacao/animacaoAlvyRaySmith.webp" alt="Foto de Alvy Ray"  onclick="aumetaImagem(this);"></a>
