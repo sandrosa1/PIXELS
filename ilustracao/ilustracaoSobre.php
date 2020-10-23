@@ -24,7 +24,7 @@
                 <p class="text-left lead">Os pioneiros desta arte são justamente engenheiros e cientistas como A. Michael Noll, que usou computadores em 1962 para criar imagens através de padrões e algoritmos matemáticos.</p>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre.webp">
+                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre.webp" alt="Imagem abstrata utilizando quadrados apenas com linhas, sem preenchimento">
                 <figcaption class="figure-caption">Computer Generated Image - Brooklyn Museum -Leroy Lamis (1925-2010)</figcaption>
             </div>
         </div>
@@ -35,7 +35,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <img class="mb-4 figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre2.webp">
+                <img class="mb-4 figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre2.webp" alt="Caixa contendo o Adobe Illustrator 7.0">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <p class="text-left lead mt-100">No início dos anos 80, a ilustração digital ganhou força como uma ferramenta criativa, com o surgimento da Adobe, grande desenvolvedora de softwares de manipulação de imagens e desenhos digitais. Nessa mesma década também surgiu o Corel Draw e o Paint, que popularizou o acesso à ilustração digital em computadores pessoais.</p>
@@ -52,7 +52,7 @@
 
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre3.webp">
+                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre3.webp" alt="Pessoa utilizando um programa para desenhar um carro amarelo no computador.">
             </div>
         </div>
         <div class="row">
@@ -62,7 +62,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre4.webp">
+                <img class="figure-img img-fluid rounded center-image" src="../imagem/ilustracao-digital/ilust-sobre4.webp" alt="Ilustração do rosto de uma mulher com dois rostos pequenos em seus ombros.">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <p class="text-left lead pt-4">Ferramentas como mesas digitalizadoras, o iPad e o Apple Pencil tornaram-se essenciais não só para artistas, mas para qualquer pessoa que deseja criar.</p>

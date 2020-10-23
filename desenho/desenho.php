@@ -73,7 +73,7 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <img class="card-img-top rounded" src="../imagem/vetor/SW.webp" alt="Imagem vetorial do personagem do filme Star Wars, Kylo Ren usando capa e segurando uma espada.">
+                                    <img class="card-img-top rounded" src="../imagem/vetor/SW.webp" alt="Imagem vetorial do personagem do filme Star Wars, Kylo Ren usando capa e segurando sabre de luz.">
                                     <div class="card-body">
                                         <h5 class="card-title text-center py-1 bg-white">Software que manipulam imagens
                                             vetoriais?</h5>
@@ -160,14 +160,14 @@
                                         <figure>
                                             <img class="img-fluid align-self-center img-thumbnail"
                                                 src="../imagem/vetor/amsterdam-4167026.webp"
-                                                alt="Desenho vetorial de 5 casas com 4 andares geminadas www.pixabay.com">
+                                                alt="Desenho vetorial de 5 casas com 4 andares geminadas. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail"
                                                 src="../imagem/vetor/background-5389532.webp"
-                                                alt="Desenho abstrato com muitas cores">
+                                                alt="Desenho abstrato com muitas cores. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
                                 </div>
@@ -175,27 +175,27 @@
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail" src="../imagem/vetor/fish-33712.webp"
-                                                alt="Desenho vetorial de um peixe de cor verde azulado">
+                                                alt="Desenho vetorial de um peixe de cor verde azulado. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail" src="../imagem/vetor/lion-5391996.webp"
-                                                alt="Desenho vetorial de um leão deitado, em preto e branco">
+                                                alt="Desenho vetorial de um leão deitado, em preto e branco. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail"
                                                 src="../imagem/vetor/office-2319299.webp"
-                                                alt="Desenho vetorial em 2D, com árvores, mesa, computador e um pássaro">
+                                                alt="Desenho vetorial em 2D, com árvores, mesa, computador e um pássaro. Retirado de www.pixabay.com">
                                         </figure>
                                         <figure>
                                     </div>
                                     <div class="align-self-center overlay">
                                         <img class="img-fluid img-thumbnail"
                                             src="../imagem/vetor/great-wall-of-china-154648.webp"
-                                            alt="Desenho vetorial da muralha da china">
+                                            alt="Desenho vetorial da muralha da china. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
                                 </div>
@@ -204,21 +204,21 @@
                                         <figure>
                                             <img class="img-fluid align-self-center img-thumbnail"
                                                 src="../imagem/vetor/hud-3149462.webp"
-                                                alt="Desenho vetorial da visão frontal de uma lente de câmera">
+                                                alt="Desenho vetorial da visão frontal de uma lente de câmera. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail"
                                                 src="../imagem/vetor/joystick-2389216.webp"
-                                                alt="Desenho vetorial de um joystick">
+                                                alt="Desenho vetorial de um joystick. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
 
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail" src="../imagem/vetor/castle-23204.webp"
-                                                alt="Desenho vetorial de um castelo em 2D">
+                                                alt="Desenho vetorial de um castelo em 2D. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
 
@@ -229,20 +229,20 @@
                                         <figure>
                                             <img class="img-fluid align-self-center img-thumbnail"
                                                 src="../imagem/vetor/ekg-5052162.webp"
-                                                alt="Desenho vetorial de 3 linhas distintas de frequência e 3 contornos guitarras feito com estas linha">
+                                                alt="Desenho vetorial de 3 linhas distintas de frequência e 3 contornos guitarras feito com estas linha. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail" src="../imagem/vetor/covid-5247929.webp"
-                                                alt="Desenho vetorial de profissionais da saúde com máscaras">
+                                                alt="Desenho vetorial de profissionais da saúde com máscaras. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
                                     <div class="align-self-end overlay">
                                         <figure>
                                             <img class="img-fluid img-thumbnail"
                                                 src="../imagem/vetor/colosseum-295080.webp"
-                                                alt="Imagem vetorial do Coliseu, como se fosse uma pintura colorida">
+                                                alt="Imagem vetorial do Coliseu, como se fosse uma pintura colorida. Retirado de www.pixabay.com">
                                         </figure>
                                     </div>
 

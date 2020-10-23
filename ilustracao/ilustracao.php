@@ -7,7 +7,7 @@
             <div class="col-sm-12 col-md-12 col-lg-12">
                     <h1 class="text-left h1-arte">Um mundo de vantagens</h1>
                 <hr>
-                <img class="center-image" src="../imagem/ilustracao-digital/ilistrucao-principal900x300.webp" alt="Ilustração Digital">
+                <img class="center-image" src="../imagem/ilustracao-digital/ilistrucao-principal900x300.webp" alt="Pessoa utilizando uma mesa digitalizadora enquando desenha o rosto de um personagem feminino">
                 
             </div>
         </div>
@@ -18,7 +18,7 @@
     <div class="row mx-2 my-2">
 
         <section class="col-sm-12 col-md-12 col-lg-5 ilustracao-links mb-3">
-            <img class="center-image" src="../imagem/ilustracao-digital/mesa-digitalizadora.webp" alt="Galeria de Ilustração Digital">
+            <img class="center-image" src="../imagem/ilustracao-digital/mesa-digitalizadora.webp" alt="Pessoa utilizando uma mesa digitalizadora enquando desenha o rosto - Chamada para Galeria da Ilustração Digital">
             <div class="bg-grey col-lg-12 pt-3 pb-2">
                 <h3 class="card-title h3-mobile">Galeria de Ilustração Digital</h3>
                 <a href="ilustracaoGaleria.php">Mais rápido do que meios tradicionais, muitos artistas estão aderindo a ilustração digital, conheça nossa galeria...</a>

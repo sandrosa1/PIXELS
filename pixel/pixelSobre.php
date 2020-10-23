@@ -25,7 +25,7 @@
     <!-- História -->
     <div class="row justify-content-center no-margin">
       <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-        <img class="img-fluid mb-3 mr-3 rounded float-sm-none float-md-left" src="../imagem/pixel/sonic-mario-gp.webp" alt="conjunto de 3 imagens. Super Mario, Sonic e Gp">
+        <img class="img-fluid mb-3 mr-3 rounded float-sm-none float-md-left" src="../imagem/pixel/sonic-mario-gp.webp" alt="conjunto de 2 imagens. Super Mario, Sonic">
         <h2 class="pb-3 h2-mobile">História</h2>
         <p class="text-justify"> O termo “pixel art” ficou conhecido a partir de 1982, numa publicação de Adele Goldberg e Robert Flegal do Centro de Pesquisas da Xerox em Palo Alto.</p>
         <p class="text-justify">O pixel está limitado ao sistema de cores que a máquina utiliza, como o RGB, que utiliza uma combinação de cores vermelho, verde e azul conseguindo exibir uma paleta de mais de 12mil cores. A quantidade de cores, varia de acordo com a evolução do hardware.</p>
