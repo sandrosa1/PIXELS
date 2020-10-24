@@ -11,7 +11,7 @@
                                         <img src="../imagem/animacao/animacaoInicio.webp" class="imgInicio"
                                                 alt="Ivan Sutherland e sua invenção a caneta óptica ">
                                         <div class="content1">
-                                                <h1 id="conteudo">Historia da Animação</h1>
+                                                <h1  id="conteudo">Historia da Animação</h1>
                                                 <p>Desde os primeiros dispositivos disponíveis foram percebidas as
                                                         possibilidade de uso para geração de ilusão de movimento.
                                                 </p>

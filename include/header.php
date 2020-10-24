@@ -83,7 +83,10 @@ switch ($page) {
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <?php
-        if ($page == 'home'){ echo '
+        if ($page == 'home')
+        {
+            $display = 'PORTAL PIXELS';
+             echo '
         <a class="navbar-brand" href="index.php">
             <img src="imagem/logos/logo500.png" width="30" height="30"
                 class="d-inline-block align-top" alt="">

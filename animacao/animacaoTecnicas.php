@@ -4,11 +4,11 @@
 <div class="container-fluid" id="inicio">
     <article>
         <div class="container animacaoTecnicas">
-            <h1 id="conteudo" class=" text-center animacaoh1 ">Principais Técnicas de Animação</h1>
+            <h1 tabindex="0" id="conteudo" class=" text-center animacaoh1 ">Principais Técnicas de Animação</h1>
             <div class="row">
                 <div class="col-md-12 tecnicasAni">
                     <img alt="Imagem da tela com o progroma flash em execução" src="../imagem/animacao/animacaoFlash.webp" />
-                    <h4 class=" text-center animacaoh1 ">Flash</h4>
+                    <h4 tabindex="0" class=" text-center animacaoh1 ">Flash</h4>
                     <p class=" text-justify">Flash é um tipo de animação originalmente criadas no programa Macromedia
                         Flash tinham suporte basicamente à animação 2D vetorial. Já atualmente, podem ser criadas
                         no Adobe Flash, que tem suporte inclusive à animação 3D. As animações flash são distribuídas em
@@ -22,7 +22,7 @@
                 <div class="col-md-12 tecnicasAni">
                     <img alt="Imagem de um coelho de boneco e um desenho de coelho"
                         src="../imagem/animacao/animacaoCelShading.webp" />
-                    <h4 class=" text-center animacaoh1 ">Cel Shading</h4>
+                    <h4 tabindex="0" class=" text-center animacaoh1 ">Cel Shading</h4>
                     <p class=" text-justify">Cel shading, também conhecido como toon shading é um conjunto de técnicas
                         empregadas na renderização de imagens 3D de modo que o resultado final se assemelhe ao de
                         desenhos em 2D.A forma mais simples de se obter esse efeito é empregando ontornos escuros nos
@@ -34,7 +34,7 @@
                 <div class="col-md-12 tecnicasAni">
                     <img alt="Imagem da captaçao de movimentos para o jogo god of war"
                         src="../imagem/animacao/animacaoCap.webp" />
-                    <h4 class=" text-center animacaoh1 ">Captura de movimento</h4>
+                    <h4 tabindex="0" class=" text-center animacaoh1 ">Captura de movimento</h4>
                     <p class=" text-justify">Captura de movimento, ou mocap, é um termo usado para descrever o processo
                         de gravação de movimento e transposição do movimento em um modelo digital. Inicialmente
                         inventado na Escócia, a técnica é usada em militarismo, entretenimento, esportes e aplicações
@@ -48,7 +48,7 @@
                 <div class="col-md-12 tecnicasAni">
                     <img class="imgTecnicas" id="machinima" alt="Apresentação do primeiro jogo feito em Machinima"
                         src="../imagem/animacao/animacaoQuake.webp" />
-                    <h4 class=" text-center animacaoh1 ">Machinima</h4>
+                    <h4 tabindex="0" class=" text-center animacaoh1 ">Machinima</h4>
                     <p class=" text-justify">Machinima, termo criado pela junção das palavras inglesas machine
                         (máquina), animation (animação) e cinema, é tanto uma técnica de produção fílmica quanto o filme
                         criado com essa técnica. Como uma técnica de produção fílmica, o termo diz respeito à
@@ -77,7 +77,7 @@
                 <div class="col-md-12 tecnicasAni">
                     <img id="limitada" alt="Imagen do Mr. Magoo personagem de desenho animado"
                         src="../imagem/animacao/animacaoMisterMagoo.webp" />
-                    <h4 class=" text-center animacaoh1 ">Animação Limitada</h4>
+                    <h4 tabindex="0" class=" text-center animacaoh1 ">Animação Limitada</h4>
                     <p class=" text-justify">Animação limitada é uma técnica de produção de desenhos animados onde os
                         quadros não são redesenhados inteiramente, mas sim, utilizando as partes comuns entre os
                         quadros. Esse processo é mais rápido e permite que uma série de animação seja produzida com
@@ -92,7 +92,7 @@
                 <div class="col-md-12 tecnicasAni">
                     <img alt="Imagem de duas pessoas deitadas ensenado com se estive se em sentadas, com livros caindo"
                         src="../imagem/animacao/animacaoPixilation.webp" />
-                    <h4 class=" text-center animacaoh1 " id="pixilation">Pixilation</h4>
+                    <h4 tabindex="0" class=" text-center animacaoh1 " id="pixilation">Pixilation</h4>
                     <p class=" text-justify">Pixilation (de pixilated ) é um stop motion técnica onde atores ao vivo são
                         usados como um assunto frame-by-frame em uma animação filme, fazendo-se passar repetidamente
                         enquanto um ou mais quadros é tomada e mudando representar um pouco antes do próximo quadro ou
@@ -112,7 +112,7 @@
                             <img
                                 alt="Imagem de dois bonecos de massinha um Humano e um cachorro brindando"
                                 src="../imagem/animacao/animacaoClaymation.webp" />
-                            <h4 class=" text-center animacaoh1 ">Claymation</h4>
+                            <h4 tabindex="0" class=" text-center animacaoh1 ">Claymation</h4>
                             <p class=" text-justify">Claymation ou clay animation é uma técnica de animação baseada em
                                 modelos de plasticina (massa de modelar), barro ou material similar. Clay animation Na
                                 clay animation, que é uma das inúmeras formas de stop motion, cada objeto é esculpido em

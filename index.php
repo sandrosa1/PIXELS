@@ -17,7 +17,7 @@
             <li class="media">
               <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/office-110.webp" alt="Desenho vetorial de uma mesa, computador, pássaro, árvores e céu azul com nuvens"></a>
               <div class="media-body">
-                <small> <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1">#DesenhoVetorial</a></small>
+                <small><a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1">#DesenhoVetorial</a></small>
                 <h5 class="mt-0 mb-1">
                   <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1 ">Diferenças e vantagens de um desenho vetorial</a>
                 </h5>

@@ -4,12 +4,12 @@
 <div class="container-fluid" id="inicio">
     <article>
         <div class="container artistaAnimacao">
-            <h1 id="conteudo" class=" text-center animacaoh1 ">Conheça Alvy Ray</h1>
+            <h1 tabindex="0" id="conteudo" class=" text-center animacaoh1 ">Conheça Alvy Ray</h1>
             <div class="row">
                 <div class="col-md-12 artistasAni">
                     <img class="img-fluid  align-items-center" alt=" Foto de Alvy Ray Smith "
                         src="../imagem/animacao/animacaoAlvyRaySmith.webp" />
-                    <h2 class=" text-center animacaoh1">Alvy Ray Smith</h2>
+                    <h2 tabindex="0" class=" text-center animacaoh1">Alvy Ray Smith</h2>
                     <p class=" text-justify">Alvy Ray Smith (Mineral Wells, Texas, 8 de setembro de 1943) é um
                         engenheiro estadunidense e um pioneiro da computação gráfica.
                         Ph.D. em ciência da computação pela Universidade Stanford, Ray Smith é responsável pela criação,
@@ -19,7 +19,7 @@
                         conquistado diversos prêmios por suas contribuições em filmes como Star Trek, Tin Toy e Toy
                         Story, dentre outros. Encerrou a carreira em 2000 para dedicar-se à então emergente fotografia
                         digital e ao estudo acadêmico de genealogia.</p>
-                    <h3 class=" text-center animacaoh1">Carreira</h3>
+                    <h3 tabindex="0" class=" text-center animacaoh1">Carreira</h3>
                     <p class=" text-justify">Após obter seu Ph.D., Alvy Ray Smith trabalhou desenvolvendo novas
                         tecnologias da computação no
                         Xerox Palo Alto Research Center (PARC), no New York Institute of Technology, onde conheceu Ed
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <!--Segunda parte-->
-            <h2 class=" text-center animacaoh1">Grandes nomes da Animação</h2>
+            <h2 tabindex="0" class=" text-center animacaoh1">Grandes nomes da Animação</h2>
             <div class="row">
                 <div class="col-md-4 artistasAni2">
                     <img class="img-fluid  align-items-center" alt=" Foto de William Hanna e Joseph Barbera criadores do desenho Os Jetsons" src="../imagem/animacao/animacaoDupla.webp" />
@@ -51,27 +51,27 @@
                     <p class=" text-justify">A frase ”duas cabeças pensam melhor que uma” pode ser muito bem usada para descrever uma das melhores duplas da história das animações.A dupla se conheceu em 1937, quando trabalhavam para a MGM, e lá produziram sua primeira grande animação, Tom e Jerry , que entre o ano de fundação, e até 1953, rendeu a dupla 8 Oscar. O desenho se tornou extremamente popular, devido ao alto conteúdo de ação que possuía, pois a base dele era o gato Tom perseguindo a ratinha Jerry, e era assim até que o curta acabasse.</p>
                     <img class="img-fluid  align-items-center" alt=" Foto de Walter Lantz "
                     src="../imagem/animacao/animacaoWalter.webp" />
-                    <h2 class=" text-center animacaoh1">Walter Lantz</h2>
+                    <h2 tabindex="0" class=" text-center animacaoh1">Walter Lantz</h2>
                     <p class=" text-justify">Walter Lantz foi aquele responsável pela criação daquele personagem que ao mesmo tempo nos irritava, também nos cativava com suas aventuras, o Pica-Pau, um dos poucos personagens que conseguia rivalizar com Mickey e Pernalonga em popularidade.</p>
                 </div>
                 <div class="col-md-4 artistasAni2">
                     <img class="img-fluid  align-items-center" alt=" Foto de Walt Disney"
                         src="../imagem/animacao/animacaoWallt.webp" />
-                        <h2 class=" text-center animacaoh1">WALT DISNEY</h2>
+                        <h2 tabindex="0" class=" text-center animacaoh1">WALT DISNEY</h2>
                     <p class=" text-justify">Sua carreira como animador começa em 1922, onde junto com Ub Iwers e o seu irmão Roy fundam a produtora Laugh-O-Grahm, que fazia animações que falavam sobre problemas locais da cidade, e que fizeram um grande sucesso, e que levou Disney a fazer então animações de contos de fadas famosos. Porém, a empresa acabou falindo, e Disney decidiu ir para o único lugar onde poderia ser reconhecido: Hollywood.</p>
                         <img class="img-fluid  align-items-center" alt=" Foto de Hayao Miyazaki "
                     src="../imagem/animacao/animacaoHayao.webp" />
-                    <h2 class=" text-center animacaoh1">Hayao Miyazaki</h2>
+                    <h2 tabindex="0" class=" text-center animacaoh1">Hayao Miyazaki</h2>
                     <p class=" text-justify">Começou a desenhar em 1958, quando fazia Ciências Políticas e Economia na Universidade Gakushuin, onde colocava no papel os aviões e aeronaves, baseando-se no trabalho do seu pai. Conseguiu um emprego na Toei Animation. No novo emprego, era auxiliar em diversas produções e ajudava com algumas burocracias dentro da empresa. Foi la que também que trabalhou com sua primeira animação, The Wonderful World of Puss n Boots.</p> 
                 </div>
                 <div class="col-md-4 artistasAni2">
                     <img class="img-fluid  align-items-center" alt=" Foto de Winsor McCay "
                         src="../imagem/animacao/animacaoWilson.webp" />
-                    <h2 class=" text-center animacaoh1">Winsor McCay</h2>
+                    <h2 tabindex="0" class=" text-center animacaoh1">Winsor McCay</h2>
                     <p class=" text-justify">Pioneiro, inovador, gênio. Faltam adjetivos para descrever Winsor McCay, o pioneiro das animações nos Estados Unidos. Sua técnica para desenhar era tão apurada, tão diferente, que serviria como base para diversos animadores que surgiriam depois como Tex Avery, Walter Lantz, até mesmo Walt Disney.</p>
                     <img class="img-fluid  align-items-center" alt=" Foto de Max Fleischer "
                         src="../imagem/animacao/animacaoMax.webp" />
-                    <h2 class=" text-center animacaoh1">MAX FLEISCHER</h2>
+                    <h2 tabindex="0" class=" text-center animacaoh1">MAX FLEISCHER</h2>
                     <p class=" text-justify">A primeira invenção de Fleischer, ainda quando trabalhava como editor da Popular Science Magazine foi o Rotoscópio. Na época, as animações que surgiram eram muito travadas. Winsor McCay, para melhorar isso criou um dispositivo que funcionava da seguinte forma: um ator era filmado atuando a cena que seria animada, e então o desenhista faria o desenho em cima dos frames da cena. Era algo tão inovador que até a própria Disney usou o método na sua primeira grande animação Branca De Neve e os 7 anões.</p>
                 </div>
             </div>
@@ -79,7 +79,7 @@
                 <div class="col-md-12 artistasAni">
                     <img class="img-fluid  align-items-center" alt="Imagem de Jonh Lasseter"
                         src="../imagem/animacao/animacaoJohnAlanLasseter.webp" />
-                    <h2 class=" text-center animacaoh1" id="JohnAlanLasseter">John Alan Lasseter</h2>
+                    <h2 tabindex="0" class=" text-center animacaoh1" id="JohnAlanLasseter">John Alan Lasseter</h2>
                     <p class=" text-justify">John Alan Lasseter (Los Angeles, 12 de janeiro de 1957) é um diretor e
                         produtor americano. Ele é mais conhecido por ser o diretor de criação da Pixar, Walt Disney
                         Animation Studios e DisneyToon Studios. E é também o principal consultor criativo da Walt Disney
@@ -94,7 +94,7 @@
                         Studios) e projetos associados como produtor executivo.
                         Ele ganhou dois Oscar, por melhor curta-metragem de animação (por Tin Toy), além de um Prêmio de
                         Realização Especial (por Toy Story).</p>
-                    <h3 class=" text-center animacaoh1">Carreira</h3>
+                    <h3 tabindex="0" class=" text-center animacaoh1">Carreira</h3>
                     <p class=" text-justify">Em 1979, depois de ganhar certo prestigio na CalArts ao receber um Student
                         Academy Awards, prêmio de votação popular da facudade para trabalhos de estudantes, pelo seu
                         curta-metragem "Lady and the Lamp", John conseguiu uma vaga de animador em tempo integral dentro
@@ -129,7 +129,7 @@
                         Lucasfilm sabia que estavam bem a frente de outros na combinação de arte e tecnologia, que foi o
                         que sempre me interessou". Jobs comprou a empresa por cinco milhões de dólares, prometendo
                         investir outros cinco em capital.
-                        <img class="img-fluid  align-items-center" alt="Duas luminarias olhanda para uma bola"
+                        <img tabindex="0" class="img-fluid  align-items-center" alt="Duas luminarias olhanda para uma bola"
                             src="../imagem/animacao/animacaoluxojr.webp" />
                         Com um novo dono, novos recursos e um foco diferente para se trabalhar, a
                         então divisão da Lucasfilm virou a Pixar Inc., empresa que continuava a desenvolver hardware

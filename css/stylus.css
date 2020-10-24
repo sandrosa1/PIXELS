@@ -21,7 +21,9 @@ h5 {
   font-weight: bold;
 
 }
-/*nav*/
+body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
+  color: #00FF00; /* verde */
+  }
 
 
 
@@ -69,6 +71,8 @@ h5 {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+
 
 .index1 img {
   max-width: 700px;
@@ -205,7 +209,9 @@ h5 {
 .animacao li a:hover {
   opacity: 80%;
 }
-
+.animacao li a:visited {
+  color: #ff4500;
+}
 
 /*css para o diretório Animação Digital*/
 /*css ------------------------------------------para o diretório Animação Digital-----------------*/
@@ -285,20 +291,12 @@ h5 {
   text-decoration: none;
 
 }
-
-.linksAnimacao1:link {
-  text-decoration: none;
-}
-
 .linksAnimacao {
   text-decoration: none;
   color: white;
 }
 
-.linksAnimacao1 {
-  margin-top: 10px;
-  color: black;
-}
+
 
 
 /*--------------------------------Animação-Sobre------------------------*/
@@ -1071,3 +1069,6 @@ footer .row .col-lg-4 a img {
   }
   
 }
+
+
+

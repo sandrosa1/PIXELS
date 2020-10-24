@@ -4,12 +4,12 @@
 <div class="container-fluid" id="inicio">
     <div class="container">
         <article>
-            <h1 id="conteudo" class=" text-center animacaoh1 ">História da Animação Digital</h1>
+            <h1 tabindex="0" id="conteudo" class=" text-center animacaoh1 ">História da Animação Digital</h1>
             <div class="row">
                 <div class="col-md-12">
                     <img src="../imagem/animacao/animacaoInicio.webp" alt="Ivan Sutherland e sua caneta óptica"
                         class="img-fluid  align-items-center imagemLeft1" />
-                    <p class=" text-justify">A história da animação digital está diretamente relacionada com
+                    <p  class=" text-justify">A história da animação digital está diretamente relacionada com
                         a história da computação gráfica. Desde os primeiros dispositivos
                         disponíveis foram percebidas as possibilidade de uso para geração
                         de ilusão de movimento. Em 1962 Ivan Sutherland desenvolveu uma “caneta óptica”
@@ -36,7 +36,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12" id="oQueE">
-                    <h2 class=" text-center animacaoh1 ">Mas o que é Animaçã Digital</h2>
+                    <h2 tabindex="0" class=" text-center animacaoh1 ">Mas o que é Animaçã Digital</h2>
                     <img src="../imagem/animacao/animacaoTrabalhando.webp"
                         alt="Imagen de um tela de computador animando uma imagem 3D" class="img-fluid  align-items-center imagemRight"/>
                     <p class=" text-justify">A animação digital é a arte de criar imagens em movimento
@@ -48,7 +48,7 @@
                         O termo mais geral imagens geradas por computador (CGI) abrange cenas estáticas e
                         imagens dinâmicas, enquanto animação por computador se refere apenas às imagens em
                         movimento.</p>
-                    <h3 class=" text-center animacaoh1 ">Na pratica</h3>
+                    <h3 tabindex="0"class=" text-center animacaoh1 ">Na pratica</h3>
                     <p class=" text-justify">Podem usar-se os efeitos de panorâmica e zoom incorporados ao Photo
                         Story para dar vida a qualquer foto. O Photo Story atribui automaticamente um caminho direto
                         entre as posições inicial e final das imagens, podendo personalizar-se o movimento da imagem
@@ -69,7 +69,7 @@
             </div>
             <div class="row">
                 <div class="col-md-8" id="fantasmagol">
-                    <h2 class=" text-center animacaoh1 ">Inicio no Cinema</h2>
+                    <h2 tabindex="0"class=" text-center animacaoh1 ">Inicio no Cinema</h2>
                     <img class="img-fluid  align-items-center imagemLeft2" alt="Cena da Primeira animação reconhecida que possui um boneco brincando de esgrima "
                         src="../imagem/animacao/animacaoFantasmagol.webp" />
                     <p class=" text-justify">A primeira animação reconhecida é de Émile Courtet e se concretizou em
@@ -85,7 +85,7 @@
                         cenário e personagens com um realismo impressionante que nos confunde se o que estamos
                         assistindo é mesmo uma animação.
                     </p>
-                    <h3 class=" text-center animacaoh1">Era da animação computadorizada</h3>
+                    <h3 tabindex="0" class=" text-center animacaoh1">Era da animação computadorizada</h3>
                     <p class=" text-justify">A Era da animação computadorizada ou era da nova animação ou era da
                         computação gráfica ou também Período da animação por computador foi como ficou conhecido o
                         período que vai do início da Década de 80 aos anos 2000, onde vários longas ou curtas feitos
@@ -103,7 +103,7 @@
                         outras tentativas de lançamentos de filmes, de 1996 até 2000 foram feitas sete tentativas,
                         contudo nenhuma deu certo devido a pouco material.</p>
                     <div class="row justify-content-md-center">
-                        <h3 class=" text-center animacaoh1">Grandes longas de animação digital e Produtoras</h3>
+                        <h3 tabindex="0" class=" text-center animacaoh1">Grandes longas de animação digital e Produtoras</h3>
                         <div class="col- 3 galeria ">
                             <ul>
                                 <li>A era do gelo</li>
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <aside>
-                        <h2 class=" text-center animacaoh1">Curriosidades</h2>
+                        <h2 t bindex="0"class=" text-center animacaoh1">Curriosidades</h2>
                         <img class="img-fluid  align-items-center imagemLeft4" alt="Imagem de da capa da animação tintoY"
                             src="../imagem/animacao/animacaoTinToy.webp" />
                         <p class=" text-justify">Não poderiamos deixar de falar sobre<b>Tin Toy </b> que é um
@@ -151,7 +151,7 @@
                     </aside>
                 </div>
                 <div class="col-md-4">
-                    <h2 class=" text-center animacaoh1" id="bilheterias">Maiores Bilheterias</h2>
+                    <h2 tabindex="0" class=" text-center animacaoh1" id="bilheterias">Maiores Bilheterias</h2>
                     <aside>
                         <aside><img class="img-fluid  align-items-center imagemLeft5" alt="Imagem de da capa da animação Frozen"
                                 src="../imagem/animacao/animacaoFrozen.webp" />
@@ -181,7 +181,7 @@
                                 bilhão
                             </p>
                         </aside>
-                        <h4 class=" text-center animacaoh1 " id="steve">Voce Sabia?</h4>
+                        <h4 tabindex="0"class=" text-center animacaoh1 " id="steve">Voce Sabia?</h4>
                         <p class=" text-justify">
                             Em 1986,<b>Steve Jobs</b>comprou da Lucasfilm um estúdio de computação gráfica, o Pixar
                             Studios, por dez milhões de dólares. Com uma parceria estratégica com a Disney criou,
@@ -199,7 +199,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class=" text-center animacaoh1">A carreira na Animação Digital</h4>
+                    <h4 tabindex="0" class=" text-center animacaoh1">A carreira na Animação Digital</h4>
                     <p class=" text-justify">O mercado de trabalho oferece diversas oportunidades de atuação
                         para a carreira de Designer de Animação Digital, sendo crescente o número de festivais
                         de animação tanto no âmbito nacional como na indústria internacional. Além de prestar
