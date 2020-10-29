@@ -9,21 +9,21 @@
       <form class="lead" action="../php/gravarMensagem.php" method="POST">
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label>Nome:</label>
-            <input type="text" class="form-control" name="nome" placeholder="Primeiro nome" required>
+          <label for="nome">Nome:</label>
+            <input type="text" id="nome" class="form-control" name="nome" placeholder="Primeiro nome" required aria-required="true" inputmode="text">
           </div>
           <div class="form-group col-md-6">
-            <label>Sobrenome:</label>
-            <input type="text" class="form-control" name="sobrenome" placeholder="Último nome" required>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" class="form-control" name="sobrenome" placeholder="Último nome" required aria-required="true" inputmode="text">
           </div>
         </div>
         <div class="form-group">
-          <label>Email:</label>
-          <input type="email" class="form-control" name="email" placeholder="email@exemplo.com" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" class="form-control" name="email" placeholder="email@exemplo.com" required aria-required="true" inputmode="email">
         </div>
         <div class="form-group">
-          <label>Mensagem:</label>
-          <textarea class="form-control form-control-sm" name="mensagem" rows="3" placeholder="Escreva seu comentário" required></textarea>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" class="form-control form-control-sm" name="mensagem" rows="3" placeholder="Escreva seu comentário" required aria-required="true" inputmode="text"></textarea>
         </div>
         <div class="form-group text-right">
           <input class="btn btn-outline-danger" type="reset" value="Limpar">
