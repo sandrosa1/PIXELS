@@ -17,11 +17,11 @@
         <hr>
         <div class="form-group mb-3">
           <label for="nome">Nome:</label>
-          <input type="text" name="nome" id="nome" class="form-control" required aria-required="true"  placeholder="exemplo: João" >
+          <input type="text" name="nome" id="nome" class="form-control" required aria-required="true"  placeholder="exemplo: João" inputmode="text">
         </div>
         <div class="form-group mb-3">
           <label for="sobrenome">Sobrenome:</label>
-          <input type="text" name="sobrenome" id="sobrenome" class="form-control" placeholder="exemplo: Silva" required  aria-required="true">
+          <input type="text" name="sobrenome" id="sobrenome" class="form-control" placeholder="exemplo: Silva" required  aria-required="true" inputmode="text">
         </div>
         <div class="form-group mb-3">
           <label for="nascimento">Data de Nascimento:</label>
@@ -32,12 +32,12 @@
         <hr>
         <div class="form-group mb-3">
           <label for="endereco">Endereço:</label>
-          <input type="text" name="endereco" id="endereco" class="form-control" placeholder="exemplo: Rua Marechal Deodoro da Fonseca, 132" required aria-required="true">
+          <input type="text" name="endereco" id="endereco" class="form-control" placeholder="exemplo: Rua Marechal Deodoro da Fonseca, 132" required aria-required="true" inputmode="text">
         </div>
         <div class="form-row">
           <div class="form-group col-sm-7 mb-3">
             <label for="cidade">Cidade:</label>
-            <input type="text" name="cidade" id="cidade" class="form-control" placeholder="exemplo: São Roque" required aria-required="true">
+            <input type="text" name="cidade" id="cidade" class="form-control" placeholder="exemplo: São Roque" required aria-required="true" inputmode="text">
           </div>
           <div class="form-group col-sm-5 mb-3">
             <label for="estado">Estado:</label>
@@ -76,11 +76,11 @@
         <div class="form-row">
           <div class="form-group col-sm-6 mb-3">
             <label for="telefone">Telefone:</label>
-            <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="exemplo: DDD + 4712-3229" required aria-required="true">
+            <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="exemplo: DDD + 4712-3229" required aria-required="true" inputmode="tel">
           </div>
           <div class="form-group col-sm-6 mb-3">
             <label for="celular">Celular:</label>
-            <input type="tel" name="celular" id="celular" class="form-control" placeholder="exemplo:  DDD + 94712-3229">
+            <input type="tel" name="celular" id="celular" class="form-control" placeholder="exemplo:  DDD + 94712-3229" inputmode="tel">
           </div>
         </div>
 
@@ -88,22 +88,22 @@
         <hr>
         <div class="form-group mb-3">
           <label for="empresa">Empresa:</label>
-          <input type="text" name="empresa" id="empresa" class="form-control" placeholder="exemplo: Accenture Brasil">
+          <input type="text" name="empresa" id="empresa" class="form-control" placeholder="exemplo: Accenture Brasil" inputmode="text">
         </div>
         <div class="form-group mb-3">
           <label for="cargo">Cargo:</label>
-          <input type="text" name="cargo" id="cargo" class="form-control" placeholder="exemplo: Desenvolvedor Angular Jr.">
+          <input type="text" name="cargo" id="cargo" class="form-control" placeholder="exemplo: Desenvolvedor Angular Jr." inputmode="text">
         </div>
         <div class="form-group mb-3">
           <label for="atividade">Atividade:</label>
-          <textarea name="atividade" id="atividade" cols="30" rows="10" class="form-control" placeholder="Conte-nos um pouco de suas atividades"></textarea>
+          <textarea name="atividade" id="atividade" cols="30" rows="10" class="form-control" placeholder="Conte-nos um pouco de suas atividades" inputmode="text"></textarea>
         </div>
 
         <h5 class="mt-3">Caso seja estudante</h5>
         <hr>
         <div class="form-group mb-3">
           <label for="universidade">Universidade:</label>
-          <input type="text" name="universidade" id="universidade" class="form-control" placeholder="exemplo: Fatec São Roque" required aria-required="true"> 
+          <input type="text" name="universidade" id="universidade" class="form-control" placeholder="exemplo: Fatec São Roque" required aria-required="true" inputmode="text"> 
         </div>
         <div class="form-row mb-3">
           <div class="form-group col-sm-4 mb-3">
