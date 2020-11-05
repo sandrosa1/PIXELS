@@ -40,9 +40,7 @@
               <a href="https://github.com/sandrosa1" target="_blank" aria-label="Github do Sandro"><i class="fab fa-github-square" title="Github do Sandro" aria-hidden="true" title="Github do Sandro"></i></a>
             </li>
             <!-- Font Awesome - Instagram -->
-            <li class="list-inline-item">
-              <a href="" target="_blank" aria-label="Instagram do Sandro"><i class="fab fa-instagram-square" aria-hidden="true" title="Instagram do Sandro"></i></a>
-            </li>
+
           </ul>
 
           <div class="p-2">
