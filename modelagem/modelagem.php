@@ -22,7 +22,7 @@
             <img class="center-image" src="../imagem/modelagem/modelagem4.webp" alt="Galeria de fotos sobre Modelagem 3D">
             <div class="bg-grey col-lg-12 pt-3 pb-2">
                 <h3>Veja nossa galeria dos melhores exemplos de modelagem 3D</h3>
-                <p class="sub-titulo"><a href="modelagemGaleria.php" class="">Cada vez há mais brasileiros se especializando em modelagem 3D, em nossa galeria voce poderá acompanhar seus trabalhos</a></p>
+                <a href="modelagemGaleria.php" class="text-dark">Cada vez há mais brasileiros se especializando em modelagem 3D, em nossa galeria voce poderá acompanhar seus trabalhos</a>
             </div>
         </section>
 
@@ -32,26 +32,26 @@
                 <h2 class="text-center p-3 ">Fique por dentro</h2>
                 <ul class="list-unstyled p-3">
                     <li class="media">
-                        <img class="mr-0" src="../imagem/modelagem/modelagem5.webp" alt="Modelagem 3D de Letícia Reinaldo">
+                    <img class="mr-0" src="../imagem/modelagem/modelagem5.webp" alt="Modelagem 3D de Letícia Reinaldo">
                         <div class="media-body  col-sm-12">
                             <h4 class="mt-0 mb-1">Conheça Letícia Reinaldo</h4>
-                            <a href="modelagemArtistas.php" class="">Leticia Reinaldo tem focado em modelagem e texturição de personagens em diversos tipos de cenários
-                            </a>
+                            <p>Leticia Reinaldo tem focado em modelagem e texturição de personagens em diversos tipos de cenários
+                            </p>
                         </div>
                     </li>
                     <li class="media my-4">
-                        <img class="mr-3" src="../imagem/modelagem/modelagem6.webp" alt="Propaganda 3D da Studio Miagui">
+                    <img class="mr-3" src="../imagem/modelagem/modelagem6.webp" alt="Propaganda 3D da Studio Miagui">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Saiba sobre Studio Miagui</h4>
-                            <a href="modelagemArtistas.php" class="">O pessoal do Studio Miagui, de Porto Alegre, é focado em produções 3D para publicidade.</a>
+                            <p>O pessoal do Studio Miagui, de Porto Alegre, é focado em produções 3D para publicidade.</p>
                         </div>
                     </li>
                     <li class="media">
-                        <img class="mr-3" src="../imagem/modelagem/modelagem7.webp" alt="Modelagem de Wagner de Souza, ">
+                    <img class="mr-3" src="../imagem/modelagem/modelagem7.webp" alt="Modelagem de Wagner de Souza, ">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">A estrela da modelagem 3D Wagner de Souza</h4>
-                            <a href="modelagemArtistas.php" class="">Você deve ter visto em sua timeline do Facebook a imagem desse Minion do Capitão América. 
-                                Quem o criou foi Wagner de Souza. </a>
+                            <p>Você deve ter visto em sua timeline do Facebook a imagem desse Minion do Capitão América. 
+                                Quem o criou foi Wagner de Souza. </p>
                         </div>
                     </li>
                 </ul>
