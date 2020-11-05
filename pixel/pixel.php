@@ -36,7 +36,7 @@
         <h2 class="text-center mt-3 titulo-section-pixel py-1 h2-mobile">Fique por dentro</h2>
         <ul class="list-unstyled pb-2 px-2 sobre-pixel-lista">
           <li class="media">
-            <img class="mr-3 align-self-center" src="../imagem/pixel/brunoMoraes-thumb.webp" alt="Pixel art de praia do Bruno Moraes">
+          <a href="pixelArtistas.php?artista=bruno"><img class="mr-3 align-self-center" src="../imagem/pixel/brunoMoraes-thumb.webp" alt="Pixel art de praia do Bruno Moraes"></a>
             <div class="media-body">
               <h5 class="mt-0 mb-1">O talentoso Bruno Moraes</h5>
               <p><a href="pixelArtistas.php?artista=bruno" class="">Ilustrador e programador, começou a trabalhar com ilustração em 2015
@@ -44,14 +44,14 @@
             </div>
           </li>
           <li class="media my-2">
-            <img class="mr-3 align-self-center" src="../imagem/pixel/adventuretime-thumb.webp" alt="Pixel art de Ivan Dixon, Adventure Time">
+          <a href="pixelArtistas.php?artista=ivan"><img class="mr-3 align-self-center" src="../imagem/pixel/adventuretime-thumb.webp" alt="Pixel art de Ivan Dixon, Adventure Time"></a>
             <div class="media-body">
               <h5 class="mt-0 mb-1">Saiba sobre Ivan Dixon</h5>
               <a href="pixelArtistas.php?artista=ivan" class="">Com um currículo de dar inveja, Ivan Dixon possui, parcerias com Disney, os Simpsons e outras grandes</a>
             </div>
           </li>
           <li class="media">
-            <img class="mr-3 align-self-center" src="../imagem/pixel/glauberkotaki110.webp" alt="Pixel art de Glauber Kotaki, cavaleiro com armadura">
+          <a href="pixelArtistas.php?artista=glauber"><img class="mr-3 align-self-center" src="../imagem/pixel/glauberkotaki110.webp" alt="Pixel art de Glauber Kotaki, cavaleiro com armadura"></a>
             <div class="media-body">
               <h5 class="mt-0 mb-1">Glauber Kotaki e os jogos</h5>
               <a href="pixelArtistas.php?artista=glauber" class="">Artista e animador em Pixel Art, ilustra grandes jogos como Rogue Legacy, Chasm, entre outros</a>
