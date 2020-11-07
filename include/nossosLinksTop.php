@@ -14,9 +14,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@flickr" />
-    <meta name="twitter:title" content="Small Island Developing States Photo Submission" />
-    <meta name="twitter:description" content="View the album on Flickr." />
+    <meta name="twitter:site" content="@portalpixel" />
+    <meta name="twitter:title" content="Pixel" />
+    <meta name="twitter:description" content="Saiba tudo sobre pixel art e suas técnicas." />
     <meta name="twitter:image" content="www.pixels.sytes.net/imagem/logos/logo500.png" />
 
 
