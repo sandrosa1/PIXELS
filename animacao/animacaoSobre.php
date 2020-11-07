@@ -7,7 +7,7 @@
             <h1 tabindex="0" id="conteudo" class=" text-center animacaoh1 ">História da Animação Digital</h1>
             <div class="row">
                 <div class="col-md-12">
-                    <img src="../imagem/animacao/animacaoInicio.webp" alt="Ivan Sutherland e sua caneta óptica"
+                    <img src="../imagem/animacao/animacaoInicio.webp" alt="Ivan Sutherland demonstrando sua caneta óptica."
                         class="img-fluid  align-items-center imagemLeft1" />
                     <p  class=" text-justify">A história da animação digital está diretamente relacionada com
                         a história da computação gráfica. Desde os primeiros dispositivos
@@ -38,7 +38,7 @@
                 <div class="col-md-12" id="oQueE">
                     <h2 tabindex="0" class=" text-center animacaoh1 ">Mas o que é Animaçã Digital</h2>
                     <img src="../imagem/animacao/animacaoTrabalhando.webp"
-                        alt="Imagen de um tela de computador animando uma imagem 3D" class="img-fluid  align-items-center imagemRight"/>
+                        alt="Imagen de um programa de computador, criando uma animação." class="img-fluid  align-items-center imagemRight"/>
                     <p class=" text-justify">A animação digital é a arte de criar imagens em movimento
                         utilizando computadores, mais especificamente usando recursos de computação gráfica que
                         surgiu durante a era da animação por computador. É um subcampo da computação gráfica e
@@ -70,7 +70,7 @@
             <div class="row">
                 <div class="col-md-8" id="fantasmagol">
                     <h2 tabindex="0"class=" text-center animacaoh1 ">Inicio no Cinema</h2>
-                    <img class="img-fluid  align-items-center imagemLeft2" alt="Cena da Primeira animação reconhecida que possui um boneco brincando de esgrima "
+                    <img class="img-fluid  align-items-center imagemLeft2" alt="Cena da Primeira animação reconhecida que possui, um boneco brincando de esgrima "
                         src="../imagem/animacao/animacaoFantasmagol.webp" />
                     <p class=" text-justify">A primeira animação reconhecida é de Émile Courtet e se concretizou em
                         1892, sendo reproduzida em um projetor na cidade de Paris. Já o primeiro longa-metragem
@@ -153,7 +153,7 @@
                 <div class="col-md-4">
                     <h2 tabindex="0" class=" text-center animacaoh1" id="bilheterias">Maiores Bilheterias</h2>
                     <aside>
-                        <aside><img class="img-fluid  align-items-center imagemLeft5" alt="Imagem de da capa da animação Frozen"
+                        <aside><img class="img-fluid  align-items-center imagemLeft5" alt="Capa da animação frozen com a princesa Elza, Olaf, Ana, Svan e Cristopher."
                                 src="../imagem/animacao/animacaoFrozen.webp" />
                             <p class=" text-justify"><b>Frozen </b>Uma Aventura Congelante, Bilheteria mundial:
                                 US$ 1,27 bilhão.
@@ -163,7 +163,7 @@
                                 mundiais. É o terceiro filme original (que não é continuação) de maior
                                 bilheteria, a terceira maior bilheteria na história do Japão</p>
                         </aside>
-                        <aside><img class="img-fluid  align-items-center imagemLeft5" alt="Imagem de da capa da animação Minions"
+                        <aside><img class="img-fluid  align-items-center imagemLeft5" alt="Imagem da capa da animação Minions"
                                 src="../imagem/animacao/animacaoMinions.webp" />
                             <p class=" text-justify"><b>Minons </b>Bilheteria mundial: US$ 1,14 bilhão, Estúdio:
                                 Universal. Embora não tenha tido sucesso de crítica, o filme foi um enorme sucesso
@@ -171,7 +171,7 @@
                                 de maior bilheteria, e a 21ª maior bilheteria de todos os tempos.</p>
                         </aside>
                         <aside><img class="img-fluid  align-items-center imagemLeft5"
-                                alt="Imagem de da capa da animação Toy History"
+                                alt="Imagem da capa da animação Toy History"
                                 src="../imagem/animacao/animacaoToyHistory.webp" />
                             <p class=" text-justify"><b>Toy History </b>é um filme de animação, aventura e comédia
                                 americano lançado em 1995. É conhecido por ser o primeiro filme da história do
@@ -191,7 +191,7 @@
                             individual da Disney, onde deveria ocupar um posto no conselho diretivo, segundo uma nota
                             divulgada pela Disney no dia da aquisição, em 2006.</p>
                             <img class="img-fluid  align-items-center"
-                                alt="Imagem do Steve Jobs, junto ao logo da Pixar"
+                                alt="Imagem de Steve Jobs, junto do logo da Pixar"
                                 src="../imagem/animacao/animacaoSteve.webp" />
                         
                     </aside>

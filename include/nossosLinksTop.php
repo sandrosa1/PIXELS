@@ -10,14 +10,14 @@
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
     <meta property="og:type" content="website">
-    <!-- Required meta tags -->
+    <!-- Required meta tags Twitter -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@flickr" />
-<meta name="twitter:title" content="Small Island Developing States Photo Submission" />
-<meta name="twitter:description" content="View the album on Flickr." />
-<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+    <meta name="twitter:site" content="@flickr" />
+    <meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+    <meta name="twitter:description" content="View the album on Flickr." />
+    <meta name="twitter:image" content="www.pixels.sytes.net/imagem/logos/logo500.png" />
 
 
     <!-- Bootstrap CSS -->
