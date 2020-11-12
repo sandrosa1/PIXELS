@@ -4,8 +4,11 @@
 <div class="container-fluid pixel-links container-max mx-auto" id="inicio">
     <article class="row justify-content-center no-margin mt-4 pixel-artistas">
         <div class="col-lg-12">
-            <div class="d-flex">
+            <div class="d-flex"  role="navigation">
                 <ul class="nav nav-tabs mx-auto" id="myTab" role="tablist">
+                <li class="nav-item mx-2 mx-md-3">
+                        <a class="nav-link px-md-5 px-3" id="artistas-tab" data-toggle="tab" href="#artistas" role="tab" aria-controls="artistas" aria-selected="true">Artistas</a>
+                    </li>
                     <li class="nav-item mx-2 mx-md-3">
                         <a class="nav-link px-md-5 px-3" id="glauber-tab" data-toggle="tab" href="#glauber" role="tab" aria-controls="glauber" aria-selected="true">Glauber</a>
                     </li>
@@ -19,13 +22,7 @@
             </div>
             <div class="tab-content my-5" id="myTabContent">
                 <!-- Conheça artistas -->
-                <div class="tab-pane fade 
-                <?php
-                if ($_GET['artista'] === 'artistas') {
-                    echo 'show active';
-                }
-                ?>
-                " id="artistas" role="tabpanel" aria-labelledby="artistas-tab">
+                <div class="tab-pane fade show active" id="artistas" role="tabpanel" aria-labelledby="artistas-tab">
                 
                     <div class=" text-justify px-sm-2">
                         <h2 id="conteudo" class="text-center h1-arte">Principais Nomes</h2>
