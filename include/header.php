@@ -167,19 +167,19 @@ switch ($page) {
                         echo '
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="desenho.php">Desenho Vetorial</a>
-                        <a class="dropdown-item" href="desenho2.php">Sobre a arte</a>
+
                     </div>          </li> ';
                     }elseif($page == 'home'){ echo '
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="desenho/desenho.php">Desenho Vetorial</a>
-                            <a class="dropdown-item" href="desenho/desenho2.php">Sobre a arte</a>
+
                         </div>           </li> ';
 
                     }
                     else{ echo '
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="../desenho/desenho.php">Desenho Vetoriall</a>
-                            <a class="dropdown-item" href="../desenho/desenho2.php">Sobre a arte</a>
+
                         </div>                
                     </li> ';
 
