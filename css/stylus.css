@@ -21,9 +21,11 @@ h5 {
   font-weight: bold;
 
 }
-body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
-  color: #00FF00; /* verde */
-  }
+
+body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link {
+  color: #00FF00;
+  /* verde */
+}
 
 
 
@@ -97,7 +99,7 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
 /*css para o diretório servicos*/
 /* Fale Conosco */
 
-.border-right{
+.border-right {
   border-right: 1px dashed rgba(214, 8, 8, 0.445);
 }
 
@@ -159,6 +161,7 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
 .quem-somos a {
   color: var(--link-paragrafo-color);
 }
+
 .quem-somos a:hover {
   color: var(--home-color);
   text-decoration: none;
@@ -209,6 +212,7 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
 .animacao li a:hover {
   opacity: 80%;
 }
+
 .animacao li a:visited {
   color: #ff4500;
 }
@@ -244,6 +248,7 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
   max-width: 800px;
   margin: 10px auto 0px auto;
 }
+
 .container3 {
   margin: 10px auto 0px auto;
 }
@@ -291,6 +296,7 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
   text-decoration: none;
 
 }
+
 .linksAnimacao {
   text-decoration: none;
   color: white;
@@ -326,7 +332,7 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
 
 .imagemLeft1 {
   float: left;
-  width:700px;
+  width: 700px;
   margin-right: 20px;
 }
 
@@ -364,20 +370,23 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
 
 /*--------------------------------Tecnicas De Animação-----------------------------*/
 
-.animacaoTecnicas{
+.animacaoTecnicas {
   margin: 10px auto 10px auto;
 }
-.animacaoTecnicas .tecnicasAni img{
+
+.animacaoTecnicas .tecnicasAni img {
   float: left;
   max-width: 200px;
   margin-right: 20px;
   margin-bottom: 10px;
 }
-.animacaoTecnicas .tecnicasAni{
+
+.animacaoTecnicas .tecnicasAni {
   border-bottom: solid 1px;
   border-color: var(--animacao-color);
   margin-bottom: 10px;
 }
+
 /*-----------------------------------------Artistas Animaçao--------------------*/
 
 .artistasAni img {
@@ -434,35 +443,34 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-.containerImagem
-{
-    position: relative;
+
+.containerImagem {
+  position: relative;
 }
-#expandedImg
-{
-    width: 100%;
+
+#expandedImg {
+  width: 100%;
 }
+
 /* Expanding image text */
-#imgtext 
-{
-    position: absolute;
-    max-width: 250px;
-    background-color: blanchedalmond;
-    bottom: 20px;
-    left: 20px;
-    color:black;
-    font-size: 20px;
+#imgtext {
+  position: absolute;
+  max-width: 250px;
+  background-color: blanchedalmond;
+  bottom: 20px;
+  left: 20px;
+  color: black;
+  font-size: 20px;
 }
 
 /* Closable button inside the expanded image */
-.closebtn 
-{
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color:white;
-    font-size: 35px;
-    cursor: pointer;
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 
@@ -511,10 +519,10 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
 }
 
 @media screen and (min-width: 800px) {
-    .mt-100 {
-        margin-top: 100px;
-    }
-    
+  .mt-100 {
+    margin-top: 100px;
+  }
+
 }
 
 /* Layout responsivo - cria um layout de duas colunas em vez de quatro colunas */
@@ -524,7 +532,7 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link{
     flex: 50%;
     max-width: 50%;
   }
-  
+
 }
 
 /*
@@ -546,7 +554,8 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 
 /*css para o diretório Pixel Art*/
-.pixel-index, .container-max {
+.pixel-index,
+.container-max {
   max-width: 1200px;
 }
 
@@ -565,7 +574,8 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
   text-shadow: 5px 5px 15px rgba(0, 0, 0, .8);
 }
 
-.h1-arte, .h1-resize {
+.h1-arte,
+.h1-resize {
   font-size: 4.5rem;
   font-weight: 400;
   font-family: 'Raleway', sans-serif, 'liberation sans';
@@ -573,11 +583,11 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 }
 
 .link-paragrafo {
-  color: var(--link-paragrafo-color);
+  color: red;
 }
 
 .link-paragrafo:hover {
-  color: var(--link-paragrafo-color-hover);
+  color: var(--pixel-color);
 }
 
 .grupo-imagem-secundaria {
@@ -838,7 +848,8 @@ footer .row .col-lg-4 a img {
     display: none;
   }
 
-  .h1-arte, .h1-resize {
+  .h1-arte,
+  .h1-resize {
     font-size: 3.2rem;
     font-weight: 300;
   }
@@ -857,7 +868,8 @@ footer .row .col-lg-4 a img {
     margin: 0px 10px 10px 0px;
   }
 
-  .h1-arte, .h1-resize {
+  .h1-arte,
+  .h1-resize {
     font-size: 2.6rem;
     font-weight: 300;
   }
@@ -867,7 +879,8 @@ footer .row .col-lg-4 a img {
     font-weight: 400;
   }
 
-  .calendario-img, .carreira {
+  .calendario-img,
+  .carreira {
     display: none;
   }
 
@@ -878,37 +891,46 @@ footer .row .col-lg-4 a img {
 
 @media (max-width: 500px) {
 
-    .index1 h4 {
-        font-size: 1.3rem;
-    }
-    .sobre-pixel-lista h5 {
-        font-size: 1.2rem;
+  .index1 h4 {
+    font-size: 1.3rem;
+  }
 
-    }
-    .galeria1 h5, .sobre-pixel-lista p {
-        font-size: 1rem;
-    }
-    .h1-resize {
-      font-size: 1.8rem;
-      font-weight: 300;
-    }
-    .h1-arte {
-        font-size: 2.4rem;
-        font-weight: 300;
-    }
-    .h1-mobile {
-        font-size: 2.2rem;
-    }
-    .pixel-index .lead {
-        font-size: 1.1rem;
-    }
-    .h3-mobile {
-        font-size: 1.4rem;
-    }
-    .h2-mobile {
-        font-size: 1.8rem;
-    }
-    
+  .sobre-pixel-lista h5 {
+    font-size: 1.2rem;
+
+  }
+
+  .galeria1 h5,
+  .sobre-pixel-lista p {
+    font-size: 1rem;
+  }
+
+  .h1-resize {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+
+  .h1-arte {
+    font-size: 2.4rem;
+    font-weight: 300;
+  }
+
+  .h1-mobile {
+    font-size: 2.2rem;
+  }
+
+  .pixel-index .lead {
+    font-size: 1.1rem;
+  }
+
+  .h3-mobile {
+    font-size: 1.4rem;
+  }
+
+  .h2-mobile {
+    font-size: 1.8rem;
+  }
+
 }
 
 /*---------------------------------------------------------------------------------*/
@@ -926,35 +948,39 @@ footer .row .col-lg-4 a img {
 
   /*cria um layout de duas colunas em vez de quatro colunas*/
   .galeria {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
   }
 
   .animacaoGaleria {
-      margin: 20px 5px 0px auto;
+    margin: 20px 5px 0px auto;
 
   }
 
   .artistasAni2 img {
 
-      margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 
   }
+
   .artistasAni img {
-      float: none;
-      width: 100%;
-      margin-right: 20px;
-  
+    float: none;
+    width: 100%;
+    margin-right: 20px;
+
   }
-  .artistasAni, .artistasAni2 {
-      margin: 0px 20px 0px 20px;
+
+  .artistasAni,
+  .artistasAni2 {
+    margin: 0px 20px 0px 20px;
   }
+
   .artistasAni img {
 
-      margin: 15px 0px 15px 0px;
+    margin: 15px 0px 15px 0px;
   }
-  
+
 }
 
 /*---------------------------------Layout-Responsivo-Celular---------------------------*/
@@ -963,117 +989,131 @@ footer .row .col-lg-4 a img {
 
   /*Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próximas uma da outra*/
   .container1 {
-      position: relative;
-      max-width: 350px;
-      margin: 20px auto;
+    position: relative;
+    max-width: 350px;
+    margin: 20px auto;
   }
+
   .container2 {
-      max-width: 300px;
-      margin: 20px auto;
+    max-width: 300px;
+    margin: 20px auto;
   }
 
   /*Avisa a imagem que ela pode usar 100% do*/
   .container1 img {
-      width: 100%;
-      vertical-align: middle;
+    width: 100%;
+    vertical-align: middle;
   }
 
   /* Coloca o elemento content1 sobre o container e aplica um opacidade */
   .container1 .content1 {
-      position: absolute;
-      bottom: 0;
-      background: rgb(0, 0, 0);
-      background: rgba(0, 0, 0, 0.5);
-      color: white;
-      width: 100%;
-      padding: 5px;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 5px;
   }
 
   .galeria {
-      -ms-flex: 100%;
-      flex: 100%;
-      margin-bottom: 10px;
-      max-width: 90%;
+    -ms-flex: 100%;
+    flex: 100%;
+    margin-bottom: 10px;
+    max-width: 90%;
   }
 
   .galeria a {
-      margin-left: 50px;
+    margin-left: 50px;
 
   }
 
   .animacaoGaleria {
-      margin: 20px 10px 0px auto;
+    margin: 20px 10px 0px auto;
   }
 
   .artistasAni2 img {
 
-      margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
 
   }
-  
+
 }
+
 /* Para celulare n Vertical*/
-@media screen and (max-width: 700px)
-{
+@media screen and (max-width: 700px) {
   .artistasAni2 img {
-      float: none;
-      width: 100%;
+    float: none;
+    width: 100%;
   }
 
 
 }
-@media screen and (max-width: 400px)
-{
+
+@media screen and (max-width: 400px) {
 
   .container2 .semBordas h6 {
-      margin-left: 12px;
-      border-bottom: solid 1px;
-      border-color: var(--animacao-color)
+    margin-left: 12px;
+    border-bottom: solid 1px;
+    border-color: var(--animacao-color)
   }
+
   .container2 .semBordas a p {
-      margin-left: 12px;
+    margin-left: 12px;
   }
+
   .sectionFooter {
-      margin-left: -4px;
+    margin-left: -4px;
   }
+
   .animacaoTecnicas .tecnicasAni img {
-      float: none;
-      max-width: 100%;
-      margin: 10px auto 10px auto;
+    float: none;
+    max-width: 100%;
+    margin: 10px auto 10px auto;
 
   }
-  .artistasAnimacao{
-      margin: 10px auto 10px auto;
+
+  .artistasAnimacao {
+    margin: 10px auto 10px auto;
 
   }
-  
 
-  .artistasAnimacao h1,.artistasAnimacao h2,.artistasAnimacao h3{
 
-      font-size: 20px;
-      
+  .artistasAnimacao h1,
+  .artistasAnimacao h2,
+  .artistasAnimacao h3 {
+
+    font-size: 20px;
+
   }
-  .artistasAni, .artistasAni2 {
-      margin: 0px 20px 0px 20px;
+
+  .artistasAni,
+  .artistasAni2 {
+    margin: 0px 20px 0px 20px;
   }
+
   .artistasAni img {
 
-      margin: 15px 0px 15px 0px;
+    margin: 15px 0px 15px 0px;
   }
+
   footer .row .col-lg-4 {
-      font-size: 0.7em;
-      padding-bottom: 10px;
+    font-size: 0.7em;
+    padding-bottom: 10px;
   }
+
   .indexPrin {
     margin: 0px 10px 0px 10px;
   }
-  
+
 }
 
 
 
 a:visited {
-  color: darkblue; }   
+  color: darkblue;
+}
+
 /* mouse over link */
 a:hover {
   color: red;
