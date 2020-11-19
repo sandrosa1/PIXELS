@@ -7,12 +7,12 @@
             <h1 tabindex="0" id="conteudo" class=" text-center animacaoh1 ">Principais Técnicas de Animação</h1>
             <div class="row">
                 <div class="col-md-12 tecnicasAni">
-                    <img alt="Imagem da tela com o progroma flash em execução" src="../imagem/animacao/animacaoFlash.webp" />
+                    <img alt="Imagem  demostrando o programa flash, iniciando instalação  " src="../imagem/animacao/animacaoFlash.webp" />
                     <h4 tabindex="0" class=" text-center animacaoh1 ">Flash</h4>
-                    <p class=" text-justify">Flash é um tipo de animação originalmente criadas no programa Macromedia
-                        Flash tinham suporte basicamente à animação 2D vetorial. Já atualmente, podem ser criadas
+                    <p class=" text-justify">Flash é um tipo de animação originalmente criada no programa Macromedia.
+                        Flash tinha suporte basicamente à animação 2D vetorial. Já atualmente, podem ser criadas
                         no Adobe Flash, que tem suporte inclusive à animação 3D. As animações flash são distribuídas em
-                        formato .fla como raiz e .swf como animação exportada. As animações flash criadas nas versões
+                        formato fla (.fla) como raiz e swf (.swf) como animação exportada. As animações flash criadas nas versões
                         mais atuais, têm suporte à interatividade através de scripts elaborados com a linguagem Action
                         Script. A maioria das animações em Flash são distribuídas na web e são muito úteis até os dias
                         de hoje.</p>
@@ -20,19 +20,19 @@
             </div>
             <div class="row">
                 <div class="col-md-12 tecnicasAni">
-                    <img alt="Imagem de um coelho de boneco e um desenho de coelho"
+                    <img alt="Imagem de um coelho em formato tridimencional , comparada com um desenho de coelho em 2D"
                         src="../imagem/animacao/animacaoCelShading.webp" />
                     <h4 tabindex="0" class=" text-center animacaoh1 ">Cel Shading</h4>
                     <p class=" text-justify">Cel shading, também conhecido como toon shading é um conjunto de técnicas
                         empregadas na renderização de imagens 3D de modo que o resultado final se assemelhe ao de
-                        desenhos em 2D.A forma mais simples de se obter esse efeito é empregando ontornos escuros nos
+                        desenhos em 2D. A forma mais simples de se obter esse efeito é empregando ontornos escuros nos
                         objetos 3D, texturas simples e uma iluminação mais "chapada", isto é, menos realista e mais
                         próxima da iluminação empregada em desenhos animados.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 tecnicasAni">
-                    <img alt="Imagem da captaçao de movimentos para o jogo god of war"
+                    <img alt="Imagem demostrando a captaçao de movimentos para o jogo god of war"
                         src="../imagem/animacao/animacaoCap.webp" />
                     <h4 tabindex="0" class=" text-center animacaoh1 ">Captura de movimento</h4>
                     <p class=" text-justify">Captura de movimento, ou mocap, é um termo usado para descrever o processo
@@ -46,7 +46,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 tecnicasAni">
-                    <img class="imgTecnicas" id="machinima" alt="Apresentação do primeiro jogo feito em Machinima"
+                    <img class="imgTecnicas" id="machinima" alt="Imagem da capa do primeiro jogo feito em Machinima"
                         src="../imagem/animacao/animacaoQuake.webp" />
                     <h4 tabindex="0" class=" text-center animacaoh1 ">Machinima</h4>
                     <p class=" text-justify">Machinima, termo criado pela junção das palavras inglesas machine
@@ -54,7 +54,7 @@
                         criado com essa técnica. Como uma técnica de produção fílmica, o termo diz respeito à
                         apropriação dos jogos digitais para criação de filmes. Esses filmes são predominantemente
                         produzidos com computadores pessoais, em oposição às grandes produções cinematográficas que
-                        usam softwares em 3D profissionais. Como gênero fílmico, o termo refere a filmes criados
+                        usam softwares 3D profissionais. Como gênero fílmico, o termo refere a filmes criados
                         utilizando esses jogos e ambientes virtuais interativos em tempo real. Usualmente, machinimas
                         são produzidos usando ferramentas e recursos disponíveis em um jogo. O primeiro filme
                         reconhecido como machinima foi feito no jogo Quake. Lançado em 1996 pelo clã The Rangers, Diary
@@ -75,7 +75,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 tecnicasAni">
-                    <img id="limitada" alt="Imagen do Mr. Magoo personagem de desenho animado"
+                    <img id="limitada" alt="Imagen do Mr. Magoo personagem de desenho animado dos anos 80"
                         src="../imagem/animacao/animacaoMisterMagoo.webp" />
                     <h4 tabindex="0" class=" text-center animacaoh1 ">Animação Limitada</h4>
                     <p class=" text-justify">Animação limitada é uma técnica de produção de desenhos animados onde os
@@ -90,16 +90,16 @@
             </div>
             <div class="row">
                 <div class="col-md-12 tecnicasAni">
-                    <img alt="Imagem de duas pessoas deitadas ensenado com se estive se em sentadas, com livros caindo"
+                    <img alt="Imagem de duas pessoas deitadas ensenado como se estive sentadas, com livros espalhados dando a impresão de estarem caindo sobre eles"
                         src="../imagem/animacao/animacaoPixilation.webp" />
                     <h4 tabindex="0" class=" text-center animacaoh1 " id="pixilation">Pixilation</h4>
                     <p class=" text-justify">Pixilation (de pixilated ) é um stop motion técnica onde atores ao vivo são
-                        usados como um assunto frame-by-frame em uma animação filme, fazendo-se passar repetidamente
+                        usados como uma animação frame-by-frame, fazendo-se passar repetidamente
                         enquanto um ou mais quadros é tomada e mudando representar um pouco antes do próximo quadro ou
-                        quadros. O ator se torna uma espécie de viver stop motion fantoche . Esta técnica é muitas vezes
-                        usado como uma forma de misturar atores ao vivo com os animados em um filme, como em The Thumb
-                        Segredo Aventuras de Tom pelas Bolex Irmãos . Os primeiros exemplos desta técnica são El Hotel
-                        elétrico de 1908 e Émile Cohl 1911 filme 's Jobard ne peut pas voir les femmes travailler (
+                        quadros. O ator se torna uma espécie de fantoche . Esta técnica é usada
+                        como uma forma de misturar atores ao vivo com os animados em um filme, como em The Thumb
+                        Segredo Aventuras de Tom pelas Bolex Irmãos. Os primeiros exemplos desta técnica são El Hotel
+                        elétrico de 1908 e Émile Cohl 1911 no filme 's Jobard ne peut pas voir les femmes travailler (
                         Jobard não pode ver as mulheres que trabalham ). Move-se os atores/objetos pouco a pouco na
                         frente de uma câmera, captando um quadro de cada vez. Em seguida, reproduz-se as imagens em
                         sequência. Funciona como uma animação tradicional, só que tirando fotos em vez de
@@ -110,13 +110,12 @@
                     <div class="row">
                         <div class="col-md-12 tecnicasAni">
                             <img
-                                alt="Imagem de dois bonecos de massinha um Humano e um cachorro brindando"
+                                alt="Imagem de dois bonecos de massinha sendo um Humano e um cachorro brindando a algo "
                                 src="../imagem/animacao/animacaoClaymation.webp" />
                             <h4 tabindex="0" class=" text-center animacaoh1 ">Claymation</h4>
                             <p class=" text-justify">Claymation ou clay animation é uma técnica de animação baseada em
-                                modelos de plasticina (massa de modelar), barro ou material similar. Clay animation Na
-                                clay animation, que é uma das inúmeras formas de stop motion, cada objeto é esculpido em
-                                plasticina (massa de modelar) ou barro. Em geral, usa-se uma estrutura de arame,
+                                modelos de plasticina (massa de modelar), barro ou material similar.
+                                Em geral, usa-se uma estrutura de arame,
                                 relativamente flexível, para reforçar as esculturas de massa.</p>
                         </div>
                     </div>

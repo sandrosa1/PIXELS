@@ -13,8 +13,25 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-8">
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AeQj2ye6wyw"></iframe>
+                <div class="row">
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AeQj2ye6wyw" allowfullscreen></iframe>
+                    </div>  
+                </div>
+                
+                    <div class="mt-2 lead"> 
+                        <h5>Transcrição do vídeo:</h5>
+                    <p >"A ilustração digital é popular hoje em dia e é essencial para muitos artistas. Mas nem sempre foi assim.</p>
+                    <p>Como ficou tão importante? A arte digital surgiu no pós-guerra e ganhou força nos anos 60.</p>
+                    <p>Seus pioneiros foram engenheiros como A. Michael Noll, que usaram computadores em 1962 para gerar imagens através de algoritmos.
+A tecnologia digital se converteu em uma ferramenta criativa revolucionária, propondo uma nova forma de criação
+facilitando correções e ajustes, além de sobreposições de estilos. Ilustar também ficou mais barato.</p>
+<p>Em 1984 se converteu em um produto comercial, com o lançamento do Macintosh, e os designers começaram a usá-lo no dia a dia.
+Andy Warhol fez uma série de 20 experimentos utilizando o Amiga em 1985. No final dos anos 80 surgem o Illustrator e Photoshop, revolucionando o mercado.</p>
+<p>Corel Draw e Paint de Microsoft se popularizaram.</p>
+<p>A ilustração digital fica mais acessível. As técnicas mais utilizadas são o design vetorial, o pixel art, a ilustração, a animação digital e a ilustração 3D.</p>
+<p>As técnicas tradicionais se misturam com as digitais e a internet divulga essa arte. </p>
+<p>A ilustração digital avança com a tecnologia, e agora, o mundo sem ela é inimaginável."</p>
                 </div>
             </div>
         </div>

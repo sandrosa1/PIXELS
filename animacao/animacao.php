@@ -38,7 +38,7 @@
                                                                 </a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoJohnAlanLasseter2.webp"
-                                                                        alt="John Alan Lasseter com dois personagens do toy story na mão">
+                                                                        alt="John Alan Lasseter um dos criadores de toy history, com dois bonecos personagens do toy story na mão">
                                                                 <div class=" img-fluid linksAnimacao1">
                                                                         <a href="animacaoArtistas.php#JohnAlanLasseter"
                                                                                 class=" linksAnimacao1 ">
@@ -61,7 +61,7 @@
                                                                 </a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoCap2.webp"
-                                                                        alt="Imagem da produção do Filme Avatar">
+                                                                        alt="Imagem da produção do Filme Avatar demostrando o uso da computação grafica.">
                                                                 <div class=" img-fluid linksAnimacao1">
                                                                         <a href="animacaoTecnicas.php"
                                                                                 class=" linksAnimacao1 ">
@@ -81,7 +81,7 @@
                                                                 </a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoFantasmagol.webp"
-                                                                        alt="Imagem preta e branca da primerira animação no cinema, que possuia um boneco praticando esgrima">
+                                                                        alt="Imagem em preto e branco da primerira animação no cinema, que possuia um boneco praticando esgrima">
                                                                 <div class=" img-fluid linksAnimacao1">
                                                                         <a href="animacaoSobre.php#fantasmagol"
                                                                                 class=" linksAnimacao1 ">
@@ -112,7 +112,7 @@
                                                                         Bilheterias</h6></a>
                                                                 <img class="card-img-top"
                                                                         src="../imagem/animacao/animacaoFrozen1.webp"
-                                                                        alt="Capa da animação frozen">
+                                                                        alt="Capa da animação frozen com a princesa Elza, Olaf, Ana, Svan e Cristopher">
                                                                 <a href="animacaoSobre.php#bilheterias"
                                                                         class=" linksAnimacao1 ">
                                                                         <p><b>Conhece as maiores bilheterias de animação
@@ -151,7 +151,7 @@
                                                         </a>
                                                         <img class="card-img"
                                                                 src="../imagem/animacao/animacaoPixilation.webp"
-                                                                alt="Imagem congelada de um escritório onde possui duas pessoas e uma delas esta derrubando algumas pastas sobre a mesa em que a outra pessoa esta trabalhando.">
+                                                                alt="Imagem de duas pessoas deitadas ensenado como se estive sentadas, com livros espalhados dando a impresão de estarem caindo sobre ele.">
                                                         <a href="animacaoTecnicas.php#pixilation"
                                                                 class=" linksAnimacao1 ">
                                                                 <p class="card-text "><b>Técnica muito usado para
@@ -169,7 +169,7 @@
                                                         </a>
                                                         <img class="card-img "
                                                                 src="../imagem/animacao/animacaoMisterMagoo.webp"
-                                                                alt="Imagem do Desnho Mister Magoo">
+                                                                alt="Imagem do Desenho Mister Magoo um classico dos anos 80">
                                                         <a href="animacaoTecnicas.php#limitada"
                                                                 class=" linksAnimacao1 ">
                                                                 <p><b>Desenhos animados onde os quadros não são
@@ -188,7 +188,7 @@
                                                         <a href="animacaoGaleria.php" class=" linksAnimacao "><img
                                                                         class="card-img"
                                                                         src="../imagem/animacao/animacaogaleria.webp"
-                                                                        alt="Imagem com diversas imagens em miniatura com a chamada para a galeria da Animação Digital"></a>
+                                                                        alt="imagem do logo para a galeria de imagens"></a>
                                                 </div>
                                         </div>
                                         <div class="card p-3 text-right semBordas">
@@ -222,7 +222,7 @@
                                                 <a href="https://www.saoroque.sp.gov.br/portal/noticias/0/3/7835/lsta-de-contatos-dos-departamentos-da-prefeitura-durante-a-quarentena/"
                                                         class="linksAnimacao1">
                                                         <h5 class=" text-center ">Telefones Úteis</h5><img class=" a" src="../imagem/animacao/animacaoPrefeitura.webp"
-                                                                alt="Imagem com a chamada 'Lista de contatos dos departamentos da Prefeitura de São Roque'">
+                                                                alt="Imagem link sobre telefones uteis em São Roque, Lista de contatos dos departamentos da Prefeitura de São Roque'">
                                                 </a>
                                         </div>
                                 </div>
