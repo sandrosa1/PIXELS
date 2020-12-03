@@ -327,10 +327,10 @@ switch ($page) {
                 </li> ';
                     }elseif($page == 'home'){ echo '
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/servicos/quemSomos.php">Quem Somos</a>
-                        <a class="dropdown-item" href="/servicos/faleConosco.php">Fale Conosco</a>
-                        <a class="dropdown-item" href="/servicos/carreira.php">Carreira</a>
-                        <a class="dropdown-item" href="/servicos/normas.php">Normas</a>
+                        <a class="dropdown-item" href="servicos/quemSomos.php">Quem Somos</a>
+                        <a class="dropdown-item" href="servicos/faleConosco.php">Fale Conosco</a>
+                        <a class="dropdown-item" href="servicos/carreira.php">Carreira</a>
+                        <a class="dropdown-item" href="servicos/normas.php">Normas</a>
                     </div>
                     </li> ';
 
