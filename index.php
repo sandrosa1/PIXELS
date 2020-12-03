@@ -15,47 +15,47 @@
         <div class="card mb-3 semBordas">
           <ul class="list-unstyled">
             <li class="media">
-              <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/office-110.webp" alt="Desenho vetorial de uma mesa, computador, pássaro, árvores e céu azul com nuvens"></a>
+              <a href="desenho/desenho.php#diferencas"><img class="mr-3" src="imagem/index/office-110.webp" alt="Desenho vetorial de uma mesa, computador, pássaro, árvores e céu azul com nuvens"></a>
               <div class="media-body">
-                <small><a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1">#DesenhoVetorial</a></small>
+                <small><a href="desenho/desenho.php#diferencas" class="card-link ">#DesenhoVetorial</a></small>
                 <h5 class="mt-0 mb-1">
-                  <a href="desenho/desenho.php#diferencas" class="card-link linksAnimacao1 ">Diferenças e vantagens de um desenho vetorial</a>
+                  <a href="desenho/desenho.php#diferencas" class="card-link  ">Diferenças e vantagens de um desenho vetorial</a>
                 </h5>
               </div>
             </li>
             <li class="media">
-              <a href="pixel/pixel.php#programas" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/indexp2.webp" alt="Imagem flat de um computador com programas em execução."></a>
+              <a href="pixel/pixel.php#programas"><img class="mr-3" src="imagem/index/indexp2.webp" alt="Imagem flat de um computador com programas em execução."></a>
               <div class="media-body">
-                <small><a href="pixel/pixel.php" class="card-link linksAnimacao1">#PixelArt</a></small>
+                <small><a href="pixel/pixel.php" class="card-link ">#PixelArt</a></small>
                 <h5 class="mt-0 mb-1">
-                  <a href="pixel/pixel.php#programas" class="card-link linksAnimacao1">3 programas gratuitos para você começar sua arte em Pixel</a>
+                  <a href="pixel/pixel.php#programas">3 programas gratuitos para você começar sua arte em Pixel</a>
                 </h5>
               </div>
             </li>
             <li class="media">
-              <a href="modelagem/modelagem.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/index/modelagem9-110.webp" alt="Construção de um personagem em programa 3D"></a>
+              <a href="modelagem/modelagem.php"><img class="mr-3" src="imagem/index/modelagem9-110.webp" alt="Construção de um personagem em programa 3D"></a>
               <div class="media-body">
-                <small><a href="modelagem/modelagem.php" class="card-link linksAnimacao1">#Modelagem3D</a></small>
+                <small><a href="modelagem/modelagem.php" class="card-link ">#Modelagem3D</a></small>
                 <h5 class="mt-0 mb-1">
-                  <a href="modelagem/modelagem.php" class="card-link linksAnimacao1 ">Tudo o que você precisa saber para começar</a>
+                  <a href="modelagem/modelagem.php" class="card-link  ">Tudo o que você precisa saber para começar</a>
                 </h5>
               </div>
             </li>
             <li class="media">
-              <a href="animacao/animacao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/animacao/animacaoWallt.webp" alt="Walt Disney com seus personagens, Mickey, Pateta e Pato Donald"></a>
+              <a href="animacao/animacao.php"><img class="mr-3" src="imagem/animacao/animacaoWallt.webp" alt="Walt Disney com seus personagens, Mickey, Pateta e Pato Donald"></a>
               <div class="media-body">
-                <small><a href="animacao/animacao.php" class="card-link linksAnimacao1">#AnimaçãoDigital</a></small>
+                <small><a href="animacao/animacao.php" class="card-link ">#AnimaçãoDigital</a></small>
                 <h5 class="mt-0 mb-1">
-                  <a href="animacao/animacao.php" class="card-link linksAnimacao1 ">Historia, nomes, técnicas e curiosidades do mundo da animação digital</a>
+                  <a href="animacao/animacao.php" class="card-link  ">Historia, nomes, técnicas e curiosidades do mundo da animação digital</a>
                 </h5>
               </div>
             </li>
             <li class="media">
-              <a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1"><img class="mr-3" src="imagem/ilustracao-digital/galeria/galeria1.webp" alt="Desenho de uma moça sentada na calçada em imagem preto e branco"></a>
+              <a href="ilustracao/ilustracao.php"><img class="mr-3" src="imagem/ilustracao-digital/galeria/galeria1.webp" alt="Desenho de uma moça sentada na calçada em imagem preto e branco"></a>
               <div class="media-body">
-                <small><a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1">#IlustraçãoDigital</a></small>
+                <small><a href="ilustracao/ilustracao.php" class="card-link ">#IlustraçãoDigital</a></small>
                 <h5 class="mt-0 mb-1">
-                  <a href="ilustracao/ilustracao.php" class="card-link linksAnimacao1 ">Tecnologia, inovação, praticidade, diversão e arte. Um mundo de criação</a>
+                  <a href="ilustracao/ilustracao.php" class="card-link  ">Tecnologia, inovação, praticidade, diversão e arte. Um mundo de criação</a>
                 </h5>
               </div>
             </li>

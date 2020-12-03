@@ -10,6 +10,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 h1,
@@ -26,6 +27,8 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link {
   color: #00FF00;
   /* verde */
 }
+
+
 
 
 
@@ -93,6 +96,16 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link {
 
 .calendario li {
   line-height: 2rem;
+}
+
+#inicio a {
+
+  color: var(--link-paragrafo-color-hover);
+
+}
+
+#inicio a:hover {
+  color: var(--home-color);
 }
 
 
@@ -586,7 +599,8 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
   color: red;
 }
 
-.link-paragrafo:hover {
+.link-paragrafo:hover,
+.pixel-links a:hover {
   color: var(--pixel-color);
 }
 
@@ -628,10 +642,6 @@ Faz as duas colunas se empilharem umas sobre as outras, em vez de ficarem próxi
 
 .pixel-links a {
   color: var(--link-paragrafo-color);
-}
-
-.pixel-links a:hover {
-  color: var(--link-paragrafo-color-hover);
 }
 
 .pixel-links a {
