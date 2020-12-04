@@ -1,11 +1,11 @@
 <?php $page = 'animacao' ; include '../include/nossosLinksTop.php' ; ?>
 <?php $page = 'animacao' ; include '../include/header.php'; ?>
 <!--A Pagina tem que estar dentro do container-fluid para nõa quebrar-->
-<div class="container-fluid ">
+<div class="container-fluid mx-auto container-max">
                 <img src="../imagem/animacao/animaHome.webp" class="img-fluid headerAni" alt="Logo da pagina Portal Animação digital" style=width:100%;>
 </div>
 <article>
-<div class="row justify-content-center no-margin">
+<div class="row justify-content-center no-margin container-max mx-auto">
                         <div class=" col-lg-6 ">
                                 <div class="container1">
                                         <img src="../imagem/animacao/animacaoInicio.webp" class="imgInicio"
@@ -229,7 +229,7 @@
                         </div>
                 </div>
         </article>
-<div class="row justify-content-center no-margin ">
+<div class="row justify-content-center no-margin mx-auto container-max">
         <div class="col-md-12">
         <section>
                 <?php include '../include/section.php'?>

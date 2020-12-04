@@ -23,10 +23,10 @@ h5 {
 
 }
 
-body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link {
+/*body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link {
   color: #00FF00;
-  /* verde */
-}
+  /* verde 
+}*/
 
 
 
@@ -98,16 +98,19 @@ body .navbar #navbarSupportedContent .navbar-nav .nav-itema a:link {
   line-height: 2rem;
 }
 
+/*
 #inicio a {
-
   color: var(--link-paragrafo-color-hover);
-
 }
 
 #inicio a:hover {
   color: var(--home-color);
+  text-decoration: none;
 }
 
+#inicio a:visited {
+  color: red}
+*/
 
 /*css para o diretório servicos*/
 /* Fale Conosco */
@@ -1118,10 +1121,12 @@ footer .row .col-lg-4 a img {
 
 }
 
-
+a {
+  color: #212529;
+}
 
 a:visited {
-  color: darkblue;
+  color: #757da3;
 }
 
 /* mouse over link */
@@ -1130,7 +1135,11 @@ a:hover {
   text-decoration: none;
 }
 
-/* selected link */
-a:active {
-  color: yellow;
+
+.navlink li a:visited {
+  color: red;
+}
+
+.navlink li a:hover {
+  background-color: #e7e7e7;
 }

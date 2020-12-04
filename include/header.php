@@ -89,7 +89,7 @@ switch ($page) {
              echo '
         <a class="navbar-brand" href="index.php">
             <img src="imagem/logos/logo500.png" width="30" height="30"
-                class="d-inline-block align-top" alt="">
+                class="d-inline-block align-top ml-5" alt="">
             PIXELS
         </a>';
         }else{
@@ -108,12 +108,12 @@ switch ($page) {
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto navlink">
                 <li class="nav-item active">
                     <a class="nav-link" href="#conteudo">Ir ao Conteúdo<span class="sr-only">(current)</span></a>
                 </li>
         
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Animação
@@ -308,7 +308,7 @@ switch ($page) {
 
 
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown mr-5">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Saiba Mais
